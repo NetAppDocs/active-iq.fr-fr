@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task_hosting_firmware_files_using_web_server.html 
+keywords: firmware, web server, hosting 
+summary: 'La section fournit des informations sur l"hébergement des fichiers du micrologiciel à l"aide d"un serveur Web.' 
+---
+= Héberger les fichiers de micrologiciel à l'aide d'un serveur Web
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Une fois le progiciel d'automatisation téléchargé, les fichiers du micrologiciel doivent être hébergés sur un serveur Web.
+
+Le serveur Web peut être configuré de plusieurs façons. Pour obtenir des instructions sur la configuration d'un serveur Web simple à l'aide de Python, reportez-vous à la section link:https://docs.python.org/3/library/http.server.html["Serveur web utilisant Python"].
+
+.Étape
+. Enregistrez l'URL de base du serveur Web. Si les URL du firmware du disque, du firmware des tiroirs et du firmware du processeur de service sont *\http://<web-server>/path/all_shelf_fw.zip*, *\http://<web-server>/path/all.zip* et *\http://<web-server>/path/<SP/BMC>_<version_number>_fw.zip*, enregistrez *\http://<web-server>/path/* comme URL de base.
+
+
+Le nom de fichier est automatiquement détecté par le PlayBook Ansible.

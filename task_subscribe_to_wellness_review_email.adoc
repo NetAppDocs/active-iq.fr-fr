@@ -1,0 +1,37 @@
+---
+sidebar: sidebar 
+permalink: task_subscribe_to_wellness_review_email.html 
+keywords: wellness, wellness review subscription, unsubscribe, supportedge expert, supportedge advisor 
+summary:  
+---
+= Abonnez-vous à l'e-mail d'évaluation du bien-être
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Vous pouvez vous abonner à l'e-mail de vérification du bien-être pour recevoir un e-mail mensuel qui résume l'état du bien-être et les systèmes qui approchent de leurs dates de renouvellement, ainsi que les systèmes qui nécessitent une mise à niveau des produits NetApp de votre base installée. Vous recevrez un e-mail d'évaluation du bien-être afin que vous puissiez consulter un résumé mensuel et prendre des mesures pour vos systèmes. Vous pouvez également afficher, modifier, partager et supprimer vos abonnements. Si vous décidez de ne pas recevoir l'e-mail, vous pouvez également vous désabonner de l'e-mail.
+
+Une fois l'abonnement activé, vous devez sélectionner une date de début lors de l'ajout d'un abonnement. Chaque mois, le résumé de l'e-mail vous offre une vue d'ensemble des actions de bien-être, de renouvellement, de mise à niveau et de vérification de l'état de santé exceptionnelles. Vous pouvez confirmer l'adresse e-mail et l'adresse e-mail est envoyée à l'adresse e-mail spécifiée. Vous avez également la possibilité de supprimer des abonnements.
+
+
+NOTE: Cette fonctionnalité n'est disponible que dans les offres de services NetApp SupportEdge Advisor et SupportEdge Expert.
+
+.Étapes
+. Dans le volet de gauche, cliquez sur *Wellness Review*.
+. Cliquez sur *Ajouter un abonnement*.
+. Indiquez les informations requises dans les champs *Nom de l'abonnement*, *choisir Catégorie*, *Rechercher client* et *Email* de la boîte de dialogue *Ajouter un nouvel abonnement*.
+. Cliquez sur *Subscribe*.
++
+Une fois l'abonnement réussi, vous recevrez un message *l'abonnement a été ajouté*.
+
+

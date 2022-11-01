@@ -1,0 +1,46 @@
+---
+sidebar: sidebar 
+permalink: concept_understand_activeiq_features.html 
+keywords: digital advisor, features, upgrade, support offering 
+summary: Fournit des informations sur le tableau de bord, les listes de surveillance, les fonctionnalités et les widgets. 
+---
+= Comprendre les fonctions de Digital Advisor
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Grâce à Digital Advisor, vous pouvez consulter l'état général de votre système de stockage, des informations générales sur l'intégrité du système, l'inventaire, la planification, les mises à niveau et de précieuses informations.
+
+Lorsque vous accédez au conseiller numérique pour la première fois, vous pouvez créer une liste de surveillance ou rechercher un nom de client, un nom de site, un nom de groupe, un StorageGRID, un nom d'hôte, Cluster, numéro de série ou ID système.
+
+Vous devez également connaître les couleurs appliquées aux cartes, qui indiquent la gravité et le type de risque.
+
+Voici quelques-unes des fonctionnalités de Digital Advisor :
+
+* Afficher plusieurs listes de surveillance, des vues d'informations exploitables et utiles en un coup d'œil
+* Obtenez des informations sur tous les risques encourus par votre système de stockage et les actions nécessaires pour limiter les risques
+* Limitez les risques grâce à Active IQ Unified Manager
+* Mettez à niveau votre système de stockage
+* Affichez le rapport d'efficacité du stockage, l'espace logique utilisé, l'espace physique utilisé et le total des données sauvegardées pour les systèmes de stockage exécutant ONTAP 9.1 et versions ultérieures
+* Analysez les performances de vos périphériques de stockage en consultant le format graphique des données de performances
+* Obtenez des informations sur le matériel et les logiciels qui ont expiré ou sont à court d'expiration dans les 6 mois à venir
+* Mettez à jour votre firmware ONTAP à l'aide d'Ansible
+* Découvrez en détail les systèmes dont la capacité a dépassé 90 % ou approchent 90 %
+* Affichez des informations détaillées sur la configuration physique et logique, notamment un récapitulatif de la configuration du cluster et des nœuds, les informations sur le volume et le Tier local, l'interface réseau et les ports, un diagramme de pile détaillant les informations des disques et des tiroirs et quelques visualisations de câbles
+* Fournissent des informations interpiles et utiles pour le dépannage, l'évaluation des mises à niveau, la validation des solutions et la migration
+* Vérifiez la compatibilité des hôtes et fournissez des recommandations de mise à niveau pour les systèmes d'exploitation hôtes, les pilotes et le micrologiciel
+* Arrivez exactement ce que vous voulez trouver plus intelligemment et plus vite
+
+
+
+NOTE: Vous pouvez mettre à niveau l'offre de support à partir du widget *Configuration* du tableau de bord système pour obtenir des informations sur votre base d'installation et bénéficier d'un support personnalisé.

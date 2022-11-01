@@ -1,0 +1,51 @@
+---
+sidebar: sidebar 
+permalink: reference_limitations_activeiq.html 
+keywords: limitation, issues, not supported, drawbacks 
+summary: Fournit des informations sur les limites dans la version. 
+---
+= Limites connues
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Les limitations connues identifient les plateformes, les périphériques ou les fonctions qui ne sont pas pris en charge par cette version du produit, ou qui ne fonctionnent pas correctement avec elle. Examinez attentivement ces limites.
+
+Les limites suivantes existent :
+
+* Pour les systèmes de stockage Data ONTAP 7-mode uniquement (les systèmes de stockage Data ONTAP 7-mode approchent de la fin de leur support)
++
+** Graphiques de performances
+** Efficacité du stockage
+
+
+* Upgrade Advisor ne prendra pas en charge les plans de mise à niveau pour clustered ONTAP avant la version 9.0.
+
+
+
+
+== La modification d'une liste de surveillance peut prendre 60 minutes pour réfléchir dans Digital Advisor
+
+La modification d'une liste de surveillance ne met pas immédiatement à jour les informations dans Digital Advisor. La réflexion des modifications dans Digital Advisor peut prendre jusqu'à 60 minutes.
+
+
+
+== Un rapport vierge s'affiche pendant la planification des rapports
+
+Les rapports programmés sont disponibles uniquement avec un contrat de support SupportEdge Advisor ou SupportEdge Expert. Si vos systèmes ne sont pas soumis à SupportEdge Advisor ou à un contrat de support SupportEdge Expert, vous risquez d'obtenir un rapport vierge lors de la planification des rapports.
+
+
+
+== Le conseiller numérique peut prendre 60 minutes pour réfléchir aux risques reconnus et non reconnus
+
+L'état des risques qui sont reconnus et non reconnus ne reflète pas immédiatement dans Digital Advisor. Il peut s'avérer nécessaire de prendre jusqu'à 60 minutes pour que les changements soient pris en compte dans Digital Advisor et dans le rapport de bien-être.

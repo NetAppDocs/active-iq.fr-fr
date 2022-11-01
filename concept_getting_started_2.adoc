@@ -1,0 +1,53 @@
+---
+sidebar: sidebar 
+permalink: concept_getting_started_2.html 
+keywords: overview, get started, wellness, performance, configuration, renewal, risk, remediation, planning, inventory 
+summary: Vous aide à comprendre les flux de travail et à démarrer avec Digital Advisor. 
+---
+= Démarrage rapide de Digital Advisor
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Digital Advisor a été amélioré et repensé pour vous aider à réaliser vos tâches plus efficacement. L'interface utilisateur a été développée pour vous aider à atteindre vos objectifs.
+
+Vous pouvez consulter le diagramme suivant pour comprendre les flux de travail de Digital Advisor.
+
+image:activeiq2_workflow.png["Flux de travail de Digital Advisor"]
+
+Vous pouvez visionner la vidéo suivante pour commencer à utiliser Digital Advisor :
+
+video::rEPtldosjWM[youtube,width=848,height=480]
+Tous les widgets Digital Advisor ne sont pas pris en charge sur toutes les plates-formes. Digital Advisor identifie la plateforme de votre système de stockage et affiche uniquement l'ensemble des tâches qui peuvent être effectuées sur votre système de stockage.
+
+Lisez les informations suivantes pour connaître les widgets pris en charge sur votre système de stockage.
+
+[cols="4*"]
+|===
+| *Widget* | *Client* | *Cluster* | *Nœud* 
+
+
+| Bien-être | Prise en charge sur toutes les plateformes | Prise en charge sur toutes les plateformes | Prise en charge sur toutes les plateformes 
+
+
+| Renouvellements | Prise en charge sur toutes les plateformes | Prise en charge sur toutes les plateformes | Prise en charge sur toutes les plateformes 
+
+
+| Ajouts de capacité | Pris en charge uniquement sur les plateformes ONTAP (Data ONTAP sous 7-mode et clustered Data ONTAP) | Pris en charge uniquement sur les plateformes ONTAP (Data ONTAP sous 7-mode et clustered Data ONTAP) | Pris en charge uniquement sur les plateformes ONTAP (Data ONTAP sous 7-mode et clustered Data ONTAP) 
+
+
+| Inventaire | Prise en charge sur toutes les plateformes | Pris en charge uniquement sur clustered Data ONTAP | Pris en charge uniquement sur clustered Data ONTAP 
+
+
+| Mises à niveau | Pris en charge uniquement sur clustered Data ONTAP | Pris en charge uniquement sur clustered Data ONTAP | Pris en charge uniquement sur clustered Data ONTAP 
+|===

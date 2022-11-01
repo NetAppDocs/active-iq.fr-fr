@@ -1,0 +1,83 @@
+---
+sidebar: sidebar 
+permalink: concept_working_with_inventory_file.html 
+keywords: inventory file, file format 
+summary: 'Fournit des informations sur l"utilisation du fichier d"inventaire.' 
+---
+= Travailler avec le fichier d'inventaire
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Le fichier d'inventaire se compose des LIFs de gestion du cluster des systèmes éligibles pour les mises à jour de firmware. Elle contient la liste des clusters avec des informations sur le nom de fichier du firmware des disques et des tiroirs, si nécessaire.
+
+Pour la mise à jour du micrologiciel du processeur de service, les noms d'hôte de nœud et l'adresse IP SP/BMC sont inclus dans le fichier d'inventaire.
+
+
+
+== Format du fichier d'inventaire
+
+Voici un exemple de format de fichier d'inventaire avec des mises à jour du firmware des disques et des tiroirs :
+
+[listing]
+----
+clusters:
+  - clustername: <cluster management LIF-1>
+    disk_fw_file: all.zip
+    shelf_fw_file: all_shelf_fw.zip
+
+  - clustername: <cluster management LIF-2>
+    disk_fw_file: all.zip
+    sp_nodes:
+    - hostname: <node hostname 1>
+      sp_fw_file: SP_FW_308-03990_11.5.zip
+      sp_fw_type: bmc
+      sp_fw_ver: '11.5'
+      sp_ip: <BMC IP>
+    - hostname: <node hostname 2>
+      sp_fw_file: SP_FW_308-03991_5.8.zip
+      sp_fw_type: sp
+      sp_fw_ver: '5.8'
+      sp_ip: <SP IP>
+----
+Dans cet exemple, les mises à jour du firmware des tiroirs et des disques s'appliquent aux mises à jour du firmware des clusters 1 et des disques, et SP/BMC, applicables au cluster-2.
+
+
+
+== Supprimer un cluster du fichier d'inventaire
+
+Si vous ne souhaitez pas appliquer de mises à jour de micrologiciel sur un cluster particulier, vous pouvez supprimer le cluster du fichier d'inventaire.
+
+Par exemple, si vous ne souhaitez pas appliquer de mise à jour du firmware des disques sur cluster-2, vous pouvez le supprimer du fichier d'inventaire à l'aide de la commande suivante :
+
+[listing]
+----
+clusters:
+  - clustername: <cluster management LIF-1>
+    disk_fw_file: all.zip
+    shelf_fw_file: all_shelf_fw.zip
+----
+Vous pouvez observer que toutes les données du cluster-2 ont été supprimées.
+
+Si vous souhaitez appliquer uniquement les mises à jour du firmware des disques sur le cluster-1 et non les mises à jour du firmware des tiroirs, vous pouvez utiliser la commande suivante :
+
+[listing]
+----
+clusters:
+  - clustername: <cluster management LIF-1>
+    disk_fw_file: all.zip
+----
+Vous pouvez constater que la clé et la valeur _shelf_fw_file_ ont été supprimées du cluster-1.
+
+
+NOTE: L'ajout manuel de clusters ou de contrôleurs n'est pas pris en charge.

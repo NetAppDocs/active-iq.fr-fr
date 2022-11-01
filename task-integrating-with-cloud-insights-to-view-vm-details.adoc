@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: task-integrating-with-cloud-insights-to-view-vm-details.html 
+keywords: Cloud Insights, VMs, virtual machines 
+summary: La section fournit des informations sur les machines virtuelles dans Cloud Insights 
+---
+= L'intégration à Cloud Insights pour afficher les détails des machines virtuelles
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Digital Advisor est désormais intégré à la version Cloud Insights Basic afin de garantir aux clients un inventaire complet des piles et des vérifications d'interopérabilité.
+
+Les avantages de cette intégration sont les suivants :
+
+* Surveillance SaaS simplifiée de ONTAP
+* Visibilité sur la surveillance de l'ensemble de la pile VMware
+* Les clients réalisent des économies en termes de productivité grâce à des vérifications automatisées de l'interopérabilité pour faciliter la planification des mises à niveau ONTAP. Résultat : des mises à niveau plus fluides des ONTAP et des risques d'incompatibilité avec les hôtes.
+
+
+
+NOTE: Cette fonctionnalité est disponible uniquement pour les contrats de mise à niveau SupportEdge Advisor, SupportEdge Expert et Digital Advisor.
+
+.Étapes
+. Dans le widget *Inventory*, cliquez sur *Virtual machines* pour afficher les données disponibles dans Cloud Insights.
+. Cliquez sur l'onglet *vue d'ensemble de la machine virtuelle*.
+. Cliquez sur *nombre d'hôtes ESX* pour afficher des informations sur l'hôte.
+. Cliquez sur *Nom ESX* pour accéder à Cloud Insights et afficher plus d'informations.
+

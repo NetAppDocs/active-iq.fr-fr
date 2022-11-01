@@ -1,0 +1,114 @@
+---
+sidebar: sidebar 
+permalink: concept_key_terms.html 
+keywords: overview, inventory, wellness, widgets, actions 
+summary: Fournit des informations sur les termes clés utilisés dans Digital Advisor. 
+---
+= Concepts clés
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Lorsque vous commencez à utiliser Digital Advisor, il est important que vous compreniez certains des termes de base que vous pouvez attendre à voir dans le Digital Advisor.
+
+* *Watchlist:* vous offre la flexibilité d'accéder à des systèmes dans Digital Advisor qui ont déjà été sélectionnés. Vous pouvez utiliser des listes de surveillance pour ajouter des systèmes à partir d'un ou de plusieurs clients.
++
+** *Tableau de bord de mieux-être :* fournit un état général des systèmes de la liste de surveillance.
+** *Widgets:* affiche de petites applications sur le tableau de bord qui vous fournissent un résumé rapide de l'état des systèmes.
+** *Risques :* affiche une liste de systèmes ayant leurs problèmes respectifs. Ses niveaux de sévérité sont différents :
++
+*** Risques élevés
+*** Risques moyens
+*** Aucun risque
+
+
+** *Risques uniques :* affiche les noms de risque et le nombre de systèmes pour une catégorie de risque spécifique.
+** *Actions :* affiche le nombre d'actions uniques que vous pouvez effectuer pour résoudre les problèmes.
+** *Etat de risque avec code couleur* : affiche les niveaux de risque et leurs codes de couleur classés en 3 niveaux en fonction de leurs niveaux de gravité. L'utilisation des couleurs permet une évaluation plus rapide des niveaux de risque impliqués.
+
+
+
+
+|===
+| *Couleur* | *Gravité* 
+
+
+| image:red_color.png["Rouge"] | Élevée 
+
+
+| image:orange_color.png["Orange"] | Moyen 
+
+
+| image:green_color.png["Vert"] | Aucun risque 
+|===
+* *Widget Wellness:* affiche des informations sur les performances, l'efficacité, la capacité, les paramètres de configuration, les vulnérabilités de sécurité, et autres. Il détermine de manière proactive les systèmes qui ont dépassé la capacité ou qui dépassent les 90 %. En outre, elle fournit des informations sur les logiciels et le matériel qui ont expiré ou sont sur le point d'expirer dans les 6 prochains mois.
++
+** *Performances et efficacité :* affiche des informations sur les performances et l'efficacité du système de stockage.
+** *Disponibilité et protection :* affiche des informations sur la disponibilité et la protection du système de stockage.
+** *Capacité :* est constitué de risques avec un attribut de capacité pour les valeurs de la zone d'impact.
+** *Configuration:* consiste en des risques avec un attribut de configuration pour les valeurs de la zone d'impact triées avec l'impact le plus élevé sur le dessus.
+** *Vulnérabilités de sécurité :* est constitué de risques avec un attribut de sécurité pour les valeurs de zone d'impact.
+** *Wellness History:* affiche des informations sur les risques système survenant au cours des trois derniers mois, de sorte que vous puissiez apprendre comment ils font des heures supplémentaires.
+** *Protection contre les attaques par ransomware :* fournit des informations sur les risques et les actions correctives associés à la détection, à la prévention et à la récupération des ransomwares.
+** *Prendre en compte les risques (Ack):* vous permet de reconnaître les risques et les systèmes qui ont été touchés. Vous pouvez prendre en compte ces risques et vous familiariser avec les actions que vous pouvez effectuer pour réduire ces risques.
+** *Risques non reconnus (unack):* vous permet de reconnaître les risques et les systèmes qui ont été reconnus.
+** *Fix it:* fixe les risques pour le système à l'aide de Active IQ United Manager (UM) 9.7 ou supérieur. Cliquez sur ce bouton pour lancer UM et exécuter les étapes pour réduire les risques.
+
+
+* *Widget Inventaire:* affiche un ensemble de systèmes que vous possédez. Cela inclut les produits compatibles Digital Advisor et non activés.
++
+** *Générer un rapport:* génère le rapport de la liste de surveillance sélectionnée et envoie le rapport à un maximum de 5 destinataires.
+
+
+* *Widget planification :* affiche des informations sur l'ajout de capacité, les logiciels et le matériel qui doivent être renouvelés.
++
+** *Ajouts de capacité :* identifie les systèmes qui ont dépassé ou approchent 90 % de la capacité et les sites DE RÉSEAU qui ont dépassé ou approchent 70 % de la capacité. Vous pouvez demander à augmenter la capacité de votre système de stockage.
+** *Renouvellements :* fournit des informations sur le logiciel et le matériel qui a expiré ou qui sont à court d'expiration dans les 6 prochains mois.
+
+
+* *Widget mises à niveau :* fournit le nombre de mises à niveau disponibles pour les systèmes ONTAP et E-Series :
++
+** Pour les systèmes ONTAP, vous pouvez afficher des informations sur le nombre de systèmes nécessitant une mise à niveau, puis demander un plan de mise à niveau.
+** Dans le cas des baies E-Series, vous ne pouvez afficher que les informations sur le nombre de systèmes nécessitant une mise à niveau.
+
+
+
+
+* *Efficacité du stockage :* identifie le ratio d'efficacité du stockage et les économies de votre système de stockage avec et sans copies Snapshot pour les systèmes AFF, non-AFF, ou les deux.
+* *Graphique de performances :* permet d'analyser les performances de vos périphériques de stockage en affichant le format graphique des données de performances. Vous pouvez afficher des graphiques de performances détaillés du cluster ONTAP pour le nœud sélectionné.
+* *Le widget informations précieuses :* fournit des informations sur le nombre de dossiers de support, les mises à niveau logicielles en attente, les économies d'efficacité du stockage, les risques atténués, etc. Il répertorie également de manière proactive les notifications de risque de l'attribut mieux-être.
+* *AutoSupport:* vous permet d'afficher les instances AutoSupport de haut niveau ou de détail. Les détails comprennent les détails du système, les raisons possibles du problème et les mesures proposées.
++
+Pour accéder à la fonctionnalité AutoSupport, connectez-vous à Digital Advisor et recherchez un cluster ou un nom d'hôte. L'option AutoSupport est disponible dans le volet de gauche.
+
+* *Liens rapides:* fournit la liste des applications qui peuvent être lancées à l'aide de Digital Advisor.
++
+** *ClusterViewer:* vous permet d'afficher des informations détaillées sur la configuration physique et logique. Ces détails sont présentés dans plusieurs tableaux simples d'utilisation répartis sur plusieurs onglets : récapitulatif de la configuration du cluster et des nœuds, informations sur les niveaux et volumes locaux, informations sur les ports et l'interface réseau, diagramme de pile détaillant les informations sur les disques et les tiroirs et quelques visualisations de câbles. Vous pouvez également télécharger les graphiques de visualisation des câbles au format SVG.
++
+La fonctionnalité ClusterViewer n'est pas prise en charge sur les systèmes E-Series.
+
+
+
+
+
+* *API Services:* vous permet de tirer des données d'intérêt et de les intégrer directement dans le flux de travail de votre entreprise.
+* *Téléchargement AutoSupport :* vous permet d'analyser les défauts ou problèmes sur les systèmes ONTAP et E-Series. Les défauts ou problèmes sont examinés et résolus manuellement par le personnel du site de support.
+* *Micrologiciel système :* vous permet d'afficher des informations sur le micrologiciel système fourni avec chaque version principale et correctif de ONTAP.
++
+** *Rechercher:* vous permet de rechercher des systèmes en fonction de différentes catégories, comme le nom du client, le numéro de série, le cluster, le nom du site, le nom du groupe, nom d'hôte, et autres.
+
+
+* *Client:* vous permet d'afficher et de gérer la base installée d'un client. Le tableau de bord client est le portail central de Digital Advisor.
+* *Cluster:* fournit des informations sur les clusters ONTAP. Le tableau de bord consolide également l'état, la capacité, l'efficacité du stockage et l'analyse des performances.
+* *Numéro de série :* fournit des informations sur le numéro de série attribué au client.
+

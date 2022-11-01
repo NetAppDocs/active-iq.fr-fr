@@ -1,0 +1,38 @@
+---
+sidebar: sidebar 
+permalink: task_generate_tokens_API_services.html 
+keywords: generate token, access token, refresh token, API services 
+summary: Fournit des informations sur la génération du jeton pour accéder aux API. 
+---
+= Générez des jetons pour utiliser des API
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Il est facile de s'inscrire aux services d'API et de générer des jetons.
+
+.Étapes
+. Dans le menu *Quick Links*, cliquez sur *API Services*.
+. Cliquez sur *Enregistrer*.
+. Remplissez le formulaire de demande d'autorisation et cliquez sur *Envoyer*.
++
+L'activation est automatique et doit être instantanée. Une fois que vous avez été autorisé à utiliser les API Digital Advisor, vous pouvez générer des jetons à utiliser lors des appels d'API programmatiques. Vous pouvez également utiliser ces jetons pour exécuter "essayez-les" à partir du catalogue d'API. Lorsqu'ils sont obtenus par programmation, les tokens sont toujours fournis par deux : un token d'accès et un token d'actualisation. Le token d'accès doit être transmis pour utiliser correctement toutes les API (à l'exception d'une : le token d'actualisation est utilisé pour obtenir par programmation un nouvel ensemble de tokens).
+
+. Sur la page principale des services d'API, cliquez sur *Generate Token* pour afficher et télécharger le jeton d'accès et actualiser le jeton pour appeler les API.
++
+Le portail vous offre plusieurs façons d'enregistrer un ou les deux jetons dans le jeu. Vous pouvez les copier dans le presse-papiers, les télécharger sous forme de fichier texte ou les afficher sous forme de texte brut.
+
+
+
+
+NOTE: Vous devez télécharger et enregistrer le jeton d'accès et actualiser le jeton pour une utilisation ultérieure. Les jetons d'accès expirent une heure après la génération et l'actualisation des jetons doivent être régénérés tous les 7 jours et installés dans l'application. Au bout de 90 jours, vous devrez vous connecter manuellement et obtenir un nouveau jeton d'accès et d'actualisation.

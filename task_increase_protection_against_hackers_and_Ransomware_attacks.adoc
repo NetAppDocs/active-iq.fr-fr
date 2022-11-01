@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: task_increase_protection_against_hackers_and_Ransomware_attacks.html 
+keywords: protection, hackers, ransomware, ransomware attacks, attack 
+summary: 'Fournit des informations sur la façon d"améliorer la protection contre les pirates informatiques et les attaques par ransomware.' 
+---
+= Détecter la vulnérabilité de sécurité
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Le site de sécurité NetApp est une source de vérité pour la sécurité produits NetApp : link:https://security.netapp.com[""]
+
+Digital Advisor utilise des données de télémétrie et des avis publiés sur la sécurité des produits pour détecter les problèmes de sécurité des produits couverts* et couverts par le support. Les données de télémétrie des produits doivent être transmises à NetApp via AutoSupport pour que le conseiller digital puisse détecter les risques.
+
+Pour plus d'informations sur la sécurité des produits NetApp, y compris sur les produits non couverts par le conseiller digital, rendez-vous sur le site link:https://security.netapp.com[""]
+
+*Produits pris en charge : ONTAP 9 (sur site et dans le cloud), logiciel de contrôleur SANtricity OS, NetApp SolidFire (logiciel Element), StorageGRID, Active IQ Unified Manager, outils ONTAP pour VMware (OTV)
+
+.Étapes
+. Connectez-vous à Digital Advisor.
+. Cliquez sur *actions* dans le widget *failles de sécurité*.image:Security_Image 1 Ransomware attacks.png["Widget failles de sécurité"]
++
+Pour les risques de sécurité à fort impact, suivez l'action recommandée qui consiste à mettre à niveau le système d'exploitation.
+
+. Cliquez sur l'onglet *risques uniques*, puis cliquez sur le lien dans la colonne *action corrective*.image:Corrective Action_Image 2 Ransomware attacks.png["Colonne action corrective"]
++
+Le risque est fixé dans ONTAP 9.7P8 et versions ultérieures.image:Remediations_Image 3 Ransomware attacks.png["Onglet correction"]
+
+. L'étape la plus importante consiste à planifier la mise à niveau du système d'exploitation dans le *Upgrade Advisor* de Digital Advisor.
+

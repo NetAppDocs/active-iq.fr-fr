@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: task_renew_software_and_hardware.html 
+keywords: renew, hardware, software 
+summary: Fournit des informations pour renouveler le logiciel et le matériel de votre système de stockage. 
+---
+= Renouvelez le logiciel et le matériel de votre système de stockage
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Vous pouvez identifier de manière proactive les logiciels et le matériel qui ont expiré ou sont à court d'expiration au cours des 6 prochains mois, et envoyer une demande de renouvellement du matériel et du logiciel.
+
+.Étapes
+. Cliquez sur *renouvellements* dans le widget *planification*.
+. Sélectionnez les systèmes que vous souhaitez renouveler et cliquez sur *renouveler*.
+. Vous pouvez également ajouter des commentaires supplémentaires.
+. Cliquez sur *Envoyer*.
+

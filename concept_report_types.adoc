@@ -1,0 +1,71 @@
+---
+sidebar: sidebar 
+permalink: concept_report_types.html 
+keywords: reports, report types, reporting, performance reports 
+summary: 'Fournit des informations sur les différents types de rapports disponibles pour l"utilisateur.' 
+---
+= Types de rapports
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Digital Advisor offre de nombreuses options de reporting qui permettent de surveiller et de gérer l'état de santé de votre système et sa réussite.
+
+Les types de rapports disponibles dans Digital Advisor sont les suivants :
+
+[cols="30,70"]
+|===
+| Nom du rapport | Description 
+
+
+| Bien-être | Fournit des informations sur les risques en suspens et reconnus, les détails des risques, les actions correctives et les systèmes concernés. 
+
+
+| Bien-être – agrégé | Fournit un résumé des risques exceptionnels et du nombre de systèmes affectés. 
+
+
+| Plans Upgrade Advisor 7-mode | Fournit un rapport sur le plan de conseiller de mise à niveau pour les systèmes 7-mode. Ce rapport inclut des informations sur le partenaire de haute disponibilité. 
+
+
+| Inventaire Ansible | Fournit un fichier d'inventaire Ansible qui répertorie toutes les informations d'inventaire système par région ou site. Ce fichier peut être utilisé pour l'automatisation. 
+
+
+| FabricPool | Fournit des informations concernant les données inactives, inactives, actives, hiérarchisées et données non surveillées. Ce rapport comprend également un PlayBook Ansible pour l'activation du reporting des données inactives sur les agrégats désactivés. 
+
+
+| Inventaire | Fournit des informations sur la base d'installation pour une liste de surveillance, un client, un site, des niveaux de groupe sélectionnés. Ce rapport peut être généré sous forme de téléchargement direct à partir de la page Détails de l'inventaire ou à partir de la page Rapports. 
+
+
+| Fin de vie | Fournit des informations sur la liste des contrôleurs, tiroirs et disques qui ont atteint la fin de prise en charge (EOS). 
+
+
+| Configuration recommandée | Fournit des informations sur les différents écarts de configuration recommandés pour la configuration de la gestion à distance, les disques de secours et de disques, la paire haute disponibilité et l'état de santé des SVM. 
+
+
+| Détails techniques du dossier | Fournit un rapport annuel sur tous les dossiers techniques et leur état. 
+
+
+| Recommandations de mise à niveau (logiciels et firmware) | Rapport à onglets multiples sur la devise du logiciel et du micrologiciel et les versions recommandées pour chaque contrôleur ou série dans les critères de recherche. 
+
+
+| Rapport ClusterViewer | Fournit des informations sur un ou plusieurs clusters au niveau du client et de la liste de surveillance. Vous ne pouvez générer ce rapport que pour la liste de surveillance comportant jusqu'à 100 nœuds. 
+
+
+| Capacité et efficacité | Fournit des informations sur la capacité et l'efficacité au niveau du cluster, du client, du site, du groupe, de la liste de surveillance et du nœud. 
+
+
+| Rapport sur les performances du volume | Fournit des informations sur les performances détaillées des volumes au niveau du cluster. 
+
+
+| Rapport sur les performances | Fournit des informations, au niveau de la liste de surveillance, sur les performances d'un cluster, d'un nœud, d'un niveau local (agrégat) et d'un volume. Vous ne pouvez générer ce rapport que pour la liste de surveillance comportant jusqu'à 100 nœuds. 
+|===

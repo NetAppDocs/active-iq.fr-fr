@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_dashboard.html 
+keywords: overview, provision, dashboard, widget, watchlist 
+summary: Fournit des informations sur le tableau de bord, les listes de surveillance et les widgets. 
+---
+= Comprendre la liste de surveillance
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Les listes de surveillance sont utilisées pour accéder rapidement et facilement aux systèmes présélectionnés dans Digital Advisor. Si vous visualisez fréquemment un certain client ou un ensemble de systèmes, nous vous recommandons de créer des listes de surveillance. Vous pouvez créer jusqu'à 50 listes de surveillance et chaque liste de surveillance peut contenir jusqu'à 15,000 systèmes par catégorie ou 500 systèmes par numéro de série.
+
+Lorsque vous accédez au conseiller numérique pour la première fois, vous pouvez créer une liste de surveillance ou rechercher un nom de client, un nom de site, un nom de groupe, un StorageGRID, un nom d'hôte, Cluster, numéro de série ou ID système.
+
+Vous devez également connaître les couleurs appliquées aux cartes, qui indiquent la gravité et le type de risque.

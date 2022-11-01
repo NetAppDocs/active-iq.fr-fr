@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_storage_efficiency.html 
+keywords: overview, storage efficiency, deduplication, compression 
+summary: 'Fournit des informations sur le suivi de l"efficacité de votre système de stockage.' 
+---
+= Compréhension de l'efficacité du stockage
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Le tableau de bord sur l'efficacité du stockage affiche le taux d'efficacité du stockage, l'espace logique utilisé, l'espace physique utilisé et les données totales économisées pour les systèmes de stockage exécutant ONTAP 9.1 et versions ultérieures. Le taux d'efficacité et les économies sont visibles avec et sans copies Snapshot pour les systèmes AFF, les systèmes non AFF ou les deux. Vous pouvez afficher les informations relatives à l'efficacité du stockage au niveau du cluster ou du nœud.
+
+Il est possible de réaliser des économies totales sur l'ensemble du stockage client grâce à une fonctionnalité d'efficacité telle que la déduplication du volume, la compression des volumes, la compaction, les volumes FlexClone et les copies Snapshot. Vous pouvez également voir les 5 principaux systèmes de stockage avec le meilleur ratio d'efficacité.
+
+video::8Ge3_0qlyxA[youtube,width=848,height=480]

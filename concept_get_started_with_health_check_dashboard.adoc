@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: concept_get_started_with_health_check_dashboard.html 
+keywords: activeiq, health check, health, HCA, health check dashboard, autosupport, autosupport adoption, recommended configuration, best practices, support, support and entitlements, support contract, contracts, active contracts, expired contracts, nearing-expiration, key recommendations, recommendations,  digital advisor, features, recommended software 
+summary: 'Fournit des informations sur le tableau de bord, les scores d"intégrité, les fonctionnalités et les widgets.' 
+---
+= Commencez à utiliser le tableau de bord Health Check
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Ce tableau de bord fournit un aperçu complet de votre base installée à l'aide des widgets suivants :
+
+* *AutoSupport adoption* : affiche le nombre et le pourcentage de systèmes sur lesquels AutoSupport est activé. Vous pouvez également afficher les systèmes marqués comme «en ligne», ceux avec *HTTPS* et *AutoSupport On Demand* activés, ainsi que *perte de signal* pour les systèmes qui ont cessé d'envoyer des données AutoSupport au cours des 7 derniers jours. Pour afficher le score de votre bilan de santé et les informations sur les systèmes de votre base d'installation, cliquez sur le widget *AutoSupport adoption*.
+* *Configuration recommandée* : affiche les systèmes qui sont conformes et non conformes selon le widget *Configuration recommandée*. Il vous permet de prendre des mesures afin de vous assurer que vos systèmes sont bien configurés sur l'ensemble de votre base installée. Vous pouvez afficher les résultats fournis dans le tableau de bord et prendre des mesures en fonction des recommandations clés fournies par ordre de priorité.
+* *Logiciel recommandé* : affiche une liste consolidée de toutes les mises à niveau du logiciel et du micrologiciel et des recommandations de devises. Vous pouvez afficher les systèmes sur lesquels AutoSupport est activé et qui doivent être versions minimale ou récente des logiciels ou des firmwares.
+* *Support & Entitlements* : affiche les contrats de support dont la date d'expiration est proche de celle de 6 à 12 mois. Affiche les plateformes, disques, tiroirs, conformité des droits, expiration en attente, de plus, la fin du support pour la plateforme et le matériel n'est pas applicable. Vous pouvez consulter le score de vérification de l'état de santé fourni sur le tableau de bord et prendre des mesures en fonction des recommandations clés fournies par ordre de priorité. Pour afficher des informations détaillées sur les contrats de support, cliquez sur le widget *support & Entitlements*. Vous pouvez également renouveler vos contrats de support à l'aide de ce widget.
+* *Meilleures pratiques* : affiche le score du bilan de santé en évaluant les caractéristiques des meilleures pratiques de votre système de stockage : performances et efficacité, disponibilité et protection, capacité, configuration et failles de sécurité. Les meilleures pratiques NetApp favorisent l'état de santé des systèmes, ce qui optimise les performances de votre base installée.
+* *Cas techniques* : vous fournit une vue détaillée de l'historique de votre dossier technique, par type de dossier et état ouvert ou fermé, sur des plages de temps sélectionnables. Vous pouvez explorer les groupes de dossiers et afficher les détails des dossiers à l'aide de link:https://mysupport.netapp.com//["Site de support NetApp"] ou d'autres portails de cas.
+

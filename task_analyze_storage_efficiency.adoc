@@ -1,0 +1,54 @@
+---
+sidebar: sidebar 
+permalink: task_analyze_storage_efficiency.html 
+keywords: renew, hardware, software 
+summary: Fournit des informations pour renouveler le logiciel et le matériel de votre système de stockage. 
+---
+= Analysez les économies de capacité et d'efficacité du stockage
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Vous pouvez consulter les détails sur la capacité et les économies réalisées grâce à l'efficacité du stockage de votre système, et prendre les mesures appropriées. Les informations relatives à la capacité et à l'efficacité du stockage sont affichées au niveau du cluster ou d'un nœud.
+
+
+NOTE: Cette fonctionnalité n'est pas prise en charge sur les baies E-Series.
+
+Le tableau de bord de la capacité affiche les détails sur la capacité et les prévisions de capacité de votre système. La prévision de capacité utilise des historiques de capacité pour identifier l'utilisation de chaque système. En fonction des données historiques (données d’une année, si disponibles) de la capacité utilisée et allouée, l’algorithme prend en compte l’utilisation actuelle de chaque système et génère une prévision de l’utilisation du système au cours des 1 à 6 prochains mois.
+
+Le tableau de bord sur l'efficacité du stockage affiche le taux d'efficacité du stockage, l'espace logique utilisé, l'espace physique utilisé et les données totales économisées pour les systèmes de stockage exécutant ONTAP 9.1 et versions ultérieures. Le taux d'efficacité et les économies sont visibles avec et sans copies Snapshot pour les systèmes AFF, les systèmes non AFF ou les deux. Il est possible de réaliser des économies totales sur l'ensemble du stockage client grâce à une fonctionnalité d'efficacité telle que la déduplication du volume, la compression des volumes, la compaction, les volumes FlexClone et les copies Snapshot. Vous pouvez également voir les 5 principaux systèmes de stockage avec le meilleur ratio d'efficacité.
+
+video::8Ge3_0qlyxA[youtube,width=848,height=480]
+.Étapes
+. Dans le volet de gauche, cliquez sur *capacité et efficacité*.
++
+Par défaut, l'onglet *capacité* est sélectionné.
+
+. Consultez les détails de capacité au niveau du cluster et des nœuds.
++
+.. Affichez la prévision de capacité au niveau du nœud.
++
+Pour les systèmes ONTAP, des informations sur la capacité brute sont disponibles dans ClusterViewer.
+
+.. Cliquez sur *Ajouter de la capacité* pour envoyer une notification à NetApp ou à votre partenaire pour en ajouter de la capacité.
+
+
+. Afficher l'efficacité du stockage et les économies de données de votre système de stockage.
++
+.. Si le rapport sur l'efficacité du stockage de votre système est supérieur au rapport moyen d'efficacité du stockage, cliquez sur *partager votre témoignage de réussite* pour connaître les meilleures pratiques suivies.
+.. Si le rapport d'efficacité du stockage de votre système de stockage est inférieur au rapport moyen d'efficacité du stockage, cliquez sur *Contactez-nous* pour nous faire connaître les configurations de votre système de stockage.
+
+
+
+
+Pour plus d'informations sur la capacité et l'efficacité du stockage, reportez-vous à link:reference_aiq_faq.html["Foire aux questions sur Digital Advisor"].

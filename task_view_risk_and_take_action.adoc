@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: task_view_risk_and_take_action.html 
+keywords: wellness, performance, efficiency, availability, capacity, security vulnerabilities, protection, protect, mitigate, rectify 
+summary: Fournit des informations pour afficher et analyser le bien-être de votre système de stockage et réduire les risques. 
+---
+= Consultez les risques et prenez manuellement les actions correctives
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Vous pouvez analyser les attributs d'intégrité de votre système de stockage en visualisant les actions et les risques associés. Vous devez afficher les actions correctives associées et réduire manuellement le risque.
+
+.Étapes
+. Cliquez sur le widget *Wellness* du tableau de bord ou cliquez sur *Afficher toutes les actions* pour afficher la liste de toutes les actions et de tous les risques.
+. Afficher les *actions* et *risques* associés à l'attribut bien-être.
+. Cliquez sur *actions* pour afficher les risques associés aux actions, cliquez sur *risques* pour afficher tous les risques, ou cliquez sur *systèmes affectés* pour afficher les systèmes qui nécessitent une attention particulière.
+. Cliquez sur le nom du risque pour afficher les informations relatives au risque.
+. Cliquez sur les actions correctives associées et suivez les informations pour résoudre le risque.
+
+
+Les étapes permettant de réduire les risques sont les mêmes pour tous les attributs de bien-être. Vous pouvez visionner la vidéo suivante pour surveiller et résoudre les problèmes de sécurité :
+
+video::ssXI-FAKMis[youtube,width=848,height=480]

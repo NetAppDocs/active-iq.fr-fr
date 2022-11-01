@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_config_drift.html 
+keywords: config drift, configuration deviation, add template, compare template 
+summary: 'Fournit une vue d"ensemble de la fonction de dérive de configuration' 
+---
+= Comprendre l'écart de configuration
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+La fonction dérive de configuration identifie les écarts de configuration en comparant un modèle de système à un modèle de système « doré » ou de base. Vous pouvez planifier des rapports de dérive hebdomadaires ou mensuels ou les générer à la demande. Vous pouvez réduire certaines déviations à l'aide des manuels de vente Ansible, fournis dans le rapport de dérive de configuration.
+
+Cette fonctionnalité est disponible uniquement pour les systèmes avec des contrats de support Advisor et Expert.
+
+Vous pouvez consulter le diagramme suivant pour comprendre le flux de travail afin d'identifier les écarts de configuration et de générer le rapport.
+
+image:config_drift.png["flux de travail de la dérive de configuration"]
+
+Pour générer et exécuter un PlayBook Ansible, vous pouvez visionner la vidéo suivante afin de corriger les écarts de configuration :
+
+video::MbkwcZ7xk3Y[youtube,width=848,height=480]

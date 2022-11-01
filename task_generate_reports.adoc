@@ -1,0 +1,62 @@
+---
+sidebar: sidebar 
+permalink: task_generate_reports.html 
+keywords: reports, generate reports 
+summary: Fournit des informations pour générer des rapports. 
+---
+= Générer des rapports
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Vous pouvez générer des rapports immédiatement ou planifier la génération d'un rapport toutes les semaines ou tous les mois. Les rapports peuvent être générés dans différents formats. En fonction du rapport sélectionné, les formats disponibles sont affichés.
+
+*À propos de cette tâche*
+
+* Vous ne pouvez pas modifier les rapports dans Digital Advisor. Vous devez supprimer le rapport existant et créer un nouveau rapport.
+
+
+.Étapes
+. Dans le volet de gauche, cliquez sur *Rapports*.
+. Cliquez sur *Créer un rapport* pour générer un nouveau rapport.
++
+Vous pouvez générer un rapport immédiatement ou planifier la génération du rapport sur une base hebdomadaire ou mensuelle.
+
+
+
+[cols="50,50"]
+|===
+| Pour générer un rapport immédiatement | Pour planifier la génération du rapport sur une base hebdomadaire ou mensuelle 
+
+
+ a| 
+. Sélectionnez le type de rapport et fournissez les valeurs requises pour le rapport.
+. Sélectionnez le format du rapport.
+. Cliquez sur *soumettre*.
+
+
+
+NOTE: Le rapport est enregistré dans Digital Advisor pendant 3 jours.
+ a| 
+. Cliquez sur l'onglet *Rapport de planification*.
+. Sélectionnez le type de rapport et fournissez les valeurs requises pour le rapport.
+. Sélectionnez le format du rapport.
+. Sélectionnez la fréquence du rapport.
+. Sélectionnez la date de début et la date de fin du rapport.
+. Cliquez sur *soumettre*.
+
+
+
+NOTE: Les rapports planifiés existants seront remplacés lors de la génération des nouveaux rapports.
+
+|===

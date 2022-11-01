@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: task_avoid_a_volume_filling_up_to_prevent_an_outage.html 
+keywords: volume filling up, prevent an outage 
+summary: 'Fournit des informations sur la façon d"éviter un remplissage de volume pour éviter une panne.' 
+---
+= Évitez le remplissage d'un volume afin d'éviter toute panne
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Lorsque vous vous connectez à Digital Advisor et remarquez le badge rouge sur le widget *Configuration*. Lorsque vous cliquez sur le widget, vous voyez que le volume est plein à 98 % et que cela peut entraîner une interruption de service. La résolution de ce problème évite un remplissage de volume, ce qui la ferait en lecture seule, entraînant l'accès aux applications défaillants et défaillant.
+
+.Étapes
+. Connectez-vous à Digital Advisor.
+. Cliquez sur *actions* dans le widget *Configuration*.image:Configuration_image 1 prevent an outage.png["Widget de configuration"]
+. Cliquez sur l'onglet *risques uniques*. Lorsque vous cliquez sur le lien *action corrective*, vous pouvez modifier les seuils d'avertissement ou allouer plus d'espace au volume.image:Risk summary_image 2 prevent an outage.png["Résumé des risques"]
+

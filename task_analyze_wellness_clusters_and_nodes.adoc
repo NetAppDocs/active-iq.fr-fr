@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task_analyze_wellness_clusters_and_nodes.html 
+keywords: cluster, node, clusterviewer, configuration 
+summary: Fournit des informations sur ClusterViewer. 
+---
+= Analyser le bien-être des clusters et des nœuds
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Vous pouvez analyser le bien-être de vos clusters et de vos nœuds à l'aide de ClusterViewer, une source centralisée pour obtenir des informations sur la configuration physique et logique de vos clusters et de vos nœuds.
+
+ClusterViewer fournit des informations, telles que les diagrammes de pile de vos nœuds, l'utilisation du stockage et l'efficacité, la marge de capacité matérielle, etc., qui vous permet de prendre des décisions avisées afin d'améliorer l'intégrité de vos clusters et nœuds.
+
+Vous pouvez afficher des visualisations ou des représentations graphiques de la configuration physique de vos nœuds au niveau du câble, de la pile et des disques RAID. Vous pouvez également télécharger les visualisations au format SVG.
+
+video::FVbb2bbIY9E[youtube,width=848,height=480]
+.Étapes
+. Dans le widget *Inventory*, sélectionnez le cluster ou le nœud (hôte) que vous souhaitez.
+. Au niveau du cluster ou du nœud, cliquez sur *ClusterViewer* en regard du widget *Configuration*.
+. Cliquez sur l'onglet *Visualisation* pour afficher une représentation graphique du cluster.
+

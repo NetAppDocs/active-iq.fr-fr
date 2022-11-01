@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: task_identify_capacity_system.html 
+keywords: capacity, space, increase, 
+summary: Fournit des informations pour augmenter la capacité du système. 
+---
+= Identifier les systèmes qui atteignent les limites de capacité
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Identifiez de manière proactive les systèmes ayant atteint les limites de capacité, et envoyez une requête par chat en ligne pour augmenter la capacité de votre système de stockage.
+
+Vous pouvez visualiser des systèmes qui ont une capacité supérieure à 90 % ou supérieure à 90 % en 1, 3 et 6 mois. Discutez avec un ingénieur commercial pour répondre facilement aux demandes d'ajout de capacité et obtenir une assistance en temps réel.
+
+.Étapes
+. Dans le widget *Planning*, cliquez sur *Capacity additions* pour afficher les systèmes dont la capacité est supérieure à 90 % ou dont la capacité est proche de 90 %.
++
+Vous pouvez afficher le nombre de systèmes dont la capacité dépasse 90 % ou supérieure à 90 % au cours des 1, 3 et 6 prochains mois.
+
+. Sélectionnez une carte pour afficher les systèmes.
+. Sélectionnez les systèmes pour lesquels vous souhaitez augmenter la capacité et cliquez sur *Contact Sales*.
+. Vérifiez vos coordonnées.
+. Copiez et collez jusqu'à cinq noms d'hôtes dans la discussion pour augmenter les demandes d'ajout de capacité.
+

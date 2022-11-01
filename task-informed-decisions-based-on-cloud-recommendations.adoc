@@ -1,0 +1,108 @@
+---
+sidebar: sidebar 
+permalink: task-informed-decisions-based-on-cloud-recommendations.html 
+keywords: cloud recommendations, migration, backup and archive, disaster recovery, FabricPool, FabricPool Advisor, inactive data, tiered data, IDR 
+summary: Fournit des recommandations basées sur les décisions éclairées qui peuvent être prises. 
+---
+= Prenez des décisions avisées en fonction des recommandations sur le cloud
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Digital Advisor analyse en continu votre système et fournit des recommandations pour améliorer les performances, l'efficacité et l'état de santé de votre système.
+
+
+NOTE: Digital Advisor vous guide vers BlueXP pour mettre en œuvre les recommandations.
+
+
+
+== Migration
+
+Fournit des informations sur les différents types de charges de travail disponibles dans votre système de stockage et identifie les charges de travail prêtes pour le cloud. La migration des workloads vers le cloud permet de réaliser des économies et assure la reprise d'activité dans le cloud.
+
+Les volumes qui répondent aux critères suivants sont recommandés pour la migration vers Cloud Volumes ONTAP (CVO) et Cloud Volumes Service (CVS) :
+
+* Les volumes doivent utiliser le protocole NFS, SMB, CIFS, FCP ou iSCSI
+* Les volumes root sont exclus
+* Les charges de travail du volume sont balisées comme ORACLE, SAP, SAP HANA, MSSQL, MYSQL, SHAREPOINT, PARTAGE DE FICHIERS, VIRTUALISATION ET TRIDENT
+* L'âge du système est supérieur à 1 an
+* Le contrat de support prend fin dans 6 mois
+
+
+.Étapes
+. Dans le volet de gauche, cliquez sur *Cloud Recommendations*.
+. Cliquez sur un lien quelconque du volet *migration*.
+. Cliquez sur *migrer vers le Cloud* pour lancer *BlueXP*.
+
+
+
+
+== Tiering
+
+Fournit des informations sur les données de Tier local (agrégat) inactives, de volume inactif, des données hiérarchisées et des données non surveillées. Vous pouvez réduire l'empreinte du stockage et les coûts associés en surveillant et en transférant vos données inactives vers des tiers de stockage objet à faible coût.
+
+
+NOTE: Vous pouvez activer IDR (inactive Data Reporting) pour générer un fichier zip à l'aide d'un fichier Ansible PlayBook. Ces informations sont disponibles auprès du client, du site, du groupe, de la liste de surveillance, du cluster, et aux niveaux des nœuds.
+
+Pour le Tiering, les volumes qui répondent aux critères suivants sont recommandés :
+
+* Les volumes doivent utiliser le protocole NFS, SMB ou CIFS
+* Les volumes root sont exclus
+* Les données inactives sont supérieures à 50 %
+* La capacité totale est supérieure à 50 %
+
+
+.Étapes
+. Dans le volet de gauche, cliquez sur *Cloud Recommendations*.
+. Cliquez sur un lien quelconque du volet *Tiering*.
+. Cliquez sur *Tier Data* pour lancer *BlueXP*.
+
+
+Pour en savoir plus sur FabricPool, consultez link:https://www.netapp.com/pdf.html?item=/media/17239-tr4598pdf.pdf["Meilleures pratiques pour FabricPool"].
+
+
+
+== Sauvegarde et archivage
+
+Fournit des informations sur les systèmes qui doivent être sauvegardés dans le cloud. Vous pouvez utiliser NetApp Cloud Backup pour sécuriser vos systèmes et les restaurer à nouveau lorsque cela est nécessaire.
+
+Les volumes qui répondent à ces critères sont recommandés pour la sauvegarde dans le cloud :
+
+* Les volumes root sont exclus
+* Les volumes source et les systèmes et volumes de destination dotés d'une sauvegarde SnapVault sont exclus.
+
+
+.Étapes
+. Dans le volet de gauche, cliquez sur *Cloud Recommendations*.
+. Cliquez sur un lien quelconque du volet *Backup & Archive*.
+. Cliquez sur *Backup to Cloud* pour lancer *BlueXP*.
+
+
+
+
+== La réplication
+
+Fournit des informations sur les données à répliquer dans le cloud pour faciliter en cas d'incident.
+
+Les volumes qui répondent aux critères suivants sont recommandés pour la réplication vers le cloud :
+
+* Les volumes root sont exclus
+* Les volumes source SnapMirror sont exclus
+* Les volumes de destination SnapMirror (type de volume LS et DP) sont exclus
+
+
+.Étapes
+. Dans le volet de gauche, cliquez sur *Cloud Recommendations*.
+. Cliquez sur un lien quelconque du volet *Disaster Recovery*.
+. Cliquez sur *Replicate to Cloud* pour lancer *BlueXP*.
+

@@ -1,0 +1,36 @@
+---
+sidebar: sidebar 
+permalink: task_view_wellness_history.html 
+keywords: wellness history, risks, wellness, view all actions, risk history, 
+summary: 'Fournit des informations sur les risques système et la façon d"afficher l"historique de bien-être.' 
+---
+= Afficher l'historique de bien-être
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Vous pouvez visualiser les risques système qui se produisent au cours des trois derniers mois, de sorte que vous puissiez apprendre comment ils font des heures supplémentaires.
+
+Ces risques sont classés selon quatre types de risques — *non résolus*, *Nouveau*, *résolu* et *reconnus*. Ils sont représentés par des couleurs différentes. Le résumé de ces risques est représenté par un graphique *Historique des risques*.
+
+.Étapes
+. Dans le tableau de bord, dans le volet *Wellness*, cliquez sur *Afficher toutes les actions*.
+. Cliquez sur *Historique de bien-être*.
+. Dans le graphique *Historique des risques*, cliquez sur la catégorie pour laquelle vous souhaitez afficher l'historique des risques.
++
+Lorsque vous passez le curseur sur les barres de couleur, elles affichent des informations sur le nombre de risques dans chaque catégorie. Lorsque vous cliquez sur la catégorie de risque correspondante, les informations s'affichent dans le tableau *information risque*.
+
++
+Vous pouvez également télécharger le résumé des risques dans une feuille Excel.
+
+

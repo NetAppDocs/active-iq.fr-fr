@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: task_add_watchlist.html 
+keywords: dashboard, watchlist, add watchlist 
+summary: 'Fournit des informations permettant d"ajouter une liste de surveillance au tableau de bord.' 
+---
+= Créer une liste de surveillance
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Vous pouvez créer une liste de surveillance pour accéder rapidement et facilement à un ensemble de systèmes. Vous pouvez combiner l'ensemble des systèmes en fonction de la catégorie ou de l'emplacement.
+
+.Étapes
+. Dans le volet de gauche, cliquez sur *listes de surveillance*
++
+L'écran *gérer la liste de surveillance* s'affiche.
+
+. Cliquez sur *Créer une liste de surveillance*.
+. Indiquez un nom pour la liste de surveillance.
+. Indiquez les détails des systèmes que vous souhaitez ajouter à la liste de surveillance.
++
+Vous pouvez ajouter un maximum de 15,000 systèmes sous une catégorie et 500 systèmes sous un numéro de série.
+
+. Cliquez sur *Créer une liste de surveillance*.
++
+Le tableau de bord de la liste de surveillance s'affiche.
+
+

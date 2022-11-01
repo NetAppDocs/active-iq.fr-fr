@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_API_service.html 
+keywords: API services, access token, refresh token, API Catalog 
+summary: 'Fournit une présentation de la fonctionnalité de services d"API.' 
+---
+= Compréhension des services d'API
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Les services d'API Digital Advisor améliorent l'efficacité de vos workflows. Dans API Services réside le *API Catalog*, qui décrit plus de 100 noeuds finaux API différents regroupés dans plus de 20 zones de service différentes. Ces API vous sont proposées en tant que client NetApp. Elles couvrent différents domaines d'intérêt, notamment les informations système, l'efficacité du stockage, les performances, l'état et les mises à niveau.
+
+Les API sont des interfaces qui vous permettent d'écrire un code simple, capable de contacter Digital Advisor par programmation et de ramener les données dans l'environnement de calcul. Vous pouvez écrire du code de manière à ce qu'il contacte Digital Advisor chaque jour et réintègre les données les plus récentes dans les domaines qui vous intéressent. Vous pouvez ensuite utiliser ces données pour remplir votre système de billetterie ou créer vos propres tableaux de bord, pages Web ou rapports. Le catalogue de l'API de Digital Advisor comporte à la fois des exemples de code et une fonction permettant d'essayer les API dans le navigateur.
+
+L'automatisation avec des API est un excellent moyen d'accroître l'efficacité et la précision des tâches quotidiennes ou hebdomadaires. Vous pouvez ainsi libérer vos ressources pour exécuter des activités plus complexes ou automatiser de nouveaux workflows. Par exemple, si les risques liés à l'état de santé du système doivent être résolus, vous pouvez automatiser au moins l'extraction de ces éléments depuis Digital Advisor et l'intégration dans votre système de gestion des tickets.
+
+
+
+== Catalogue d'API
+
+Le basculement en haut de la page permet à l'utilisateur de basculer entre les deux modes pour afficher le catalogue. La vue Code se concentre sur les paramètres d'entrée requis, le contenu et le format des données de retour, ainsi que sur les échantillons de code pour que l'utilisateur commence à mettre le code en place. La vue expérience offre à l'utilisateur la possibilité de "tester" l'API dans le navigateur à l'aide d'un jeton généré obtenu à partir de la page principale des services API.
+
+L'une ou l'autre des vues permet à l'utilisateur de parcourir les éléments disponibles à l'aide du volet de navigation situé à gauche. Les éléments sont organisés par service par ordre alphabétique. Dans un service donné, vous pouvez développer l'en-tête pour afficher les terminaux API individuels. Cliquez sur l'en-tête du service ou sur un point final API pour accéder à cette section du catalogue dans le volet central.
+
+
+
+== À l'aide des API
+
+Une fois que vous êtes autorisé et que vous pouvez générer des jetons, vous pouvez utiliser les jetons pour effectuer des requêtes programmatiques et récupérer des données. Vous pouvez également tester une API à partir du catalogue d'API pour voir en premier lieu le fonctionnement de la requête et le type de données renvoyées. Il s'agit d'une excellente façon de vous assurer que vous comprenez comment une API fonctionnera avant de construire le cadre de code dans votre système.
+
+video::GQskCeCrtQA[youtube,width=848,height=480]

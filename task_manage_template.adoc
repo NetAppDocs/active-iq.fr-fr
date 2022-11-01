@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: task_manage_template.html 
+keywords: templates, share template, clone template, edit template, delete template 
+summary: Fournit des informations pour gérer les modèles. 
+---
+= Gérer un modèle
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Vous pouvez cloner un modèle, partager un modèle, modifier les détails d'un modèle existant et supprimer un modèle.
+
+Le partage d'un modèle permet de gagner du temps et de l'effort nécessaires pour créer et personnaliser un modèle déjà créé par un utilisateur. Les modèles partagés peuvent être mutuellement modifiés par les utilisateurs partagés, ce qui permet à plusieurs utilisateurs d'apporter des modifications à un seul modèle de référence.
+
+*À propos de cette tâche*
+
+* L'accès aux modèles partagés peut être révoqué à tout moment.
+* Les utilisateurs partagés peuvent supprimer ce modèle de leur compte à tout moment.
+
+
+.Étapes
+. Dans le volet de gauche, cliquez sur *Config dérive*.
+. Cliquez sur image:clone_icon.png["clonage"] pour copier le modèle.
+. Cliquez sur image:share_icon.png["partagez"] et entrez les noms d'utilisateur avec lesquels vous voulez partager le modèle.
++
+
+NOTE: Si vous saisissez l'adresse e-mail de l'utilisateur au lieu du nom d'utilisateur, le modèle ne sera pas partagé.
+
+. Cliquez sur image:edit_icon.png["modifier"] pour mettre à jour les détails du modèle.
+. Cliquez sur image:delete_icon.png["supprimer"] pour supprimer le modèle.
+

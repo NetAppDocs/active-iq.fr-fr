@@ -1,0 +1,78 @@
+---
+sidebar: sidebar 
+permalink: task_view_performance_graphs.html 
+keywords: performance, performance graph, graphs, digital advisor, performance charts, day, week, 1 month, 2 months, calendar, chart data, performance on node level, graph, node level 
+summary: Fournit des informations sur les performances. 
+---
+= Analysez les graphiques de performance
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Les graphiques de performance vous permettent d'analyser les performances de vos périphériques de stockage. Vous pouvez afficher des graphiques de performance détaillés pour un cluster ONTAP ou plusieurs nœuds d'un cluster ONTAP et de contrôleurs E-Series. Ces graphiques fournissent des données historiques de performances, qui peuvent être utilisées pour comprendre les tendances de performance et l'analyse de modèles. Vous pouvez sélectionner une date dans le calendrier pour afficher les graphiques de performance d'un jour, d'une semaine, d'un mois, de deux mois et de douze mois. Vous pouvez sélectionner plusieurs nœuds pour afficher un graphique en même temps.
+
+Vous pouvez définir les préférences, par exemple afficher un graphique pour trois nœuds ou deux graphiques pour trois nœuds.
+
+Lorsque le graphique est affiché pour la première fois, un onglet d'une semaine est présélectionné et présente les données pendant une semaine sous forme graphique afin de faciliter la compréhension de grandes quantités de données et de leur relation entre différentes séries de données. Si vous souhaitez réinitialiser la plage de dates, par exemple, vous pouvez cliquer sur l'onglet 1 mois et sélectionner dates dans le calendrier.
+
+Vous pouvez également effectuer un zoom avant sur le graphique de performances ; les points de données individuels sont affichés.
+
+video::fWrHYX17xT8[youtube,width=848,height=480]
+.Étapes
+. Dans le tableau de bord, cliquez sur *Performance*.
++
+Pour les systèmes ONTAP, vous pouvez cliquer sur l'onglet *nœud* pour afficher les performances d'un seul nœud d'un cluster ONTAP, cliquer sur l'onglet *niveau local* pour afficher les performances du niveau local, ou cliquer sur l'onglet *Volume* pour afficher les performances du volume. Par défaut, les performances du cluster sont affichées.
+
++
+Pour les systèmes E-Series, vous ne pouvez afficher les graphiques qu'au niveau du contrôleur.
+
+
+
+. Sélectionnez 1 jour, 1 semaine, 1 mois, 2 mois ou 12 mois, dans le calendrier, pour afficher les données de performances dans un format graphique.
++
+Par exemple, sélectionnez l'onglet 2 mois pour afficher les données pendant 2 mois. Vous pouvez ainsi afficher des données spécifiques pendant une durée en fonction de vos besoins en performances.
+
+. Les graphiques de performance suivants avec les mesures requises sont disponibles pour les clusters et les nœuds ONTAP :
+
+
+[cols="25,25,25,25"]
+|===
+| Pour Cluster | Pour nœud | Pour le niveau local | Pour Volume 
+
+
+| D'IOPS | Utilisation du processeur - pic de performances (marge) | Débit moyen | D'IOPS 
+
+
+| Débit du réseau | Latence | Utilisation moyenne | Latence 
+
+
+|  | D'IOPS |  |  
+
+
+|  | IOPS du protocole |  |  
+
+
+|  | Débit du réseau |  |  
+|===
+
+NOTE: Les graphiques de performance de latence des nœuds et les graphiques de performance des volumes sont pris en charge uniquement sur les systèmes qui exécutent ONTAP 9.2 et versions ultérieures.
+
+. Les graphiques de performance suivants ainsi que les mesures requises sont disponibles pour les contrôleurs E-Series :
++
+** Utilisation du processeur
+** Latence
+** D'IOPS
+** Débit
+
+
+

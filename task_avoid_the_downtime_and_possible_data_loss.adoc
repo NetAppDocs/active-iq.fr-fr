@@ -1,0 +1,36 @@
+---
+sidebar: sidebar 
+permalink: task_avoid_the_downtime_and_possible_data_loss.html 
+keywords: downtime, data loss, avoid downtime, avoid data loss 
+summary: 'Fournit des informations sur la manière d"éviter les temps d"indisponibilité et les pertes de données possibles.' 
+---
+= Évitez les temps d'indisponibilité et les pertes de données
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Lorsque vous vous connectez à Digital Advisor et remarquez le badge rouge sur le widget *disponibilité et protection*, vous pouvez prendre des mesures pour résoudre les risques critiques. Sans la correction du micrologiciel, ces disques risquent de ne pas fonctionner après un certain nombre d'heures de mise sous tension. La résolution de ce problème permettrait d'éviter à la fois les temps d'indisponibilité et les pertes éventuelles de données.
+
+.Étapes
+. Connectez-vous à Digital Advisor.
+. Cliquez sur *actions* dans le widget *disponibilité et protection*.image:Availability and protection_image 1 downtime and data loss.png["Disponibilité etamp ; widget protection"]
++
+Pour les risques de sécurité à fort impact, suivez l'action recommandée qui consiste à mettre à jour le firmware des disques.
+
+. Cliquez sur le lien *Nom du risque* pour afficher le résumé des risques.image:Risk summary_image 2 downtime and data loss.png["Résumé des risques"]
+. Cliquez sur l'onglet *risques uniques*, puis cliquez sur le lien dans la colonne *action corrective*.image:Corrective action_image 3 downtime and data loss.png["Action corrective"]
++
+Digital Advisor génère des scripts Ansible personnalisés ou des playbooks pour mettre à jour le firmware du disque requis, y compris les fichiers du firmware du disque.
+
+. Cliquez sur l'icône *Ansible “A”* pour générer et télécharger les scripts.image:Update AFF and FAS Firmware_image 4 downtime and data loss.png["Firmwares des disques AFF et FAS"]
+

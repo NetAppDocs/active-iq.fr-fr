@@ -1,0 +1,54 @@
+---
+sidebar: sidebar 
+permalink: task_generate_drift_timeline_report.html 
+keywords: reports, generate reports, drift timeline, drift timeline report, AutoSupport data 
+summary: Fournit des informations permettant de générer des rapports de chronologie de dérive. 
+---
+= Générer un rapport de chronologie de dérive
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Vous pouvez comparer les données AutoSupport des 90 derniers jours et générer un rapport fournissant des informations sur les événements et les écarts de configuration qui se sont produits.
+
+.Étapes
+. Dans le volet de gauche, cliquez sur *Config dérive*.
+. Sélectionnez le type de rapport *Drift Timeline*.
+. Générer un rapport de chronologie de dérive
++
+Vous pouvez générer un rapport immédiatement ou planifier la génération du rapport sur une base hebdomadaire ou mensuelle.
+
+
+
+[cols="50,50"]
+|===
+| Pour générer un rapport immédiatement | Pour planifier la génération du rapport sur une base hebdomadaire ou mensuelle 
+
+
+ a| 
+. Sélectionnez une catégorie et fournissez les valeurs requises pour le rapport.
+. Sélectionnez l'option *inclure uniquement les dérives* pour télécharger uniquement les changements de déviation de configuration.
+. Cliquez sur *soumettre*.
+. link:task_generate_reports.html["Téléchargez et affichez le rapport de la chronologie des dérive"].
+
+ a| 
+. Cliquez sur l'onglet *Rapport de planification*.
+. Sélectionnez une catégorie et fournissez les valeurs requises pour le rapport.
+. Sélectionnez l'option *inclure uniquement les dérives* pour télécharger uniquement les changements de déviation de configuration.
+. Sélectionnez la fréquence du rapport.
+. Sélectionnez la date de début et la date de fin du rapport.
+. Cliquez sur *soumettre*.
+. link:task_generate_reports.html["Téléchargez et affichez le rapport de la chronologie des dérive"].
+
+
+|===

@@ -1,0 +1,53 @@
+---
+sidebar: sidebar 
+permalink: task_update_AFF_FAS_firmware.html 
+keywords: update, AFF, FAS firmware, firmware 
+summary: La section fournit des informations sur la mise à jour du micrologiciel AFF et FAS. 
+---
+= Téléchargez le pack Ansible Automation du firmware AFF et FAS
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Pour limiter les risques identifiés et maintenir à jour votre système de stockage, nous vous recommandons de mettre à jour le firmware AFF et FAS à l'aide d'Ansible.
+
+
+
+== Avant de commencer
+
+Avant de mettre à jour le firmware AFF et FAS à l'aide d'Ansible, vous devez :
+
+* link:https://netapp.io/2018/10/08/getting-started-with-netapp-and-ansible-install-ansible/["Installez et configurez Ansible sur votre système de stockage"]
+* link:https://netapp.io/2019/09/17/coming-together-nicely/["Installez Ansible 2.9 avec les collections de votre système de stockage"]
+* Mettez à niveau votre système de stockage vers ONTAP 9.1 ou une version ultérieure
+* Configurez votre compte avec un rôle d'administrateur
+
+
+.Étapes
+. Cliquez sur n'importe quel widget d'intégrité du tableau de bord ou cliquez sur *Afficher toutes les actions* pour afficher la liste de toutes les actions et de tous les risques.
+. Cliquez sur *Firmware Upgrade* pour afficher tous les risques de mise à niveau du micrologiciel.
+. Cliquez sur *mettre à jour le micrologiciel AFF et FAS* pour afficher tous les progiciels de mise à jour disponibles ou cliquez sur image:update_ansible.png["Mettez à jour Ansible"] à côté de chaque risque pour mettre à jour le package spécifique à ce risque.
+. Cliquez sur *Télécharger* pour télécharger les fichiers zip et mettre à jour votre système de stockage.
++
+Le fichier zip contient les éléments suivants :
+
++
+** Ansible PlayBook : fichier YAML contenant le script Ansible afin de procéder aux mises à jour du firmware du disque, du tiroir et du processeur de service.
+** Inventaire - fichier YAML contenant les détails des systèmes applicables aux mises à jour du micrologiciel.
+** Les packages de microprogramme de disques, de tiroirs et de processeur de service/BMC sont nommés respectivement *All.zip*, *All_shelf_fw.zip* et *<SP/BMC>_<numéro_version>_fw.zip*.
+
+
+
+
+
+NOTE: L'ajout manuel de clusters et de contrôleurs au fichier d'inventaire n'est pas pris en charge.

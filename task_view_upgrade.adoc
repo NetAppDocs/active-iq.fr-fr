@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: task_view_upgrade.html 
+keywords: upgrade, ONTAP version, upgrade advisor, upgrade plan, risk advisor, pending upgrades 
+summary: 'Le fournit des informations permettant d"afficher et de mettre à niveau la version ONTAP de votre système de stockage.' 
+---
+= Mettez à niveau la version de ONTAP en générant un plan de mise à niveau
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Vous pouvez afficher les mises à niveau en attente de votre système de stockage et effectuer une mise à niveau vers une version plus récente de ONTAP en générant un plan de mise à niveau. Vous devez également afficher la liste des risques dans l'onglet *Risk Advisor* qui serait mitiger en raison de la mise à niveau.
+
+.Étapes
+. Sur le tableau de bord, affichez les mises à niveau en attente dans le widget *mises à niveau*.image:upgrade_advisor_widget.png["Upgrade Advisor"]
+. Cliquez sur le nombre de *actions* pour afficher les mises à niveau en attente.
+. Sélectionnez l'option de mise à niveau requise.image:upgrade_options.png["Options de mise à niveau"]
+. Cliquez sur le nombre de systèmes affichés dans le widget pour afficher l'onglet *Upgrade Advisor*.
++
+Vous pouvez également consulter les notes de version pour afficher des informations détaillées sur la version.image:generate_upgrade_plan.png["Générer un plan de mise à niveau"]
+
+. Affichez la liste des risques dans l'onglet *Risk Advisor*, ainsi que leur niveau de gravité, qui serait atténué en raison de la mise à niveau.
+. Cliquez sur *générer un plan de mise à niveau* pour accéder à *Upgrade Advisor*.
+

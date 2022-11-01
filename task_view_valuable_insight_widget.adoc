@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task_view_valuable_insight_widget.html 
+keywords: valuable insight, support cases, storage efficiency savings, mitigated risks 
+summary: Fournit des informations sur le widget Insight précieux. 
+---
+= Affichez des informations exploitables
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Le widget * précieuses Insights* fournit des informations sur le nombre de cas d'assistance, les mises à niveau logicielles en attente, les économies d'efficacité du stockage, les risques atténués, etc. Il répertorie également de manière proactive les notifications de risque de l'attribut *mieux-être*.
+
+video::QPJY2TWnRxQ[youtube,width=848,height=480]
+.Étapes
+. Dans le widget *Inventory*, cliquez sur *Systems* pour afficher les informations système de toutes les plates-formes ou cliquez sur le type de plate-forme, puis sur *Systems* pour afficher les systèmes spécifiques à cette plate-forme.
+. Cliquez sur le nœud ou sur le cluster pour afficher des informations détaillées sur le système.
++
+Le widget *précieux Insights* est disponible sur le tableau de bord.
+
+. Consultez les informations contenues dans ce widget pour comprendre la valeur commerciale et technique obtenue grâce à votre contrat de support.
+

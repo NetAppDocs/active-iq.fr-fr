@@ -1,0 +1,57 @@
+---
+sidebar: sidebar 
+permalink: task_compare_config_drift_template.html 
+keywords: config deviation, drift, configuration, compare template 
+summary: Fournit des informations pour comparer un modèle de dérive de configuration. 
+---
+= Comparer un modèle de dérive de configuration
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Vous pouvez comparer les configurations système et cluster et détecter les écarts de configuration en temps quasi réel.
+
+.Étapes
+. Dans le volet de gauche, cliquez sur *Config dérive*.
+. Sélectionnez l'un des modèles existants ou cliquez sur *Ajouter un modèle* pour ajouter un nouveau modèle.
+. Générer un rapport de dérive de configuration
++
+Vous pouvez générer un rapport immédiatement ou planifier la génération du rapport sur une base hebdomadaire ou mensuelle.
+
+
+
+[cols="50,50"]
+|===
+| Pour générer un rapport immédiatement | Pour planifier la génération du rapport sur une base hebdomadaire ou mensuelle 
+
+
+ a| 
+. Sélectionnez une catégorie et fournissez les valeurs requises pour le rapport.
+. Sélectionnez l'option *inclure uniquement les dérives* pour télécharger uniquement les changements de déviation de configuration.
+. Cliquez sur *soumettre*.
+. link:task_generate_reports.html["Téléchargez et affichez le rapport de dérive de configuration"].
+. Exécutez un PlayBook Ansible (inclus dans le rapport de dérive de configuration) pour limiter les dérives.
+
+ a| 
+. Cliquez sur l'onglet *Rapport de planification*.
+. Sélectionnez une catégorie et fournissez les valeurs requises pour le rapport.
+. Sélectionnez l'option *inclure uniquement les dérives* pour télécharger uniquement les changements de déviation de configuration.
+. Sélectionnez la fréquence du rapport.
+. Sélectionnez la date de début et la date de fin du rapport.
+. Cliquez sur *soumettre*.
+. link:task_generate_reports.html["Téléchargez et affichez le rapport de dérive de configuration"].
+. Exécutez un PlayBook Ansible (inclus dans le rapport de dérive de configuration) pour limiter les dérives.
+
+
+|===
+Un e-mail contenant les détails de la déviation de configuration entre les systèmes sélectionnés est envoyé.

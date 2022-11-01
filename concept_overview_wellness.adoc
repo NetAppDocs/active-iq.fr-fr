@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_wellness.html 
+keywords: overview, wellness, risk types, risk definition, mitigate risks, performance, configuration, renewal, risk, remediation 
+summary: Fournit des informations sur le bien-être et les types de risques, qui vous aident à améliorer votre système de stockage. 
+---
+= Compréhension du bien-être
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Le widget bien-être fournit des informations détaillées sur votre système de stockage. Il fournit des informations sur les différents attributs de votre système de stockage, tels que les performances et l'efficacité, la capacité, les paramètres de configuration, les vulnérabilités de sécurité, les renouvellements et autres.
+
+image:wellness_workflow.png["flux de travail bien-être"]
+
+Le widget Wellness fournit également des informations sur les risques et les actions qui doivent être prises pour atténuer le risque pour chaque attribut Wellness. Voici les types de risques et les conséquences associées pour chaque risque :
+
+[cols="25,75"]
+|===
+| Type de risque | Conséquence 
+
+
+| Primordial | Perte de données, corruption des données, panne des données du cluster, problème de sécurité personnel ou problème de conformité juridique potentiel. 
+
+
+| Élevée | Perte à court terme de l'accès aux données ou perte prolongée de la redondance des nœuds. 
+
+
+| Moyen | La dégradation des performances ou la perte à court terme de la redondance d'un nœud 
+
+
+| Faible | Scénarios à faible impact 
+
+
+| Meilleure pratique | Écarts par rapport aux meilleures pratiques documentées 
+|===
+Vous pouvez visionner la vidéo suivante pour comprendre l'importance des attributs de bien-être :
+
+video::-lTF3oWZB1M[youtube,width=848,height=480]

@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task_add_config_drift_template.html 
+keywords: config deviation, drift, configuration, add template 
+summary: Fournit des informations pour ajouter un modèle de dérive de configuration. 
+---
+= Ajouter un modèle de dérive de configuration
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Vous devez ajouter un modèle pour comparer les configurations système et cluster et détecter les écarts de configuration en temps quasi réel. Les modèles de dérive de configuration sont ajoutés à l'aide de systèmes qui exécutent les données AutoSupport.
+
+.Étapes
+. Dans le volet de gauche, cliquez sur *Config dérive*.
+. Cliquez sur *Ajouter un modèle*.
+. Indiquez les valeurs demandées.
+. Facultatif : cliquez sur *Modifier* pour modifier le modèle.
+. Cliquez sur *Ajouter un modèle*.
+

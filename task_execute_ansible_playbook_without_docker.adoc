@@ -1,0 +1,67 @@
+---
+sidebar: sidebar 
+permalink: task_execute_ansible_playbook_without_docker.html 
+keywords: Ansible Playbook, Ansible, playbook, without docker 
+summary: 'Fournit des informations sur l"exécution de Ansible PlayBook à l"aide de l"image docker.' 
+---
+= Exécutez le manuel de vente Ansible sans image NetApp Docker
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+.Étapes
+. Installer link:https://docs.python.org/3/using/windows.html["Python"] et link:https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html["Ansible"].
+. Installez les modules Python requis à l'aide de *pip* :
++
+[listing]
+----
+$ pip install netapp-lib requests paramiko
+ 
+Installing collected packages: netapp-lib, requests, paramiko
+Successfully installed netapp-lib-2020.3.12 requests-2.23.0  paramiko-2.7.2
+----
+. Installer la collection NetApp Ansible à l'aide de la commande *ansible-Galaxy* :
++
+[listing]
+----
+To install the collection only for the current user
+$ ansible-galaxy collection install netapp.ontap
+ 
+To do a more universal installation,
+$ ansible-galaxy collection install netapp.ontap -p /usr/share/ansible/collections
+
+$ chmod -R +rw /usr/share/ansible/collections
+----
++
+Pour plus d'informations sur la commande ansible-Galaxy, voir link:https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html["Documentation Ansible Galaxy"] Pour plus d'informations sur la collection NetApp Ansible, consultez le link:https://galaxy.ansible.com/netapp/ontap["Page de collecte NetApp Ansible"].
+
+. Exécutez le PlayBook Ansible à l'aide de la commande *ansible-PlayBook* :
++
+[listing]
+----
+$ cd <downloaded_playbook_path>
+$ ansible-playbook na_ontap_pb_upgrade_firmware.yml
+ 
+Enter your ONTAP admin username: ****
+Enter the password for your ONTAP admin user: ****
+Enter the base URL to the firmware package (using HTTP is recommended): http://<web-server>/path/
+PLAY [ONTAP Firmware Upgrade] ****************************************************************
+----
++
+
+NOTE: Si un ensemble de clusters avec différents identifiants de connexion est défini, le PlayBook Ansible doit être exécuté sur chaque cluster. Aucune modification n'est nécessaire au fichier d'inventaire car Ansible PlayBook ignore les clusters pour lesquels la connexion a échoué.
+
+
+
+Pour plus d'informations sur la commande *ansible-PlayBook*, reportez-vous au link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Documentation relative au manuel de vente Ansible"] Et pour exécuter le Ansible PlayBook en mode vérification (exécution à sec), reportez-vous à la link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible : mode de vérification"].
+
+Après avoir exécuté le manuel de vente, reportez-vous au link:task_validate_firmware_installation.html["Validations de l'installation du micrologiciel"] pour les instructions post-exécution.

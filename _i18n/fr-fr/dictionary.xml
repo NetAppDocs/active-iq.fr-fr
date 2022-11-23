@@ -1201,7 +1201,6 @@
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Commencez</block>
   <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">Démarrage rapide</block>
   <block id="e179ba0b158b2a7f9047aea26b6a2227" category="sidebar">Découvrez AutoSupport</block>
-  <block id="87ff2175a631a03e0b15d2041aab4f9f" category="sidebar">Gérez vos clusters dans BlueXP</block>
   <block id="f9e8725fc2db4a86d0c8d9ae95581d74" category="sidebar">Liste de surveillance des provisions</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">Présentation</block>
   <block id="a847a249ea34e3557fd4b0faa9b1a58c" category="sidebar">Affichez les risques qui peuvent être atténués automatiquement à l'aide de Active IQ Unified Manager ou du PlayBook Ansible</block>
@@ -1243,4 +1242,5 @@
   <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Vidéos Digital Advisor</block>
   <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">Communauté NetApp : conseiller digital</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Toute la documentation BlueXP</block>
+  <block id="8081688f219c172dde2cb99dbacc51d8" category="doc">Prenez des décisions avisées en fonction des recommandations sur le cloud</block>
 </blocks>

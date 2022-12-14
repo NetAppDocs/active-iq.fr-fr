@@ -317,4 +317,4 @@ Pour StorageGRID, les capacités sont affichées dans la base 10 et l'unité de 
 * Les systèmes sont inactifs
 
 
-Si vous ne parvenez pas à afficher les systèmes pour d'autres raisons, link:https://mysupport.netapp.com/site/help["créer un dossier non technique"]. Pour en savoir plus sur un dossier non technique, cliquez sur  case,ici.
+Si vous ne parvenez pas à afficher les systèmes pour d'autres raisons, link:https://mysupport.netapp.com/site/help["créer un dossier non technique"]. Pour en savoir plus sur un dossier non technique, cliquez sur <<Cas non technique,ici.>>

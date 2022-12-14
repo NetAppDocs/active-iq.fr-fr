@@ -19,6 +19,7 @@ summary: 'Fournit des informations sur l"exécution de Ansible PlayBook à l"aid
 
 
 .Étapes
+[role="lead"]
 . Installer link:https://docs.python.org/3/using/windows.html["Python"] et link:https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html["Ansible"].
 . Installez les modules Python requis à l'aide de *pip* :
 +

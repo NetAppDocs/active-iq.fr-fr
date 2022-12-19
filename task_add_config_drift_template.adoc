@@ -21,10 +21,41 @@ summary: Fournit des informations pour ajouter un modèle de dérive de configur
 [role="lead"]
 Vous devez ajouter un modèle pour comparer les configurations système et cluster et détecter les écarts de configuration en temps quasi réel. Les modèles de dérive de configuration sont ajoutés à l'aide de systèmes qui exécutent les données AutoSupport.
 
+*À propos de cette tâche*
+
+Les attributs d'un modèle de dérive de configuration sont modifiables et les groupes suivants du modèle prennent en charge les expressions régulières pour certaines sections :
+
+[cols="3*"]
+|===
+| Groupe | Section | Attribut 
+
+
+| *AGRÉGAT* | AGGR-INFO.XML | nom 
+
+
+| *CLUSTER* | CLUSTER-INFO.XML | nom du cluster 
+
+
+| *LUN* | LUN.XML | nom 
+
+
+| *VSERVER* | VSERVER-INFO.XML | un vserver 
+
+
+| *RÉSEAU* | NETWORK-INTERFACE.XML | vif 
+
+
+| *DNS* | DNS.XML | domaines 
+
+
+| *VOLUME* | VOLUME.XML | vol 
+|===
+À l'aide d'une expression régulière, un utilisateur peut créer un rapport de dérive de configuration qui inclut des dérives résultant de l'attribution d'un nom à des incohérences de volumes, d'agrégats, de clusters, etc. Par exemple, si une expression régulière *nom_aggr** est mentionnée pour l'attribut *Nom* pour la section *AGGR-INFO.XML* du groupe *AGRÉGAT*, alors les valeurs de l'attribut sans le préfixe *nom-aggr* sont marquées comme un poinçon lorsque le rapport de dérive de configuration est généré.
+
 .Étapes
 . Dans le volet de gauche, cliquez sur *Config dérive*.
 . Cliquez sur *Ajouter un modèle*.
 . Indiquez les valeurs demandées.
-. Facultatif : cliquez sur *Modifier* pour modifier le modèle.
+. Facultatif : vous pouvez personnaliser le modèle en modifiant les groupes ou en supprimant les groupes non requis pour un modèle.
 . Cliquez sur *Ajouter un modèle*.
 

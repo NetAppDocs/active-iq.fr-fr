@@ -632,7 +632,6 @@
   <block id="ee67d4518095f8899eb8244097de7a35" category="paragraph">L'activation est automatique et doit être instantanée. Une fois que vous avez été autorisé à utiliser les API Digital Advisor, vous pouvez générer des jetons à utiliser lors des appels d'API programmatiques. Vous pouvez également utiliser ces jetons pour exécuter "essayez-les" à partir du catalogue d'API. Lorsqu'ils sont obtenus par programmation, les tokens sont toujours fournis par deux : un token d'accès et un token d'actualisation. Le token d'accès doit être transmis pour utiliser correctement toutes les API (à l'exception d'une : le token d'actualisation est utilisé pour obtenir par programmation un nouvel ensemble de tokens).</block>
   <block id="e26d70ef5011218a0e0d472d10f783bb" category="list-text">Sur la page principale des services d'API, cliquez sur *Generate Token* pour afficher et télécharger le jeton d'accès et actualiser le jeton pour appeler les API.</block>
   <block id="99a9cfa523a42e23621796dfca6edb0a" category="paragraph">Le portail vous offre plusieurs façons d'enregistrer un ou les deux jetons dans le jeu. Vous pouvez les copier dans le presse-papiers, les télécharger sous forme de fichier texte ou les afficher sous forme de texte brut.</block>
-  <block id="ce35b219dc5f96e6b0eb25a2bb2623b6" category="admonition">Vous devez télécharger et enregistrer le jeton d'accès et actualiser le jeton pour une utilisation ultérieure. Les jetons d'accès expirent une heure après la génération et l'actualisation des jetons doivent être régénérés tous les 7 jours et installés dans l'application. Au bout de 90 jours, vous devrez vous connecter manuellement et obtenir un nouveau jeton d'accès et d'actualisation.</block>
   <block id="30a3a5781ffac6a88cce2ccd6925d533" category="doc">Protégez les systèmes contre les risques ransomwares</block>
   <block id="ea91f255c0d20a5fbac87ebc9647b943" category="paragraph">Lorsque vous vous connectez à Digital Advisor, vous pouvez afficher les *actions* mises en surbrillance dans le widget *protection contre les attaques par ransomware*, qui affiche le nombre de risques.</block>
   <block id="a65c2a1d83d8e29315151edd9cb20614" category="paragraph">Vous pouvez afficher la création de copies Snapshot, la conservation et les risques liés à ONTAP FPolicy, puis prendre des mesures pour les corriger.</block>
@@ -1078,7 +1077,6 @@
   <block id="a90d025280adc02fe67b217063675d0d" category="paragraph">Vous devez ajouter un modèle pour comparer les configurations système et cluster et détecter les écarts de configuration en temps quasi réel. Les modèles de dérive de configuration sont ajoutés à l'aide de systèmes qui exécutent les données AutoSupport.</block>
   <block id="88b68e34df9db916b4fe94948231ccbb" category="list-text">Cliquez sur *Ajouter un modèle*.</block>
   <block id="db3c8b301a3ce6ee5fa41ab7a54740f3" category="list-text">Indiquez les valeurs demandées.</block>
-  <block id="d2f9c6e3559cfd668d1e78b444103c0a" category="list-text">Facultatif : cliquez sur *Modifier* pour modifier le modèle.</block>
   <block id="b073ca01338f5dd8d8a707598c797762" category="summary">Fournit des informations sur le suivi de l'efficacité de votre système de stockage.</block>
   <block id="c116684e616e0ce2787b26417c569f60" category="doc">Compréhension de l'efficacité du stockage</block>
   <block id="054285913eee18981aea3554542786c2" category="paragraph">Le tableau de bord sur l'efficacité du stockage affiche le taux d'efficacité du stockage, l'espace logique utilisé, l'espace physique utilisé et les données totales économisées pour les systèmes de stockage exécutant ONTAP 9.1 et versions ultérieures. Le taux d'efficacité et les économies sont visibles avec et sans copies Snapshot pour les systèmes AFF, les systèmes non AFF ou les deux. Vous pouvez afficher les informations relatives à l'efficacité du stockage au niveau du cluster ou du nœud.</block>
@@ -1243,4 +1241,31 @@
   <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">Communauté NetApp : conseiller digital</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Toute la documentation BlueXP</block>
   <block id="8081688f219c172dde2cb99dbacc51d8" category="doc">Prenez des décisions avisées en fonction des recommandations sur le cloud</block>
+  <block id="e404f7c0800eac65e5e44442bb4fd0cc" category="admonition">Vous devez télécharger et enregistrer le jeton d'accès et actualiser le jeton pour une utilisation ultérieure. Les jetons d'accès expirent une heure après la génération et l'actualisation des jetons doivent être régénérés, manuellement, tous les 7 jours et installés dans l'application. Pour ce faire, vous n'avez pas besoin de vous connecter à l'application. Toutefois, après 90 jours, vous devez vous connecter à l'application pour obtenir un nouvel accès et actualiser le jeton.</block>
+  <block id="73924ddc2c905c2855a59dc4ad4e29a7" category="paragraph">Les attributs d'un modèle de dérive de configuration sont modifiables et les groupes suivants du modèle prennent en charge les expressions régulières pour certaines sections :</block>
+  <block id="03937134cedab9078be39a77ee3a48a0" category="cell">Groupe</block>
+  <block id="d2c24d59e0baff4d0155fbdf62590867" category="cell">Section</block>
+  <block id="f2bbdf9f72c085adc4d0404e370f0f4c" category="cell">Attribut</block>
+  <block id="47b593c5940e25582a1dca06739b46cc" category="cell">*AGRÉGAT*</block>
+  <block id="f2cfee1656082de62bc61d6f6d957ee8" category="cell">AGGR-INFO.XML</block>
+  <block id="b068931cc450442b63f5b3d276ea4297" category="cell">nom</block>
+  <block id="3beefed1659b0c09798f370bfefeb567" category="cell">*CLUSTER*</block>
+  <block id="a8b8f7083d259c319bbdcf79e8c313b0" category="cell">CLUSTER-INFO.XML</block>
+  <block id="508767cc5bdfeffacaf1319fa70b7e0c" category="cell">nom du cluster</block>
+  <block id="630cd03f677631daf198ae03114b0479" category="cell">*LUN*</block>
+  <block id="72c32ad6105c949470e7cdcebb8e7fa8" category="cell">LUN.XML</block>
+  <block id="e0d26a956299752ba1653e4bf057b332" category="cell">*VSERVER*</block>
+  <block id="affe66842f15d0d82eebb388d829d8c4" category="cell">VSERVER-INFO.XML</block>
+  <block id="5999e4ab912c7c1d8aa6fd2225491ef2" category="cell">un vserver</block>
+  <block id="dd2630f76030cb00e6fa7980733e4c78" category="cell">*RÉSEAU*</block>
+  <block id="3520aa027a7702ae4b2c5c34dd772347" category="cell">NETWORK-INTERFACE.XML</block>
+  <block id="91dd16eb6eb42839df38f62bfc3cda48" category="cell">vif</block>
+  <block id="1f837483a812efd2e08b2a3e12d8b02c" category="cell">*DNS*</block>
+  <block id="28dd299428285a11cb6458603bf1c56d" category="cell">DNS.XML</block>
+  <block id="e4e46deb7f9cc58c7abfb32e5570b6f3" category="cell">domaines</block>
+  <block id="218a984781458a9d1b3c02030403fee9" category="cell">*VOLUME*</block>
+  <block id="583d69a4a79378ddaf1cd955ffc0c3eb" category="cell">VOLUME.XML</block>
+  <block id="0acf8be1231e24946c3d10b649fb576f" category="cell">vol</block>
+  <block id="21f34cc44dc8079bb3c3e391a241dae2" category="paragraph">À l'aide d'une expression régulière, un utilisateur peut créer un rapport de dérive de configuration qui inclut des dérives résultant de l'attribution d'un nom à des incohérences de volumes, d'agrégats, de clusters, etc. Par exemple, si une expression régulière *nom_aggr** est mentionnée pour l'attribut *Nom* pour la section *AGGR-INFO.XML* du groupe *AGRÉGAT*, alors les valeurs de l'attribut sans le préfixe *nom-aggr* sont marquées comme un poinçon lorsque le rapport de dérive de configuration est généré.</block>
+  <block id="2eb59240b774cdd59bd034ded7487a51" category="list-text">Facultatif : vous pouvez personnaliser le modèle en modifiant les groupes ou en supprimant les groupes non requis pour un modèle.</block>
 </blocks>

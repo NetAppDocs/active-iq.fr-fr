@@ -35,4 +35,4 @@ Le portail vous offre plusieurs façons d'enregistrer un ou les deux jetons dans
 
 
 
-NOTE: Vous devez télécharger et enregistrer le jeton d'accès et actualiser le jeton pour une utilisation ultérieure. Les jetons d'accès expirent une heure après la génération et l'actualisation des jetons doivent être régénérés tous les 7 jours et installés dans l'application. Au bout de 90 jours, vous devrez vous connecter manuellement et obtenir un nouveau jeton d'accès et d'actualisation.
+NOTE: Vous devez télécharger et enregistrer le jeton d'accès et actualiser le jeton pour une utilisation ultérieure. Les jetons d'accès expirent une heure après la génération et l'actualisation des jetons doivent être régénérés, manuellement, tous les 7 jours et installés dans l'application. Pour ce faire, vous n'avez pas besoin de vous connecter à l'application. Toutefois, après 90 jours, vous devez vous connecter à l'application pour obtenir un nouvel accès et actualiser le jeton.

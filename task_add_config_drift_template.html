@@ -1451,7 +1451,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-11-17 05:57:19 +0000">11/17/2022</time>
+    <time datetime="2022-12-19 06:10:21 +0000">12/19/2022</time>
     
   
 
@@ -1463,6 +1463,66 @@
 
 <div class="paragraph lead">
 <p>Vous devez ajouter un modèle pour comparer les configurations système et cluster et détecter les écarts de configuration en temps quasi réel. Les modèles de dérive de configuration sont ajoutés à l&#8217;aide de systèmes qui exécutent les données AutoSupport.</p>
+</div>
+<div class="paragraph">
+<p><strong>À propos de cette tâche</strong></p>
+</div>
+<div class="paragraph">
+<p>Les attributs d&#8217;un modèle de dérive de configuration sont modifiables et les groupes suivants du modèle prennent en charge les expressions régulières pour certaines sections :</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Groupe</th>
+<th class="tableblock halign-left valign-top">Section</th>
+<th class="tableblock halign-left valign-top">Attribut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>AGRÉGAT</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">AGGR-INFO.XML</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">nom</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>CLUSTER</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CLUSTER-INFO.XML</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">nom du cluster</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>LUN</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">LUN.XML</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">nom</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>VSERVER</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">VSERVER-INFO.XML</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">un vserver</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>RÉSEAU</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">NETWORK-INTERFACE.XML</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">vif</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>DNS</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">DNS.XML</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">domaines</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>VOLUME</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">VOLUME.XML</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">vol</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>À l&#8217;aide d&#8217;une expression régulière, un utilisateur peut créer un rapport de dérive de configuration qui inclut des dérives résultant de l&#8217;attribution d&#8217;un nom à des incohérences de volumes, d&#8217;agrégats, de clusters, etc. Par exemple, si une expression régulière <strong>nom_aggr</strong>* est mentionnée pour l&#8217;attribut <strong>Nom</strong> pour la section <strong>AGGR-INFO.XML</strong> du groupe <strong>AGRÉGAT</strong>, alors les valeurs de l&#8217;attribut sans le préfixe <strong>nom-aggr</strong> sont marquées comme un poinçon lorsque le rapport de dérive de configuration est généré.</p>
 </div>
 <div class="olist arabic">
 <div class="title">Étapes</div>
@@ -1477,7 +1537,7 @@
 <p>Indiquez les valeurs demandées.</p>
 </li>
 <li>
-<p>Facultatif : cliquez sur <strong>Modifier</strong> pour modifier le modèle.</p>
+<p>Facultatif : vous pouvez personnaliser le modèle en modifiant les groupes ou en supprimant les groupes non requis pour un modèle.</p>
 </li>
 <li>
 <p>Cliquez sur <strong>Ajouter un modèle</strong>.</p>

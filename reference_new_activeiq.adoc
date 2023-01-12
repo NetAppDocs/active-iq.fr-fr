@@ -23,6 +23,16 @@ Les fonctionnalités et améliorations suivantes ont été introduites dans Digi
 
 
 
+== 12 janvier 2023
+
+
+
+=== Rapports sur les performances
+
+Vous pouvez afficher la moyenne des opérations de lecture, d'écriture et autres opérations dans les rapports de performances au niveau du volume.
+
+
+
 == 01 novembre 2022
 
 

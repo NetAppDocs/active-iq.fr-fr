@@ -46,7 +46,7 @@ Les types de rapports disponibles dans Digital Advisor sont les suivants :
 | Inventaire | Fournit des informations sur la base d'installation pour une liste de surveillance, un client, un site, des niveaux de groupe sélectionnés. Ce rapport peut être généré sous forme de téléchargement direct à partir de la page Détails de l'inventaire ou à partir de la page Rapports. 
 
 
-| Fin de vie | Fournit des informations sur la liste des contrôleurs, tiroirs et disques qui ont atteint la fin de prise en charge (EOS). 
+| Contrats de support/support matériel EOS | Fournit des informations sur la liste des contrôleurs, tiroirs et disques qui ont atteint la fin de prise en charge (EOS). 
 
 
 | Configuration recommandée | Fournit des informations sur les différents écarts de configuration recommandés pour la configuration de la gestion à distance, les disques de secours et de disques, la paire haute disponibilité et l'état de santé des SVM. 
@@ -68,4 +68,7 @@ Les types de rapports disponibles dans Digital Advisor sont les suivants :
 
 
 | Rapport sur les performances | Fournit des informations, au niveau de la liste de surveillance, sur les performances d'un cluster, d'un nœud, d'un niveau local (agrégat) et d'un volume. Vous ne pouvez générer ce rapport que pour la liste de surveillance comportant jusqu'à 100 nœuds. 
+
+
+| Densité des E/S. | Le rapport sur la densité des E/S fournit des informations concernant les pics d'opérations d'entrée/sortie pour les clients en termes de consommation et de densité des données et des métadonnées. 
 |===

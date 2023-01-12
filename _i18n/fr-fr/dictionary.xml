@@ -377,7 +377,6 @@
   <block id="7eaee357275d531796b5348076c7abaa" category="cell">Fournit des informations concernant les données inactives, inactives, actives, hiérarchisées et données non surveillées. Ce rapport comprend également un PlayBook Ansible pour l'activation du reporting des données inactives sur les agrégats désactivés.</block>
   <block id="4d604dd8f008145471dc845683399189" category="cell">Inventaire</block>
   <block id="2a414d2cb2f384ea04369dd0623dab64" category="cell">Fournit des informations sur la base d'installation pour une liste de surveillance, un client, un site, des niveaux de groupe sélectionnés. Ce rapport peut être généré sous forme de téléchargement direct à partir de la page Détails de l'inventaire ou à partir de la page Rapports.</block>
-  <block id="7a1964d60060b532bf912499ef0e5419" category="cell">Fin de vie</block>
   <block id="945bdabc5825ce732fb5d22e7dd80610" category="cell">Fournit des informations sur la liste des contrôleurs, tiroirs et disques qui ont atteint la fin de prise en charge (EOS).</block>
   <block id="8a12eef10db15850c4fa22387e8a4ff9" category="cell">Configuration recommandée</block>
   <block id="c829d71ff8f116d3f11dc69d03aa4c34" category="cell">Fournit des informations sur les différents écarts de configuration recommandés pour la configuration de la gestion à distance, les disques de secours et de disques, la paire haute disponibilité et l'état de santé des SVM.</block>
@@ -1268,4 +1267,10 @@
   <block id="0acf8be1231e24946c3d10b649fb576f" category="cell">vol</block>
   <block id="21f34cc44dc8079bb3c3e391a241dae2" category="paragraph">À l'aide d'une expression régulière, un utilisateur peut créer un rapport de dérive de configuration qui inclut des dérives résultant de l'attribution d'un nom à des incohérences de volumes, d'agrégats, de clusters, etc. Par exemple, si une expression régulière *nom_aggr** est mentionnée pour l'attribut *Nom* pour la section *AGGR-INFO.XML* du groupe *AGRÉGAT*, alors les valeurs de l'attribut sans le préfixe *nom-aggr* sont marquées comme un poinçon lorsque le rapport de dérive de configuration est généré.</block>
   <block id="2eb59240b774cdd59bd034ded7487a51" category="list-text">Facultatif : vous pouvez personnaliser le modèle en modifiant les groupes ou en supprimant les groupes non requis pour un modèle.</block>
+  <block id="65ad691748c94924b6f326c7c9439c6f" category="section-title">12 janvier 2023</block>
+  <block id="af8ffc565aa8e5b74351ac5b3619d11e" category="section-title">Rapports sur les performances</block>
+  <block id="da1d47d31f2c9af4c95e87ea269228d6" category="paragraph">Vous pouvez afficher la moyenne des opérations de lecture, d'écriture et autres opérations dans les rapports de performances au niveau du volume.</block>
+  <block id="02e55cfbe6e55152bef274ca4a6a3d14" category="cell">Contrats de support/support matériel EOS</block>
+  <block id="e5f2463f379aba48a0f9ca6c913203cc" category="cell">Densité des E/S.</block>
+  <block id="7f5c8fc8352c3e254ac3f5c7cf32c466" category="cell">Le rapport sur la densité des E/S fournit des informations concernant les pics d'opérations d'entrée/sortie pour les clients en termes de consommation et de densité des données et des métadonnées.</block>
 </blocks>

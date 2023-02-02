@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: task_view_keystone_capacity_utilization.html 
+permalink: view_keystone_capacity_utilization.html 
 keywords: keystone, capacity utilization, service tiers, Keystone subscription, keystone subscription, shares, disks 
 summary: 'Fournit des informations sur l"utilisation de votre capacité avec l"abonnement NetApp Keystone Flex.' 
 ---
@@ -30,12 +30,4 @@ Vous pouvez afficher le link:https://docs.netapp.com/us-en/keystone/nkfsosm_keys
 
 NOTE: En tant qu'utilisateur conseiller numérique, vous pouvez choisir entre ONTAP Collector et AutoSupport pour obtenir des données sur votre utilisation de capacité.
 
-.Étapes
-. Cliquez sur *View Details* pour afficher la tendance d'utilisation dans le tableau de bord détaillé *Keystone - utilisation de la capacité*.
-. Sélectionnez période de facturation actuelle, 30 jours, 7 jours ou 1 jour pour afficher la tendance d'utilisation moyenne récente.
-+
-Pour la période de facturation actuelle, vous pouvez télécharger un rapport qui fournit des informations sur la rafale.
-
-. Si vous avez choisi ONTAP Collector pour obtenir des données sur votre utilisation de la capacité, vous pouvez cliquer sur les onglets du tableau de bord pour afficher plus de détails sur vos partages de fichiers et disques.
-. Cliquez sur *partages* ou *disques* pour identifier les partages de fichiers ou les disques qui approchent de la capacité de stockage engagée et prendre des décisions éclairées pour économiser de la capacité de stockage.
-
+Pour plus d'informations sur l'abonnement Keystone, reportez-vous à la section link:https://docs.netapp.com/us-en/keystone-staas/integrations/aiq-keystone-details.html["Tableau de bord et reporting des abonnements Keystone"^].

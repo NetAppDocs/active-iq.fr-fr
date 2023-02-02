@@ -1146,11 +1146,6 @@
   <block id="986127c46ede44cd6e9ba2b5754cafca" category="inline-link-macro">Capacité du service par abonnement Keystone</block>
   <block id="eada85ae345afac1356e1265ed14965d" category="paragraph">Vous pouvez afficher le <block ref="c3e14696d82449875aa62ae1bc7f05d0" category="inline-link-macro-rx"></block> et l'utilisation de chaque service souscrit pour votre bloc, services de fichiers ou stockage objet dans le tableau de bord.</block>
   <block id="46b0133ea42a96887a939d9e262c57cf" category="admonition">En tant qu'utilisateur conseiller numérique, vous pouvez choisir entre ONTAP Collector et AutoSupport pour obtenir des données sur votre utilisation de capacité.</block>
-  <block id="559ab0392555ba0574ee8aafcb0dd4b8" category="list-text">Cliquez sur *View Details* pour afficher la tendance d'utilisation dans le tableau de bord détaillé *Keystone - utilisation de la capacité*.</block>
-  <block id="842ffce382b29ce5f564cf2e7a51575e" category="list-text">Sélectionnez période de facturation actuelle, 30 jours, 7 jours ou 1 jour pour afficher la tendance d'utilisation moyenne récente.</block>
-  <block id="b75ffe757df198361f55d7334bf6a3ea" category="paragraph">Pour la période de facturation actuelle, vous pouvez télécharger un rapport qui fournit des informations sur la rafale.</block>
-  <block id="6c6a95e0f5aea889e91da11c9661f08c" category="list-text">Si vous avez choisi ONTAP Collector pour obtenir des données sur votre utilisation de la capacité, vous pouvez cliquer sur les onglets du tableau de bord pour afficher plus de détails sur vos partages de fichiers et disques.</block>
-  <block id="6fc85e5ba98ece0cf451b774e77a7a7c" category="list-text">Cliquez sur *partages* ou *disques* pour identifier les partages de fichiers ou les disques qui approchent de la capacité de stockage engagée et prendre des décisions éclairées pour économiser de la capacité de stockage.</block>
   <block id="75fb68630cabac33011c445584315dfc" category="summary">Fournit plus d'informations sur Ansible.</block>
   <block id="5d08ea99dda2f857e6edb3d641d26b98" category="inline-link-macro">Informations de dépannage</block>
   <block id="36625d4a8e3483d42b841caa5eb55b29" category="list-text"><block ref="36625d4a8e3483d42b841caa5eb55b29" category="inline-link-macro-rx"></block></block>
@@ -1273,4 +1268,6 @@
   <block id="02e55cfbe6e55152bef274ca4a6a3d14" category="cell">Contrats de support/support matériel EOS</block>
   <block id="e5f2463f379aba48a0f9ca6c913203cc" category="cell">Densité des E/S.</block>
   <block id="7f5c8fc8352c3e254ac3f5c7cf32c466" category="cell">Le rapport sur la densité des E/S fournit des informations concernant les pics d'opérations d'entrée/sortie pour les clients en termes de consommation et de densité des données et des métadonnées.</block>
+  <block id="deaf5bbabe29231a9826b313fee569a1" category="inline-link-macro">Tableau de bord et reporting des abonnements Keystone</block>
+  <block id="706f9582e4d14591a9eeeaf6db8cc6c5" category="paragraph">Pour plus d'informations sur l'abonnement Keystone, reportez-vous à la section <block ref="42d99877a3bdc96c47aeda69738db0f2" category="inline-link-macro-rx"></block>.</block>
 </blocks>

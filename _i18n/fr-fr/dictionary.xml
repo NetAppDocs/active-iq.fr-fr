@@ -1270,4 +1270,7 @@
   <block id="7f5c8fc8352c3e254ac3f5c7cf32c466" category="cell">Le rapport sur la densité des E/S fournit des informations concernant les pics d'opérations d'entrée/sortie pour les clients en termes de consommation et de densité des données et des métadonnées.</block>
   <block id="deaf5bbabe29231a9826b313fee569a1" category="inline-link-macro">Tableau de bord et reporting des abonnements Keystone</block>
   <block id="706f9582e4d14591a9eeeaf6db8cc6c5" category="paragraph">Pour plus d'informations sur l'abonnement Keystone, reportez-vous à la section <block ref="42d99877a3bdc96c47aeda69738db0f2" category="inline-link-macro-rx"></block>.</block>
+  <block id="271fb73110ffc5de8ec449a60893024c" category="section-title">09 février 2023</block>
+  <block id="1c6ca21b0d3e6f38c91e416032c3b178" category="paragraph">Vous pouvez afficher la moyenne des opérations de lecture, d'écriture et autres dans le tableau IOPS du volume.</block>
+  <block id="80a2eb22b09cbe781077565f06b74dbf" category="paragraph">L'efficacité du stockage SAN et NAS est disponible au niveau des nœuds pour les systèmes ONTAP, notamment AFF A-Series, AFF C190, All SAN Array et FAS500 exécutant ONTAP 9.10 et versions ultérieures.</block>
 </blocks>

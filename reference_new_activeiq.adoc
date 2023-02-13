@@ -23,22 +23,6 @@ Les fonctionnalités et améliorations suivantes ont été introduites dans Digi
 
 
 
-== 09 février 2023
-
-
-
-=== Graphiques de performances
-
-Vous pouvez afficher la moyenne des opérations de lecture, d'écriture et autres dans le tableau IOPS du volume.
-
-
-
-=== Efficacité du stockage
-
-L'efficacité du stockage SAN et NAS est disponible au niveau des nœuds pour les systèmes ONTAP, notamment AFF A-Series, AFF C190, All SAN Array et FAS500 exécutant ONTAP 9.10 et versions ultérieures.
-
-
-
 == 12 janvier 2023
 
 

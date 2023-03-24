@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: view_keystone_capacity_utilization.html 
 keywords: keystone, capacity utilization, service tiers, Keystone subscription, keystone subscription, shares, disks 
-summary: 'Fournit des informations sur l"utilisation de votre capacité avec l"abonnement NetApp Keystone Flex.' 
+summary: 'Fournit des informations sur l"utilisation de votre capacité avec l"abonnement NetApp Keystone.' 
 ---
 = Consultez l'utilisation de la capacité sur l'abonnement NetApp Keystone
 :toc: macro
@@ -23,9 +23,9 @@ Si vous êtes abonné au service d'abonnement Keystone, vous pouvez afficher le 
 
 Le widget abonnement Keystone fournit un récapitulatif de l'utilisation de la capacité pour votre compte. Il se compose de graphiques sur l'utilisation de la capacité par rapport à la capacité physique, l'instantané étant arrondi aux cinq dernières minutes. L'utilisation au-dessus et au-dessus de la capacité engagée (la capacité en rafale) est marquée en rouge.
 
-Vous pouvez afficher le tableau de bord *Keystone - utilisation de la capacité*, qui analyse les données dans le widget et représente graphiquement la tendance d'utilisation de la capacité et de l'ensemble du stockage auquel vous êtes abonné link:https://docs.netapp.com/us-en/keystone/nkfsosm_performance.html["niveaux de services"], Tels que Premium, Extreme et Standard, associés à votre compte de souscription NetApp Keystone.
+Vous pouvez afficher le tableau de bord *Keystone - utilisation de la capacité*, qui analyse les données dans le widget et représente graphiquement la tendance d'utilisation de la capacité et de l'ensemble du stockage auquel vous êtes abonné link:https://docs.netapp.com/us-en/keystone/nkfsosm_performance.html["niveaux de services"^], Tels que Premium, Extreme et Standard, associés à votre compte de souscription NetApp Keystone.
 
-Vous pouvez afficher le link:https://docs.netapp.com/us-en/keystone/nkfsosm_keystone_service_capacity_definitions.html["Capacité du service par abonnement Keystone"] et l'utilisation de chaque service souscrit pour votre bloc, services de fichiers ou stockage objet dans le tableau de bord.
+Vous pouvez afficher le link:https://docs.netapp.com/us-en/keystone/nkfsosm_keystone_service_capacity_definitions.html["Capacité du service par abonnement Keystone"^] et l'utilisation de chaque service souscrit pour votre bloc, services de fichiers ou stockage objet dans le tableau de bord.
 
 
 NOTE: En tant qu'utilisateur conseiller numérique, vous pouvez choisir entre ONTAP Collector et AutoSupport pour obtenir des données sur votre utilisation de capacité.

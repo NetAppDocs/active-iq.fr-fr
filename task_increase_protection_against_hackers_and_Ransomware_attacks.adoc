@@ -19,11 +19,11 @@ summary: 'Fournit des informations sur la façon d"améliorer la protection cont
 
 
 [role="lead"]
-Le site de sécurité NetApp est une source de vérité pour la sécurité produits NetApp : link:https://security.netapp.com[""]
+Le site de sécurité NetApp est une source de vérité pour la sécurité produits NetApp : link:https://security.netapp.com["Sécurité produits NetApp"^]
 
 Digital Advisor utilise des données de télémétrie et des avis publiés sur la sécurité des produits pour détecter les problèmes de sécurité des produits couverts* et couverts par le support. Les données de télémétrie des produits doivent être transmises à NetApp via AutoSupport pour que le conseiller digital puisse détecter les risques.
 
-Pour plus d'informations sur la sécurité des produits NetApp, y compris sur les produits non couverts par le conseiller digital, rendez-vous sur le site link:https://security.netapp.com[""]
+Pour plus d'informations sur la sécurité des produits NetApp, y compris sur les produits non couverts par le conseiller digital, rendez-vous sur le site link:https://security.netapp.com["Sécurité produits NetApp"^]
 
 *Produits pris en charge : ONTAP 9 (sur site et dans le cloud), logiciel de contrôleur SANtricity OS, NetApp SolidFire (logiciel Element), StorageGRID, Active IQ Unified Manager, outils ONTAP pour VMware (OTV)
 

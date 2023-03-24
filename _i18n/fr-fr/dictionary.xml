@@ -587,9 +587,7 @@
   <block id="c60726371723b7c1a53a2242c4905f14" category="list-text"><block ref="c60726371723b7c1a53a2242c4905f14" category="inline-link-macro-rx"></block></block>
   <block id="144deae4a5b0b4c9284528157c461f6c" category="summary">Fournit des informations sur la façon d'améliorer la protection contre les pirates informatiques et les attaques par ransomware.</block>
   <block id="f7e6c88265534036ac8e0f442a755875" category="doc">Détecter la vulnérabilité de sécurité</block>
-  <block id="d5d17f408c363c187667642f4d2ee597" category="paragraph">Le site de sécurité NetApp est une source de vérité pour la sécurité produits NetApp : <block ref="2b116f024b5e4a0f9c1d319872f1fc7d" category="inline-link-macro-rx"></block></block>
   <block id="e3f44fedccc2711587690bd9581827ed" category="paragraph">Digital Advisor utilise des données de télémétrie et des avis publiés sur la sécurité des produits pour détecter les problèmes de sécurité des produits couverts* et couverts par le support. Les données de télémétrie des produits doivent être transmises à NetApp via AutoSupport pour que le conseiller digital puisse détecter les risques.</block>
-  <block id="e4a01f7a7f6646fdbc005accd650783f" category="paragraph">Pour plus d'informations sur la sécurité des produits NetApp, y compris sur les produits non couverts par le conseiller digital, rendez-vous sur le site <block ref="2b116f024b5e4a0f9c1d319872f1fc7d" category="inline-link-macro-rx"></block></block>
   <block id="820369c7769d4f36cf2076f618fe371d" category="paragraph">*Produits pris en charge : ONTAP 9 (sur site et dans le cloud), logiciel de contrôleur SANtricity OS, NetApp SolidFire (logiciel Element), StorageGRID, Active IQ Unified Manager, outils ONTAP pour VMware (OTV)</block>
   <block id="6c0397360aa8b37bbbe1fa3a38744674" category="list-text">Connectez-vous à Digital Advisor.</block>
   <block id="9e49d2928b0f9c506afa91618789cc95" category="inline-image-macro">Widget failles de sécurité</block>
@@ -728,7 +726,6 @@
   <block id="4f4438730e3b3e658fec82d94c8dd2c9" category="section-title">14 octobre 2021</block>
   <block id="d218acf3139b2df9f86974252e34f973" category="paragraph">Vous pouvez désormais générer des fichiers d'inventaire Ansible aux formats .yml et .ini au niveau de la région et du site. <block ref="6c1a86a6b220ef637b98bb90dcad9e67" category="inline-link-macro-rx"></block>.</block>
   <block id="f6ba2adb39c05d434ab52c6ad161a40d" category="section-title">Déclaration de données inactives (IDR)</block>
-  <block id="1363d8028841d1a619635b4cbd33e1e6" category="paragraph">À partir de l'écran FabricPool Advisor, vous pouvez activer le reporting des données inactives pour surveiller les agrégats et générer un PlayBook Ansible. <block ref="779f7b5b9d0c1245e542540e4775cdfe" category="inline-link-macro-rx"></block></block>
   <block id="6f815aa2f2eb28995c59dd2d2b0af600" category="section-title">Rapport de planning de dérive</block>
   <block id="5e4b167efbd384d21eda43769f89f2b4" category="paragraph">Vous pouvez comparer les données AutoSupport des 90 derniers jours et générer un rapport de calendrier de dérive. <block ref="6e959f6930398ffd4237fa003affc1a1" category="inline-link-macro-rx"></block>.</block>
   <block id="cb3f8f484c3b350e78e56ea72f491137" category="section-title">Systèmes compatibles</block>
@@ -768,8 +765,6 @@
   <block id="8782b3b7fd5ab9d892fbb6380e74d09a" category="paragraph">Vous pouvez maintenant activer l'authentification biométrique sur l'application mobile Digital Advisor. Les options disponibles pour l'authentification varient en fonction des fonctions prises en charge par votre téléphone mobile.</block>
   <block id="c5529581775c24c48ba966fe62c380ea" category="inline-link-macro">Application mobile Digital Advisor (Android)</block>
   <block id="d2bb1a06f3434afc8ca9c8ea68155750" category="inline-link-macro">Application mobile Digital Advisor (iOS)</block>
-  <block id="ede5133f297fb3524e463011a05dcbc2" category="paragraph">Téléchargez l'application pour en savoir plus :<block ref="3b3c942cfc1ba603f4c8c5e6cb260955" category="inline-link-macro-rx"></block>
-<block ref="fe0e17ac3ee3049ee306c938dd1d6b0c" category="inline-link-macro-rx"></block></block>
   <block id="b5007357b4e518744cbd11c21e6102ff" category="paragraph">Le widget Wellness a été amélioré avec l'attribut de protection contre les attaques par ransomware. Vous pouvez désormais consulter les risques et les actions correctives associées à la détection, à la prévention et à la restauration par ransomware.</block>
   <block id="5c3849b33a3b6bf738dbe72c0348f10c" category="section-title">16 août 2021</block>
   <block id="ba0619dd0f47665766133e60320fb439" category="section-title">Bilan de bien-être</block>
@@ -791,7 +786,6 @@
   <block id="d78a9201b5a1da34052eb6d1da7c7414" category="list-text">L'interface utilisateur a été améliorée pour afficher l'offre de support spécifique à laquelle vous êtes abonné dans Digital Advisor.</block>
   <block id="bb4ddc55330c48075b3116356500dbf5" category="list-text">Vous pouvez à présent émettre une demande de mise à niveau de votre abonnement à l'offre de support à partir du tableau de bord système pour accéder à d'autres fonctionnalités. <block ref="cb0308c385d8d496d1f59d74eb315c21" category="inline-link-macro-rx"></block>.</block>
   <block id="bd0328b259e09ba57ed30da815f4cc42" category="section-title">25 juin 2021</block>
-  <block id="e6950d9f03fba06e22767b7f984caa30" category="section-title">Widget d'abonnement Flex</block>
   <block id="3ec6287c56b9bb68a36e7c97f53e3f6b" category="list-text">Si vous avez choisi ONTAP Collector pour obtenir des données sur votre utilisation de capacité, vous pouvez afficher les détails de vos partages de fichiers et disques dans les onglets partages et disques. En identifiant ceux qui s'approchent de la capacité, vous pouvez économiser de l'espace de stockage.</block>
   <block id="04831b0867d81afad6e918c11ee8b449" category="list-text">L'utilisation de la capacité, présentée dans le tableau de bord Keystone - Capacity Utilization et utilisée pour la facturation, est désormais basée sur la capacité logique.</block>
   <block id="499ac45a8abad3e414323681b6865993" category="section-title">17 juin 2021</block>
@@ -854,7 +848,6 @@
   <block id="423dd400f697bb08eca274e1e810b26e" category="paragraph">Digital Advisor est désormais disponible en trois langues : le chinois, l'anglais et le japonais.</block>
   <block id="273c6172eab8f123977db3341f450022" category="paragraph">Vous pouvez générer ou programmer des rapports ClusterViewer pour afficher des informations détaillées sur la configuration physique et logique de vos systèmes. <block ref="a215153d303469248fdb9fd5d964c085" category="inline-link-macro-rx"></block>.</block>
   <block id="ff0ca88c2de09857272e1e64c6d20635" category="section-title">15 octobre 2020</block>
-  <block id="4791e1aac6a449cf242a8a6a09240ac3" category="paragraph">Le tableau de bord Digital Advisor Health Check fournit une analyse ponctuelle de votre environnement global. En fonction du score de vérification de l'état de santé, vous pouvez aligner vos systèmes de stockage sur les meilleures pratiques recommandées par NetApp pour faciliter une planification à long terme et améliorer l'état de santé de votre base installée. <block ref="1896498242b484574904ca9397362055" category="inline-link-macro-rx"></block>.</block>
   <block id="6d842379317d540dc2fdadff80691eac" category="inline-link-macro">Découvrez comment ajouter un modèle de dérive de configuration</block>
   <block id="a3ed0d9c8cd0f99576d01a2e583bb3ce" category="paragraph">Cette fonctionnalité vous permet de comparer les configurations système et en cluster et de détecter les écarts de configuration en temps quasi réel. <block ref="85835a3294f4672a256d2580bd36ed95" category="inline-link-macro-rx"></block>.</block>
   <block id="d1544e43fa9e4a2e0901961974335791" category="paragraph">Vous pouvez consulter vos données AutoSupport et en savoir plus.</block>
@@ -864,7 +857,6 @@
   <block id="2b8a1cf4302bf1a2b093ad5a2f86b07e" category="paragraph">Vous pouvez utiliser la fonction de génération de rapports pour générer immédiatement des rapports ou planifier la génération d'un rapport hebdomadaire ou mensuel. <block ref="a215153d303469248fdb9fd5d964c085" category="inline-link-macro-rx"></block>.</block>
   <block id="152dbe546ff9aa1627c8b40ce14b12f6" category="section-title">Téléchargement manuel de AutoSupport</block>
   <block id="dae11fc59da97a669ccb5077d15f9feb" category="paragraph">Le téléchargement manuel d'AutoSupport a été amélioré pour améliorer l'expérience utilisateur. Une colonne supplémentaire a été fournie pour les remarques sur l'état du téléchargement.</block>
-  <block id="3abdc55ecb8f5549d400131a4e62eb26" category="paragraph">Vous pouvez contrôler la capacité de stockage engagée, consommée et burst de votre service d'abonnement NetApp Keystone Flex.</block>
   <block id="54074209636092245fcad58469e0b60b" category="section-title">30 septembre 2020</block>
   <block id="c0b0c57bf06a60b6c879938a236e3641" category="section-title">Firmwares AFF et FAS à l'aide du PlayBook Ansible</block>
   <block id="23a0f65d52d06cfe6d43d8793a09161e" category="paragraph">La documentation a été améliorée afin d'inclure des informations sur le téléchargement, l'installation et l'exécution du progiciel d'automatisation ansible du micrologiciel AFF et FAS.</block>
@@ -1137,14 +1129,11 @@
   <block id="712521b43d0b848d99bf5f898ee9c033" category="list-text">Si vous ne voulez pas ou ne pouvez pas atténuer le risque pour le moment, indiquez les valeurs des champs et cliquez sur *Acknowledge*.</block>
   <block id="6f93dec8e32211fde259c444ab2d63fb" category="paragraph">Le risque sera ajouté aux risques reconnus.</block>
   <block id="862744f0ea49f8f06aab2a99ec7a3482" category="admonition">Si vous ne voulez plus reconnaître un risque, vous pouvez ignorer le risque en cliquant sur *un-Ack* et en suivant les mêmes étapes.</block>
-  <block id="345d76812dbf5452d2588e7271cf8436" category="summary">Fournit des informations sur l'utilisation de votre capacité avec l'abonnement NetApp Keystone Flex.</block>
   <block id="b5d0947d6bc5e70f868d560d859163f5" category="doc">Consultez l'utilisation de la capacité sur l'abonnement NetApp Keystone</block>
   <block id="1e113c9e791f55b9d40e5564c75fd42a" category="paragraph">Si vous êtes abonné au service d'abonnement Keystone, vous pouvez afficher le widget abonnement Keystone sur le tableau de bord Digital Advisor.</block>
   <block id="da8d3bbd5e630a0cb154a6c5d8885297" category="paragraph">Le widget abonnement Keystone fournit un récapitulatif de l'utilisation de la capacité pour votre compte. Il se compose de graphiques sur l'utilisation de la capacité par rapport à la capacité physique, l'instantané étant arrondi aux cinq dernières minutes. L'utilisation au-dessus et au-dessus de la capacité engagée (la capacité en rafale) est marquée en rouge.</block>
   <block id="6ba7120903e272ef8ff94c3d3cd58f57" category="inline-link-macro">niveaux de services</block>
-  <block id="f05054c9a7b129693b022320001e81ed" category="paragraph">Vous pouvez afficher le tableau de bord *Keystone - utilisation de la capacité*, qui analyse les données dans le widget et représente graphiquement la tendance d'utilisation de la capacité et de l'ensemble du stockage auquel vous êtes abonné <block ref="fc793db6d2c63268b4ab3d8ca0a9e15f" category="inline-link-macro-rx"></block>, Tels que Premium, Extreme et Standard, associés à votre compte de souscription NetApp Keystone.</block>
   <block id="986127c46ede44cd6e9ba2b5754cafca" category="inline-link-macro">Capacité du service par abonnement Keystone</block>
-  <block id="eada85ae345afac1356e1265ed14965d" category="paragraph">Vous pouvez afficher le <block ref="c3e14696d82449875aa62ae1bc7f05d0" category="inline-link-macro-rx"></block> et l'utilisation de chaque service souscrit pour votre bloc, services de fichiers ou stockage objet dans le tableau de bord.</block>
   <block id="46b0133ea42a96887a939d9e262c57cf" category="admonition">En tant qu'utilisateur conseiller numérique, vous pouvez choisir entre ONTAP Collector et AutoSupport pour obtenir des données sur votre utilisation de capacité.</block>
   <block id="75fb68630cabac33011c445584315dfc" category="summary">Fournit plus d'informations sur Ansible.</block>
   <block id="5d08ea99dda2f857e6edb3d641d26b98" category="inline-link-macro">Informations de dépannage</block>
@@ -1228,7 +1217,6 @@
   <block id="7a61fe0aacb0733ede2f886638474e22" category="sidebar">Corrigez les risques de sécurité critiques</block>
   <block id="6cb30ae6af19fc79cca62d705f6b0744" category="sidebar">Analyser à l'aide de Digital Advisor</block>
   <block id="0aace9b9585a40db8e20e3e200feeb89" category="sidebar">Consultez les recommandations sur les mises à niveau d'ONTAP</block>
-  <block id="29cb371773858a73b7aca64ff6f208f4" category="sidebar">Consultez l'utilisation de la capacité avec l'abonnement NetApp Keystone Flex</block>
   <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">Ressources supplémentaires</block>
   <block id="ff40d476eb35d6d339a7a745c5825109" category="sidebar">Portail Web Digital Advisor</block>
   <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Vidéos Digital Advisor</block>
@@ -1273,4 +1261,16 @@
   <block id="1c6ca21b0d3e6f38c91e416032c3b178" category="paragraph">Vous pouvez afficher la moyenne des opérations de lecture, d'écriture et autres dans le tableau IOPS du volume.</block>
   <block id="80a2eb22b09cbe781077565f06b74dbf" category="paragraph">L'efficacité du stockage SAN et NAS est disponible au niveau des nœuds pour les systèmes ONTAP, notamment AFF A-Series, AFF C190, All SAN Array et FAS500 exécutant ONTAP 9.10 et versions ultérieures.</block>
   <block id="7002d0318dc4f195c464ca83f3d2ca86" category="section-title">22 février 2023</block>
+  <block id="c97236d0432cf7fbbc8c3b120b3e6701" category="inline-link-macro">Sécurité produits NetApp</block>
+  <block id="30becc7ff660741781b33df4424a976b" category="paragraph">Le site de sécurité NetApp est une source de vérité pour la sécurité produits NetApp : <block ref="5e78a47b9f3f07f171347317054eb0a4" category="inline-link-macro-rx"></block></block>
+  <block id="1a0fefe07d105bbdb30fd8b35268ac5f" category="paragraph">Pour plus d'informations sur la sécurité des produits NetApp, y compris sur les produits non couverts par le conseiller digital, rendez-vous sur le site <block ref="5e78a47b9f3f07f171347317054eb0a4" category="inline-link-macro-rx"></block></block>
+  <block id="bbca9981d6b0f3a88a20d77f9f0b515e" category="summary">Fournit des informations sur l'utilisation de votre capacité avec l'abonnement NetApp Keystone.</block>
+  <block id="ce1aa13636f163ff457fae8432a2f4ec" category="paragraph">Vous pouvez afficher le tableau de bord *Keystone - utilisation de la capacité*, qui analyse les données dans le widget et représente graphiquement la tendance d'utilisation de la capacité et de l'ensemble du stockage auquel vous êtes abonné <block ref="471fbca756054ddae280268222b19bf9" category="inline-link-macro-rx"></block>, Tels que Premium, Extreme et Standard, associés à votre compte de souscription NetApp Keystone.</block>
+  <block id="27363af66f7c7e4630979587cc9ad936" category="paragraph">Vous pouvez afficher le <block ref="641f2bb6b5e44be4cae8acd4ce2983c0" category="inline-link-macro-rx"></block> et l'utilisation de chaque service souscrit pour votre bloc, services de fichiers ou stockage objet dans le tableau de bord.</block>
+  <block id="1583e3cf3d8d7b04d46e1fc4c3378657" category="paragraph">À partir de l'écran FabricPool Advisor, vous pouvez activer le reporting des données inactives pour surveiller les agrégats et générer un PlayBook Ansible.</block>
+  <block id="a44ea0c484f7b46a675c3900938f5c9e" category="paragraph">Téléchargez l'application pour en savoir plus :<block ref="9f34f1e9a1a1b7a5470e007139e444f5" category="inline-link-macro-rx"></block>
+<block ref="45e5ff1f89e77ef1cc1575bf78209669" category="inline-link-macro-rx"></block></block>
+  <block id="c0992993c6a0220032f6f381a6082dc2" category="section-title">Widget abonnement Keystone</block>
+  <block id="f84828c873f8fa6665a13cc455631ce9" category="paragraph">Le tableau de bord Digital Advisor Health Check fournit une analyse ponctuelle de votre environnement global. En fonction du score de vérification de l'état de santé, vous pouvez aligner vos systèmes de stockage sur les meilleures pratiques recommandées par NetApp pour faciliter une planification à long terme et améliorer l'état de santé de votre base installée.</block>
+  <block id="767f01b53ed58e4274d58e166e4e1e78" category="paragraph">Vous pouvez surveiller la capacité de stockage allouée, consommée et en rafale pour votre service d'abonnement NetApp Keystone.</block>
 </blocks>

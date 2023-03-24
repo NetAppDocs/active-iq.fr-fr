@@ -301,7 +301,7 @@ Vous pouvez désormais générer des fichiers d'inventaire Ansible aux formats .
 
 === Déclaration de données inactives (IDR)
 
-À partir de l'écran FabricPool Advisor, vous pouvez activer le reporting des données inactives pour surveiller les agrégats et générer un PlayBook Ansible. link:task_monitor_and_tier_inactive_data_with_FabricPool_Advisor.html["En savoir plus >>"]
+À partir de l'écran FabricPool Advisor, vous pouvez activer le reporting des données inactives pour surveiller les agrégats et générer un PlayBook Ansible.
 
 
 
@@ -427,8 +427,8 @@ Le widget Capacity Forecast a été mis à jour avec un algorithme amélioré qu
 
 Vous pouvez maintenant activer l'authentification biométrique sur l'application mobile Digital Advisor. Les options disponibles pour l'authentification varient en fonction des fonctions prises en charge par votre téléphone mobile.
 
-Téléchargez l'application pour en savoir plus :link:https://play.google.com/store/apps/details?id=com.netapp.aiqda&hl=en_IN&gl=US["Application mobile Digital Advisor (Android)"]
-link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["Application mobile Digital Advisor (iOS)"]
+Téléchargez l'application pour en savoir plus :link:https://play.google.com/store/apps/details?id=com.netapp.myautosupport["Application mobile Digital Advisor (Android)"^]
+link:https://apps.apple.com/us/app/active-iq/id1230542480["Application mobile Digital Advisor (iOS)"^]
 
 
 
@@ -504,7 +504,7 @@ Vous pouvez consulter les dates de fin des contrats de support pour votre matér
 
 
 
-=== Widget d'abonnement Flex
+=== Widget abonnement Keystone
 
 * Si vous avez choisi ONTAP Collector pour obtenir des données sur votre utilisation de capacité, vous pouvez afficher les détails de vos partages de fichiers et disques dans les onglets partages et disques. En identifiant ceux qui s'approchent de la capacité, vous pouvez économiser de l'espace de stockage.
 * L'utilisation de la capacité, présentée dans le tableau de bord Keystone - Capacity Utilization et utilisée pour la facturation, est désormais basée sur la capacité logique.
@@ -712,7 +712,7 @@ Vous pouvez générer ou programmer des rapports ClusterViewer pour afficher des
 
 === Tableau de bord de vérification de l'état
 
-Le tableau de bord Digital Advisor Health Check fournit une analyse ponctuelle de votre environnement global. En fonction du score de vérification de l'état de santé, vous pouvez aligner vos systèmes de stockage sur les meilleures pratiques recommandées par NetApp pour faciliter une planification à long terme et améliorer l'état de santé de votre base installée. link:concept_understand_health_check_assessment_dashboard.html["En savoir plus >>"].
+Le tableau de bord Digital Advisor Health Check fournit une analyse ponctuelle de votre environnement global. En fonction du score de vérification de l'état de santé, vous pouvez aligner vos systèmes de stockage sur les meilleures pratiques recommandées par NetApp pour faciliter une planification à long terme et améliorer l'état de santé de votre base installée.
 
 
 
@@ -746,9 +746,9 @@ Le téléchargement manuel d'AutoSupport a été amélioré pour améliorer l'ex
 
 
 
-=== Widget d'abonnement Flex
+=== Widget abonnement Keystone
 
-Vous pouvez contrôler la capacité de stockage engagée, consommée et burst de votre service d'abonnement NetApp Keystone Flex.
+Vous pouvez surveiller la capacité de stockage allouée, consommée et en rafale pour votre service d'abonnement NetApp Keystone.
 
 
 

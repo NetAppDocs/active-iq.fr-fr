@@ -192,10 +192,9 @@ homepage:
     - title: Consultez les recommandations sur les mises à niveau d'ONTAP
       url: task_view_upgrade.html
     - title: Prenez des décisions avisées en fonction des recommandations sur le cloud
-      url: "/task-informed-decisions-based-on-cloud-recommendations.html"
-    - title: Consultez l'utilisation de la capacité avec l'abonnement NetApp Keystone
-        Flex
-      url: task_view_keystone_capacity_utilization.html
+      url: task-informed-decisions-based-on-cloud-recommendations.html
+    - title: Consultez l'utilisation de la capacité sur l'abonnement NetApp Keystone
+      url: view_keystone_capacity_utilization.html
   - title: Ressources supplémentaires
     links:
     - title: Portail Web Digital Advisor

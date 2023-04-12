@@ -544,7 +544,6 @@
   <block id="a6f53b7c2d98e66115a149a04939e113" category="list-text">Les nouveaux systèmes prennent plus d'une journée pour réfléchir dans Digital Advisor une fois qu'ils sont ajoutés ou mis à jour dans SAP.</block>
   <block id="490faa3ce28cbfbdad8226dd7dc88a66" category="list-text">Les systèmes sont sécurisés et vous n'êtes pas autorisé à afficher les systèmes sécurisés.</block>
   <block id="fff04069266603da7d63522615d51f31" category="list-text">Vous n'êtes pas autorisé à afficher les systèmes.</block>
-  <block id="04187ceda7d68629d17d32d7bfb72e06" category="list-text">Les systèmes sont inactifs</block>
   <block id="202e46041652836ed8241309090e3360" category="inline-link-macro">créer un dossier non technique</block>
   <block id="8e52de0d4b03d5fe87dc88da09616c7f" category="inline-xref">ici.</block>
   <block id="9ca5b690fe8bde0ca39f3697552ca80d" category="paragraph">Si vous ne parvenez pas à afficher les systèmes pour d'autres raisons, <block ref="c55e3409f454389439c394d71613590b" category="inline-link-macro-rx"></block>. Pour en savoir plus sur un dossier non technique, cliquez sur <block ref="cbc6291335aebce77afe28d818ce153c" category="inline-xref-macro-rx"></block></block>
@@ -1273,4 +1272,5 @@
   <block id="c0992993c6a0220032f6f381a6082dc2" category="section-title">Widget abonnement Keystone</block>
   <block id="f84828c873f8fa6665a13cc455631ce9" category="paragraph">Le tableau de bord Digital Advisor Health Check fournit une analyse ponctuelle de votre environnement global. En fonction du score de vérification de l'état de santé, vous pouvez aligner vos systèmes de stockage sur les meilleures pratiques recommandées par NetApp pour faciliter une planification à long terme et améliorer l'état de santé de votre base installée.</block>
   <block id="767f01b53ed58e4274d58e166e4e1e78" category="paragraph">Vous pouvez surveiller la capacité de stockage allouée, consommée et en rafale pour votre service d'abonnement NetApp Keystone.</block>
+  <block id="51f3a0a362446375c682ade41a945286" category="list-text">Les systèmes sont inactifs dans SAP.</block>
 </blocks>

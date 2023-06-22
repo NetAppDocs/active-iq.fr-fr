@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: concept_get_started_with_sustainability_dashboard.html 
+keywords: activeiq, sustainability dashboard, sustainability score, sustainability, environmental indicators, carbon mitigation, recommended actions, working environments, best practices, support, recommendations,  digital advisor, bluexp, cluster, sustainability initatives 
+summary: Fournit des informations sur le tableau de bord, le score de durabilité, les environnements de travail et les actions recommandées. 
+---
+= Lancez-vous avec le tableau de bord Sustainability
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Le tableau de bord fournit une évaluation environnementale de votre système de stockage et des informations exploitables permettant des améliorations sous la forme des actions recommandées par NetApp.
+
+*Score de durabilité* : affiche le score total indiquant la durabilité environnementale de vos systèmes de stockage. Vous pouvez évaluer le niveau de durabilité de vos systèmes de stockage en fonction des critères suivants :
+
+* 76 - 100 : indique que la durabilité est une priorité.
+* 51 - 75 : indique un niveau élevé d'investissement dans les initiatives de durabilité.
+* 26 - 50 : indique de bons progrès vers les initiatives de durabilité.
+* Moins de 25 : indique la nécessité d'améliorer les pratiques de durabilité.
+
+
+Vous pouvez voir la représentation graphique du score pendant 5 semaines maximum, qui est mise à jour chaque semaine. Vous pouvez également voir la raison de l'augmentation ou de la diminution du score de durabilité en passant le curseur sur le graphique.
+
+image:sustainability_score.png["Capture d'écran montrant le score de durabilité avec le graphique."]
+
+*Indicateurs environnementaux* : affiche des projections pour votre consommation d'énergie, votre consommation directe de carbone et vos émissions de chaleur afin d'évaluer l'état de santé de votre système de stockage. Vous pouvez afficher ces projections mensuelles, trimestrielles ou annuelles en sélectionnant la période souhaitée dans la liste déroulante située dans le coin supérieur droit de cette section.
+
+*Pourcentages d'atténuation du carbone* : affiche le pourcentage d'atténuation du carbone sur chaque site/ville, et les valeurs de référence présentées sont basées sur votre emplacement. Vous pouvez ajuster le pourcentage d'atténuation du carbone pour des sites spécifiques en cliquant sur le bouton image:edit_icon_1.png["Capture d'écran affichant une icône modifiable."] icône située à côté des valeurs de pourcentage et les numéros de carbone s'ajustent automatiquement en conséquence.
+
+*Actions recommandées* : affiche la liste des actions recommandées pour améliorer le score de durabilité de votre système de stockage. Ces actions peuvent être prises immédiatement en sélectionnant *Fix*. Vous pouvez développer la vue en cliquant sur *Fix* ou sur la flèche vers le bas, et vous pouvez voir le nom du cluster, le score de durabilité et l'augmentation ultérieure si vous passez à l'option *Fix*. Dans la vue développée, vous pouvez également voir un message d'information indiquant de continuer avec l'option *Fix*.
+
+image:recommended_actions.png["Capture d'écran affichant la liste des actions dans la vue développée."]
+
+Si vous prévoyez d'effectuer ces actions ultérieurement, vous pouvez les déplacer vers l'onglet *actions pour plus tard* en sélectionnant *plus tard*. Ces actions seront reportées pour 30 jours. Après 30 jours, ces actions reviennent automatiquement à l'onglet *actions recommandées*. Vous pouvez également revoir les actions reportées à tout moment et les ramener à l'onglet *actions recommandées* en cliquant sur *prendre en compte*.
+
+*Environnements de travail* : affiche divers paramètres environnementaux au niveau du cluster de votre base installée. Vous pouvez afficher le score de durabilité au niveau du cluster, accéder à *ClusterViewer* en sélectionnant le nom du cluster, prendre des actions spécifiques recommandées à partir d'ici pour améliorer la durabilité.
+
+
+NOTE: Pour l'instant, les systèmes ONTAP avec AFF, FAS et CVO sont pris en charge.

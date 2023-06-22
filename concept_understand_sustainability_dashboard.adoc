@@ -1,0 +1,80 @@
+---
+sidebar: sidebar 
+permalink: concept_understand_sustainability_dashboard.html 
+keywords: activeiq, sustainability, sustainability score, sustainability dashboard, bluexp 
+summary: Fournit des informations pour vous familiariser avec le tableau de bord Sustainability. 
+---
+= Découvrez le service de durabilité BlueXP
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Le développement durable, en tant que service, vous permet de réduire votre consommation d'énergie et de travailler à la réalisation de vos objectifs environnementaux. Vous pouvez ainsi aligner vos systèmes de stockage avec des pratiques écologiques et atteindre vos objectifs de durabilité.
+
+
+
+== Que pouvez-vous faire avec le service de développement durable
+
+Vous pouvez afficher le score de durabilité et l'utilisation projetée de l'énergie, du carbone direct et de la chaleur. Vous pouvez ajuster le pourcentage d'atténuation du carbone pour des sites spécifiques. En fonction de votre score durabilité, vous pouvez évaluer votre posture globale en matière de durabilité et mettre en œuvre les actions recommandées par NetApp pour améliorer votre score.
+
+Vous pouvez également afficher le score de durabilité au niveau du cluster. Les données fournies au niveau du cluster permettent également d'identifier les clusters qui peuvent être déplacés vers un stockage plus efficace, ce qui permet d'atteindre le juste équilibre entre performances et efficacité énergétique.
+
+
+
+== Accédez au service de développement durable
+
+Vous pouvez accéder à ce service de deux manières :
+
+* *Accéder au service de développement durable dans Digital Advisor*
+Vous pouvez vous connecter à Digital Advisor et accéder au service Sustainability à partir du tableau de bord Digital Advisor.
++
+image:sustainability_dashboard.png["Capture d'écran de l'interface utilisateur donnant une vue d'ensemble du tableau de bord Sustainability."]
+
++
+Pour plus d'informations sur la connexion à Digital Advisor, reportez-vous à la section link:task_login_activeiq.adoc["Connectez-vous à Digital Advisor"].
+
+* *Accéder au service de durabilité dans BlueXP*
+Vous pouvez vous connecter à BlueXP et accéder au service de durabilité à partir de la catégorie *gouvernance* disponible dans le menu de navigation de gauche de BlueXP.
++
+image:sustainability_dashboard_bluexp.png["Capture d'écran de l'interface utilisateur qui donne une vue d'ensemble du tableau de bord Sustainability dans BlueXP."]
+
++
+Pour vous connecter à BlueXP, vous pouvez utiliser vos identifiants du site de support NetApp ou vous inscrire à une connexion au cloud NetApp à l'aide de votre e-mail et de votre mot de passe. link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["En savoir plus sur la connexion"^].
+
+
+
+
+
+== Avantages de l'utilisation du service Sustainability
+
+Le service de développement durable offre les avantages suivants :
+
+* Accélérer la performance
+* Coûts de stockage réduits
+* Réduire l'empreinte carbone
+* Améliorer l'efficacité énergétique
+* Des informations claires sur votre stratégie de durabilité
+* Recommandations exploitables basées sur l'IA/ML
+
+
+
+
+== Le coût
+
+NetApp ne vous facture pas pour l'utilisation du service de développement durable BlueXP. Vous pouvez l'utiliser avec votre contrat de support actif.
+
+
+
+== Licences
+
+Aucune licence spéciale n'est requise pour accéder à ce service. Vous pouvez l'utiliser avec votre contrat de support actif si vous avez activé AutoSupport pour vos systèmes.

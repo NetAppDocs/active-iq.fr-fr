@@ -27,19 +27,20 @@ Vous devez également connaître les couleurs appliquées aux cartes, qui indiqu
 
 Voici quelques-unes des fonctionnalités de Digital Advisor :
 
-* Afficher plusieurs listes de surveillance, des vues d'informations exploitables et utiles en un coup d'œil
-* Obtenez des informations sur tous les risques encourus par votre système de stockage et les actions nécessaires pour limiter les risques
-* Limitez les risques grâce à Active IQ Unified Manager
-* Mettez à niveau votre système de stockage
-* Affichez le rapport d'efficacité du stockage, l'espace logique utilisé, l'espace physique utilisé et le total des données sauvegardées pour les systèmes de stockage exécutant ONTAP 9.1 et versions ultérieures
-* Analysez les performances de vos périphériques de stockage en consultant le format graphique des données de performances
-* Obtenez des informations sur le matériel et les logiciels qui ont expiré ou sont à court d'expiration dans les 6 mois à venir
-* Mettez à jour votre firmware ONTAP à l'aide d'Ansible
-* Découvrez en détail les systèmes dont la capacité a dépassé 90 % ou approchent 90 %
-* Affichez des informations détaillées sur la configuration physique et logique, notamment un récapitulatif de la configuration du cluster et des nœuds, les informations sur le volume et le Tier local, l'interface réseau et les ports, un diagramme de pile détaillant les informations des disques et des tiroirs et quelques visualisations de câbles
-* Fournissent des informations interpiles et utiles pour le dépannage, l'évaluation des mises à niveau, la validation des solutions et la migration
-* Vérifiez la compatibilité des hôtes et fournissez des recommandations de mise à niveau pour les systèmes d'exploitation hôtes, les pilotes et le micrologiciel
-* Arrivez exactement ce que vous voulez trouver plus intelligemment et plus vite
+* Affichez plusieurs listes de suivi, des vues d'informations exploitables et utiles d'un coup d'œil.
+* Obtenez des informations sur tous les risques encourus par votre système de stockage et les actions nécessaires pour limiter les risques.
+* Limitez les risques grâce à Active IQ Unified Manager.
+* Mettez à niveau votre système de stockage.
+* Affichez le score de durabilité et l'utilisation projetée de l'énergie, du carbone direct et de la chaleur. Sur la base de ce score, évaluez l'efficacité globale de vos systèmes de stockage et alignez-les sur les actions recommandées par NetApp pour améliorer ce score. link:concept_understand_sustainability_dashboard.html["En savoir plus >>"].
+* Consultez le ratio d'efficacité du stockage, l'espace logique utilisé, l'espace physique utilisé et la quantité totale de données sauvegardées pour les systèmes de stockage exécutant ONTAP 9.1 et versions ultérieures.
+* Analysez les performances de vos dispositifs de stockage en consultant le format graphique des données de performances.
+* Obtenez des informations sur le matériel et les logiciels qui ont expiré ou qui sont sur le point d'expirer au cours des 6 prochains mois.
+* Mettez à jour votre firmware ONTAP à l'aide d'Ansible.
+* Découvrez les systèmes qui ont dépassé 90 % de capacité ou sont proches de 90 % de capacité.
+* Affichez des informations détaillées de configuration physique et logique, notamment un récapitulatif de la configuration du cluster et du nœud, des informations sur le volume et le niveau local, l'interface réseau et les ports, un diagramme qui détaille les disques et les tiroirs disques et quelques visualisations de câbles.
+* Fournissez des informations et des informations exploitables sur les différentes piles et utiles pour la résolution de problèmes, l'évaluation des mises à niveau, la validation de la solution et la migration.
+* Vérifiez la compatibilité des hôtes et fournissez des recommandations de mise à niveau pour les systèmes d'exploitation hôtes, les pilotes et .
+* Obtenez exactement ce que vous voulez trouver de manière plus intelligente et plus rapide.
 
 
 

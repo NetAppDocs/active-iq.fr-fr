@@ -199,6 +199,21 @@ L'efficacité du stockage est supérieure lorsque des volumes de protection des 
 
 
 
+== Inventaire
+
+*Pourquoi ne puis-je pas trouver certains systèmes dans Digital Advisor?*
+Il se peut que vous ne puissiez pas rechercher certains systèmes ou les afficher dans la page d'inventaire pour l'une des raisons suivantes :
+
+* Les nouveaux systèmes prennent plus d'une journée pour réfléchir dans Digital Advisor une fois qu'ils sont ajoutés ou mis à jour dans SAP.
+* Les systèmes sont sécurisés et vous n'êtes pas autorisé à afficher les systèmes sécurisés.
+* Vous n'êtes pas autorisé à afficher les systèmes.
+* Les systèmes sont inactifs, archivés ou désaffectés dans SAP.
+
+
+Si vous ne parvenez pas à afficher les systèmes pour d'autres raisons, si vous avez des requêtes ou si vous souhaitez demander l'accès, link:https://mysupport.netapp.com/site/help["créer un dossier non technique"]. Pour en savoir plus sur un dossier non technique, cliquez sur <<Cas non technique,ici.>>
+
+
+
 == Puissance
 
 *Comment les capacités sont-elles calculées dans Digital Advisor ?* les capacités dans Digital Advisor sont-elles calculées pour le cluster et le nœud, à l'exception des copies root et des copies Snapshot comprises
@@ -304,17 +319,3 @@ NOTE: Elle inclut l'espace réservé pour les volumes qui sont de type de garant
 *Les capacités sont-elles indiquées dans la base 2 ou la base 10?* de Digital Advisor toutes les capacités affichées sont la base 2 (division par 1024) et représentent les capacités en Gio/Tio. Le stockage ONTAP et les autres produits NetApp indiquent également l'utilisation de la capacité dans le modèle de base 2.
 
 Pour StorageGRID, les capacités sont affichées dans la base 10 et l'unité de capacité est exprimée en To.
-
-
-
-== Inventaire
-
-*Pourquoi ne puis-je pas trouver certains systèmes dans la page d'inventaire?* il se peut que vous ne puissiez pas voir certains systèmes dans la page d'inventaire en raison de l'une des raisons suivantes :
-
-* Les nouveaux systèmes prennent plus d'une journée pour réfléchir dans Digital Advisor une fois qu'ils sont ajoutés ou mis à jour dans SAP.
-* Les systèmes sont sécurisés et vous n'êtes pas autorisé à afficher les systèmes sécurisés.
-* Vous n'êtes pas autorisé à afficher les systèmes.
-* Les systèmes sont inactifs ou désaffectés dans SAP.
-
-
-Si vous ne parvenez pas à afficher les systèmes pour d'autres raisons, link:https://mysupport.netapp.com/site/help["créer un dossier non technique"]. Pour en savoir plus sur un dossier non technique, cliquez sur <<Cas non technique,ici.>>

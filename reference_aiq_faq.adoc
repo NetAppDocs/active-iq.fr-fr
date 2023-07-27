@@ -42,7 +42,7 @@ Un dossier non technique doit être créé pour les cas suivants :
 
 *Comment puis-je créer un cas non technique?*
 
-. Cliquez sur link:https://mysupport.netapp.com/site/help["ici"] Pour ouvrir l'outil « Commentaires non techniques » sur le site de support NetApp.
+. Cliquez sur link:https://mysupport.netapp.com/site/help["ici"^] Pour ouvrir l'outil « Commentaires non techniques » sur le site de support NetApp.
 . Sélectionnez la catégorie appropriée dans la liste déroulante *Catégorie de commentaire*.
 . Entrez les détails requis et fournissez des informations supplémentaires dans la zone Commentaires.
 . Cliquez sur *soumettre*.
@@ -60,7 +60,7 @@ Pour faire part de vos commentaires ou poser des questions, envoyez un e-mail à
 
 *Comment accéder à l'efficacité du stockage dans Digital Advisor ?*
 
-. Ouvrez la page d'accueil de link:https://activeiq.netapp.com/?source=onlinedocs["Conseiller digital"].
+. Ouvrez la page d'accueil de link:https://activeiq.netapp.com/?source=onlinedocs["Conseiller digital"^].
 . Recherchez un client, un site, un groupe, un cluster ou un nœud dans la zone de recherche située en haut à droite pour accéder au tableau de bord correspondant.
 . Cliquez sur *efficacité du stockage* dans le menu de navigation de gauche.
 
@@ -210,7 +210,7 @@ Il se peut que vous ne puissiez pas rechercher certains systèmes ou les affiche
 * Les systèmes sont inactifs, archivés ou désaffectés dans SAP.
 
 
-Si vous ne parvenez pas à afficher les systèmes pour d'autres raisons, si vous avez des requêtes ou si vous souhaitez demander l'accès, link:https://mysupport.netapp.com/site/help["créer un dossier non technique"]. Pour en savoir plus sur un dossier non technique, cliquez sur <<Cas non technique,ici.>>
+Si vous ne parvenez pas à afficher les systèmes pour d'autres raisons, si vous avez des requêtes ou si vous souhaitez demander l'accès, link:https://mysupport.netapp.com/site/help["créer un dossier non technique"^]. Pour en savoir plus sur un dossier non technique, cliquez sur <<Cas non technique,ici.>>
 
 
 

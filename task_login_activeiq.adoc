@@ -19,10 +19,13 @@ summary: Fournit des informations pour se connecter à Digital Advisor.
 
 
 [role="lead"]
-Vous devez disposer d'informations d'identification valides sur le site de support NetApp pour vous connecter à Digital Advisor. Si vous ne possédez pas de compte et que vous êtes en route, cliquez sur link:https://mysupport.netapp.com/info/web/ECMP1150550.html/["ici"].
+Vous pouvez vous connecter à Digital Advisor à partir d'une console web pour créer une liste de suivi permettant d'afficher l'état global de votre système de stockage.
+
+.Avant de commencer
+Vous devez disposer d'informations d'identification valides sur le site de support NetApp pour vous connecter à Digital Advisor. Si vous ne possédez pas de compte et que vous commencez, passez à l' link:https://mysupport.netapp.com/info/web/ECMLP2458178.html["créez un compte"^].
 
 .Étapes
-. Cliquez sur link:https://activeiq.netapp.com/?source=onlinedocs["ici"] Pour accéder à Digital Advisor.
+. Accédez au link:https://activeiq.netapp.com/?source=onlinedocs["Conseiller digital"^] page de connexion.
 +
 Digital Advisor affiche les systèmes disposant d'un contrat de support valide. Si le contrat expire, une période de grâce de 90 jours est accordée pour que les systèmes restent visibles. Par la suite, les systèmes ne sont ni consultables ni visibles au sein de Digital Advisor.
 

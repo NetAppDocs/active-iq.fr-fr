@@ -34,7 +34,7 @@ Avant d'exécuter le manuel de vente Ansible à l'aide de NetApp docker, vous de
 
 
 .Étapes
-. link:https://docs.docker.com/get-started/["Configuration de Docker"].
+. link:https://docs.docker.com/get-started/["Configuration de Docker"^].
 . Extrayez l'image NetApp Docker depuis DockerHub en exécutant la commande suivante :
 +
 [listing]
@@ -46,7 +46,7 @@ latest: Pulling from schmots1/netapp-ansible
 docker.io/schmots1/netapp-ansible:lates
 ----
 +
-Pour plus d'informations sur la commande docker pull, reportez-vous au link:https://docs.docker.com/engine/reference/commandline/pull/["Documentation Docker Pull"].
+Pour plus d'informations sur la commande docker pull, reportez-vous au link:https://docs.docker.com/engine/reference/commandline/pull/["Documentation Docker Pull"^].
 
 . Exécutez l'image Docker en tant que conteneur et connectez-vous à ce conteneur pour exécuter le PlayBook Ansible.
 . Copiez le chemin d'accès du dossier qui contient le PlayBook Ansible extrait et les fichiers d'inventaire, par exemple *téléchargé_PlayBook_path*. Pour que l'exécution soit réussie, les fichiers PlayBook et d'inventaire doivent se trouver dans le même dossier.
@@ -57,7 +57,7 @@ Pour plus d'informations sur la commande docker pull, reportez-vous au link:http
 $ docker run -v <downloaded_playbook_path>:/<container_path> -it schmots1/netapp-ansible:latest /bin/bash
 ----
 +
-Le conteneur démarre et la console est maintenant à bash shell du conteneur. Pour plus d'informations sur la commande Docker Run, reportez-vous au link:https://docs.docker.com/engine/reference/run/["Documentation Docker Run"].
+Le conteneur démarre et la console est maintenant à bash shell du conteneur. Pour plus d'informations sur la commande Docker Run, reportez-vous au link:https://docs.docker.com/engine/reference/run/["Documentation Docker Run"^].
 
 . Exécutez le PlayBook Ansible dans le conteneur à l'aide de la commande *ansible-PlayBook* :
 +
@@ -77,6 +77,6 @@ NOTE: Si un ensemble de clusters avec différents identifiants de connexion est 
 
 
 
-Pour plus d'informations sur la commande *ansible-PlayBook*, reportez-vous au link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Documentation relative au manuel de vente Ansible"] Et pour exécuter le PlayBook Ansible en mode vérification (exécution à sec), reportez-vous à la link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible : mode de vérification"].
+Pour plus d'informations sur la commande *ansible-PlayBook*, reportez-vous au link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Documentation relative au manuel de vente Ansible"^] Et pour exécuter le PlayBook Ansible en mode vérification (exécution à sec), reportez-vous à la link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible : mode de vérification"^].
 
 Après avoir exécuté le manuel de vente Ansible, consultez le link:task_validate_firmware_installation.html["Validations de l'installation du micrologiciel"] pour les instructions post-exécution.

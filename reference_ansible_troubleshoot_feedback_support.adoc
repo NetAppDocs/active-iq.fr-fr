@@ -21,8 +21,8 @@ summary: 'Fournit plus d"informations sur Ansible.'
 [role="lead"]
 Vous pouvez obtenir de l'aide et trouver plus d'informations grâce à diverses ressources.
 
-* link:https://netapp.io/2019/08/05/dealing-with-the-unexpected/["Informations de dépannage"]
-* link:https://netapp.io/["Espace de travail Slack"]
+* link:https://netapp.io/2019/08/05/dealing-with-the-unexpected/["Informations de dépannage"^]
+* link:https://netapp.io/["Espace de travail Slack"^]
 * Mailto:ng-active-iq-feedback@netapp.com[E-mail]
 * Bouton de support dans Digital Advisor pour obtenir de l'aide et des commentaires.
 

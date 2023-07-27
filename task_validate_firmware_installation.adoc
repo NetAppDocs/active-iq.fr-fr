@@ -40,7 +40,7 @@ disk     firmware-revision model
 1.11.4   NA01              X423_HCOBE900A10
 ----
 +
-Pour plus d'informations sur la commande, reportez-vous à {LINK-with-soulignements}[Storage disk show].
+Pour plus d'informations sur la commande, reportez-vous à {link-with-soulignements}[Storage disk show^].
 
 . Vérifiez que le nouveau firmware NVMe Flash cache est installé :
 +
@@ -49,7 +49,7 @@ Pour plus d'informations sur la commande, reportez-vous à {LINK-with-souligneme
 ::*> system controller flash-cache show
 ----
 +
-Pour plus d'informations sur la commande, reportez-vous à {LINK-with-soulignements}[system Controller Flash cache show].
+Pour plus d'informations sur la commande, reportez-vous à {link-with-souligns}[system Controller flash-cache show^].
 
 
 
@@ -73,7 +73,7 @@ Dans le résultat de la commande, vérifiez que le firmware de chaque tiroir est
 Shelf 1: IOM6 Firmware rev. IOM6 A: 0191 IOM3 B: 0191
 ----
 +
-Pour plus d'informations sur la commande, reportez-vous à {LINK-with-soulignements}[system node run].
+Pour plus d'informations sur la commande, reportez-vous à la section {link-with-soulignements}[system node run^].
 
 . Vérifier que le nouveau firmware ACP est mis à jour :
 +
@@ -82,7 +82,7 @@ Pour plus d'informations sur la commande, reportez-vous à {LINK-with-souligneme
 ::*> storage shelf acp module show -instance
 ----
 +
-Pour plus d'informations sur la commande, reportez-vous à {LINK-with-soulignements}[Storage shelf acp module show].
+Pour plus d'informations sur la commande, reportez-vous à {link-with-soulignés}[Storage shelf ACP module show^].
 
 . Vérifiez que le mode ACP souhaité est configuré :
 +
@@ -91,7 +91,7 @@ Pour plus d'informations sur la commande, reportez-vous à {LINK-with-souligneme
 ::*> storage shelf acp show
 ----
 +
-Pour plus d'informations sur la commande, reportez-vous à {LINK-with-soulignements}[Storage tiroir acp show].
+Pour plus d'informations sur la commande, reportez-vous à {link-with-soulignements}[Storage shelf acp show^].
 
 . Modifiez le mode ACP (canal) :
 +
@@ -100,7 +100,7 @@ Pour plus d'informations sur la commande, reportez-vous à {LINK-with-souligneme
 ::*> storage shelf acp configure -channel [in-band | out-of-band]
 ----
 +
-Pour plus d'informations sur la commande, reportez-vous à {link-with-soulignements}[configuration acp du tiroir de stockage].
+Pour plus d'informations sur la commande, reportez-vous à {link-with-soulignements}[Storage shelf acp configure^].
 
 
 

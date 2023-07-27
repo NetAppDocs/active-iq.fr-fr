@@ -20,7 +20,7 @@ summary: 'Fournit des informations sur l"exécution de Ansible PlayBook à l"aid
 
 .Étapes
 [role="lead"]
-. Installer link:https://docs.python.org/3/using/windows.html["Python"] et link:https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html["Ansible"].
+. Installer link:https://docs.python.org/3/using/windows.html["Python"^] et link:https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html["Ansible"^].
 . Installez les modules Python requis à l'aide de *pip* :
 +
 [listing]
@@ -43,7 +43,7 @@ $ ansible-galaxy collection install netapp.ontap -p /usr/share/ansible/collectio
 $ chmod -R +rw /usr/share/ansible/collections
 ----
 +
-Pour plus d'informations sur la commande ansible-Galaxy, voir link:https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html["Documentation Ansible Galaxy"] Pour plus d'informations sur la collection NetApp Ansible, consultez le link:https://galaxy.ansible.com/netapp/ontap["Page de collecte NetApp Ansible"].
+Pour plus d'informations sur la commande ansible-Galaxy, voir link:https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html["Documentation Ansible Galaxy"^] Pour plus d'informations sur la collection NetApp Ansible, consultez le link:https://galaxy.ansible.com/netapp/ontap["Page de collecte NetApp Ansible"^].
 
 . Exécutez le PlayBook Ansible à l'aide de la commande *ansible-PlayBook* :
 +
@@ -63,6 +63,6 @@ NOTE: Si un ensemble de clusters avec différents identifiants de connexion est 
 
 
 
-Pour plus d'informations sur la commande *ansible-PlayBook*, reportez-vous au link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Documentation relative au manuel de vente Ansible"] Et pour exécuter le Ansible PlayBook en mode vérification (exécution à sec), reportez-vous à la link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible : mode de vérification"].
+Pour plus d'informations sur la commande *ansible-PlayBook*, reportez-vous au link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Documentation relative au manuel de vente Ansible"^] Et pour exécuter le Ansible PlayBook en mode vérification (exécution à sec), reportez-vous à la link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible : mode de vérification"^].
 
 Après avoir exécuté le manuel de vente, reportez-vous au link:task_validate_firmware_installation.html["Validations de l'installation du micrologiciel"] pour les instructions post-exécution.

@@ -21,8 +21,8 @@ summary: 'Fournit plus d"informations sur Digital Advisor.'
 [role="lead"]
 Vous pouvez obtenir de l'aide et trouver plus d'informations grâce à diverses ressources.
 
-* link:https://community.netapp.com/t5/Active-IQ-Digital-Advisor-and-AutoSupport/ct-p/autosupport-and-my-autosupport["Communauté NetApp"]
-* link:https://www.netapp.com/us/documentation/active-iq.aspx["Ressources de documentation"]
-* link:https://www.netapp.com/us/media/tr-4688.pdf["Sécurité et confidentialité des données de télémétrie NetApp"]
-* link:https://www.netapp.com/us/media/tr-4444.pdf["ONTAP AutoSupport et AutoSupport on Demand"]
+* link:https://community.netapp.com/t5/Active-IQ-Digital-Advisor-and-AutoSupport/ct-p/autosupport-and-my-autosupport["Communauté NetApp"^]
+* link:https://www.netapp.com/us/documentation/active-iq.aspx["Ressources de documentation"^]
+* link:https://www.netapp.com/us/media/tr-4688.pdf["Sécurité et confidentialité des données de télémétrie NetApp"^]
+* link:https://www.netapp.com/us/media/tr-4444.pdf["ONTAP AutoSupport et AutoSupport on Demand"^]
 

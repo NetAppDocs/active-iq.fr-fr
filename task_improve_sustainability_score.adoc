@@ -1,0 +1,80 @@
+---
+sidebar: sidebar 
+permalink: task_improve_sustainability_score.html 
+keywords: activeiq, sustainability dashboard, recommended actions, digital advisor, bluexp 
+summary: Fournit des étapes pour corriger les actions recommandées immédiatement ou ultérieurement. 
+---
+= Améliorer votre score de durabilité
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Le tableau de bord BlueXP Sustainability génère les actions recommandées que vous pouvez utiliser pour améliorer votre stratégie de durabilité globale. Vous pouvez afficher les actions recommandées dans NetApp BlueXP ou Digital Advisor.
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+. Accédez à *Sustainability* dans la catégorie *gouvernance* disponible dans la navigation de gauche de BlueXP.
+. Accédez à l'onglet *actions recommandées*.
++
+** Vous pouvez effectuer ces actions immédiatement en sélectionnant *Fix*, ou adresse plus tard en sélectionnant *plus tard*.
+** Si vous prévoyez d'effectuer les actions immédiatement, sélectionnez *Fix*.
++
+*** Elle développe la vue de l'action recommandée sélectionnée. Vous pouvez également développer la vue d'action recommandée à l'aide de la flèche vers le bas. Dans la vue développée, vous pouvez voir le nom du cluster, le score de durabilité et l'augmentation suivante si vous passez à l'option *Fix*. Vous pouvez également voir un message d'information sur la poursuite de l'option *Fix*.
+  +
+image:recommended_actions.png["Capture d'écran affichant la liste des actions dans la vue développée."]
+*** Dans la vue développée, vous pouvez sélectionner *fixer* pour corriger immédiatement l'action.
+
+
+** Si vous prévoyez de traiter les actions ultérieurement, sélectionnez *plus tard*.
++
+*** Si vous sélectionnez *plus tard*, l'action recommandée sélectionnée est déplacée vers l'onglet *actions pour plus tard*. L'action sélectionnée sera reportée de 30 jours. Après 30 jours, cette action passera à l'onglet *actions recommandées*.
+*** Vous pouvez également revoir les actions reportées à tout moment et les déplacer vers l'onglet *actions recommandées* en cliquant sur *prendre en compte*.
+ +
+image:actions_for_later.png["Capture d'écran affichant les actions recommandées avec l'option considérer."]
+
+
+
+
+
+
+--
+.Conseiller digital
+--
+. Accédez à *Sustainability* dans la catégorie *STORAGE HEALTH* disponible dans la navigation de gauche du tableau de bord Digital Advisor.
+. Accédez à l'onglet *actions recommandées*.
++
+** Vous pouvez effectuer ces actions immédiatement en sélectionnant *Fix*, ou adresse plus tard en sélectionnant *plus tard*.
+** Si vous prévoyez d'effectuer les actions immédiatement, sélectionnez *Fix*.
++
+*** La vue de l'action recommandée sélectionnée se développe. Vous pouvez également développer la vue d'action recommandée à l'aide de la flèche vers le bas. Dans la vue développée, vous pouvez voir le nom du cluster, le score de durabilité et l'augmentation suivante si vous passez à l'option *Fix*. Vous pouvez également voir un message d'information sur la poursuite de l'option *Fix*.
+  +
+image:recommended_actions.png["Capture d'écran affichant la liste des actions dans la vue développée."]
+*** Dans la vue développée, vous pouvez sélectionner *fixer* pour corriger immédiatement l'action.
+
+
+** Si vous prévoyez de traiter les actions ultérieurement, sélectionnez *plus tard*.
++
+*** Si vous sélectionnez *plus tard*, l'action recommandée sélectionnée est déplacée vers l'onglet *actions pour plus tard*. L'action sélectionnée sera reportée de 30 jours. Après 30 jours, cette action passera à l'onglet *actions recommandées*.
+*** Vous pouvez également revoir les actions reportées à tout moment et les déplacer vers l'onglet *actions recommandées* en cliquant sur *prendre en compte*.
+ +
+image:actions_for_later.png["Capture d'écran affichant les actions recommandées avec l'option considérer."]
+
+
+
+
+
+
+--
+====

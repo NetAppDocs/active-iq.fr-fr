@@ -72,9 +72,9 @@ NOTE: Les tableaux de bord créés à l'aide d'une liste de surveillance ne sero
 
 Digital Advisor affiche les rapports des systèmes exécutant ONTAP 9.1 et versions ultérieures.
 
-*Quelle est la case à cocher sans snapshots du tableau de bord d'efficacité ?*
+*Qu'est-ce que la bascule « avec copies snapshots » sur le tableau de bord d'efficacité ?*
 
-Par défaut, le tableau de bord sur l'efficacité du conseiller digital calcule le ratio global au niveau du client, du site, du groupe, du cluster et du nœud. Le taux global inclut le ratio résultant des technologies d'efficacité du stockage suivantes :
+Le tableau de bord d'efficacité de Digital Advisor calcule le taux de réduction des données à plusieurs niveaux, y compris le client, le site, le groupe, le cluster, et le nœud. Si vous activez l'option *avec snapshots copies*, le calcul du taux de réduction des données inclut les technologies d'efficacité du stockage suivantes :
 
 * Déduplication
 * Compression
@@ -83,7 +83,7 @@ Par défaut, le tableau de bord sur l'efficacité du conseiller digital calcule 
 * Snapshots
 
 
-Si vous cochez la case *sans snapshots*, Digital Advisor calcule le ratio d'efficacité (ratio issu des technologies d'efficacité du stockage de la déduplication, de la compression, de la compaction et des clones) au niveau du client, du site, du groupe, du cluster et des nœuds.
+Par défaut, le calcul du taux de réduction des données n'inclut pas la technologie d'efficacité du stockage Snapshot.
 
 *Que sont les données physiques utilisées et les données logiques utilisées?*
 
@@ -104,13 +104,13 @@ Si vous cochez la case *sans snapshots*, Digital Advisor calcule le ratio d'effi
 
 
 
-*Quelles instances AutoSupport sont utilisées pour calculer les ratios d'efficacité ?*
+*Quelles instances AutoSupport sont utilisées pour calculer le taux de réduction des données ?*
 
-Les calculs sont effectués à l'aide des dernières instances AutoSupport hebdomadaires ou déclenchées par l'utilisateur qui ont tendance à contenir la plupart des sections requises pour le calcul des ratios.
+Les calculs sont effectués à l'aide des dernières instances AutoSupport hebdomadaires ou déclenchées par l'utilisateur, qui contiennent généralement la plupart des sections requises pour calculer le ratio.
 
-*Quels volumes ou agrégats sont exclus des calculs d'efficacité?*
+*Quels volumes ou agrégats sont exclus du calcul de la réduction des données?*
 
-Les objets suivants ne sont pas pris en compte lors du calcul des ratios d'efficacité :
+Les objets suivants ne sont pas pris en compte lors du calcul du taux de réduction des données :
 
 * Agrégats racine
 * Les volumes hors ligne
@@ -118,13 +118,13 @@ Les objets suivants ne sont pas pris en compte lors du calcul des ratios d'effic
 * Volumes de configuration MCC
 
 
-*Comment puis-je voir la tendance des ratios d'efficacité?*
+*Comment puis-je voir la tendance du taux de réduction des données?*
 
-Actuellement, les ratios d'efficacité sont calculés sur la base de la dernière instance AutoSupport hebdomadaire ou déclenchée par l'utilisateur. Les tendances en matière d'efficacité peuvent être prises en compte dans une prochaine version.
+Actuellement, le taux de réduction des données est calculé sur la base de la dernière instance AutoSupport hebdomadaire ou déclenchée par l'utilisateur. Les tendances peuvent être prises en compte dans une prochaine version.
 
-*Comment sont calculés les ratios de niveau client et les économies d'efficacité ?*
+*Comment sont calculés les ratios au niveau du client et les économies de réduction des données ?*
 
-Le tableau de bord sur l'efficacité du stockage au niveau client indique le taux d'efficacité avec et sans les copies Snapshot pour les systèmes AFF et non AFF. Il est également combiné dans l'ensemble de la base installée du client pour les systèmes exécutant ONTAP 9.1 et versions ultérieures. Les paramètres requis pour les calculs suivants sont issus de ONTAP AutoSupport :
+Le tableau de bord efficacité du stockage au niveau client fournit le taux de réduction des données avec et sans copies Snapshot pour les systèmes AFF et non AFF, et est combiné sur l'ensemble de la base installée du client pour les systèmes exécutant ONTAP 9.1 et versions ultérieures. Les paramètres requis pour les calculs suivants sont issus de ONTAP AutoSupport :
 
 Sans copies Snapshot (calculées pour chaque agrégat en premier) :
 
@@ -135,7 +135,7 @@ Sans copies Snapshot (calculées pour chaque agrégat en premier) :
 | Agrégat logique utilisé sans copies Snapshot | Taille logique utilisée par les volumes, les clones et les copies Snapshot de l'agrégat : taille logique utilisée par les copies Snapshot 
 
 
-| Agrégat physique utilisé sans copies Snapshot | Total physique utilisé – (taille physique utilisée par les copies Snapshot/ratio avant-vente de réduction des données sur l'agrégat) 
+| Agrégat physique utilisé sans copies Snapshot | Total Physical Used : (taille physique utilisée par les copies Snapshot / ratio de réduction des données des agrégats) 
 
 
 | Ratio d'efficacité client sans copies Snapshot | Somme [aggr Logical utilisé sans copies Snapshot pour tous les agrégats et pour tous les nœuds d'un client] / sum [aggr Physical utilisé sans copies Snapshot pour tous les agrégats et pour tous les nœuds d'un client] : 1 
@@ -189,13 +189,13 @@ Calculs des tableaux des fonctionnalités d'efficacité :
 
 | Copies Snapshot copies de sauvegarde économies | Somme de (taille logique utilisée par les copies Snapshot - taille physique utilisée par les copies Snapshot) de tous les agrégats de tous les nœuds d'un client 
 |===
-*Pourquoi l'ajout de toutes les économies individuelles en termes d'efficacité n'ajoute-t-il pas au total des données économisées par l'efficacité du stockage ?*
+*Pourquoi l'ajout de toutes les économies individuelles de réduction des données ne s'ajoute-t-il pas aux économies de réduction des données?*
 
-Les économies réalisées grâce à l'efficacité du stockage sont indiquées dans le tableau de bord des volumes et des niveaux locaux (agrégats). Vous ne pouvez pas réaliser des économies de volumes et d'agrégats, car ils se produisent sur différents objets de stockage.
+Les économies réalisées grâce à la réduction des données sont indiquées dans le tableau de bord efficacité du stockage pour les volumes et les tiers locaux (agrégats).  Vous ne pouvez pas réaliser des économies de volumes et d'agrégats, car ils se produisent sur différents objets de stockage.
 
-*Pourquoi l'efficacité de stockage était-elle supérieure ou incorrecte avant de passer à ONTAP ?*
+*Pourquoi la réduction des données a-t-elle été signalée comme étant supérieure ou incorrecte avant la mise à niveau vers ONTAP?*
 
-L'efficacité du stockage est supérieure lorsque des volumes de protection des données sont présents sur le nœud en raison d'un bogue dans ONTAP. Le problème a été résolu dans ONTAP 9.3P11. Rapports sur l'efficacité du stockage lors de la mise à niveau depuis des versions ONTAP antérieures à 9.3P11 et lorsque des volumes de protection des données sont présents dans le nœud.
+Elle est plus élevée lorsque des volumes de protection des données sont présents dans le nœud en raison d'un bug dans ONTAP. Le problème a été résolu dans ONTAP 9.3P11. Rapports sur l'efficacité du stockage lors de la mise à niveau depuis des versions ONTAP antérieures à 9.3P11 et lorsque des volumes de protection des données sont présents dans le nœud.
 
 
 

@@ -1,0 +1,61 @@
+---
+sidebar: sidebar 
+permalink: get_started_sustainability_dashboard.html 
+keywords: activeiq, sustainability dashboard, bluexp login, sustainability dashboard login, bluexp 
+summary: Commencez à utiliser le tableau de bord de durabilité BlueXP en accédant à BlueXP ou à Digital Advisor. 
+---
+= Lancez-vous avec le tableau de bord Sustainability
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Le tableau de bord de durabilité inclut des fonctionnalités basées sur l'IA qui offrent des fonctionnalités de reporting et de notation avec des informations exploitables pour améliorer votre stratégie de durabilité. Vous pouvez utiliser NetApp BlueXP ou Digital Advisor pour afficher le tableau de bord Sustainability.
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+Pour vous connecter à BlueXP, vous pouvez utiliser vos identifiants du site de support NetApp ou vous inscrire à une connexion au cloud NetApp à l'aide de votre e-mail et de votre mot de passe. En savoir plus sur link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Connexion à BlueXP"^].
+
+.Étapes
+. Ouvrez un navigateur Web et accédez à link:https://console.bluexp.netapp.com/["Console BlueXP"^].
+La page de connexion NetApp BlueXP s'affiche.
+. Connectez-vous à BlueXP.
+. Dans le menu de navigation de gauche de BlueXP, sélectionnez *gouvernance* > *Sustainability*.
+  Le tableau de bord Sustainability s'affiche.
+  +
+image:sustainability_dashboard_bluexp.png["Copie d'écran de l'interface utilisateur qui donne la vue d'ensemble du tableau de bord de durabilité dans BlueXP."]
+
+
+
+NOTE: Si le tableau de bord Sustainability n'est pas configuré, l'option *Ajouter un compte NSS* apparaît. Fournissez vos informations d'identification sur le site de support NetApp (NSS) pour afficher votre tableau de bord Sustainability et les systèmes associés à votre compte.
+
+--
+.Conseiller digital
+--
+Pour vous connecter à Digital Advisor, vous pouvez utiliser vos informations d'identification du site du support NetApp.
+
+.Étapes
+. Ouvrez un navigateur Web et accédez à link:https://activeiq.netapp.com/?source=onlinedocs["Conseiller digital"^] page de connexion.
+. Indiquez votre nom d'utilisateur et votre mot de passe, puis cliquez sur *connexion*.
+. Dans le menu de navigation de gauche, sélectionnez *STORAGE HEALTH* > *Sustainability*.
++
+image:sustainability_dashboard.png["Capture d'écran de l'interface utilisateur donnant une vue d'ensemble du tableau de bord Sustainability."]
+
+
+
+
+NOTE: L'option *Sustainability* est désactivée si la liste de contrôle n'est pas configurée. Pour l'activer, vous pouvez soit créer une liste de contrôle, soit effectuer une recherche à l'aide du nom du client, du nom du site, du nom du groupe, de StorageGRID, du nom d'hôte, cluster, numéro de série ou ID système. link:concept_overview_dashboard.html["En savoir plus sur watchlist"].
+
+--
+====

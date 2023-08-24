@@ -1,0 +1,58 @@
+---
+sidebar: sidebar 
+permalink: task_manage_working_environments.html 
+keywords: activeiq, sustainability dashboard, sustainability score, clusterviewer, cloud insights 
+summary: Fournit des informations sur les environnements de travail. 
+---
+= Gérer les environnements de travail
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Vous pouvez personnaliser la table *Working Environments* en ajoutant ou en supprimant des paramètres environnementaux. Vous pouvez également afficher les actions recommandées au niveau du cluster de votre base installée et prendre les mesures nécessaires pour atteindre les objectifs de durabilité.
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+. Accédez à *Sustainability* dans la catégorie *gouvernance* disponible dans la navigation de gauche de BlueXP.
+. Aller au tableau *environnements de travail*.
++
+** Vous pouvez personnaliser la table *Working Environments* en ajoutant ou en supprimant les paramètres environnementaux à l'aide de l' image:add_icon.png["Une icône plus pour ajouter ou supprimer les paramètres"] icône.
+** Vous pouvez afficher le score de durabilité au niveau du cluster, accéder à *ClusterViewer* en sélectionnant le nom du cluster, prendre des actions spécifiques recommandées à partir d'ici pour améliorer la durabilité.
+** Vous pouvez également afficher les détails de l'alimentation en temps réel au niveau du cluster en activant Cloud Insights. link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["En savoir plus >>"^].
+  +
+image:working_environments.png["Capture d'écran de l'interface utilisateur affichant divers paramètres environnementaux"]
+** Vous pouvez également exporter ce tableau au format .csv (valeurs séparées par des virgules) à l'aide du image:download_icon.png["Symbole de téléchargement pour l'exportation du paramètre"] icône.
+
+
+
+
+--
+.Conseiller digital
+--
+. Accédez à *Sustainability* dans la catégorie *STORAGE HEALTH* disponible dans la navigation de gauche du tableau de bord Digital Advisor.
+. Aller au tableau *environnements de travail*.
++
+** Vous pouvez personnaliser la table *Working Environments* en ajoutant ou en supprimant les paramètres environnementaux à l'aide de l' image:add_icon.png["Une icône plus pour ajouter ou supprimer les paramètres"] icône.
+** Vous pouvez afficher le score de durabilité au niveau du cluster, accéder à *ClusterViewer* en sélectionnant le nom du cluster, prendre des actions spécifiques recommandées à partir d'ici pour améliorer la durabilité.
+** Vous pouvez également afficher les détails de l'alimentation en temps réel au niveau du cluster en activant Cloud Insights. link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["En savoir plus >>"^].
+  +
+image:working_environments.png["Capture d'écran de l'interface utilisateur affichant divers paramètres environnementaux"]
+** Vous pouvez également exporter ce tableau au format .csv (valeurs séparées par des virgules) à l'aide du image:download_icon.png["Symbole de téléchargement pour l'exportation du paramètre"] icône.
+
+
+
+
+--
+====

@@ -66,6 +66,16 @@ sidebar:
       url: "/task_renew_software_and_hardware.html"
     - title: Analyser le bien-être des clusters et des nœuds
       url: "/task_analyze_wellness_clusters_and_nodes.html"
+  - title: Analysez la durabilité de votre système de stockage
+    entries:
+    - title: En savoir plus sur le développement durable
+      url: "/learn_BlueXP_sustainability.html"
+    - title: Lancez-vous avec le tableau de bord Sustainability
+      url: "/get_started_sustainability_dashboard.html"
+    - title: Présentation du tableau de bord Sustainability
+      url: "/BlueXP_sustainability_dashboard_overview.html"
+    - title: Améliorer votre score de durabilité
+      url: "/improve_sustainability_score.html"
   - title: Afficher les détails du système
     entries:
     - title: Afficher les détails de l'inventaire
@@ -115,12 +125,6 @@ sidebar:
       url: "/concept_get_started_with_health_check_dashboard.html"
     - title: Renouvelez vos contrats de support
       url: "/task_renew_support_contracts_for_your_systems.html"
-  - title: Analysez la durabilité de votre système de stockage
-    entries:
-    - title: Découvrez le service de durabilité BlueXP
-      url: "/concept_understand_sustainability_dashboard.html"
-    - title: Lancez-vous avec le tableau de bord Sustainability
-      url: "/concept_get_started_with_sustainability_dashboard.html"
   - title: Mettez à niveau pour optimiser votre base installée
     entries:
     - title: Mettez à niveau la version ONTAP de votre système de stockage

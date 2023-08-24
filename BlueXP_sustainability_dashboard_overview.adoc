@@ -1,0 +1,57 @@
+---
+sidebar: sidebar 
+permalink: BlueXP_sustainability_dashboard_overview.html 
+keywords: activeiq, sustainability dashboard, sustainability score, sustainability, environmental indicators, carbon mitigation, recommended actions, working environments, best practices, support, recommendations,  digital advisor, bluexp, cluster, sustainability initatives 
+summary: Fournit des informations sur le tableau de bord, le score de durabilité, les environnements de travail et les actions recommandées. 
+---
+= Présentation du tableau de bord Sustainability
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Le tableau de bord de durabilité fournit une évaluation environnementale de votre système de stockage et des informations exploitables permettant d'apporter des améliorations sous la forme des actions recommandées par NetApp.
+
+image:get_started_sustainability_dashboard.png["Capture d'écran de l'interface utilisateur affichant le tableau de bord Sustainability."]
+
+
+NOTE: Pour obtenir les meilleurs résultats depuis le tableau de bord, vous devez activer AutoSupport. Si AutoSupport n'est pas activé, les données seront basées sur les spécifications du produit. Pour obtenir des détails sur l'alimentation en temps réel, vous devez activer Cloud Insights. Pour plus d'informations sur l'activation de Cloud Insights, reportez-vous à la section link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^].
+
+*Score de durabilité* : affiche le score total indiquant la durabilité environnementale de vos systèmes de stockage. Vous pouvez évaluer le niveau de durabilité de vos systèmes de stockage en fonction des critères suivants :
+
+* 76 - 100 : indique que la durabilité est une priorité.
+* 51 - 75 : indique un niveau élevé d'investissement dans les initiatives de durabilité.
+* 26 - 50 : indique de bons progrès vers les initiatives de durabilité.
+* Moins de 25 : indique la nécessité d'améliorer les pratiques de durabilité.
+
+
+Vous pouvez voir la représentation graphique du score pendant 5 semaines maximum, qui est mise à jour chaque semaine. Vous pouvez également voir la raison de l'augmentation ou de la diminution du score de durabilité en passant le curseur sur le graphique.
+
+image:sustainability_score.png["Capture d'écran montrant le score de durabilité avec le graphique."]
+
+*Indicateurs environnementaux* : affiche des projections pour votre consommation d'énergie, votre consommation directe de carbone et vos émissions de chaleur afin d'évaluer l'état de santé de votre système de stockage. Ces projections sont basées sur la puissance réelle, si elle n'est pas disponible, les valeurs de puissance typiques. Vous pouvez afficher ces projections mensuelles, trimestrielles ou annuelles en sélectionnant l'option souhaitée dans le menu déroulant situé dans le coin supérieur droit de cette section.
+
+*Pourcentages d'atténuation du carbone* : affiche le pourcentage d'atténuation du carbone sur chaque site/ville, et les valeurs de référence présentées sont basées sur votre emplacement. Vous pouvez ajuster le pourcentage d'atténuation du carbone pour des sites spécifiques en cliquant sur le bouton image:edit_icon_1.png["Capture d'écran affichant une icône modifiable."] icône située à côté des valeurs de pourcentage et les numéros de carbone s'ajustent automatiquement en conséquence.
+
+image:carbon_mitigation_percentage.png["Une capture d'écran qui montre le pourcentage d'atténuation du carbone des sites et comment modifier ce pourcentage."]
+
+*Actions recommandées* : affiche la liste des actions recommandées pour améliorer le score de durabilité de votre système de stockage. Ces actions peuvent être prises immédiatement, ou plus tard.
+Pour plus d'informations sur la manière d'améliorer le score de durabilité, voir link:improve_sustainability_score.html["Améliorer votre score de durabilité"].
+
+*Environnements de travail* : affiche les paramètres environnementaux dans le tableau qui peuvent aider à identifier les clusters pour passer à un stockage plus efficace. À partir de ce tableau, vous pouvez :
+
+* Afficher le score de durabilité au niveau du cluster, sélectionner le nom du cluster pour accéder à *ClusterViewer*, prendre des mesures spécifiques recommandées pour améliorer la durabilité. Pour plus d'informations, voir link:improve_sustainability_score.html["Améliorer le score de durabilité au niveau du cluster"].
++
+image:working_environments.png["Capture d'écran de l'interface utilisateur affichant divers paramètres environnementaux"]
+
+* Activez la surveillance à partir du coslumn *Real-Time POWER* pour afficher les détails de l'alimentation en temps réel au niveau du cluster. Pour plus d'informations, voir link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^].
+

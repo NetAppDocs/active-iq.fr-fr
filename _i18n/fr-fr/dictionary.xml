@@ -1033,11 +1033,6 @@
   <block id="6f93dec8e32211fde259c444ab2d63fb" category="paragraph">Le risque sera ajouté aux risques reconnus.</block>
   <block id="862744f0ea49f8f06aab2a99ec7a3482" category="admonition">Si vous ne voulez plus reconnaître un risque, vous pouvez ignorer le risque en cliquant sur *un-Ack* et en suivant les mêmes étapes.</block>
   <block id="b5d0947d6bc5e70f868d560d859163f5" category="doc">Consultez l'utilisation de la capacité sur l'abonnement NetApp Keystone</block>
-  <block id="1e113c9e791f55b9d40e5564c75fd42a" category="paragraph">Si vous êtes abonné au service d'abonnement Keystone, vous pouvez afficher le widget abonnement Keystone sur le tableau de bord Digital Advisor.</block>
-  <block id="da8d3bbd5e630a0cb154a6c5d8885297" category="paragraph">Le widget abonnement Keystone fournit un récapitulatif de l'utilisation de la capacité pour votre compte. Il se compose de graphiques sur l'utilisation de la capacité par rapport à la capacité physique, l'instantané étant arrondi aux cinq dernières minutes. L'utilisation au-dessus et au-dessus de la capacité engagée (la capacité en rafale) est marquée en rouge.</block>
-  <block id="6ba7120903e272ef8ff94c3d3cd58f57" category="inline-link-macro">niveaux de services</block>
-  <block id="986127c46ede44cd6e9ba2b5754cafca" category="inline-link-macro">Capacité du service par abonnement Keystone</block>
-  <block id="46b0133ea42a96887a939d9e262c57cf" category="admonition">En tant qu'utilisateur conseiller numérique, vous pouvez choisir entre ONTAP Collector et AutoSupport pour obtenir des données sur votre utilisation de capacité.</block>
   <block id="75fb68630cabac33011c445584315dfc" category="summary">Fournit plus d'informations sur Ansible.</block>
   <block id="5d08ea99dda2f857e6edb3d641d26b98" category="inline-link-macro">Informations de dépannage</block>
   <block id="e350176e2ca4464b7c8bb3efa4e581fa" category="inline-link-macro">Espace de travail Slack</block>
@@ -1153,8 +1148,6 @@
   <block id="02e55cfbe6e55152bef274ca4a6a3d14" category="cell">Contrats de support/support matériel EOS</block>
   <block id="e5f2463f379aba48a0f9ca6c913203cc" category="cell">Densité des E/S.</block>
   <block id="7f5c8fc8352c3e254ac3f5c7cf32c466" category="cell">Le rapport sur la densité des E/S fournit des informations concernant les pics d'opérations d'entrée/sortie pour les clients en termes de consommation et de densité des données et des métadonnées.</block>
-  <block id="deaf5bbabe29231a9826b313fee569a1" category="inline-link-macro">Tableau de bord et reporting des abonnements Keystone</block>
-  <block id="706f9582e4d14591a9eeeaf6db8cc6c5" category="paragraph">Pour plus d'informations sur l'abonnement Keystone, reportez-vous à la section <block ref="42d99877a3bdc96c47aeda69738db0f2" category="inline-link-macro-rx"></block>.</block>
   <block id="1c6ca21b0d3e6f38c91e416032c3b178" category="paragraph">Vous pouvez afficher la moyenne des opérations de lecture, d'écriture et autres dans le tableau IOPS du volume.</block>
   <block id="80a2eb22b09cbe781077565f06b74dbf" category="paragraph">L'efficacité du stockage SAN et NAS est disponible au niveau des nœuds pour les systèmes ONTAP, notamment AFF A-Series, AFF C190, All SAN Array et FAS500 exécutant ONTAP 9.10 et versions ultérieures.</block>
   <block id="7002d0318dc4f195c464ca83f3d2ca86" category="section-title">22 février 2023</block>
@@ -1162,8 +1155,6 @@
   <block id="30becc7ff660741781b33df4424a976b" category="paragraph">Le site de sécurité NetApp est une source de vérité pour la sécurité produits NetApp : <block ref="5e78a47b9f3f07f171347317054eb0a4" category="inline-link-macro-rx"></block></block>
   <block id="1a0fefe07d105bbdb30fd8b35268ac5f" category="paragraph">Pour plus d'informations sur la sécurité des produits NetApp, y compris sur les produits non couverts par le conseiller digital, rendez-vous sur le site <block ref="5e78a47b9f3f07f171347317054eb0a4" category="inline-link-macro-rx"></block></block>
   <block id="bbca9981d6b0f3a88a20d77f9f0b515e" category="summary">Fournit des informations sur l'utilisation de votre capacité avec l'abonnement NetApp Keystone.</block>
-  <block id="ce1aa13636f163ff457fae8432a2f4ec" category="paragraph">Vous pouvez afficher le tableau de bord *Keystone - utilisation de la capacité*, qui analyse les données dans le widget et représente graphiquement la tendance d'utilisation de la capacité et de l'ensemble du stockage auquel vous êtes abonné <block ref="471fbca756054ddae280268222b19bf9" category="inline-link-macro-rx"></block>, Tels que Premium, Extreme et Standard, associés à votre compte de souscription NetApp Keystone.</block>
-  <block id="27363af66f7c7e4630979587cc9ad936" category="paragraph">Vous pouvez afficher le <block ref="641f2bb6b5e44be4cae8acd4ce2983c0" category="inline-link-macro-rx"></block> et l'utilisation de chaque service souscrit pour votre bloc, services de fichiers ou stockage objet dans le tableau de bord.</block>
   <block id="1583e3cf3d8d7b04d46e1fc4c3378657" category="paragraph">À partir de l'écran FabricPool Advisor, vous pouvez activer le reporting des données inactives pour surveiller les agrégats et générer un PlayBook Ansible.</block>
   <block id="a44ea0c484f7b46a675c3900938f5c9e" category="paragraph">Téléchargez l'application pour en savoir plus :<block ref="9f34f1e9a1a1b7a5470e007139e444f5" category="inline-link-macro-rx"></block>
 <block ref="45e5ff1f89e77ef1cc1575bf78209669" category="inline-link-macro-rx"></block></block>
@@ -1418,4 +1409,7 @@ La page de connexion NetApp BlueXP s'affiche.</block>
   <block id="4ab7ab489ac4d021f39004a1bc70c209" category="paragraph"><block ref="ab7ef85b2ffc5cc75de4e5a966fa1b9d" category="inline-link-macro-rx"></block>.</block>
   <block id="37cce083eef0841e779db21ca8daef7e" category="paragraph">Vous pouvez afficher les risques et les corriger à l'aide de Active IQ Unified Manager. <block ref="f4086b11d800cf115240026fc88182a0" category="inline-link-macro-rx"></block>.</block>
   <block id="68eadb44b69eeb166a72c254148cc4c3" category="paragraph">Voir <block ref="b0240cce700bb082e59a979e57faa1fc" category="inline-link-macro-rx"></block> pour en savoir plus.</block>
+  <block id="fa67fcdec3a9597a8256117c23529953" category="paragraph">Si vous êtes abonné aux services STaaS de NetApp Keystone, vous pouvez afficher le widget abonnement Keystone dans le tableau de bord de Digital Advisor.</block>
+  <block id="580577f00c6e952d8dad642fa30380db" category="inline-link-macro">Keystone et conseiller digital</block>
+  <block id="2f9ac5e4626cf891d09ebda2d18327db" category="paragraph">Le widget abonnement Keystone fournit un récapitulatif de l'utilisation de la capacité pour votre compte. Il se compose de graphiques d'utilisation de la capacité par rapport à la capacité physique. Pour plus d'informations sur les différents niveaux de données d'abonnement et d'informations d'utilisation, reportez-vous à la section <block ref="db5795af5cbf28cf9af79d32298b7715" category="inline-link-macro-rx"></block>.</block>
 </blocks>

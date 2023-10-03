@@ -23,6 +23,22 @@ Les fonctionnalités et améliorations suivantes ont été introduites dans Digi
 
 
 
+== 27 septembre 2023
+
+
+
+=== Upgrade Advisor
+
+Vous pouvez accéder à la page Upgrade Advisor pour votre liste de surveillance par défaut ou votre tableau de bord à l'aide du link:https://activeiq.netapp.com/redirect/upgrade-advisor["Upgrade Advisor"^] lien. Si vous ne disposez pas d'une liste de surveillance ou d'un tableau de bord par défaut, cliquez sur le lien pour vous rediriger vers la page recherche.
+
+
+
+=== Plan de mise à niveau
+
+Le plan de mise à niveau a été optimisé afin de supprimer les étapes de mise à niveau redondantes, de modifier les informations et les avertissements et de simplifier le plan de retrait. Les étapes courantes de tous les nœuds d'un cluster sont consolidées et disponibles dans la section informations générales. Pour afficher le plan amélioré, générez le plan de mise à niveau en suivant les étapes mentionnées dans link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["Mettez à niveau la version ONTAP à l'aide du plan de mise à niveau"].
+
+
+
 == 16 juillet 2023
 
 

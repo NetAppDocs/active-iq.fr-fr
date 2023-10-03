@@ -4,7 +4,7 @@ permalink: task_view_upgrade.html
 keywords: upgrade, ONTAP version, upgrade advisor, upgrade plan, risk advisor, pending upgrades 
 summary: 'Le fournit des informations permettant d"afficher et de mettre à niveau la version ONTAP de votre système de stockage.' 
 ---
-= Mettez à niveau la version de ONTAP en générant un plan de mise à niveau
+= Mettez à niveau la version ONTAP à l'aide d'un plan de mise à niveau
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -19,16 +19,42 @@ summary: 'Le fournit des informations permettant d"afficher et de mettre à nive
 
 
 [role="lead"]
-Vous pouvez afficher les mises à niveau en attente de votre système de stockage et effectuer une mise à niveau vers une version plus récente de ONTAP en générant un plan de mise à niveau. Vous devez également afficher la liste des risques dans l'onglet *Risk Advisor* qui serait mitiger en raison de la mise à niveau.
+Vous pouvez afficher les mises à niveau en attente de votre système de stockage et effectuer une mise à niveau vers une version plus récente de ONTAP à l'aide d'un plan de mise à niveau. Vous pouvez également afficher la liste des risques dans l'onglet *Risk Advisor*, qui sera réduit en raison de la mise à niveau.
 
 .Étapes
-. Sur le tableau de bord, affichez les mises à niveau en attente dans le widget *mises à niveau*.image:upgrade_advisor_widget.png["Upgrade Advisor"]
-. Cliquez sur le nombre de *actions* pour afficher les mises à niveau en attente.
-. Sélectionnez l'option de mise à niveau requise.image:upgrade_options.png["Options de mise à niveau"]
-. Cliquez sur le nombre de systèmes affichés dans le widget pour afficher l'onglet *Upgrade Advisor*.
+. Sur le tableau de bord, dans le widget *Upgrade Advisor*, cliquez sur le nombre d'actions pour afficher les mises à niveau en attente.
 +
-Vous pouvez également consulter les notes de version pour afficher des informations détaillées sur la version.image:generate_upgrade_plan.png["Générer un plan de mise à niveau"]
+image:upgrade_advisor_widget.png["Upgrade Advisor"]
 
-. Affichez la liste des risques dans l'onglet *Risk Advisor*, ainsi que leur niveau de gravité, qui serait atténué en raison de la mise à niveau.
-. Cliquez sur *générer un plan de mise à niveau* pour accéder à *Upgrade Advisor*.
+. Sélectionnez l'option de mise à niveau requise.
++
+image:upgrade_options.png["Options de mise à niveau"]
+
+. Cliquez sur le nombre de systèmes compatibles dans l'option de mise à niveau sélectionnée pour accéder à la page *Détails de la mise à niveau* pour générer un plan de mise à niveau.
++
+image:generate_upgrade_plan.png["Générer un plan de mise à niveau"]
+
++
+** Vous pouvez accéder à l'onglet *Risk Advisor* pour afficher la liste des risques ainsi que leur niveau de gravité, qui sera réduit en raison de la mise à niveau.
+  +
+image:view_risks.png["Onglet Risk Advisor"]
+** Vous pouvez cliquer sur le nombre total de risques pour afficher la liste des risques dans l'onglet *Risk Advisor* si l'option de mise à niveau sélectionnée inclut *Total Risks*.
++
+image:total_risks.png["Risques totaux"]
+
+
+
+. Dans l'onglet *Upgrade Advisor*, cliquez sur *générer un plan de mise à niveau*.
+. Indiquez les détails dans la fenêtre contextuelle qui s'affiche. Vous pouvez également cocher la case *Revert Plan* pour inclure le plan de retrait dans le rapport du plan de mise à niveau.
++
+image:details_upgrade_plan.png["Une fenêtre contextuelle s'affiche pour indiquer les détails de l'envoi de la demande de création du plan de mise à niveau"]
+
+. Cliquez sur *soumettre*.
+. Aller à *Rapports*. Vous pouvez contrôler l'état du plan de mise à niveau et le télécharger une fois qu'il est disponible.
++
+Vous recevrez également un e-mail contenant le plan de mise à niveau une fois qu'il sera généré.
+
++
+image:download_upgrade_plan.png["Capture d'écran indiquant l'état du rapport du plan de mise à niveau"]
+
 

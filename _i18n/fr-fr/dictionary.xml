@@ -1080,7 +1080,6 @@
   <block id="5b333f7c3257e7754518c2d09d86555e" category="sidebar">Analyser les performances du stockage</block>
   <block id="b0f4d50e3b0a80acae4cdfe5ec415bf2" category="sidebar">Analyser l'état de santé de votre système de stockage</block>
   <block id="5c76b7629087dd257b9ab47efd972727" category="sidebar">Mettez à niveau pour optimiser votre base installée</block>
-  <block id="1d6e1053c3a5ac9c901ad8624d357a85" category="sidebar">Mettez à niveau la version ONTAP de votre système de stockage</block>
   <block id="bcbe3404f4519b7a276724fb02a336ec" category="sidebar">Mettez à jour votre firmware AFF et FAS à l'aide du PlayBook Ansible</block>
   <block id="cac43af1157491380365a3fbc40ffd0e" category="sidebar">Installer et exécuter le pack Ansible Automation du firmware AFF et FAS (utilisateurs expérimentés)</block>
   <block id="296c50bb7122e36d72b344edcdd0c679" category="sidebar">Installer et exécuter le pack d'automatisation Ansible du firmware AFF et FAS (débutants)</block>
@@ -1179,7 +1178,6 @@
   <block id="c2b079f6f62fe899dec7b1a93823c546" category="list-text">Vérifiez la compatibilité des hôtes et fournissez des recommandations de mise à niveau pour les systèmes d'exploitation hôtes, les pilotes et .</block>
   <block id="daea2bcb0af4558719fc040fddad5b69" category="list-text">Obtenez exactement ce que vous voulez trouver de manière plus intelligente et plus rapide.</block>
   <block id="325e4e14529c96a60b99d9cecba4d5a6" category="section-title">21 juin 2023</block>
-  <block id="10774cfa8212ea83d9277785a67ca25c" category="sidebar">Analysez la durabilité de votre système de stockage</block>
   <block id="23c5744a4c274e51948ba5ceeb6db0f9" category="paragraph">*Pourquoi ne puis-je pas trouver certains systèmes dans Digital Advisor?*
 Il se peut que vous ne puissiez pas rechercher certains systèmes ou les afficher dans la page d'inventaire pour l'une des raisons suivantes :</block>
   <block id="f2c1cd072b0801929f6eda1e5bff8545" category="list-text">Les systèmes sont inactifs, archivés ou désaffectés dans SAP.</block>
@@ -1402,22 +1400,13 @@ La page de connexion NetApp BlueXP s'affiche.</block>
   <block id="fa67fcdec3a9597a8256117c23529953" category="paragraph">Si vous êtes abonné aux services STaaS de NetApp Keystone, vous pouvez afficher le widget abonnement Keystone dans le tableau de bord de Digital Advisor.</block>
   <block id="580577f00c6e952d8dad642fa30380db" category="inline-link-macro">Keystone et conseiller digital</block>
   <block id="2f9ac5e4626cf891d09ebda2d18327db" category="paragraph">Le widget abonnement Keystone fournit un récapitulatif de l'utilisation de la capacité pour votre compte. Il se compose de graphiques d'utilisation de la capacité par rapport à la capacité physique. Pour plus d'informations sur les différents niveaux de données d'abonnement et d'informations d'utilisation, reportez-vous à la section <block ref="db5795af5cbf28cf9af79d32298b7715" category="inline-link-macro-rx"></block>.</block>
-  <block id="05101a0f55d1824ea65fdd4aed3a0df5" category="paragraph">Vous pouvez afficher les mises à niveau en attente de votre système de stockage et effectuer une mise à niveau vers une version plus récente de ONTAP à l'aide d'un plan de mise à niveau. Vous pouvez également afficher la liste des risques dans l'onglet *Risk Advisor*, qui sera réduit en raison de la mise à niveau.</block>
   <block id="88c21efa97d0237f72649c201f8b8d3e" category="list-text">Sur le tableau de bord, dans le widget *Upgrade Advisor*, cliquez sur le nombre d'actions pour afficher les mises à niveau en attente.</block>
   <block id="aee744d64cc19e679b53b0c639b25694" category="paragraph"><block ref="aee744d64cc19e679b53b0c639b25694" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5bd5fef463b4aadc5c62af290cab7b03" category="list-text">Sélectionnez l'option de mise à niveau requise.</block>
   <block id="63134457816850025801f96a7797e55c" category="paragraph"><block ref="63134457816850025801f96a7797e55c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="21161aff1728668cb5f36b56c240c89c" category="list-text">Cliquez sur le nombre de systèmes compatibles dans l'option de mise à niveau sélectionnée pour accéder à la page *Détails de la mise à niveau* pour générer un plan de mise à niveau.</block>
   <block id="04306a8a1debf79f0ac04ae6415d891b" category="paragraph"><block ref="04306a8a1debf79f0ac04ae6415d891b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0d67c629baadb827d64b6f908a024ff7" category="inline-image-macro">Onglet Risk Advisor</block>
-  <block id="0520934f7f277be53d0e5af988901e83" category="list-text">Vous pouvez accéder à l'onglet *Risk Advisor* pour afficher la liste des risques ainsi que leur niveau de gravité, qui sera réduit en raison de la mise à niveau.
-  +
-<block ref="54041361f5c1eaef6bcf2a769063421a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="10df3b7bc0d299d1789736d691e0d81b" category="list-text">Vous pouvez cliquer sur le nombre total de risques pour afficher la liste des risques dans l'onglet *Risk Advisor* si l'option de mise à niveau sélectionnée inclut *Total Risks*.</block>
   <block id="c406705ee0488217955ba39bbcd3e0f3" category="inline-image-macro">Risques totaux</block>
   <block id="545606e93056e8efc230dfc45f3dffd2" category="paragraph"><block ref="545606e93056e8efc230dfc45f3dffd2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0d3a6c12cad96c6c84d2e06211666b7a" category="list-text">Dans l'onglet *Upgrade Advisor*, cliquez sur *générer un plan de mise à niveau*.</block>
-  <block id="ee86a97709cbf5c06d97b73c231dde60" category="list-text">Indiquez les détails dans la fenêtre contextuelle qui s'affiche. Vous pouvez également cocher la case *Revert Plan* pour inclure le plan de retrait dans le rapport du plan de mise à niveau.</block>
   <block id="9b9689199f95721c2dbffc551f8161fa" category="inline-image-macro">Une fenêtre contextuelle s'affiche pour indiquer les détails de l'envoi de la demande de création du plan de mise à niveau</block>
   <block id="d9884ccdf942ab0c8a261c9bf340eefe" category="paragraph"><block ref="d9884ccdf942ab0c8a261c9bf340eefe" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5d97ab11aa1e9f44020218850b335941" category="list-text">Aller à *Rapports*. Vous pouvez contrôler l'état du plan de mise à niveau et le télécharger une fois qu'il est disponible.</block>
@@ -1429,4 +1418,17 @@ La page de connexion NetApp BlueXP s'affiche.</block>
   <block id="d733f1a5970e5ea99d583388ac25e9cf" category="inline-link-macro">Découvrez comment générer et afficher le plan de mise à niveau</block>
   <block id="b01f37f1151c1eda43d977dc266311ad" category="list-text">Le plan de mise à niveau est optimisé pour supprimer les étapes de mise à niveau redondantes et simplifier le plan de retrait. Les étapes courantes de tous les nœuds d'un cluster sont consolidées et disponibles dans la section informations générales du plan de mise à niveau. <block ref="818a7808067ecc2956de5a6af27e7278" category="inline-link-macro-rx"></block>.</block>
   <block id="728961fac8324355b6e6e72caa3fcab4" category="paragraph">Le tableau de bord de durabilité fournit des informations précieuses sur la durabilité environnementale de votre système de stockage. Vous pouvez afficher des informations telles que le score de durabilité, le pourcentage d'atténuation du carbone, l'utilisation prévue de l'énergie, le carbone direct et la chaleur. Vous pouvez ajuster le pourcentage d'atténuation du carbone pour des sites spécifiques. Vous pouvez également afficher le score de durabilité au niveau du cluster. En fonction de ce score, vous pouvez évaluer l'efficacité globale de votre système de stockage et l'aligner sur les actions recommandées par NetApp pour un développement durable. <block ref="14f04672b3a078b1589b8f46c67500a4" category="inline-link-macro-rx"></block>.</block>
+  <block id="cdb49ecd8a62ade62c327a64e1695566" category="doc">Mettez à niveau la version ONTAP de vos systèmes de stockage</block>
+  <block id="0311d8be615519ede7fdf56e28c4e87a" category="paragraph">Vous pouvez utiliser Upgrade Advisor pour afficher les mises à niveau recommandées et créer un plan de mise à niveau pour vos systèmes de stockage. Vous pouvez afficher la liste des risques dans l'onglet Risk Advisor associé à vos systèmes de stockage et atténuer ces risques si vous mettez à niveau vos systèmes de stockage vers une version plus récente de ONTAP.</block>
+  <block id="a51f3b59b1e2e55eb492198c5498a7bf" category="list-text">Sélectionnez l'option de mise à niveau.</block>
+  <block id="fd23e666b2cc48f70922dc0a25bed60d" category="list-text">Cliquez sur le nombre de systèmes compatibles pour générer un plan de mise à niveau.
+La page *Détails de la mise à niveau* s'affiche.</block>
+  <block id="075d151109499e2e30fc7ffd634ce560" category="list-text">Vous pouvez accéder à l'onglet *Risk Advisor* pour afficher la liste des risques ainsi que leur niveau de gravité.
+  +
+<block ref="54041361f5c1eaef6bcf2a769063421a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f4e13f16e7fba0f60794942036b0d5b3" category="list-text">Vous pouvez cliquer sur le nombre total de risques pour afficher la liste des risques dans l'onglet *Risk Advisor* si l'option de mise à niveau inclut *Total Risks*.</block>
+  <block id="ace70623d17cb73b373d377d0c453895" category="list-text">Dans l'onglet *Upgrade Advisor*, sélectionnez les systèmes à mettre à niveau.</block>
+  <block id="81ff79ba6c57be0faaf7131e8c633f75" category="list-text">Cliquez sur *générer un plan de mise à niveau*.</block>
+  <block id="06cb9645f9905dac3c50116c8abb865c" category="list-text">Indiquez les détails dans la fenêtre contextuelle qui s'affiche. Vous pouvez également cocher la case *Revert Plan* pour inclure le plan de retrait dans le plan de mise à niveau.</block>
+  <block id="98f475d7aa8f966d87ccc93ba94fba94" category="sidebar">Analysez la durabilité de vos systèmes de stockage</block>
 </blocks>

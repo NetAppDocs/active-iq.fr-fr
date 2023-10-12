@@ -23,6 +23,16 @@ Les fonctionnalités et améliorations suivantes ont été introduites dans Digi
 
 
 
+== 04 octobre 2023
+
+
+
+=== Widget de planification
+
+Le nombre de recommandations pour les mises à jour technologiques est inclus dans le widget de planification du tableau de bord du niveau client. Ces recommandations aident à planifier les activités de mise à jour technologique du matériel lorsque le support matériel est épuisé ou arrive à sa fin.
+
+
+
 == 27 septembre 2023
 
 

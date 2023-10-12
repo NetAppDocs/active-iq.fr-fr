@@ -1103,7 +1103,6 @@
   <block id="ff40d476eb35d6d339a7a745c5825109" category="sidebar">Portail Web Digital Advisor</block>
   <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Vidéos Digital Advisor</block>
   <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">Communauté NetApp : conseiller digital</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Toute la documentation BlueXP</block>
   <block id="8081688f219c172dde2cb99dbacc51d8" category="doc">Prenez des décisions avisées en fonction des recommandations sur le cloud</block>
   <block id="e404f7c0800eac65e5e44442bb4fd0cc" category="admonition">Vous devez télécharger et enregistrer le jeton d'accès et actualiser le jeton pour une utilisation ultérieure. Les jetons d'accès expirent une heure après la génération et l'actualisation des jetons doivent être régénérés, manuellement, tous les 7 jours et installés dans l'application. Pour ce faire, vous n'avez pas besoin de vous connecter à l'application. Toutefois, après 90 jours, vous devez vous connecter à l'application pour obtenir un nouvel accès et actualiser le jeton.</block>
   <block id="73924ddc2c905c2855a59dc4ad4e29a7" category="paragraph">Les attributs d'un modèle de dérive de configuration sont modifiables et les groupes suivants du modèle prennent en charge les expressions régulières pour certaines sections :</block>
@@ -1431,4 +1430,7 @@ La page *Détails de la mise à niveau* s'affiche.</block>
   <block id="81ff79ba6c57be0faaf7131e8c633f75" category="list-text">Cliquez sur *générer un plan de mise à niveau*.</block>
   <block id="06cb9645f9905dac3c50116c8abb865c" category="list-text">Indiquez les détails dans la fenêtre contextuelle qui s'affiche. Vous pouvez également cocher la case *Revert Plan* pour inclure le plan de retrait dans le plan de mise à niveau.</block>
   <block id="98f475d7aa8f966d87ccc93ba94fba94" category="sidebar">Analysez la durabilité de vos systèmes de stockage</block>
+  <block id="d36a1ccbf2d01a1ff61c0e50416882e9" category="section-title">04 octobre 2023</block>
+  <block id="ec795e7f7ea26d9d59bc0e1e031d4234" category="section-title">Widget de planification</block>
+  <block id="cf75b31aeb339e309fa309a49a276a28" category="paragraph">Le nombre de recommandations pour les mises à jour technologiques est inclus dans le widget de planification du tableau de bord du niveau client. Ces recommandations aident à planifier les activités de mise à jour technologique du matériel lorsque le support matériel est épuisé ou arrive à sa fin.</block>
 </blocks>

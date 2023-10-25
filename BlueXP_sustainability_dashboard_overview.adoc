@@ -53,5 +53,5 @@ Pour plus d'informations sur la manière d'améliorer le score de durabilité, v
 +
 image:working_environments.png["Capture d'écran de l'interface utilisateur affichant divers paramètres environnementaux"]
 
-* Activez la surveillance à partir du coslumn *Real-Time POWER* pour afficher les détails de l'alimentation en temps réel au niveau du cluster. Pour plus d'informations, voir link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^].
+* Activez la surveillance à partir de la colonne *Real-Time POWER* pour afficher les détails de l'alimentation en temps réel au niveau du cluster. Pour plus d'informations, voir link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^].
 

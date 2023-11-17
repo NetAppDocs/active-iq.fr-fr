@@ -23,6 +23,24 @@ Les fonctionnalités et améliorations suivantes ont été introduites dans Digi
 
 
 
+== 16 novembre 2023
+
+
+
+== Liste de surveillance
+
+Vous pouvez maintenant créer un maximum de 100 listes de surveillance.
+
+
+
+=== Widget de planification
+
+* Les recommandations de mise à jour technologique sont désormais disponibles dans les tableaux de bord des listes de suivi, des sites et des groupes.
+* Vous pouvez désormais afficher les candidats aux mises à jour technologiques potentiels lorsque le nombre de recommandations de mise à jour technologique est égal à zéro.
+
+
+
+
 == 04 octobre 2023
 
 

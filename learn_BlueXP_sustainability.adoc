@@ -21,11 +21,14 @@ summary: 'Fournit des informations sur le développement durable qui vous permet
 [role="lead"]
 Le développement durable, en tant que service, vous permet de réduire votre consommation d'énergie et de travailler à la réalisation de vos objectifs environnementaux. Vous pouvez ainsi aligner vos systèmes de stockage avec des pratiques écologiques et atteindre vos objectifs de durabilité.
 
-Vous pouvez utiliser le tableau de bord Sustainability pour atteindre vos objectifs environnementaux. Vous pouvez afficher le score de durabilité et l'utilisation projetée de l'énergie, du carbone direct et de la chaleur dans le tableau de bord de durabilité. Vous pouvez ajuster le pourcentage d'atténuation du carbone pour des sites spécifiques. Vous pouvez également afficher le score de durabilité au niveau du cluster. En fonction de ce score, vous pouvez évaluer la stratégie de durabilité et mettre en œuvre les actions recommandées par NetApp pour améliorer ce score. Pour en savoir plus sur le tableau de bord Sustainability, rendez-vous sur link:get_started_sustainability_dashboard.html["Lancez-vous avec le tableau de bord Sustainability"].
+Vous pouvez utiliser le tableau de bord Sustainability pour afficher le score de durabilité et l'utilisation projetée de l'énergie, du carbone direct et de la chaleur à partir du tableau de bord Sustainability. Vous pouvez ajuster le pourcentage d'atténuation du carbone pour des sites spécifiques. Vous pouvez également afficher le score de durabilité au niveau du cluster. En fonction de ce score, vous pouvez évaluer la stratégie de durabilité et mettre en œuvre les actions recommandées par NetApp pour améliorer ce score. Pour en savoir plus sur le tableau de bord Sustainability, rendez-vous sur link:BlueXP_sustainability_dashboard_overview.html["Présentation du tableau de bord Sustainability"].
 
 
 NOTE: Le développement durable est pris en charge sur les systèmes AFF, les systèmes A-Series et C-Series, FAS et Cloud Volumes ONTAP (CVO).
 
+Vous pouvez visionner la vidéo suivante pour comprendre le tableau de bord Sustainability :
+
+video::yNRHeOvbGX8[youtube,width=848,height=480]
 
 
 == Avantages de la durabilité
@@ -37,9 +40,3 @@ Le développement durable offre les avantages suivants :
 * Réduction de l'empreinte carbone grâce à l'utilisation d'énergie renouvelable dans les data centers
 * Améliorer l'efficacité énergétique en mettant en œuvre des politiques d'efficacité énergétique.
 
-
-
-
-== Coût et licence
-
-Si vous avez activé AutoSupport pour vos systèmes, vous pouvez accéder au service Sustainability avec votre contrat de support actif.

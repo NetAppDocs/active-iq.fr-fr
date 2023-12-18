@@ -24,7 +24,7 @@ Le tableau de bord de durabilité fournit une évaluation environnementale de vo
 image:get_started_sustainability_dashboard.png["Capture d'écran de l'interface utilisateur affichant le tableau de bord Sustainability."]
 
 
-NOTE: Pour obtenir les meilleurs résultats depuis le tableau de bord, vous devez activer AutoSupport. Si AutoSupport n'est pas activé, les données seront basées sur les spécifications du produit. Pour obtenir des détails sur l'alimentation en temps réel, vous devez activer Cloud Insights. Pour plus d'informations sur l'activation de Cloud Insights, reportez-vous à la section link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^].
+NOTE: AutoSupport doit être activé pour un calcul précis du score de durabilité.
 
 *Score de durabilité* : affiche le score total indiquant la durabilité environnementale de vos systèmes de stockage. Vous pouvez évaluer le niveau de durabilité de vos systèmes de stockage en fonction des critères suivants :
 

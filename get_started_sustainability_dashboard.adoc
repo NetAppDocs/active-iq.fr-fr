@@ -4,7 +4,7 @@ permalink: get_started_sustainability_dashboard.html
 keywords: activeiq, sustainability dashboard, bluexp login, sustainability dashboard login, bluexp 
 summary: Commencez à utiliser le tableau de bord de durabilité BlueXP en accédant à BlueXP ou à Digital Advisor. 
 ---
-= Lancez-vous avec le tableau de bord Sustainability
+= Accéder au tableau de bord Sustainability
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -19,7 +19,7 @@ summary: Commencez à utiliser le tableau de bord de durabilité BlueXP en accé
 
 
 [role="lead"]
-Le tableau de bord de durabilité inclut des fonctionnalités basées sur l'IA qui offrent des fonctionnalités de reporting et de notation avec des informations exploitables pour améliorer votre stratégie de durabilité. Vous pouvez utiliser NetApp BlueXP ou Digital Advisor pour afficher le tableau de bord Sustainability.
+Le tableau de bord de durabilité inclut des fonctionnalités basées sur l'IA qui offrent des fonctionnalités de reporting et de notation avec des informations exploitables pour améliorer votre stratégie de durabilité. Vous pouvez accéder au tableau de bord Sustainability via NetApp BlueXP ou Digital Advisor.
 
 [role="tabbed-block"]
 ====

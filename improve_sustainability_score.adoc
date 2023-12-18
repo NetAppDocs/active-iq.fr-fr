@@ -19,12 +19,10 @@ summary: Fournit des étapes pour améliorer le score de durabilité par le biai
 
 
 [role="lead"]
-Le tableau de bord Sustainability génère les actions recommandées que vous pouvez utiliser pour améliorer le score de durabilité. Vous pouvez afficher et implémenter ces actions recommandées depuis NetApp BlueXP ou Digital Advisor.
-
-Vous pouvez améliorer le score de durabilité global et le score de durabilité au niveau du cluster.
+Le tableau de bord durabilité indique les actions recommandées que vous pouvez mettre en œuvre pour améliorer le score de durabilité global et le score de durabilité au niveau du cluster.
 
 
-NOTE: AutoSupport doit être activé pour calculer le score de durabilité global et le score de durabilité au niveau du cluster.
+NOTE: Pour obtenir les meilleurs résultats depuis le tableau de bord, vous devez activer AutoSupport. Si AutoSupport n'est pas activé, les données seront basées sur les spécifications du produit. Pour obtenir des détails sur l'alimentation en temps réel, vous devez activer Cloud Insights. Pour plus d'informations sur l'activation de Cloud Insights, reportez-vous à la section link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^].
 
 
 

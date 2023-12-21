@@ -5,17 +5,14 @@ keywords: dashboard, watchlist, add watchlist
 summary: Fournit des informations pour gérer les listes de surveillance. 
 ---
 = Gérer une liste de surveillance
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

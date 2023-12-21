@@ -5,17 +5,14 @@ keywords: config deviation, drift, configuration, compare template
 summary: Fournit des informations pour comparer un modèle de dérive de configuration. 
 ---
 = Comparer un modèle de dérive de configuration
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

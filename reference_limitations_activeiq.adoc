@@ -5,17 +5,14 @@ keywords: limitation, issues, not supported, drawbacks
 summary: Fournit des informations sur les limites dans la version. 
 ---
 = Limites connues
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

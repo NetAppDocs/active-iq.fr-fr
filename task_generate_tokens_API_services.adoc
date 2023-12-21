@@ -5,17 +5,14 @@ keywords: generate token, access token, refresh token, API services
 summary: Fournit des informations sur la génération du jeton pour accéder aux API. 
 ---
 = Générez des jetons pour utiliser des API
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

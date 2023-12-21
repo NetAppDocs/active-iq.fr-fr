@@ -5,17 +5,14 @@ keywords: keystone, capacity utilization, service tiers, Keystone subscription, 
 summary: 'Fournit des informations sur l"utilisation de votre capacité avec l"abonnement NetApp Keystone.' 
 ---
 = Consultez l'utilisation de la capacité sur l'abonnement NetApp Keystone
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

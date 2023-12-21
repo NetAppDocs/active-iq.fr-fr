@@ -5,17 +5,14 @@ keywords: valuable insight, support cases, storage efficiency savings, mitigated
 summary: Fournit des informations sur le widget Insight précieux. 
 ---
 = Affichez des informations exploitables
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

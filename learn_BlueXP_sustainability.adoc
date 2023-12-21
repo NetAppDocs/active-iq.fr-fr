@@ -5,17 +5,14 @@ keywords: activeiq, sustainability, sustainability score, sustainability dashboa
 summary: 'Fournit des informations sur le développement durable qui vous permettent de réduire la consommation d"énergie et de travailler à la réalisation de vos objectifs environnementaux.' 
 ---
 = En savoir plus sur le développement durable
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

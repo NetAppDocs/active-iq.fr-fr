@@ -5,17 +5,14 @@ keywords: Ansible Playbook, Ansible, Playbook, docker
 summary: 'Fournit des informations sur l"exécution de Ansible PlayBook à l"aide de l"image docker.' 
 ---
 = Exécutez le manuel de vente Ansible à l'aide de l'image NetApp Docker
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

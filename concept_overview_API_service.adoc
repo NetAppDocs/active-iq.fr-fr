@@ -5,17 +5,14 @@ keywords: API services, access token, refresh token, API Catalog
 summary: 'Fournit une présentation de la fonctionnalité de services d"API.' 
 ---
 = Compréhension des services d'API
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

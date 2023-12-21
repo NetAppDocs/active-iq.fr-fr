@@ -5,17 +5,14 @@ keywords: faq, frequently asked questions, non-technical, non-technical case, in
 summary: Cette FAQ peut vous aider si vous cherchez juste une réponse rapide à une question. 
 ---
 = Foire aux questions sur Digital Advisor
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

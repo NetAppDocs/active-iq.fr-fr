@@ -5,17 +5,14 @@ keywords: activeiq, sustainability dashboard, bluexp login, sustainability dashb
 summary: Commencez à utiliser le tableau de bord de durabilité BlueXP en accédant à BlueXP ou à Digital Advisor. 
 ---
 = Accéder au tableau de bord Sustainability
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

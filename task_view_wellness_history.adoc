@@ -5,17 +5,14 @@ keywords: wellness history, risks, wellness, view all actions, risk history,
 summary: 'Fournit des informations sur les risques système et la façon d"afficher l"historique de bien-être.' 
 ---
 = Afficher l'historique de bien-être
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

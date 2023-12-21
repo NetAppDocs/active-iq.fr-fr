@@ -5,17 +5,14 @@ keywords: overview, provision, dashboard, widget, watchlist
 summary: Fournit des informations sur le tableau de bord, les listes de surveillance et les widgets. 
 ---
 = Comprendre la liste de surveillance
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

@@ -5,17 +5,14 @@ keywords: install, execute, firmware update, Ansible Playbook, ansible, playbook
 summary: 'Fournit des informations sur l"installation et l"exécution de la mise à jour du firmware à l"aide du PlayBook Ansible.' 
 ---
 = Installer et exécuter le pack d'automatisation Ansible du firmware AFF et FAS (utilisateurs expérimentés)
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

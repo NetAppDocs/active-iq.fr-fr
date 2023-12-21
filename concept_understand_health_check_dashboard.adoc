@@ -5,17 +5,14 @@ keywords: activeiq, health check, health, HCA, health check dashboard, health ch
 summary: 'Fournit des informations permettant de se familiariser avec le tableau de bord de vérification de l"état.' 
 ---
 = Description du tableau de bord de vérification de l'état
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

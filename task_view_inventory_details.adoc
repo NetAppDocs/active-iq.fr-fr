@@ -5,17 +5,14 @@ keywords: inventory, platforms, systems, clusters, sites
 summary: 'Fournit des informations sur l"inventaire global que vous possédez.' 
 ---
 = Afficher les détails de l'inventaire
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

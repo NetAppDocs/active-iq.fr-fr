@@ -5,17 +5,14 @@ keywords: config drift, configuration deviation, add template, compare template
 summary: 'Fournit une vue d"ensemble de la fonction de dérive de configuration' 
 ---
 = Comprendre l'écart de configuration
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

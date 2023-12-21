@@ -5,17 +5,14 @@ keywords: volume filling up, prevent an outage
 summary: 'Fournit des informations sur la façon d"éviter un remplissage de volume pour éviter une panne.' 
 ---
 = Évitez le remplissage d'un volume afin d'éviter toute panne
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

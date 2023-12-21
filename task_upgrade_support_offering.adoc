@@ -5,17 +5,14 @@ keywords: upgrade, support offering, supportedge, premium, standard, basic, expe
 summary: 'Fournit des informations sur la mise à niveau de l"offre de support.' 
 ---
 = Mettre à niveau l'offre de support
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

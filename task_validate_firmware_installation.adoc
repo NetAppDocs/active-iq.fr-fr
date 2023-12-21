@@ -5,17 +5,14 @@ keywords: validate, firmware, firmware installation
 summary: 'Le fournit des informations sur la validation de l"installation du micrologiciel.' 
 ---
 = Validation de l'installation du firmware
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

@@ -5,17 +5,14 @@ keywords: firmware, web server, hosting
 summary: 'La section fournit des informations sur l"hébergement des fichiers du micrologiciel à l"aide d"un serveur Web.' 
 ---
 = Héberger les fichiers de micrologiciel à l'aide d'un serveur Web
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

@@ -5,17 +5,14 @@ keywords: renew, renewals, support contracts, support & entitlements, active sup
 summary: Fournit des informations sur le renouvellement des contrats de support pour vos systèmes. 
 ---
 = Renouvelez vos contrats de support
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

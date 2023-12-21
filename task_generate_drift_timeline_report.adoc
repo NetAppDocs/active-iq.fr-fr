@@ -5,17 +5,14 @@ keywords: reports, generate reports, drift timeline, drift timeline report, Auto
 summary: Fournit des informations permettant de générer des rapports de chronologie de dérive. 
 ---
 = Générer un rapport de chronologie de dérive
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

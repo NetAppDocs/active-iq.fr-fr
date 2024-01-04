@@ -1,0 +1,128 @@
+---
+sidebar: sidebar 
+permalink: generate_upgrade_plan_single_multiple_clusters.html 
+keywords: Upgrade Advisor, upgrade plan, ONTAP, upgrade recommendation, clusters 
+summary: 'Fournissez des étapes pour générer un plan de mise à niveau en vue d"une mise à niveau ONTAP réussie ou d"une restauration pour un cluster unique et plusieurs clusters.' 
+---
+= Générez un plan de mise à niveau pour un ou plusieurs clusters
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Vous pouvez utiliser Upgrade Advisor pour afficher la liste des clusters éligibles ou non pour une mise à niveau. Vous pouvez afficher les recommandations de mise à niveau d'un cluster éligible et générer un plan de mise à niveau. Vous pouvez résoudre les problèmes liés à un cluster non éligible pour le rendre éligible à une mise à niveau.
+
+Vous pouvez suivre ces étapes pour générer un plan de mise à niveau pour un ou plusieurs clusters :
+
+[role="tabbed-block"]
+====
+.Un seul cluster
+--
+. Sur le tableau de bord, cliquez sur le nombre de clusters dans le widget *Upgrade Advisor*.
++
+image:ua_widget.png["Capture d'écran affichant le nombre de clusters."]
+
++
+La page *Upgrade Advisor-ONTAP* s'affiche.
+
+. Vérifiez que la bascule *Enhanced Upgrade Advisor* est activée.
++
+image:r_enhanced_ua_toggle.png["Une capture d'écran montrant la bascule améliorée Upgrade Advisor est activée."]
+
++
+Vous pouvez afficher la liste des clusters éligibles et non éligibles pour une mise à niveau.
+
+. Sélectionnez un cluster pour une mise à niveau.
+La colonne *version du système d'exploitation cible* affiche la version du système d'exploitation cible recommandée. Vous pouvez cliquer sur image:edit_icon.png["Illustration du bouton Modifier"] Pour sélectionner une autre version du système d'exploitation cible d'un cluster.
++
+image:r_ua_select_target_OS_version_single_cluster.png["Image montrant comment sélectionner la version cible."]
+
++
+** Vous pouvez cliquer sur le nombre de nœuds dans la colonne *nœuds* pour afficher le résumé des nœuds d'un cluster.
+** Vous pouvez cliquer sur *résoudre les problèmes* dans la colonne *action recommandée* pour résoudre les problèmes liés à un cluster non éligible et le rendre éligible à une mise à niveau.
+ +
+image:r_ua_resolve_issue.png["Image montrant le type de problème et la résolution requise pour le résoudre."]
+
+
+. Cliquez sur *générer un plan de mise à niveau*.
+Vous serez redirigé vers la page *recommandations de mise à niveau*.
+. Sur la page *recommandations de mise à niveau*, vous pouvez afficher les détails des risques associés à un cluster via l'onglet *Conseiller en risque*. Vous pouvez afficher les bloqueurs de mise à niveau, les avertissements de mise à niveau et les actions requises via l'onglet *contrôle de pré-mise à niveau*, ainsi que des informations sur les nouvelles fonctionnalités et améliorations pertinentes pour la version cible du système d'exploitation sélectionné via l'onglet *fonctions ONTAP améliorées et mises à jour*.
++
+image:r_ua_upgrade_recommendation_page.png["Capture d'écran qui montre la vue globale de la page de recommandations de mise à niveau."]
+
++
+** Vous pouvez sélectionner une autre version du système d'exploitation cible et afficher le résumé des risques, le rapport de vérification de pré-mise à niveau et des informations sur les nouvelles fonctionnalités et améliorations associées à cette version du système d'exploitation cible.
+** Vous pouvez cliquer sur image:ua_export_icon.png["bouton exporter"] Pour exporter le résumé des risques vers une feuille Excel.
+
+
+. Cliquez sur *générer un plan de mise à niveau* à partir de la page *recommandations de mise à niveau*.
+. Indiquez les détails dans la fenêtre contextuelle qui s'affiche.
+  +
+image:ua_generate_single_clusters_plan.png["Une fenêtre contextuelle s'affiche pour indiquer les détails de l'envoi de la demande de création du plan de mise à niveau."]
+. Cliquez sur *générer*.
+Vous serez redirigé vers la page *Rapports*.
+. Vous pouvez télécharger le plan de mise à niveau à partir de la page *Rapports* une fois qu'il est disponible.
++
+
+TIP: Vous pouvez cliquer sur *Afficher les rapports Upgrade Advisor* pour accéder à la page *Rapports*.
+ +
+image:r_ua_view_reports.png["Une capture d'écran qui montre la position où se trouve View Upgrade Advisor pour un clic. "]
+
+
+
+Certaines tâches doivent être effectuées pour confirmer que le cluster est prêt après la mise à niveau de ONTAP. Pour en savoir plus, voir link:https://docs.netapp.com/us-en/ontap/upgrade/task_what_to_do_after_upgrade.html["Que faire après une mise à niveau de ONTAP"].
+
+--
+.Plusieurs clusters
+--
+. Sur le tableau de bord, cliquez sur le nombre de clusters dans le widget *Upgrade Advisor*.
++
+image:ua_widget.png["Capture d'écran affichant le nombre de clusters."]
+
++
+La page *Upgrade Advisor-ONTAP* s'affiche.
+
+. Vérifiez que la bascule *Enhanced Upgrade Advisor* est activée.
++
+image:r_enhanced_ua_toggle.png["Une capture d'écran montrant la bascule améliorée Upgrade Advisor est activée."]
+
++
+Vous pouvez afficher la liste des clusters éligibles et non éligibles pour une mise à niveau.
+
+. Sélectionnez des clusters pour une mise à niveau.
+La colonne *version du système d'exploitation cible* affiche la version du système d'exploitation cible recommandée.vous pouvez cliquer sur le image:edit_icon.png["Illustration du bouton Modifier"] Pour sélectionner une autre version du système d'exploitation cible d'un cluster.
++
+image:r_ua_select_target_OS_version.png["Image montrant comment sélectionner la version cible."]
+
++
+** Vous pouvez cliquer sur le nombre de nœuds dans la colonne *nœuds* pour afficher le résumé des nœuds d'un cluster.
+** Vous pouvez cliquer sur *résoudre les problèmes* dans la colonne *action recommandée* pour résoudre les problèmes liés aux clusters non admissibles afin de les rendre admissibles à une mise à niveau.
+ +
+image:r_ua_resolve_issue.png["Image montrant le type de problème et la résolution requise pour le résoudre."]
+
+
+. Cliquez sur *générer un plan de mise à niveau*.
+. Indiquez les détails dans la fenêtre contextuelle qui s'affiche.
+  +
+image:ua_generate_multiple_clusters_plan.png["Une fenêtre contextuelle s'affiche pour indiquer les détails de l'envoi de la demande de création du plan de mise à niveau."]
+. Cliquez sur *générer*.
+Vous serez redirigé vers la page *Rapports*.
+. Vous pouvez télécharger le plan de mise à niveau à partir de la page *Rapports* une fois qu'il est disponible.
++
+
+TIP: Vous pouvez cliquer sur *Afficher les rapports Upgrade Advisor* pour accéder à la page *Rapports*.
+ +
+image:r_ua_view_reports.png["Une capture d'écran qui montre la position où se trouve View Upgrade Advisor pour un clic. "]
+
+
+
+Certaines tâches doivent être effectuées pour confirmer que le cluster est prêt après la mise à niveau de ONTAP. Pour en savoir plus, voir link:https://docs.netapp.com/us-en/ontap/upgrade/task_what_to_do_after_upgrade.html["Que faire après une mise à niveau de ONTAP"].
+
+--
+====

@@ -20,6 +20,16 @@ Les fonctionnalités et améliorations suivantes ont été introduites dans Digi
 
 
 
+== 03 janvier 2024
+
+
+
+== Upgrade Advisor
+
+Upgrade Advisor est amélioré pour proposer des plans de mise à niveau automatisés sans interruption pour un ou plusieurs clusters. Vous ne pouvez afficher les recommandations de mise à niveau que pour un seul cluster, qui inclut un récapitulatif des risques, un rapport de vérification avant la mise à niveau et des informations sur les nouvelles fonctionnalités et les améliorations. link:https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html["Découvrez comment consulter les recommandations de mise à niveau et générer un plan de mise à niveau."]
+
+
+
 == 16 novembre 2023
 
 
@@ -55,7 +65,7 @@ Le nombre de recommandations pour les mises à jour technologiques est inclus da
 === Upgrade Advisor
 
 * Vous pouvez accéder à la page Upgrade Advisor de votre liste de contrôle par défaut à l'aide de link:https://activeiq.netapp.com/redirect/upgrade-advisor["Upgrade Advisor"^] lien.
-* Le plan de mise à niveau est optimisé pour supprimer les étapes de mise à niveau redondantes et simplifier le plan de retrait. Les étapes courantes de tous les nœuds d'un cluster sont consolidées et disponibles dans la section informations générales du plan de mise à niveau. link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["Découvrez comment générer et afficher le plan de mise à niveau"].
+* Le plan de mise à niveau est optimisé pour supprimer les étapes de mise à niveau redondantes et simplifier le plan de retrait. Les étapes courantes de tous les nœuds d'un cluster sont consolidées et disponibles dans la section informations générales du plan de mise à niveau. link:https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html["Découvrez comment générer et afficher le plan de mise à niveau"].
 
 
 

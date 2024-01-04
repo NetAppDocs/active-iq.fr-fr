@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task_view_upgrade.html 
 keywords: upgrade, ONTAP version, upgrade advisor, upgrade plan, risk advisor, pending upgrades 
-summary: 'Le fournit des informations permettant d"afficher et de mettre à niveau la version ONTAP de votre système de stockage.' 
+summary: 'Fournit des informations sur l"affichage et la mise à niveau de la version ONTAP de vos nœuds (système de stockage).' 
 ---
-= Mettez à niveau la version ONTAP de vos systèmes de stockage
+= Générez un plan de mise à niveau pour les nœuds
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,44 +16,49 @@ summary: 'Le fournit des informations permettant d"afficher et de mettre à nive
 
 
 [role="lead"]
-Vous pouvez utiliser Upgrade Advisor pour afficher les mises à niveau recommandées et créer un plan de mise à niveau pour vos systèmes de stockage. Vous pouvez afficher la liste des risques dans l'onglet Risk Advisor associé à vos systèmes de stockage et atténuer ces risques si vous mettez à niveau vos systèmes de stockage vers une version plus récente de ONTAP.
+À l'aide de Upgrade Advisor, vous pouvez afficher les mises à niveau recommandées et générer un plan de mise à niveau pour les nœuds (systèmes de stockage). Vous pouvez afficher la liste des risques dans l'onglet Risk Advisor associé aux nœuds et atténuer ces risques si vous effectuez une mise à niveau vers une version plus récente de ONTAP.
 
 .Étapes
-. Sur le tableau de bord, dans le widget *Upgrade Advisor*, cliquez sur le nombre d'actions pour afficher les mises à niveau en attente.
+. Sur le tableau de bord, cliquez sur le nombre de clusters dans le widget *Upgrade Advisor*.
 +
-image:upgrade_advisor_widget.png["Upgrade Advisor"]
+image:ua_widget.png["Capture d'écran affichant le nombre de clusters."]
+
++
+La page *Upgrade Advisor-ONTAP* s'affiche.
+
+. Désactivez l'option *Enhanced Upgrade Advisor*.
++
+image:ua_disable_toggle.png["Une capture d'écran montrant la bascule améliorée de Upgrade Advisor est désactivée."]
 
 . Sélectionnez l'option de mise à niveau.
 +
-image:upgrade_options.png["Options de mise à niveau"]
+image:ua_upgrade_options.png["Options de mise à niveau"]
 
 . Cliquez sur le nombre de systèmes compatibles pour générer un plan de mise à niveau.
 La page *Détails de la mise à niveau* s'affiche.
 +
-image:generate_upgrade_plan.png["Générer un plan de mise à niveau"]
+image:r_ua_generate_upgrade_plan.png["Générer un plan de mise à niveau"]
 
 +
+** Vous pouvez cliquer sur image:edit_icon.png["Illustration du bouton Modifier"] Icône de la *version du système d'exploitation cible* pour sélectionner une autre version du système d'exploitation cible d'un cluster.
 ** Vous pouvez accéder à l'onglet *Risk Advisor* pour afficher la liste des risques ainsi que leur niveau de gravité.
   +
-image:view_risks.png["Onglet Risk Advisor"]
+image:ua_view_risks.png["Onglet Risk Advisor"]
 ** Vous pouvez cliquer sur le nombre total de risques pour afficher la liste des risques dans l'onglet *Risk Advisor* si l'option de mise à niveau inclut *Total Risks*.
 +
-image:total_risks.png["Risques totaux"]
+image:ua_total_risks.png["Risques totaux"]
 
 
 
-. Dans l'onglet *Upgrade Advisor*, sélectionnez les systèmes à mettre à niveau.
+. Dans l'onglet *Upgrade Advisor*, sélectionnez les systèmes pour une mise à niveau.
 . Cliquez sur *générer un plan de mise à niveau*.
 . Indiquez les détails dans la fenêtre contextuelle qui s'affiche. Vous pouvez également cocher la case *Revert Plan* pour inclure le plan de retrait dans le plan de mise à niveau.
 +
-image:details_upgrade_plan.png["Une fenêtre contextuelle s'affiche pour indiquer les détails de l'envoi de la demande de création du plan de mise à niveau"]
+image:ua_details_upgrade_plan.png["Une fenêtre contextuelle s'affiche pour indiquer les détails de l'envoi de la demande de création du plan de mise à niveau"]
 
 . Cliquez sur *soumettre*.
-. Aller à *Rapports*. Vous pouvez contrôler l'état du plan de mise à niveau et le télécharger une fois qu'il est disponible.
-+
-Vous recevrez également un e-mail contenant le plan de mise à niveau une fois qu'il sera généré.
-
-+
-image:download_upgrade_plan.png["Capture d'écran indiquant l'état du rapport du plan de mise à niveau"]
+Vous serez redirigé vers la page *Rapports*.
+. Vous pouvez télécharger le plan de mise à niveau à partir de la page *Rapports* une fois qu'il est disponible.
 
 
+Certaines tâches doivent être effectuées pour confirmer que le cluster est prêt après la mise à niveau de ONTAP. Pour en savoir plus, voir link:https://docs.netapp.com/us-en/ontap/upgrade/task_what_to_do_after_upgrade.html["Que faire après une mise à niveau de ONTAP"].

@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: upgrade_advisor_overview.html 
+keywords: Upgrade Advisor, upgrade plan, ONTAP, upgrade recommendation, clusters, storage systems 
+summary: 'Présentation de l"outil Upgrade Advisor qui simplifie la planification d"une mise à niveau ONTAP.' 
+---
+= Présentation
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Upgrade Advisor vous permet de générer un plan de mise à niveau qui comprend des informations détaillées et détaillées requises pour une mise à niveau ou un retour ONTAP réussi.
+
+Vous pouvez générer des plans de mise à niveau automatisée sans interruption pour un seul cluster et plusieurs clusters. Vous pouvez afficher les recommandations de mise à niveau uniquement pour un cluster, qui inclut une liste des risques associés à un cluster, un rapport de vérification préalable à une mise à niveau contenant une liste de bloqueurs et d'avertissements de mises à niveau, ainsi que des informations sur les nouvelles fonctionnalités et les améliorations apportées. Pour en savoir plus, voir link:generate_upgrade_plan_single_multiple_clusters.html["Générez un plan de mise à niveau pour un ou plusieurs clusters"].
+
+
+NOTE: Pour chaque cluster d'une configuration MetroCluster, générez un plan de mise à niveau individuel pour obtenir des instructions complètes de mise à niveau.
+
+Vous pouvez ainsi générer des plans de mise à niveau automatisés, sans interruption et sans interruption pour les nœuds (systèmes de stockage). Vous pouvez vérifier les chemins de mise à niveau recommandés et générer un plan de mise à niveau. Pour en savoir plus, voir link:task_view_upgrade.html["Générez un plan de mise à niveau pour vos nœuds"].
+
+Avant de générer un plan de mise à niveau, vous devez préparer une mise à niveau ONTAP. Une bonne préparation permet d'identifier et de limiter les risques ou blocages de mise à niveau avant de commencer le processus. Pour en savoir plus, voir link:https://docs.netapp.com/us-en/ontap/upgrade/prepare.html["Préparez la mise à niveau de ONTAP"^].

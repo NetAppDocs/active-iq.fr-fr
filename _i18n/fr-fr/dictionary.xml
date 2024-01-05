@@ -1492,7 +1492,6 @@ Vous serez redirigé vers la page *Rapports*.</block>
   <block id="e6a714556ba607de0796b5ebf874022b" category="admonition">Vous pouvez cliquer sur *Afficher les rapports Upgrade Advisor* pour accéder à la page *Rapports*.
  +
 <block ref="17bf329c781a0dba1bb8097588dd3401" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="18e4f5c6e58b95e97aff34068b2ebc6c" category="open-title">Plusieurs clusters</block>
   <block id="9847c4aa92db55ca2d4698117caccc8b" category="list-text">Sélectionnez des clusters pour une mise à niveau.
 La colonne *version du système d'exploitation cible* affiche la version du système d'exploitation cible recommandée.vous pouvez cliquer sur le <block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block> Pour sélectionner une autre version du système d'exploitation cible d'un cluster.</block>
   <block id="02a1c6ad942cf70822b83555179da604" category="paragraph"><block ref="02a1c6ad942cf70822b83555179da604" category="inline-image-macro-rx" type="image"></block></block>
@@ -1503,4 +1502,8 @@ La colonne *version du système d'exploitation cible* affiche la version du syst
   +
 <block ref="f898fc4c474d90827399fc16cb1ce540" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c99a7dfbdf4d3cd808ff275e0e323d69" category="sidebar">Générer un plan de mise à niveau</block>
+  <block id="387baf0199e7c9cc944fae94e96448fa" category="section-title">Divers</block>
+  <block id="48c86fda9292a5b410c6b86a0d2e64b7" category="paragraph">*Pourquoi les fonctions en ÉTAT DE STOCKAGE dans le volet de navigation de gauche sont-elles désactivées ?*
+La disponibilité des fonctions sous *STORAGE HEALTH* dépend du type et du niveau du système. Par exemple, ClusterViewer est disponible pour les systèmes ONTAP et Cloud Volumes ONTAP (CVO) au niveau du cluster et du nœud. Vous pouvez passer le curseur de la souris sur l'icône *i* en regard de chaque fonction pour en savoir plus sur les types et les niveaux de systèmes applicables.</block>
+  <block id="568d1629463645988ff4868c31e4cba7" category="open-title">Plusieurs clusters</block>
 </blocks>

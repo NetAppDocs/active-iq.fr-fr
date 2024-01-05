@@ -316,3 +316,10 @@ NOTE: Elle inclut l'espace réservé pour les volumes qui sont de type de garant
 *Les capacités sont-elles indiquées dans la base 2 ou la base 10?* de Digital Advisor toutes les capacités affichées sont la base 2 (division par 1024) et représentent les capacités en Gio/Tio. Le stockage ONTAP et les autres produits NetApp indiquent également l'utilisation de la capacité dans le modèle de base 2.
 
 Pour StorageGRID, les capacités sont affichées dans la base 10 et l'unité de capacité est exprimée en To.
+
+
+
+== Divers
+
+*Pourquoi les fonctions en ÉTAT DE STOCKAGE dans le volet de navigation de gauche sont-elles désactivées ?*
+La disponibilité des fonctions sous *STORAGE HEALTH* dépend du type et du niveau du système. Par exemple, ClusterViewer est disponible pour les systèmes ONTAP et Cloud Volumes ONTAP (CVO) au niveau du cluster et du nœud. Vous pouvez passer le curseur de la souris sur l'icône *i* en regard de chaque fonction pour en savoir plus sur les types et les niveaux de systèmes applicables.

@@ -20,6 +20,22 @@ Les fonctionnalités et améliorations suivantes ont été introduites dans Digi
 
 
 
+== 08 février 2024
+
+
+
+=== Tableau de bord durabilité
+
+Vous pouvez désormais accéder aux mesures Sustainability pour votre tableau de bord ou votre liste de contrôle par défaut directement à l'aide du link:https://activeiq.netapp.com/redirect/sustainability["Tableau de bord durabilité"^] lien.
+
+
+
+=== ClusterViewer
+
+Vous pouvez maintenant afficher les informations relatives au régime du disque dans la section Résumé du disque, disponible dans l'onglet stockage et dans les rapports ClusterViewer.
+
+
+
 == 03 janvier 2024
 
 

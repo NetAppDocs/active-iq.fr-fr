@@ -153,7 +153,6 @@
   <block id="541d1e8525d813225b5812766f70549c" category="paragraph">Vous pouvez aussi examiner la section *réponses* de l'API pour comprendre les données qui seront mieux renvoyées. Vous pouvez cliquer sur *exemple valeur* pour afficher le format des données ou cliquer sur *modèle* et cliquer sur les carts pour développer les sections afin de voir la définition de chaque élément.</block>
   <block id="dd2ac633c61d9191fba57c56e22336db" category="paragraph">En faisant glisser le curseur sur la vue *Code*, vous pouvez afficher les échantillons de code dans différentes langues.</block>
   <block id="9d094e845c465f9cb6c298c2cfa8c71d" category="summary">Fournit des recommandations basées sur les décisions éclairées qui peuvent être prises.</block>
-  <block id="5649476905365d651ff75a651e4e79a8" category="doc">Prenez des décisions avisées en fonction des recommandations sur le cloud</block>
   <block id="571d621f51c49640d8adb2c5bb15554a" category="paragraph">Digital Advisor analyse en continu votre système et fournit des recommandations pour améliorer les performances, l'efficacité et l'état de santé de votre système.</block>
   <block id="ee8a7221101a63a879e7b11a9e134817" category="admonition">Digital Advisor vous guide vers BlueXP pour mettre en œuvre les recommandations.</block>
   <block id="19f59b74448f6a27519db281a44e4b12" category="section-title">Migration</block>
@@ -1090,17 +1089,6 @@
   <block id="3d771951f480b18b116afdfb0da9cb88" category="sidebar">Générez des jetons pour accéder aux API</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">Générer des rapports personnalisés</block>
   <block id="af2a4d2810d86aa0169c117f82682f9a" category="sidebar">Foire aux questions</block>
-  <block id="102d9716e9927264b03dcd24c0dd5cc3" category="sidebar">En savoir plus sur Digital Advisor</block>
-  <block id="156203bd2f0dca053d9b9dbd8f8912c7" category="sidebar">Utiliser Digital Advisor</block>
-  <block id="11d4d5337b73945892437ccbc95a0733" category="sidebar">Consultez les risques et prenez des mesures correctives</block>
-  <block id="a54afc6b3736cfe74798cc6c434300fc" category="sidebar">Détecter les écarts de configuration</block>
-  <block id="7a61fe0aacb0733ede2f886638474e22" category="sidebar">Corrigez les risques de sécurité critiques</block>
-  <block id="6cb30ae6af19fc79cca62d705f6b0744" category="sidebar">Analyser à l'aide de Digital Advisor</block>
-  <block id="0aace9b9585a40db8e20e3e200feeb89" category="sidebar">Consultez les recommandations sur les mises à niveau d'ONTAP</block>
-  <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">Ressources supplémentaires</block>
-  <block id="ff40d476eb35d6d339a7a745c5825109" category="sidebar">Portail Web Digital Advisor</block>
-  <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Vidéos Digital Advisor</block>
-  <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">Communauté NetApp : conseiller digital</block>
   <block id="8081688f219c172dde2cb99dbacc51d8" category="doc">Prenez des décisions avisées en fonction des recommandations sur le cloud</block>
   <block id="e404f7c0800eac65e5e44442bb4fd0cc" category="admonition">Vous devez télécharger et enregistrer le jeton d'accès et actualiser le jeton pour une utilisation ultérieure. Les jetons d'accès expirent une heure après la génération et l'actualisation des jetons doivent être régénérés, manuellement, tous les 7 jours et installés dans l'application. Pour ce faire, vous n'avez pas besoin de vous connecter à l'application. Toutefois, après 90 jours, vous devez vous connecter à l'application pour obtenir un nouvel accès et actualiser le jeton.</block>
   <block id="73924ddc2c905c2855a59dc4ad4e29a7" category="paragraph">Les attributs d'un modèle de dérive de configuration sont modifiables et les groupes suivants du modèle prennent en charge les expressions régulières pour certaines sections :</block>
@@ -1402,7 +1390,6 @@ La page *Détails de la mise à niveau* s'affiche.</block>
   <block id="f4547f31c09ed6f71cd2e94db143fffd" category="list-text"><block ref="f4547f31c09ed6f71cd2e94db143fffd" category="inline-link-macro-rx"></block></block>
   <block id="4f0ba3197c25744bb644bb7e83a43b5f" category="list-text"><block ref="4f0ba3197c25744bb644bb7e83a43b5f" category="inline-link-macro-rx"></block></block>
   <block id="dc52fcbf0f80ad7cfad9b3efcbd2df3d" category="list-text">Activez la surveillance à partir de la colonne *Real-Time POWER* pour afficher les détails de l'alimentation en temps réel au niveau du cluster. Pour plus d'informations, voir <block ref="0287186bd1777b27f244433b8d45ea17" category="inline-link-macro-rx"></block>.</block>
-  <block id="17ee9449f19b1975afdae38c7db7d001" category="admonition">Le développement durable est pris en charge sur les systèmes AFF, les systèmes A-Series et C-Series, FAS et Cloud Volumes ONTAP (CVO).</block>
   <block id="20cc757c4cb0c9b6153ae0f56705ae36" category="section-title">16 novembre 2023</block>
   <block id="20015eaa9dc8feb8cbf1eaadb95c6b20" category="paragraph">Vous pouvez maintenant créer un maximum de 100 listes de surveillance.</block>
   <block id="752f0c78427b5fffe498798d609a58a7" category="list-text">Les recommandations de mise à jour technologique sont désormais disponibles dans les tableaux de bord des listes de suivi, des sites et des groupes.</block>
@@ -1506,4 +1493,9 @@ La colonne *version du système d'exploitation cible* affiche la version du syst
   <block id="48c86fda9292a5b410c6b86a0d2e64b7" category="paragraph">*Pourquoi les fonctions en ÉTAT DE STOCKAGE dans le volet de navigation de gauche sont-elles désactivées ?*
 La disponibilité des fonctions sous *STORAGE HEALTH* dépend du type et du niveau du système. Par exemple, ClusterViewer est disponible pour les systèmes ONTAP et Cloud Volumes ONTAP (CVO) au niveau du cluster et du nœud. Vous pouvez passer le curseur de la souris sur l'icône *i* en regard de chaque fonction pour en savoir plus sur les types et les niveaux de systèmes applicables.</block>
   <block id="568d1629463645988ff4868c31e4cba7" category="open-title">Plusieurs clusters</block>
+  <block id="d873b57150944650b53661161f297953" category="admonition">Le développement durable est pris en charge sur les systèmes AFF, A-Series, C-Series, FAS et Cloud Volumes ONTAP.</block>
+  <block id="82e62a186bc8e1499e10d1400cd762e1" category="section-title">08 février 2024</block>
+  <block id="f66a566e9695faf3a9ac3f398a6e5dcd" category="inline-link-macro">Tableau de bord durabilité</block>
+  <block id="abb657094a0038dadd2b0ad8a1f2644b" category="paragraph">Vous pouvez désormais accéder aux mesures Sustainability pour votre tableau de bord ou votre liste de contrôle par défaut directement à l'aide du <block ref="3bfa14a7a0d533bd50f797d3680bb9e4" category="inline-link-macro-rx"></block> lien.</block>
+  <block id="3f0a64c1722e89371bae517923a9f798" category="paragraph">Vous pouvez maintenant afficher les informations relatives au régime du disque dans la section Résumé du disque, disponible dans l'onglet stockage et dans les rapports ClusterViewer.</block>
 </blocks>

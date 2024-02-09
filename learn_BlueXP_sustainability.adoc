@@ -21,7 +21,7 @@ Le développement durable, en tant que service, vous permet de réduire votre co
 Vous pouvez utiliser le tableau de bord Sustainability pour afficher le score de durabilité et l'utilisation projetée de l'énergie, du carbone direct et de la chaleur à partir du tableau de bord Sustainability. Vous pouvez ajuster le pourcentage d'atténuation du carbone pour des sites spécifiques. Vous pouvez également afficher le score de durabilité au niveau du cluster. En fonction de ce score, vous pouvez évaluer la stratégie de durabilité et mettre en œuvre les actions recommandées par NetApp pour améliorer ce score. Pour en savoir plus sur le tableau de bord Sustainability, rendez-vous sur link:BlueXP_sustainability_dashboard_overview.html["Présentation du tableau de bord Sustainability"].
 
 
-NOTE: Le développement durable est pris en charge sur les systèmes AFF, les systèmes A-Series et C-Series, FAS et Cloud Volumes ONTAP (CVO).
+NOTE: Le développement durable est pris en charge sur les systèmes AFF, A-Series, C-Series, FAS et Cloud Volumes ONTAP.
 
 Vous pouvez visionner la vidéo suivante pour comprendre le tableau de bord Sustainability :
 

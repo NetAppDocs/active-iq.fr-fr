@@ -16,7 +16,10 @@ summary: 'Fournit des informations permettant d"ajouter une liste de surveillanc
 
 
 [role="lead"]
-Vous pouvez créer une liste de surveillance pour accéder rapidement et facilement à un ensemble de systèmes. Vous pouvez combiner l'ensemble des systèmes en fonction de la catégorie ou de l'emplacement.
+Vous pouvez créer une liste de surveillance pour accéder rapidement et facilement à un ensemble de systèmes. Vous pouvez ajouter les systèmes en fonction de la catégorie ou du numéro de série.
+
+
+NOTE: Vous pouvez ajouter un maximum de 15,000 systèmes sous une catégorie et 500 systèmes sous un numéro de série.
 
 .Étapes
 . Dans le volet de gauche, cliquez sur *listes de surveillance*
@@ -25,9 +28,15 @@ L'écran *gérer la liste de surveillance* s'affiche.
 
 . Cliquez sur *Créer une liste de surveillance*.
 . Indiquez un nom pour la liste de surveillance.
-. Indiquez les détails des systèmes que vous souhaitez ajouter à la liste de surveillance.
+. Sélectionnez l'une des options suivantes pour ajouter des systèmes à la liste de surveillance :
 +
-Vous pouvez ajouter un maximum de 15,000 systèmes sous une catégorie et 500 systèmes sous un numéro de série.
+** *Catégorie* : cette option vous permet d'ajouter l'ensemble de l'inventaire associé à une catégorie spécifique, comme les abonnements client, site, groupe ou Keystone, à votre liste de surveillance.
++
+
+NOTE: L'option *abonnements Keystone* vous permet d'inclure tous les numéros d'abonnement associés aux abonnements Keystone. Lors d'une recherche par liste de suivi, vous pouvez afficher les abonnements dans le widget *abonnements Keystone* du tableau de bord Digital Advisor. Pour plus d'informations, voir link:https://docs.netapp.com/us-en/keystone-staas/integrations/keystone-aiq.html#search-by-keystone-watchlists["Rechercher par listes de surveillance Keystone"^].
+
+** *Numéro de série* : cette option vous permet d'inclure l'inventaire dans votre liste de contrôle en fonction des numéros de série spécifiés. Vous pouvez saisir le numéro de série directement ou sélectionner des numéros de série dans des catégories telles que client, site ou groupe.
+
 
 . Cliquez sur *Créer une liste de surveillance*.
 +

@@ -16,8 +16,8 @@ summary: Fournit des informations sur le tableau de bord, les listes de surveill
 
 
 [role="lead"]
-Les listes de surveillance sont utilisées pour accéder rapidement et facilement aux systèmes présélectionnés dans Digital Advisor. Si vous visualisez fréquemment un certain client ou un ensemble de systèmes, nous vous recommandons de créer des listes de surveillance. Vous pouvez créer jusqu'à 50 listes de surveillance et chaque liste de surveillance peut contenir jusqu'à 15,000 systèmes par catégorie ou 500 systèmes par numéro de série.
+Les listes de surveillance sont utilisées pour accéder rapidement et facilement aux systèmes présélectionnés dans Digital Advisor. Si vous visualisez fréquemment un certain client ou un ensemble de systèmes, nous vous recommandons de créer des listes de surveillance. Vous pouvez créer jusqu'à 100 listes de surveillance et chaque liste de surveillance peut contenir jusqu'à 15,000 systèmes par catégorie ou 500 systèmes par numéro de série.
 
-Lorsque vous accédez au conseiller numérique pour la première fois, vous pouvez créer une liste de surveillance ou rechercher un nom de client, un nom de site, un nom de groupe, un StorageGRID, un nom d'hôte, Cluster, numéro de série ou ID système.
+Lorsque vous accédez à Digital Advisor pour la première fois, vous pouvez créer une liste de contrôle ou rechercher un nom de client, un nom de site, un nom de groupe, StorageGRID, un nom d'hôte, cluster, numéro de série, ID système ou abonnement Keystone.
 
 Vous devez également connaître les couleurs appliquées aux cartes, qui indiquent la gravité et le type de risque.

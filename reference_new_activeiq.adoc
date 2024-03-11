@@ -20,6 +20,16 @@ Les fonctionnalités et améliorations suivantes ont été introduites dans Digi
 
 
 
+== 29 février 2024
+
+
+
+=== Liste de surveillance
+
+Vous pouvez désormais créer une liste de suivi à partir des numéros d'abonnement Keystone et rechercher un abonnement Keystone à l'aide des trois premiers caractères d'un numéro d'abonnement ou d'un nom de liste de surveillance.
+
+
+
 == 08 février 2024
 
 

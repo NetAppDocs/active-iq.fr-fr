@@ -130,7 +130,6 @@
   <block id="112380f3f709a44ef8f75f6d665ac2c9" category="list-text">Installez Python et Ansible, puis téléchargez les packages Python à l'aide du PIP :</block>
   <block id="03f27531419e8390d55e5ee184b373c7" category="list-text">Installez NetApp Ansible Collection :</block>
   <block id="9b838c4ce633e917e74290b161349c3a" category="list-text">Vérifiez que le PlayBook Ansible et le fichier d'inventaire se trouvent dans le même chemin, puis exécutez le PlayBook Ansible. Les mises à jour du micrologiciel s'exécutent en arrière-plan pendant quelques heures.</block>
-  <block id="2d0aa76ea44ffecf44fd1e54e726b8a1" category="summary">Grâce à Digital Advisor, vous pouvez optimiser votre infrastructure de données dans l'ensemble de votre cloud hybride grâce à un portail cloud et à une application mobile qui fournit des analyses prédictives et un support proactif. Les services Cloud Advisor exploitent les connaissances de la communauté et les comparatifs des pairs, issues de la vaste base installée de NetApp. Ils combinent ces informations avec la télémétrie AutoSupport et les fonctionnalités My AutoSupport pour proposer un ensemble avancé de services d'analytique inégalés.</block>
   <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="doc">Documentation de Digital Advisor</block>
   <block id="98fb6b15dbf8f4dbd1391e6345a22114" category="summary">Fournit des informations sur le widget Insight précieux.</block>
   <block id="972d710da4877c6c96be5f36ff410fe3" category="doc">Affichez des informations exploitables</block>
@@ -546,7 +545,6 @@
   <block id="5d15b41ee5ac810b6e7268188476648c" category="paragraph">Le nom de fichier est automatiquement détecté par le PlayBook Ansible.</block>
   <block id="27c0c1bb0cadc9e37385f3ef549226cb" category="summary">Fournit des informations sur le tableau de bord, les listes de surveillance et les widgets.</block>
   <block id="d3e5b7c94097697f92f75fe7c9a676ee" category="doc">Comprendre la liste de surveillance</block>
-  <block id="16d182da6aeb172074cbe06d557991cc" category="paragraph">Les listes de surveillance sont utilisées pour accéder rapidement et facilement aux systèmes présélectionnés dans Digital Advisor. Si vous visualisez fréquemment un certain client ou un ensemble de systèmes, nous vous recommandons de créer des listes de surveillance. Vous pouvez créer jusqu'à 50 listes de surveillance et chaque liste de surveillance peut contenir jusqu'à 15,000 systèmes par catégorie ou 500 systèmes par numéro de série.</block>
   <block id="fdcefef7d938550393c7f560b2c30cac" category="paragraph">Lorsque vous accédez au conseiller numérique pour la première fois, vous pouvez créer une liste de surveillance ou rechercher un nom de client, un nom de site, un nom de groupe, un StorageGRID, un nom d'hôte, Cluster, numéro de série ou ID système.</block>
   <block id="dece35eb22b3654f47ea7b34c8d28b05" category="paragraph">Vous devez également connaître les couleurs appliquées aux cartes, qui indiquent la gravité et le type de risque.</block>
   <block id="ca2539d7307d0d34f3e2f7bbef6876a0" category="summary">Fournit une présentation de la fonctionnalité de services d'API.</block>
@@ -1050,11 +1048,9 @@
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Politique de confidentialité</block>
   <block id="f39b53c109ef22724fc3808f3709808c" category="summary">Fournit des informations permettant d'ajouter une liste de surveillance au tableau de bord.</block>
   <block id="19a1aa0085c346ac0453f3463cfe5ae0" category="doc">Créer une liste de surveillance</block>
-  <block id="a6b5018db137b1873575388bb66fd696" category="paragraph">Vous pouvez créer une liste de surveillance pour accéder rapidement et facilement à un ensemble de systèmes. Vous pouvez combiner l'ensemble des systèmes en fonction de la catégorie ou de l'emplacement.</block>
   <block id="da2d66a259f4a63d3108ebfd2b3e72c3" category="list-text">Dans le volet de gauche, cliquez sur *listes de surveillance*</block>
   <block id="f93fd0b56ed95d156b42c479f821efef" category="list-text">Cliquez sur *Créer une liste de surveillance*.</block>
   <block id="6e6456ff615835fa78db50bf4c134885" category="list-text">Indiquez un nom pour la liste de surveillance.</block>
-  <block id="d92f20aa0037ca0433951e4c3075ac1e" category="list-text">Indiquez les détails des systèmes que vous souhaitez ajouter à la liste de surveillance.</block>
   <block id="d757f95a394959d080114b15fde1d52e" category="paragraph">Vous pouvez ajouter un maximum de 15,000 systèmes sous une catégorie et 500 systèmes sous un numéro de série.</block>
   <block id="4e8d1ca8d221cc5795ac4f7e56661686" category="paragraph">Le tableau de bord de la liste de surveillance s'affiche.</block>
   <block id="c8a6259aed44fea9ff6723eeb59cce9e" category="sidebar">Documents Digital Advisor</block>
@@ -1498,4 +1494,27 @@ La disponibilité des fonctions sous *STORAGE HEALTH* dépend du type et du nive
   <block id="f66a566e9695faf3a9ac3f398a6e5dcd" category="inline-link-macro">Tableau de bord durabilité</block>
   <block id="abb657094a0038dadd2b0ad8a1f2644b" category="paragraph">Vous pouvez désormais accéder aux mesures Sustainability pour votre tableau de bord ou votre liste de contrôle par défaut directement à l'aide du <block ref="3bfa14a7a0d533bd50f797d3680bb9e4" category="inline-link-macro-rx"></block> lien.</block>
   <block id="3f0a64c1722e89371bae517923a9f798" category="paragraph">Vous pouvez maintenant afficher les informations relatives au régime du disque dans la section Résumé du disque, disponible dans l'onglet stockage et dans les rapports ClusterViewer.</block>
+  <block id="ee994369582acbd0aa1a2c594329160a" category="section-title">29 février 2024</block>
+  <block id="a87afd0ebe87406d33b58f65b33a438b" category="paragraph">Vous pouvez désormais créer une liste de suivi à partir des numéros d'abonnement Keystone et rechercher un abonnement Keystone à l'aide des trois premiers caractères d'un numéro d'abonnement ou d'un nom de liste de surveillance.</block>
+  <block id="bb6677c30e1599d498cc331db9ae9ac1" category="paragraph">Les listes de surveillance sont utilisées pour accéder rapidement et facilement aux systèmes présélectionnés dans Digital Advisor. Si vous visualisez fréquemment un certain client ou un ensemble de systèmes, nous vous recommandons de créer des listes de surveillance. Vous pouvez créer jusqu'à 100 listes de surveillance et chaque liste de surveillance peut contenir jusqu'à 15,000 systèmes par catégorie ou 500 systèmes par numéro de série.</block>
+  <block id="0c9919bc11a911adb7dfe0c3fcfec57e" category="paragraph">Lorsque vous accédez à Digital Advisor pour la première fois, vous pouvez créer une liste de contrôle ou rechercher un nom de client, un nom de site, un nom de groupe, StorageGRID, un nom d'hôte, cluster, numéro de série, ID système ou abonnement Keystone.</block>
+  <block id="696132aa64e1de699fed134cebca0cb4" category="paragraph">Vous pouvez créer une liste de surveillance pour accéder rapidement et facilement à un ensemble de systèmes. Vous pouvez ajouter les systèmes en fonction de la catégorie ou du numéro de série.</block>
+  <block id="8724cab6ff3882b095d7f7a1af087d3c" category="list-text">Sélectionnez l'une des options suivantes pour ajouter des systèmes à la liste de surveillance :</block>
+  <block id="046b77894dfde73619bb48b4dc431dd0" category="list-text">*Catégorie* : cette option vous permet d'ajouter l'ensemble de l'inventaire associé à une catégorie spécifique, comme les abonnements client, site, groupe ou Keystone, à votre liste de surveillance.</block>
+  <block id="ca5b91a68ba656cb1cb6cdd4e75f646a" category="inline-link-macro">Rechercher par listes de surveillance Keystone</block>
+  <block id="a5a3e88ca2e2f72fdd690c7bf4473d53" category="admonition">L'option *abonnements Keystone* vous permet d'inclure tous les numéros d'abonnement associés aux abonnements Keystone. Lors d'une recherche par liste de suivi, vous pouvez afficher les abonnements dans le widget *abonnements Keystone* du tableau de bord Digital Advisor. Pour plus d'informations, voir <block ref="6c48397e666066c17d428674ea869bc7" category="inline-link-macro-rx"></block>.</block>
+  <block id="abc045a62577e8c80a76e2f49162b3ae" category="list-text">*Numéro de série* : cette option vous permet d'inclure l'inventaire dans votre liste de contrôle en fonction des numéros de série spécifiés. Vous pouvez saisir le numéro de série directement ou sélectionner des numéros de série dans des catégories telles que client, site ou groupe.</block>
+  <block id="28fa24f22582565336a20a99aac1a3b6" category="sidebar">Active IQ Digital Advisor (également appelé Digital Advisor) optimise votre infrastructure de données dans l'ensemble de votre cloud hybride grâce à un portail cloud et à une application mobile qui fournit des analyses prédictives et un support proactif. Les services Cloud Advisor exploitent les connaissances de la communauté et les comparatifs des pairs, issues de la vaste base installée de NetApp. Ils combinent ces informations avec la télémétrie AutoSupport et les fonctionnalités My AutoSupport pour proposer un ensemble avancé de services d'analytique inégalés.</block>
+  <block id="102d9716e9927264b03dcd24c0dd5cc3" category="sidebar">En savoir plus sur Digital Advisor</block>
+  <block id="156203bd2f0dca053d9b9dbd8f8912c7" category="sidebar">Utiliser Digital Advisor</block>
+  <block id="11d4d5337b73945892437ccbc95a0733" category="sidebar">Consultez les risques et prenez des mesures correctives</block>
+  <block id="a54afc6b3736cfe74798cc6c434300fc" category="sidebar">Détecter les écarts de configuration</block>
+  <block id="7a61fe0aacb0733ede2f886638474e22" category="sidebar">Corrigez les risques de sécurité critiques</block>
+  <block id="6cb30ae6af19fc79cca62d705f6b0744" category="sidebar">Analyser à l'aide de Digital Advisor</block>
+  <block id="0aace9b9585a40db8e20e3e200feeb89" category="sidebar">Consultez les recommandations sur les mises à niveau d'ONTAP</block>
+  <block id="5649476905365d651ff75a651e4e79a8" category="sidebar">Prenez des décisions avisées en fonction des recommandations sur le cloud</block>
+  <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">Ressources supplémentaires</block>
+  <block id="ff40d476eb35d6d339a7a745c5825109" category="sidebar">Portail Web Digital Advisor</block>
+  <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Vidéos Digital Advisor</block>
+  <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">Communauté NetApp : conseiller digital</block>
 </blocks>

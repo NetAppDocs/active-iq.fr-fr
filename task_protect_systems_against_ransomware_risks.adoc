@@ -16,13 +16,14 @@ summary:
 
 
 [role="lead"]
-Lorsque vous vous connectez à Digital Advisor, vous pouvez afficher les *actions* mises en surbrillance dans le widget *protection contre les attaques par ransomware*, qui affiche le nombre de risques.
+Lorsque vous vous connectez à Digital Advisor, vous pouvez afficher les *actions* mises en surbrillance dans le widget *sécurité et défense anti-ransomware*, qui affiche le nombre de risques.
 
 Vous pouvez afficher la création de copies Snapshot, la conservation et les risques liés à ONTAP FPolicy, puis prendre des mesures pour les corriger.
 
 .Étapes
 . Connectez-vous à Digital Advisor.
-. Cliquez sur *actions* dans le widget *protection contre les attaques par ransomware*.
+. Cliquez sur *actions* dans le widget *sécurité et défense anti-ransomware*.
+. Décochez la case *vulnérabilités de sécurité*.
 . Pour les risques affichés, vérifiez le niveau d'impact et suivez les actions recommandées.
 . Cliquez sur l'onglet risques uniques et cliquez sur le lien dans la colonne *action corrective*.
 . Cliquez sur l'onglet *systèmes affectés* pour afficher les systèmes présentant des risques.

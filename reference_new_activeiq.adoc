@@ -20,13 +20,31 @@ Les fonctionnalités et améliorations suivantes ont été introduites dans Digi
 
 
 
+== 15 mars 2024
+
+
+
+=== Bien-être
+
+* Le flux de travail Wellness inclut désormais le widget Sustainability, qui fournit le nombre d'actions recommandées au niveau du client, de la liste de suivi, du site et du groupe. Vous pouvez cliquer sur le nombre d'actions pour obtenir une vue détaillée de ces actions recommandées dans le tableau de bord Sustainability. Pour en savoir plus, reportez-vous à la section link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["Analysez la durabilité de vos systèmes de stockage"].
+* Les widgets Security Vulnerabilities and ransomware Defense du workflow Wellness sont combinés dans un widget unique, désormais appelé Security & ransomware Defense.
+
+
+
+
+=== Tableau de bord Health Check
+
+Le calendrier des dossiers techniques est amélioré pour afficher l'historique complet des dossiers pendant 6 ou 12 mois.
+
+
+
 == 29 février 2024
 
 
 
 === Liste de surveillance
 
-Vous pouvez désormais créer une liste de suivi à partir des numéros d'abonnement Keystone et rechercher un abonnement Keystone à l'aide des trois premiers caractères d'un numéro d'abonnement ou d'un nom de liste de surveillance.
+Vous pouvez désormais créer une liste de suivi à partir des numéros d'abonnement Keystone et rechercher un abonnement Keystone à l'aide des trois premiers caractères d'un numéro d'abonnement ou d'un nom de liste de suivi.
 
 
 

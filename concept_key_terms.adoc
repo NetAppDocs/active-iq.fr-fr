@@ -50,13 +50,13 @@ Lorsque vous commencez à utiliser Digital Advisor, il est important que vous co
 |===
 * *Widget Wellness:* affiche des informations sur les performances, l'efficacité, la capacité, les paramètres de configuration, les vulnérabilités de sécurité, et autres. Il détermine de manière proactive les systèmes qui ont dépassé la capacité ou qui dépassent les 90 %. En outre, elle fournit des informations sur les logiciels et le matériel qui ont expiré ou sont sur le point d'expirer dans les 6 prochains mois.
 +
+** *Sécurité et défense anti-ransomware :* fournit des informations sur les risques et les actions correctives associés aux failles de sécurité, à la détection des ransomwares, à la prévention et à la récupération.
 ** *Performances et efficacité :* affiche des informations sur les performances et l'efficacité du système de stockage.
 ** *Disponibilité et protection :* affiche des informations sur la disponibilité et la protection du système de stockage.
 ** *Capacité :* est constitué de risques avec un attribut de capacité pour les valeurs de la zone d'impact.
 ** *Configuration:* consiste en des risques avec un attribut de configuration pour les valeurs de la zone d'impact triées avec l'impact le plus élevé sur le dessus.
-** *Vulnérabilités de sécurité :* est constitué de risques avec un attribut de sécurité pour les valeurs de zone d'impact.
+** *Sustainability:* affiche le nombre d'actions recommandées pour améliorer le score de durabilité au niveau du client, de la liste de surveillance, du site et du groupe.
 ** *Wellness History:* affiche des informations sur les risques système survenant au cours des trois derniers mois, de sorte que vous puissiez apprendre comment ils font des heures supplémentaires.
-** *Protection contre les attaques par ransomware :* fournit des informations sur les risques et les actions correctives associés à la détection, à la prévention et à la récupération des ransomwares.
 ** *Prendre en compte les risques (Ack):* vous permet de reconnaître les risques et les systèmes qui ont été touchés. Vous pouvez prendre en compte ces risques et vous familiariser avec les actions que vous pouvez effectuer pour réduire ces risques.
 ** *Risques non reconnus (unack):* vous permet de reconnaître les risques et les systèmes qui ont été reconnus.
 ** *Fix it:* fixe les risques pour le système à l'aide de Active IQ United Manager (UM) 9.7 ou supérieur. Cliquez sur ce bouton pour lancer UM et exécuter les étapes pour réduire les risques.

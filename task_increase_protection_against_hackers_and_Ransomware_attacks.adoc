@@ -26,10 +26,10 @@ Pour plus d'informations sur la sécurité des produits NetApp, y compris sur le
 
 .Étapes
 . Connectez-vous à Digital Advisor.
-. Cliquez sur *actions* dans le widget *failles de sécurité*.image:Security_Image 1 Ransomware attacks.png["Widget failles de sécurité"]
-+
-Pour les risques de sécurité à fort impact, suivez l'action recommandée qui consiste à mettre à niveau le système d'exploitation.
-
+. Cliquez sur *actions* dans le widget *sécurité et défense anti-ransomware*.
+image:Security_Image 2 Ransomware attacks.png["Widget failles de sécurité"]
+. Décochez la case *ransomware Defense*.
+. Pour les risques de sécurité à fort impact, suivez l'action recommandée qui consiste à mettre à niveau le système d'exploitation.
 . Cliquez sur l'onglet *risques uniques*, puis cliquez sur le lien dans la colonne *action corrective*.image:Corrective Action_Image 2 Ransomware attacks.png["Colonne action corrective"]
 +
 Le risque est fixé dans ONTAP 9.7P8 et versions ultérieures.image:Remediations_Image 3 Ransomware attacks.png["Onglet correction"]

@@ -82,8 +82,6 @@ sidebar:
       url: "/upgrade_advisor_overview.html"
     - title: Générez un plan de mise à niveau pour un ou plusieurs clusters
       url: "/generate_upgrade_plan_single_multiple_clusters.html"
-    - title: Générez un plan de mise à niveau pour les nœuds
-      url: "/task_view_upgrade.html"
   - title: Afficher les détails du système
     entries:
     - title: Afficher les détails de l'inventaire

@@ -16,7 +16,7 @@ summary: 'Fournissez des étapes pour générer un plan de mise à niveau en vue
 
 
 [role="lead"]
-Vous pouvez utiliser Upgrade Advisor pour afficher la liste des clusters éligibles ou non pour une mise à niveau. Vous pouvez afficher les recommandations de mise à niveau d'un cluster éligible et générer un plan de mise à niveau. Vous pouvez résoudre les problèmes liés à un cluster non éligible pour le rendre éligible à une mise à niveau.
+Vous pouvez utiliser Upgrade Advisor pour afficher la liste des clusters éligibles ou non pour une mise à niveau. Vous pouvez afficher des recommandations de mise à niveau pour un cluster éligible et générer un plan de mise à niveau. Vous pouvez résoudre les problèmes liés à un cluster non éligible pour le rendre éligible à une mise à niveau.
 
 Vous pouvez suivre ces étapes pour générer un plan de mise à niveau pour un ou plusieurs clusters :
 
@@ -31,12 +31,9 @@ image:ua_widget.png["Capture d'écran affichant le nombre de clusters."]
 +
 La page *Upgrade Advisor-ONTAP* s'affiche.
 
-. Vérifiez que la bascule *Enhanced Upgrade Advisor* est activée.
+. Vous pouvez afficher la liste des clusters éligibles et non éligibles pour une mise à niveau.
 +
 image:r_enhanced_ua_toggle.png["Une capture d'écran montrant la bascule améliorée Upgrade Advisor est activée."]
-
-+
-Vous pouvez afficher la liste des clusters éligibles et non éligibles pour une mise à niveau.
 
 . Sélectionnez un cluster pour une mise à niveau.
 La colonne *version du système d'exploitation cible* affiche la version du système d'exploitation cible recommandée. Vous pouvez cliquer sur image:edit_icon.png["Illustration du bouton Modifier"] Pour sélectionner une autre version du système d'exploitation cible d'un cluster.
@@ -88,12 +85,9 @@ image:ua_widget.png["Capture d'écran affichant le nombre de clusters."]
 +
 La page *Upgrade Advisor-ONTAP* s'affiche.
 
-. Vérifiez que la bascule *Enhanced Upgrade Advisor* est activée.
+. Vous pouvez afficher la liste des clusters éligibles et non éligibles pour une mise à niveau.
 +
 image:r_enhanced_ua_toggle.png["Une capture d'écran montrant la bascule améliorée Upgrade Advisor est activée."]
-
-+
-Vous pouvez afficher la liste des clusters éligibles et non éligibles pour une mise à niveau.
 
 . Sélectionnez des clusters pour une mise à niveau.
 La colonne *version du système d'exploitation cible* affiche la version du système d'exploitation cible recommandée.vous pouvez cliquer sur le image:edit_icon.png["Illustration du bouton Modifier"] Pour sélectionner une autre version du système d'exploitation cible d'un cluster.

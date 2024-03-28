@@ -62,7 +62,7 @@ Par exemple, sélectionnez l'onglet 2 mois pour afficher les données pendant 2 
 |  | Débit du réseau |  |  
 |===
 
-NOTE: Les graphiques de performance de latence des nœuds et les graphiques de performance des volumes sont pris en charge uniquement sur les systèmes qui exécutent ONTAP 9.2 et versions ultérieures.
+NOTE: Les graphiques de latence des nœuds, de Tier local (agrégat) et de performance du volume sont pris en charge uniquement sur les systèmes exécutant ONTAP 9.2 et versions ultérieures.
 
 . Les graphiques de performance suivants ainsi que les mesures requises sont disponibles pour les contrôleurs E-Series :
 +

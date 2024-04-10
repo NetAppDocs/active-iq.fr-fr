@@ -20,6 +20,31 @@ Les questions suivantes donnent des réponses à vos questions fréquentes sur D
 
 
 
+== Étude de cas technique
+
+*Quand dois-je créer un dossier technique?*
+
+Des dossiers techniques sont créés pour demander de l'aide sur l'un des produits NetApp en cas de problèmes techniques liés à une interruption du matériel, à des performances médiocres, à des problèmes de données ou à des demandes d'informations techniques.
+
+*Comment créer un dossier technique?*
+
+. Cliquez sur link:https://mysupport.netapp.com/site/global/dashboard["ici"^] Pour ouvrir le site de support NetApp.
+. Dans le menu supérieur, cliquez sur *Mes cas*.
+. Cliquez sur *Créer un cas*.
+. Sélectionnez une catégorie, fournissez les détails requis et cliquez sur *Nouvelle recherche* pour rechercher un système dans votre inventaire.
+. Dans la liste des systèmes affichés, sélectionnez le système pour créer le dossier.
+. Sélectionnez la priorité du nouveau dossier.
+. Sélectionnez la catégorie appropriée dans la liste déroulante *Catégorie de problème*.
+. Entrez la description du problème dans le champ Description du problème et cliquez sur *Continuer*.
+. Fournir des détails supplémentaires sur le problème.
+. Cliquez sur *Sélectionner des fichiers* pour télécharger des fichiers ou des images qui peuvent aider à diagnostiquer le problème.
+. Cliquez sur *Continuer*.
+. Indiquez vos coordonnées.
+. Cliquez sur *Créer un cas*.
+
+
+
+
 == Cas non technique
 
 *Qu'est-ce qu'un cas non technique?*
@@ -30,7 +55,7 @@ Les problèmes tels que l'impossibilité de visualiser les systèmes dans l'inve
 
 Un dossier non technique doit être créé pour les cas suivants :
 
-* Impossible d'accéder à certaines fonctions
+* Impossible d'accéder à certaines fonctions ou besoin d'aide pour les fonctions de Digital Advisor
 * Systèmes en stock manquants
 * Désaffectation d'un système de la base installée
 * Dates de contrat incorrectes ou manquantes

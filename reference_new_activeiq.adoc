@@ -20,6 +20,16 @@ Les fonctionnalités et améliorations suivantes ont été introduites dans Digi
 
 
 
+== 15 mai 2024
+
+
+
+=== Tableau de bord durabilité
+
+Une durabilité est désormais prise en charge sur les systèmes E-Series et StorageGRID. Vous pouvez afficher une liste des actions recommandées et des indicateurs environnementaux qui affichent des projections d'énergie, de consommation directe de carbone et de chaleur à partir du tableau de bord Sustainability pour ces systèmes. Pour en savoir plus, voir link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["Présentation du tableau de bord Sustainability"^].
+
+
+
 == 28 mars 2024
 
 

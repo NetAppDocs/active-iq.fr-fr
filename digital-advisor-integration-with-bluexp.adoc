@@ -33,7 +33,7 @@ BlueXP permet aux experts IT et aux architectes cloud de gérer de manière cent
 Vous pouvez accéder à Digital Advisor à partir de BlueXP pour gérer votre cluster.
 
 .Étapes
-. Ouvrez un navigateur Web et accédez à https://cloudmanager.netapp.com/app-redirect/active-iq["BlueXP"^]
+. Ouvrez un navigateur Web et accédez à https://cloudmanager.netapp.com/app-redirect/active-iq["BlueXP"^].
 . Sélectionnez *Connectez-vous à l'aide de vos informations d'identification du site de support NetApp* et saisissez vos identifiants.
 +
 Si vous avez déjà créé une connexion BlueXP à l'aide d'un e-mail et d'un mot de passe, vous devrez continuer à utiliser cette option de connexion.
@@ -52,4 +52,4 @@ Toutes vos listes de surveillance et configurations existantes s'affichent et vo
 
 == En savoir plus sur BlueXP
 
-https://docs.netapp.com/us-en/cloud-manager-family/concept-overview.html["Pour en savoir plus, consultez la documentation BlueXP"^]
+https://docs.netapp.com/us-en/bluexp-family/index.html["Pour en savoir plus, consultez la documentation BlueXP"^]

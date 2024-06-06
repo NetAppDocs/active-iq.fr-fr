@@ -28,7 +28,7 @@ Voici quelques-unes des fonctionnalités de Digital Advisor :
 * Obtenez des informations sur tous les risques encourus par votre système de stockage et les actions nécessaires pour limiter les risques.
 * Limitez les risques grâce à Active IQ Unified Manager.
 * Mettez à niveau votre système de stockage.
-* Affichez le score de durabilité et l'utilisation projetée de l'énergie, du carbone direct et de la chaleur. Sur la base de ce score, évaluez l'efficacité globale de vos systèmes de stockage et alignez-les sur les actions recommandées par NetApp pour améliorer ce score. link:concept_understand_sustainability_dashboard.html["En savoir plus >>"].
+* Affichez le score de durabilité et l'utilisation projetée de l'énergie, du carbone direct et de la chaleur. Sur la base de ce score, évaluez l'efficacité globale de vos systèmes de stockage et alignez-les sur les actions recommandées par NetApp pour améliorer ce score. link:learn_BlueXP_sustainability.html["En savoir plus >>"^].
 * Consultez le taux de réduction des données, l'espace logique utilisé, l'espace physique utilisé et la quantité totale de données sauvegardées pour les systèmes de stockage exécutant ONTAP 9.1 et versions ultérieures.
 * Analysez les performances de vos dispositifs de stockage en consultant le format graphique des données de performances.
 * Obtenez des informations sur le matériel et les logiciels qui ont expiré ou qui sont sur le point d'expirer au cours des 6 prochains mois.

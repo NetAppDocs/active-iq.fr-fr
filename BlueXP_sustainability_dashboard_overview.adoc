@@ -16,7 +16,7 @@ summary: Fournit des informations sur le tableau de bord, le score de durabilit�
 
 
 [role="lead"]
-Le tableau de bord de durabilité fournit une évaluation environnementale de votre système de stockage et des informations exploitables permettant d'apporter des améliorations sous la forme des actions recommandées par NetApp.
+Le tableau de bord de durabilité fournit une évaluation environnementale de vos systèmes de stockage et des informations exploitables permettant d'apporter des améliorations sous la forme des actions recommandées par NetApp.
 
 image:get_started_sustainability_dashboard.png["Capture d'écran de l'interface utilisateur affichant le tableau de bord Sustainability."]
 
@@ -35,14 +35,13 @@ Vous pouvez voir la représentation graphique du score pendant 5 semaines maximu
 
 image:sustainability_score.png["Capture d'écran montrant le score de durabilité avec le graphique."]
 
-*Indicateurs environnementaux* : affiche des projections pour votre consommation d'énergie, votre consommation directe de carbone et vos émissions de chaleur afin d'évaluer l'état de santé de votre système de stockage. Ces projections sont basées sur la puissance réelle, si elle n'est pas disponible, les valeurs de puissance typiques. Vous pouvez afficher ces projections mensuelles, trimestrielles ou annuelles en sélectionnant l'option souhaitée dans le menu déroulant situé dans le coin supérieur droit de cette section.
+*Indicateurs environnementaux* : affiche des projections pour votre consommation d'énergie, votre consommation directe de carbone et vos émissions de chaleur afin d'évaluer l'état de santé de l'environnement de vos systèmes de stockage. Ces projections sont basées sur la puissance réelle, si elle n'est pas disponible, les valeurs de puissance typiques. Vous pouvez afficher ces projections mensuelles, trimestrielles ou annuelles en sélectionnant l'option souhaitée dans le menu déroulant situé dans le coin supérieur droit de cette section.
 
 *Pourcentages d'atténuation du carbone* : affiche le pourcentage d'atténuation du carbone sur chaque site/ville, et les valeurs de référence présentées sont basées sur votre emplacement. Vous pouvez ajuster le pourcentage d'atténuation du carbone pour des sites spécifiques en cliquant sur le bouton image:edit_icon_1.png["Capture d'écran affichant une icône modifiable."] icône située à côté des valeurs de pourcentage et les numéros de carbone s'ajustent automatiquement en conséquence.
 
 image:carbon_mitigation_percentage.png["Une capture d'écran qui montre le pourcentage d'atténuation du carbone des sites et comment modifier ce pourcentage."]
 
-*Actions recommandées* : affiche la liste des actions recommandées pour améliorer le score de durabilité de votre système de stockage. Ces actions peuvent être prises immédiatement, ou plus tard.
-Pour plus d'informations sur la manière d'améliorer le score de durabilité, voir link:improve_sustainability_score.html["Améliorer votre score de durabilité"].
+*Actions recommandées* : affiche la liste des actions recommandées pour améliorer le score de durabilité de vos systèmes de stockage. Ces actions peuvent être prises immédiatement, ou plus tard. Pour plus d'informations sur la manière d'améliorer le score de durabilité, voir link:improve_sustainability_score.html["Améliorer votre score de durabilité"].
 
 *Environnements de travail* : affiche les paramètres environnementaux dans le tableau qui peuvent aider à identifier les clusters pour passer à un stockage plus efficace. À partir de ce tableau, vous pouvez :
 

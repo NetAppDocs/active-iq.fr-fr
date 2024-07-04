@@ -23,6 +23,17 @@ NOTE: Pour obtenir les meilleurs résultats depuis le tableau de bord, vous deve
 
 
 
+== Calcul du score de durabilité
+
+Le score de durabilité est calculé sur la base d'un ensemble de règles liées aux systèmes de stockage. Chaque règle aborde des risques spécifiques et recommande des mesures d'atténuation. Chaque règle reçoit une note qui reflète son importance. Par exemple, s'il existe trois règles associées aux systèmes de stockage : maintenir la température ambiante, garantir une utilisation optimale de la capacité et utiliser une alimentation en titane, avec des scores de 30, 40 et 30 points, respectivement. L'ajout de ces scores donne un total de 100 points, qui sert de dénominateur.
+
+Si les systèmes de stockage répondent parfaitement à tous les critères, le score de durabilité obtenu serait de 100 %. Si les performances des systèmes sont deux fois moins optimales, le score obtenu pourrait être de 50 %. Le total des points sert de référence et sert à comparer les performances réelles et les performances idéales. Vous pouvez mettre en œuvre les actions recommandées pour améliorer la conformité à ces règles, ce qui améliorera le score de durabilité.
+
+
+NOTE: Le score de durabilité est initialement calculé au niveau du cluster, puis il est agrégé à d'autres niveaux, tels que le niveau du client ou de la liste de suivi.
+
+
+
 == Améliorer le score global de durabilité
 
 Vous pouvez suivre ces étapes pour améliorer le score global de développement durable et mettre l'accent sur les efforts de développement durable au niveau de l'entreprise :

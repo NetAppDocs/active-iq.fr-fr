@@ -20,6 +20,6 @@ Vous pouvez obtenir de l'aide et trouver plus d'informations grâce à diverses 
 
 * link:https://community.netapp.com/t5/Active-IQ-Digital-Advisor-and-AutoSupport/ct-p/autosupport-and-my-autosupport["Communauté NetApp"^]
 * link:https://www.netapp.com/us/documentation/active-iq.aspx["Ressources de documentation"^]
-* link:https://www.netapp.com/us/media/tr-4688.pdf["Sécurité et confidentialité des données de télémétrie NetApp"^]
-* link:https://www.netapp.com/us/media/tr-4444.pdf["ONTAP AutoSupport et AutoSupport on Demand"^]
+* link:https://www.netapp.com/pdf.html?item=/media/10439-tr4688pdf.pdf["Sécurité et confidentialité des données de télémétrie NetApp"^]
+* link:https://www.netapp.com/pdf.html?item=/media/10438-tr-4444pdf.pdf["ONTAP AutoSupport et AutoSupport on Demand"^]
 

@@ -20,6 +20,16 @@ Les fonctionnalités et améliorations suivantes ont été introduites dans Digi
 
 
 
+== 21 août 2024
+
+
+
+=== Rapports
+
+Le rapport *plans d'assistance pour la mise à niveau 7-mode* n'est plus disponible, car les systèmes 7-mode ont atteint la fin du support limité. Pour plus d'informations, voir link:https://mysupport.netapp.com/site/info/version-support["Prise en charge des versions logicielles"^]. En savoir plus sur link:https://docs.netapp.com/a/ontap/7-mode/8.2.1/Upgrade-And-Revert-Or-Downgrade-Guide-For-7-Mode.pdf["Mise à niveau des systèmes de stockage Data ONTAP 7-mode"^].
+
+
+
 == 04 juillet 2024
 
 

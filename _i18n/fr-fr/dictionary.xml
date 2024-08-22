@@ -326,8 +326,6 @@
   <block id="8d4f3dea5577dce7739de17b3c022f16" category="cell">Fournit des informations sur les risques en suspens et reconnus, les détails des risques, les actions correctives et les systèmes concernés.</block>
   <block id="117d48eb5d133fd5a508d66f884c3c85" category="cell">Bien-être – agrégé</block>
   <block id="df67990129d3bd9cbda01755e666bbee" category="cell">Fournit un résumé des risques exceptionnels et du nombre de systèmes affectés.</block>
-  <block id="0c9c13cde9e8b69be84ca36dee87f611" category="cell">Plans Upgrade Advisor 7-mode</block>
-  <block id="997e7cc095a9554f17d93457daa42a47" category="cell">Fournit un rapport sur le plan de conseiller de mise à niveau pour les systèmes 7-mode. Ce rapport inclut des informations sur le partenaire de haute disponibilité.</block>
   <block id="206b11a774f63418bae21625e6f6d2fb" category="cell">Inventaire Ansible</block>
   <block id="f34a643181d75dbba89d10d14f0d8041" category="cell">Fournit un fichier d'inventaire Ansible qui répertorie toutes les informations d'inventaire système par région ou site. Ce fichier peut être utilisé pour l'automatisation.</block>
   <block id="55449fd175613962d882ab450cfc5f3c" category="cell">FabricPool</block>
@@ -844,7 +842,6 @@
   <block id="04eaef0c64f7604067332b0b05e598d3" category="cell">*Nœud*</block>
   <block id="fe40d8b49a8a95c2a28179b7ef3039d6" category="cell">Prise en charge sur toutes les plateformes</block>
   <block id="28e26766a62bd9ef329986f7963b6357" category="cell">Ajouts de capacité</block>
-  <block id="b892c2b3bdaaf51bbf65f75ef159ae10" category="cell">Pris en charge uniquement sur les plateformes ONTAP (Data ONTAP sous 7-mode et clustered Data ONTAP)</block>
   <block id="7c3098d5e7bbe4908e01ab684d9cd021" category="cell">Pris en charge uniquement sur clustered Data ONTAP</block>
   <block id="240f9686efc9548a1d556d924c143924" category="cell">Mises à niveau</block>
   <block id="20827f5f11724ac7658af2f39f50f964" category="doc">Renouvelez le logiciel et le matériel de votre système de stockage</block>
@@ -1529,4 +1526,8 @@ La disponibilité des fonctions sous *STORAGE HEALTH* dépend du type et du nive
   <block id="8352fdd61dbba9f97925bd7797c4eb47" category="paragraph">Une durabilité est désormais prise en charge sur les systèmes E-Series et StorageGRID. Vous pouvez afficher une liste des actions recommandées et des indicateurs environnementaux qui affichent des projections d'énergie, de consommation directe de carbone et de chaleur à partir du tableau de bord Sustainability pour ces systèmes. Pour en savoir plus, reportez-vous <block ref="8ef455a63dd9427c902954b8e3c7f21b" category="inline-link-macro-rx"></block>à la section .</block>
   <block id="2a4b13cd943c24cfe2735c05922d1427" category="list-text"><block ref="2a4b13cd943c24cfe2735c05922d1427" category="inline-link-macro-rx"></block></block>
   <block id="7581b2408d4adfb3df4e98d5f1f96473" category="list-text"><block ref="7581b2408d4adfb3df4e98d5f1f96473" category="inline-link-macro-rx"></block></block>
+  <block id="788b77f1903c86b79d6ab3fa3aeac01e" category="section-title">21 août 2024</block>
+  <block id="fc1d748db1b5b488ce7af7d17ea15d55" category="inline-link-macro">Prise en charge des versions logicielles</block>
+  <block id="846815401f996d92d6775164d37e6015" category="inline-link-macro">Mise à niveau des systèmes de stockage Data ONTAP 7-mode</block>
+  <block id="bebf3b3af19cc5d4d44b97e70e8b3ffb" category="paragraph">Le rapport *plans d'assistance pour la mise à niveau 7-mode* n'est plus disponible, car les systèmes 7-mode ont atteint la fin du support limité. Pour plus d'informations, voir <block ref="20732c2f8b67b7236a6509e096709359" category="inline-link-macro-rx"></block>. En savoir plus sur <block ref="ee2cd00409c56591f09249cc9e682f11" category="inline-link-macro-rx"></block>.</block>
 </blocks>

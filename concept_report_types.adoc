@@ -25,9 +25,6 @@ Les types de rapports disponibles dans Digital Advisor sont les suivants :
 | Nom du rapport | Description 
 
 
-| Plans Upgrade Advisor 7-mode | Fournit un rapport sur le plan de conseiller de mise à niveau pour les systèmes 7-mode. Ce rapport inclut des informations sur le partenaire de haute disponibilité. 
-
-
 | Inventaire Ansible | Fournit un fichier d'inventaire Ansible qui répertorie toutes les informations d'inventaire système par région ou site. Ce fichier peut être utilisé pour l'automatisation. 
 
 

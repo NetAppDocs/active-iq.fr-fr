@@ -59,10 +59,6 @@
   <block id="18e4b799fc66943cb5ca094c22421d14" category="paragraph">Avant d'exécuter le PlayBook Ansible, vérifiez que le fichier *NetApp_Ansible_**.*zip* a été extrait et que le serveur Web avec les fichiers de firmware des tiroirs ou des disques est prêt.</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="section-title">Avant de commencer</block>
   <block id="2e539a8b55656611ca1f039b25d5987b" category="paragraph">Avant d'exécuter le manuel de vente Ansible à l'aide de NetApp docker, vous devez :</block>
-  <block id="439d63cd3905d44125be50793bdd3ab5" category="inline-link-macro">Téléchargez le pack Ansible Automation du firmware AFF et FAS</block>
-  <block id="82d6e33ffa2d3e136792c8074ac54f9c" category="list-text"><block ref="82d6e33ffa2d3e136792c8074ac54f9c" category="inline-link-macro-rx"></block></block>
-  <block id="cd52899f1679a9b2e3b756255e5c3676" category="inline-link-macro">Hébergez les fichiers du micrologiciel à l'aide du serveur Web</block>
-  <block id="4e934f63fd61cf954bde477d71345e3c" category="list-text"><block ref="4e934f63fd61cf954bde477d71345e3c" category="inline-link-macro-rx"></block></block>
   <block id="6b4dbbb245371383fcc0b1b43ca85958" category="inline-link-macro">Travailler avec le fichier d'inventaire</block>
   <block id="27f8f6c7481c543f7ac1c0d9d320816e" category="list-text"><block ref="27f8f6c7481c543f7ac1c0d9d320816e" category="inline-link-macro-rx"></block></block>
   <block id="3570d1e60985f402f1d406b1bb17fabe" category="list-text">S'assurer que NetApp Docker est installé.</block>
@@ -136,7 +132,6 @@
   <block id="6e8eb21f5c710d91b6fa76bd91af461f" category="paragraph">Le widget *précieux Insights* est disponible sur le tableau de bord.</block>
   <block id="07fd0f116aaad9b880128783daa7bc1a" category="list-text">Consultez les informations contenues dans ce widget pour comprendre la valeur commerciale et technique obtenue grâce à votre contrat de support.</block>
   <block id="bd006ceeb17633ee0556ac28eaf949f6" category="summary">Fournit des informations sur les API disponibles dans le catalogue d'API.</block>
-  <block id="99690ba41792c97440fb7507094c827d" category="doc">Utilisez le catalogue d'API pour exécuter les API</block>
   <block id="40626d7035cc7f4a6caa9d104fd7d387" category="paragraph">Le catalogue d'API vous permet de parcourir les catégories et les API disponibles dans chacune de ces catégories.</block>
   <block id="2b033bd9dec6fb568acb85aff511102a" category="paragraph">À l'aide d'un jeton d'accès valide et des entrées correctes pour les champs requis, vous pouvez effectuer un appel de test pour une API.</block>
   <block id="1b041cdfdc19a7bdb36e4bb710521c3b" category="list-text">Dans le menu *Quick Links*, cliquez sur *API Services*.</block>
@@ -188,7 +183,6 @@
   <block id="a883cf21600271d7200622fa1132d9b8" category="list-text">Cliquez sur un lien quelconque du volet *Disaster Recovery*.</block>
   <block id="75bbd62b379d56356d9a8bb6cfdedb8d" category="list-text">Cliquez sur *Replicate to Cloud* pour lancer *BlueXP*.</block>
   <block id="a0a811ca28574ec3a01b64693e2fe336" category="summary">Fournit des informations sur le tableau de bord, les scores d'intégrité, les fonctionnalités et les widgets.</block>
-  <block id="e916508b5fb2cdc772d71fc2a189c67b" category="doc">Commencez à utiliser le tableau de bord Health Check</block>
   <block id="0283692678f3caa0a73dcdba11b167a0" category="paragraph">Ce tableau de bord fournit un aperçu complet de votre base installée à l'aide des widgets suivants :</block>
   <block id="820ed668f5824044ba24b743388d94f8" category="list-text">*AutoSupport adoption* : affiche le nombre et le pourcentage de systèmes sur lesquels AutoSupport est activé. Vous pouvez également afficher les systèmes marqués comme «en ligne», ceux avec *HTTPS* et *AutoSupport On Demand* activés, ainsi que *perte de signal* pour les systèmes qui ont cessé d'envoyer des données AutoSupport au cours des 7 derniers jours. Pour afficher le score de votre bilan de santé et les informations sur les systèmes de votre base d'installation, cliquez sur le widget *AutoSupport adoption*.</block>
   <block id="5a203b8ad736b84e1741fd3d04b50fd8" category="list-text">*Configuration recommandée* : affiche les systèmes qui sont conformes et non conformes selon le widget *Configuration recommandée*. Il vous permet de prendre des mesures afin de vous assurer que vos systèmes sont bien configurés sur l'ensemble de votre base installée. Vous pouvez afficher les résultats fournis dans le tableau de bord et prendre des mesures en fonction des recommandations clés fournies par ordre de priorité.</block>
@@ -222,7 +216,6 @@
   <block id="3caae258f0b7b1933ce92f0c03955521" category="paragraph">Les mises à jour du firmware Ansible PlayBook pour le processeur de service/BMC sont activées avec une option permettant de vérifier l'installation du dernier firmware SP/BMC sur le contrôleur. Une fois la vérification terminée (les mises à jour peuvent prendre une durée maximale de deux heures), Ansible PlayBook applique les mises à jour internes du firmware des commutateurs en se connectant à la console SP/BMC.</block>
   <block id="b80d891d0b3572cb38b140778c2439e6" category="paragraph">Les informations de défaillance et de réussite du micrologiciel SP/BMC et des installations de firmware du commutateur interne seront notifiées à la fin de l'exécution d'Ansible PlayBook. Suivez les étapes indiquées dans le manuel Ansible PlayBook si l'installation du firmware du commutateur interne/du micrologiciel du processeur de service/BMC/du commutateur interne échoue.</block>
   <block id="f839cdbae8d80bc224d943c9c45a46f0" category="summary">Fournit des informations pour afficher et analyser le bien-être de votre système de stockage et réduire les risques.</block>
-  <block id="20ee74a30034c5c1341368bee35c84ff" category="doc">Consultez les risques et prenez manuellement les actions correctives</block>
   <block id="0e3a68f1f6b2f1d1d9fe331b11c5efa2" category="paragraph">Vous pouvez analyser les attributs d'intégrité de votre système de stockage en visualisant les actions et les risques associés. Vous devez afficher les actions correctives associées et réduire manuellement le risque.</block>
   <block id="9bbf83543e304f4973370a44626c0d09" category="list-text">Cliquez sur le widget *Wellness* du tableau de bord ou cliquez sur *Afficher toutes les actions* pour afficher la liste de toutes les actions et de tous les risques.</block>
   <block id="09cf3ca5d8f7efac34773df93eb9049a" category="list-text">Afficher les *actions* et *risques* associés à l'attribut bien-être.</block>
@@ -514,7 +507,6 @@
   <block id="2fc27556f44d8a6724ac003effded441" category="inline-link-macro">Sécurité et confidentialité des données de télémétrie NetApp</block>
   <block id="338fec277abf8dd8a9f3f83288b2911d" category="inline-link-macro">ONTAP AutoSupport et AutoSupport on Demand</block>
   <block id="144deae4a5b0b4c9284528157c461f6c" category="summary">Fournit des informations sur la façon d'améliorer la protection contre les pirates informatiques et les attaques par ransomware.</block>
-  <block id="f7e6c88265534036ac8e0f442a755875" category="doc">Détecter la vulnérabilité de sécurité</block>
   <block id="e3f44fedccc2711587690bd9581827ed" category="paragraph">Digital Advisor utilise des données de télémétrie et des avis publiés sur la sécurité des produits pour détecter les problèmes de sécurité des produits couverts* et couverts par le support. Les données de télémétrie des produits doivent être transmises à NetApp via AutoSupport pour que le conseiller digital puisse détecter les risques.</block>
   <block id="820369c7769d4f36cf2076f618fe371d" category="paragraph">*Produits pris en charge : ONTAP 9 (sur site et dans le cloud), logiciel de contrôleur SANtricity OS, NetApp SolidFire (logiciel Element), StorageGRID, Active IQ Unified Manager, outils ONTAP pour VMware (OTV)</block>
   <block id="6c0397360aa8b37bbbe1fa3a38744674" category="list-text">Connectez-vous à Digital Advisor.</block>
@@ -844,7 +836,6 @@
   <block id="28e26766a62bd9ef329986f7963b6357" category="cell">Ajouts de capacité</block>
   <block id="7c3098d5e7bbe4908e01ab684d9cd021" category="cell">Pris en charge uniquement sur clustered Data ONTAP</block>
   <block id="240f9686efc9548a1d556d924c143924" category="cell">Mises à niveau</block>
-  <block id="20827f5f11724ac7658af2f39f50f964" category="doc">Renouvelez le logiciel et le matériel de votre système de stockage</block>
   <block id="6134af206850e07eeb1d6838aae2ceb5" category="paragraph">Vous pouvez identifier de manière proactive les logiciels et le matériel qui ont expiré ou sont à court d'expiration au cours des 6 prochains mois, et envoyer une demande de renouvellement du matériel et du logiciel.</block>
   <block id="86592c16b8e8d8d0b3cfdda42cfb12b9" category="list-text">Cliquez sur *renouvellements* dans le widget *planification*.</block>
   <block id="0d9283785cad0930c05662c95f72d63d" category="list-text">Sélectionnez les systèmes que vous souhaitez renouveler et cliquez sur *renouveler*.</block>
@@ -864,10 +855,7 @@
   <block id="d46650e342e5c88508541b7bf48a859f" category="section-title">Le conseiller numérique peut prendre 60 minutes pour réfléchir aux risques reconnus et non reconnus</block>
   <block id="de031b37ae88787ef3cdc870e9177445" category="paragraph">L'état des risques qui sont reconnus et non reconnus ne reflète pas immédiatement dans Digital Advisor. Il peut s'avérer nécessaire de prendre jusqu'à 60 minutes pour que les changements soient pris en compte dans Digital Advisor et dans le rapport de bien-être.</block>
   <block id="9f7c9f58bb8756fe75c88f458c094ff5" category="summary">Fournit des informations permettant de se familiariser avec le tableau de bord de vérification de l'état.</block>
-  <block id="8bd30f76be476058b4d8d425fef989b2" category="doc">Description du tableau de bord de vérification de l'état</block>
-  <block id="194c61820d9b82b7329e3153ac5cd674" category="paragraph">Le tableau de bord Digital Advisor Health Check fournit une analyse ponctuelle de votre environnement global.</block>
   <block id="3cc3a0dbf287ac1f117caad7c4ff3529" category="paragraph">En fonction du score de vérification de l'état de votre système, vous pouvez aligner vos systèmes de stockage sur les meilleures pratiques recommandées par NetApp pour faciliter la planification à long terme. Il vous permet de contrôler tous les systèmes s'exécutant sur les logiciels et le matériel via une interface utilisateur centralisée. Les scores de contrôle de l'état vous permettent d'obtenir rapidement des informations sur les risques système. Les recommandations clés et les bonnes pratiques vous aident à prendre des mesures afin d'améliorer l'état de votre base installée.</block>
-  <block id="73b22abb2810760940bcbce346e76523" category="admonition">Le tableau de bord de vérification de l'état de santé est uniquement accessible via les offres de services NetApp SupportEdge Advisor et SupportEdge Expert.</block>
   <block id="39c8987e43727590806ec031b3dd0a86" category="summary">Fournit des informations sur les termes clés utilisés dans Digital Advisor.</block>
   <block id="aecb526721c5811e8b940ed95c7e8b18" category="doc">Concepts clés</block>
   <block id="9d20c3f0e792e5776281264573b1c017" category="paragraph">Lorsque vous commencez à utiliser Digital Advisor, il est important que vous compreniez certains des termes de base que vous pouvez attendre à voir dans le Digital Advisor.</block>
@@ -946,7 +934,6 @@
   <block id="170bb6f16db0d4bbf5962cd0bdb83cdc" category="list-text">Cliquez sur *Modifier* pour mettre à jour les détails de la liste de surveillance.</block>
   <block id="71c11d072ed3800acd07298b9da0447f" category="list-text">Cliquez sur *Supprimer* pour supprimer la liste de surveillance.</block>
   <block id="2ddb7471f4505c6b0aa8e3464634debc" category="summary">Fournit des informations sur ClusterViewer.</block>
-  <block id="6e6b112d636d5497f59ccca67738fac3" category="doc">Analyser le bien-être des clusters et des nœuds</block>
   <block id="964f0ca73e7ebb063af3a2240b8483fb" category="paragraph">Vous pouvez analyser le bien-être de vos clusters et de vos nœuds à l'aide de ClusterViewer, une source centralisée pour obtenir des informations sur la configuration physique et logique de vos clusters et de vos nœuds.</block>
   <block id="6db3885477641d8e5ca59335970bf0b0" category="paragraph">ClusterViewer fournit des informations, telles que les diagrammes de pile de vos nœuds, l'utilisation du stockage et l'efficacité, la marge de capacité matérielle, etc., qui vous permet de prendre des décisions avisées afin d'améliorer l'intégrité de vos clusters et nœuds.</block>
   <block id="acc7732ef13d215f323b715a75c23913" category="paragraph">Vous pouvez afficher des visualisations ou des représentations graphiques de la configuration physique de vos nœuds au niveau du câble, de la pile et des disques RAID. Vous pouvez également télécharger les visualisations au format SVG.</block>
@@ -995,14 +982,12 @@
   <block id="712521b43d0b848d99bf5f898ee9c033" category="list-text">Si vous ne voulez pas ou ne pouvez pas atténuer le risque pour le moment, indiquez les valeurs des champs et cliquez sur *Acknowledge*.</block>
   <block id="6f93dec8e32211fde259c444ab2d63fb" category="paragraph">Le risque sera ajouté aux risques reconnus.</block>
   <block id="862744f0ea49f8f06aab2a99ec7a3482" category="admonition">Si vous ne voulez plus reconnaître un risque, vous pouvez ignorer le risque en cliquant sur *un-Ack* et en suivant les mêmes étapes.</block>
-  <block id="b5d0947d6bc5e70f868d560d859163f5" category="doc">Consultez l'utilisation de la capacité sur l'abonnement NetApp Keystone</block>
   <block id="75fb68630cabac33011c445584315dfc" category="summary">Fournit plus d'informations sur Ansible.</block>
   <block id="5d08ea99dda2f857e6edb3d641d26b98" category="inline-link-macro">Informations de dépannage</block>
   <block id="e350176e2ca4464b7c8bb3efa4e581fa" category="inline-link-macro">Espace de travail Slack</block>
   <block id="e1ceb514961568f187bb88fa116f776f" category="list-text">Mailto:ng-active-iq-feedback@netapp.com[E-mail]</block>
   <block id="ededec00f7d24950f152983df2ad1f73" category="list-text">Bouton de support dans Digital Advisor pour obtenir de l'aide et des commentaires.</block>
   <block id="79e6bb72bf3b27322743b85d46e7028f" category="summary">Fournit des informations sur la manière d'éviter les temps d'indisponibilité et les pertes de données possibles.</block>
-  <block id="aab3d4ecb2113aebbbf0fc0f4e0bd569" category="doc">Évitez les temps d'indisponibilité et les pertes de données</block>
   <block id="a66a2f6647458a57d2e6fc1df3f920bf" category="paragraph">Lorsque vous vous connectez à Digital Advisor et remarquez le badge rouge sur le widget *disponibilité et protection*, vous pouvez prendre des mesures pour résoudre les risques critiques. Sans la correction du micrologiciel, ces disques risquent de ne pas fonctionner après un certain nombre d'heures de mise sous tension. La résolution de ce problème permettrait d'éviter à la fois les temps d'indisponibilité et les pertes éventuelles de données.</block>
   <block id="7668feb1d998cf5c94c1e24359309154" category="list-text">Connectez-vous à Digital Advisor.</block>
   <block id="a9d1a3c661cd780de1547f8874ba7fa9" category="inline-image-macro">Disponibilité etamp ; widget protection</block>
@@ -1036,31 +1021,16 @@
   <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">Démarrage rapide</block>
   <block id="f9e8725fc2db4a86d0c8d9ae95581d74" category="sidebar">Liste de surveillance des provisions</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">Présentation</block>
-  <block id="a847a249ea34e3557fd4b0faa9b1a58c" category="sidebar">Affichez les risques qui peuvent être atténués automatiquement à l'aide de Active IQ Unified Manager ou du PlayBook Ansible</block>
-  <block id="e5c576a815351e15ac0b32011a7cd066" category="sidebar">Renouvelez le logiciel et le matériel</block>
   <block id="b99a21b99fb9e230b533835afc100672" category="sidebar">Afficher les détails du système</block>
-  <block id="46edca0ff6e552183e1d49c7d4a3ff08" category="sidebar">L'intégration à Cloud Insights pour afficher les détails des ordinateurs virtuels</block>
-  <block id="6721d14778dfec7598747969baedc497" category="sidebar">Affichez l'utilisation de la capacité de l'abonnement Keystone</block>
   <block id="2cedeaac2dc61820b8d8fc6586834073" category="sidebar">Identifiez de manière proactive la configuration système requise</block>
-  <block id="b3f73dc804d731e2fd50580bfb4bd2bb" category="sidebar">Identifier les écarts de configuration</block>
-  <block id="2239c723cc5ca3dc6ba1585521896ba0" category="sidebar">Générer un rapport de chronologie de dérive</block>
   <block id="0cc0b1a131ca25b1ae5d22ddb1c11865" category="sidebar">Améliorez l'efficacité et les performances de votre système de stockage</block>
-  <block id="6029b29ba0bf4fa906d9b33aeb4affea" category="sidebar">Analysez les économies de capacité et d'efficacité</block>
   <block id="5b333f7c3257e7754518c2d09d86555e" category="sidebar">Analyser les performances du stockage</block>
   <block id="b0f4d50e3b0a80acae4cdfe5ec415bf2" category="sidebar">Analyser l'état de santé de votre système de stockage</block>
   <block id="5c76b7629087dd257b9ab47efd972727" category="sidebar">Mettez à niveau pour optimiser votre base installée</block>
   <block id="bcbe3404f4519b7a276724fb02a336ec" category="sidebar">Mettez à jour votre firmware AFF et FAS à l'aide du PlayBook Ansible</block>
-  <block id="cac43af1157491380365a3fbc40ffd0e" category="sidebar">Installer et exécuter le pack Ansible Automation du firmware AFF et FAS (utilisateurs expérimentés)</block>
-  <block id="296c50bb7122e36d72b344edcdd0c679" category="sidebar">Installer et exécuter le pack d'automatisation Ansible du firmware AFF et FAS (débutants)</block>
-  <block id="d9daa9f2104f9630f56fba5a79e00e16" category="sidebar">Héberger les fichiers de micrologiciel à l'aide d'un serveur Web</block>
-  <block id="1ecec82935ab6d53ed561471cf78dfed" category="sidebar">Travailler avec le fichier d'inventaire</block>
   <block id="09a5a45f88e6f466acff860555335df6" category="sidebar">Exécutez le PlayBook Ansible à l'aide de l'image NetApp Docker</block>
-  <block id="72d8c17b82a8128c57dce58c29f29979" category="sidebar">Exécutez le PlayBook Ansible sans Docker</block>
-  <block id="624bf3c50fda6cdcdab599281e893dee" category="sidebar">Dépannage, commentaires et support</block>
   <block id="94248bdab6eca12666593501ea5684f7" category="sidebar">Intégrez les données à l'aide d'API</block>
-  <block id="3d771951f480b18b116afdfb0da9cb88" category="sidebar">Générez des jetons pour accéder aux API</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">Générer des rapports personnalisés</block>
-  <block id="af2a4d2810d86aa0169c117f82682f9a" category="sidebar">Foire aux questions</block>
   <block id="8081688f219c172dde2cb99dbacc51d8" category="doc">Prenez des décisions avisées en fonction des recommandations sur le cloud</block>
   <block id="e404f7c0800eac65e5e44442bb4fd0cc" category="admonition">Vous devez télécharger et enregistrer le jeton d'accès et actualiser le jeton pour une utilisation ultérieure. Les jetons d'accès expirent une heure après la génération et l'actualisation des jetons doivent être régénérés, manuellement, tous les 7 jours et installés dans l'application. Pour ce faire, vous n'avez pas besoin de vous connecter à l'application. Toutefois, après 90 jours, vous devez vous connecter à l'application pour obtenir un nouvel accès et actualiser le jeton.</block>
   <block id="73924ddc2c905c2855a59dc4ad4e29a7" category="paragraph">Les attributs d'un modèle de dérive de configuration sont modifiables et les groupes suivants du modèle prennent en charge les expressions régulières pour certaines sections :</block>
@@ -1355,7 +1325,6 @@ La page de connexion NetApp BlueXP s'affiche.</block>
   <block id="4a33ef12db92e241992049db5250349e" category="paragraph">Le tableau de bord durabilité indique les actions recommandées que vous pouvez mettre en œuvre pour améliorer le score de durabilité global et le score de durabilité au niveau du cluster.</block>
   <block id="5e5fa64fce688126dbdf2ee76a2a88dc" category="paragraph">Vous pouvez visionner la vidéo suivante pour comprendre le tableau de bord Sustainability :</block>
   <block id="d99a4bbfe0f45d32ff5e507f38f9f1a7" category="admonition">AutoSupport doit être activé pour un calcul précis du score de durabilité.</block>
-  <block id="f1a07ac2a47e6ae773882ceb0f2e9570" category="doc">Accéder au tableau de bord Sustainability</block>
   <block id="4a94cc80e3bef643a461eac57bc8c9ef" category="paragraph">Le tableau de bord de durabilité inclut des fonctionnalités basées sur l'IA qui offrent des fonctionnalités de reporting et de notation avec des informations exploitables pour améliorer votre stratégie de durabilité. Vous pouvez accéder au tableau de bord Sustainability via NetApp BlueXP ou Digital Advisor.</block>
   <block id="24fbd138c7dc295cdff7b25fb0003595" category="list-text">Sur le tableau de bord, cliquez sur le nombre de clusters dans le widget *Upgrade Advisor*.</block>
   <block id="bcc117d8c868654bdcb5b2de44d7fbf2" category="inline-image-macro">Capture d'écran affichant le nombre de clusters.</block>
@@ -1530,4 +1499,29 @@ La disponibilité des fonctions sous *STORAGE HEALTH* dépend du type et du nive
   <block id="fc1d748db1b5b488ce7af7d17ea15d55" category="inline-link-macro">Prise en charge des versions logicielles</block>
   <block id="846815401f996d92d6775164d37e6015" category="inline-link-macro">Mise à niveau des systèmes de stockage Data ONTAP 7-mode</block>
   <block id="bebf3b3af19cc5d4d44b97e70e8b3ffb" category="paragraph">Le rapport *plans d'assistance pour la mise à niveau 7-mode* n'est plus disponible, car les systèmes 7-mode ont atteint la fin du support limité. Pour plus d'informations, voir <block ref="20732c2f8b67b7236a6509e096709359" category="inline-link-macro-rx"></block>. En savoir plus sur <block ref="ee2cd00409c56591f09249cc9e682f11" category="inline-link-macro-rx"></block>.</block>
+  <block id="f316bc2d9abc434547fa8fee1b52c8ca" category="doc">Lancez-vous avec le tableau de bord Health Check</block>
+  <block id="67b672f77d14898a21dd7c6d39e4fa6a" category="doc">Présentation du tableau de bord Health Check</block>
+  <block id="1fca6cd27ed3729b316e545f40560430" category="paragraph">Le tableau de bord de vérification de l'état de santé de Digital Advisor fournit un aperçu instantané de votre environnement global.</block>
+  <block id="85de05b2e998b63934fdb41cb0ae1267" category="admonition">Vous pouvez accéder au tableau de bord de vérification de l'état uniquement via les offres de services NetApp SupportEdge Advisor et SupportEdge Expert.</block>
+  <block id="65d0a6b734949784b0887407ba3ca70d" category="doc">Lancez-vous avec le tableau de bord Sustainability</block>
+  <block id="bf8be6c11a39d44324275419a51aa06d" category="doc">Analyse de l'intégrité des clusters et des nœuds</block>
+  <block id="3a9edb9763f2d4f0983c1ba1d9c37307" category="doc">Évitez les interruptions et les risques de perte de données</block>
+  <block id="2ffe9e86d8e5979dbd4b981f50f1aa43" category="inline-link-macro">Téléchargez le pack Ansible Automation du firmware AFF et FAS</block>
+  <block id="16fa1266171f008ddc9bdf0c3a3101de" category="list-text"><block ref="16fa1266171f008ddc9bdf0c3a3101de" category="inline-link-macro-rx"></block></block>
+  <block id="5d66e54e3beb67d22f4fce6eed9083ee" category="inline-link-macro">Héberger les fichiers du micrologiciel à l'aide du serveur Web</block>
+  <block id="fe767912a8dc4f32a2931397397e89a4" category="list-text"><block ref="fe767912a8dc4f32a2931397397e89a4" category="inline-link-macro-rx"></block></block>
+  <block id="c2abfe15bc2ca33fe842167128892ed3" category="doc">Détection des failles de sécurité</block>
+  <block id="88ee9568f7a3ba0f64aee190914804a5" category="doc">Renouvelez le logiciel et le matériel de votre système de stockage</block>
+  <block id="87d10a1ebc7440bb06c109388cf143ad" category="doc">Utilisez le catalogue d'API pour exécuter les API</block>
+  <block id="a1b35cc8af8f9016bf417e1cb56f58c4" category="doc">Affichez les risques et appliquez manuellement des actions correctives</block>
+  <block id="c65128dfcbb07719f3725e4d63112c78" category="doc">Consultez l'utilisation de la capacité avec l'abonnement NetApp Keystone</block>
+  <block id="483a5da192f46e3cfe8391d3ef234fc4" category="sidebar">FAQ</block>
+  <block id="10774cfa8212ea83d9277785a67ca25c" category="sidebar">Analysez la durabilité de votre système de stockage</block>
+  <block id="f79801f4d29b490bbe3ea28f5605af09" category="sidebar">Identifiez les écarts de configuration</block>
+  <block id="952f02280592bc013c384a90a7d80069" category="sidebar">Installation et exécution du package d'automatisation Ansible de firmware AFF et FAS (utilisateurs expérimentés)</block>
+  <block id="52337cbca028caf9e3f5a7f4d46f0bf5" category="sidebar">Installation et exécution du firmware AFF et FAS, package d'automatisation Ansible (débutants)</block>
+  <block id="bb56f3fc7f81eda7cac1534c7986e8f5" category="sidebar">Exécutez un PlayBook Ansible sans image NetApp Docker</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Connaissances et support</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="sidebar">S'inscrire pour obtenir de l'aide</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="sidebar">Obtenez de l'aide</block>
 </blocks>

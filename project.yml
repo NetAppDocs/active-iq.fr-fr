@@ -13,8 +13,6 @@ sidebar:
   entries:
   - title: Documents Digital Advisor
     url: "/index.html"
-  - title: Intégration de Digital Advisor avec BlueXP
-    url: "/digital-advisor-integration-with-bluexp.html"
   - title: Notes de mise à jour
     entries:
     - title: Quoi de neuf
@@ -27,156 +25,162 @@ sidebar:
       url: "/concept_getting_started_2.html"
     - title: Comprendre les fonctions de Digital Advisor
       url: "/concept_understand_activeiq_features.html"
+    - title: Intégration de Digital Advisor avec BlueXP
+      url: "/digital-advisor-integration-with-bluexp.html"
     - title: Concepts clés
       url: "/concept_key_terms.html"
     - title: Qu'est-ce que AutoSupport
       url: "/concept_autosupport.html"
     - title: Connectez-vous à Digital Advisor
       url: "/task_login_activeiq.html"
-  - title: Liste de surveillance des provisions
-    entries:
-    - title: Présentation
-      url: "/concept_overview_dashboard.html"
-    - title: Créer une liste de surveillance
-      url: "/task_add_watchlist.html"
-    - title: Gérer une liste de surveillance
-      url: "/task_manage_watchlists.html"
-  - title: Analyser les attributs bien-être
-    entries:
-    - title: Présentation
-      url: "/concept_overview_wellness.html"
-    - title: Consultez les risques et prenez manuellement les actions correctives
-      url: "/task_view_risk_and_take_action.html"
-    - title: Détecter la vulnérabilité de sécurité
-      url: "/task_increase_protection_against_hackers_and_Ransomware_attacks.html"
-    - title: Protégez les systèmes contre les risques ransomwares
-      url: "/task_protect_systems_against_ransomware_risks.html"
-    - title: Afficher et reconnaître le risque
-      url: "/task_view_and_acknowledge_risks.html"
-    - title: Afficher l'historique de bien-être
-      url: "/task_view_wellness_history.html"
-    - title: Affichez les risques qui peuvent être atténués automatiquement à l'aide
-        de Active IQ Unified Manager ou du PlayBook Ansible
-      url: "/task_view_risks_remediated_unified_manager.html"
-    - title: Évitez les temps d'indisponibilité et les pertes de données
-      url: "/task_avoid_the_downtime_and_possible_data_loss.html"
-    - title: Abonnez-vous à l'e-mail d'évaluation du bien-être
-      url: "/task_subscribe_to_wellness_review_email.html"
-    - title: Renouvelez le logiciel et le matériel
-      url: "/task_renew_software_and_hardware.html"
-    - title: Analyser le bien-être des clusters et des nœuds
-      url: "/task_analyze_wellness_clusters_and_nodes.html"
-  - title: Analysez la durabilité de vos systèmes de stockage
-    entries:
-    - title: En savoir plus sur le développement durable
-      url: "/learn_BlueXP_sustainability.html"
-    - title: Accéder au tableau de bord Sustainability
-      url: "/get_started_sustainability_dashboard.html"
-    - title: Présentation du tableau de bord Sustainability
-      url: "/BlueXP_sustainability_dashboard_overview.html"
-    - title: Améliorer votre score de durabilité
-      url: "/improve_sustainability_score.html"
-  - title: Générer un plan de mise à niveau
-    entries:
-    - title: Présentation
-      url: "/upgrade_advisor_overview.html"
-    - title: Générez un plan de mise à niveau pour un ou plusieurs clusters
-      url: "/generate_upgrade_plan_single_multiple_clusters.html"
-  - title: Afficher les détails du système
-    entries:
-    - title: Afficher les détails de l'inventaire
-      url: "/task_view_inventory_details.html"
-    - title: L'intégration à Cloud Insights pour afficher les détails des ordinateurs
-        virtuels
-      url: "/task-integrating-with-cloud-insights-to-view-vm-details.html"
-    - title: Affichez des informations exploitables
-      url: "/task_view_valuable_insight_widget.html"
-    - title: Affichez l'utilisation de la capacité de l'abonnement Keystone
-      url: "/view_keystone_capacity_utilization.html"
-  - title: Identifiez de manière proactive la configuration système requise
-    entries:
-    - title: Présentation
-      url: "/concept_overview_planning.html"
-    - title: Identifier les systèmes qui atteignent les limites de capacité
-      url: "/task_identify_capacity_system.html"
-    - title: Évitez le remplissage d'un volume afin d'éviter toute panne
-      url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
-    - title: Évaluer une mise à jour technologique
-      url: "/evaluate-tech-refresh.html"
-    - title: Renouvelez le logiciel et le matériel
-      url: "/task_renew_software_and_hardware.html"
-  - title: Prenez des décisions avisées en fonction des recommandations sur le cloud
-    url: "/task-informed-decisions-based-on-cloud-recommendations.html"
-  - title: Identifier les écarts de configuration
-    entries:
-    - title: Présentation
-      url: "/concept_overview_config_drift.html"
-    - title: Ajouter un modèle de dérive de configuration
-      url: "/task_add_config_drift_template.html"
-    - title: Comparer un modèle de dérive de configuration
-      url: "/task_compare_config_drift_template.html"
-    - title: Générer un rapport de chronologie de dérive
-      url: "/task_generate_drift_timeline_report.html"
-    - title: Gérer un modèle
-      url: "/task_manage_template.html"
-  - title: Améliorez l'efficacité et les performances de votre système de stockage
-    entries:
-    - title: Analysez les économies de capacité et d'efficacité
-      url: "/task_analyze_storage_efficiency.html"
-    - title: Analyser les performances du stockage
-      url: "/task_view_performance_graphs.html"
-  - title: Analyser l'état de santé de votre système de stockage
-    entries:
-    - title: Présentation
-      url: "/concept_understand_health_check_dashboard.html"
-    - title: Commencez à utiliser le tableau de bord Health Check
-      url: "/concept_get_started_with_health_check_dashboard.html"
-    - title: Renouvelez vos contrats de support
-      url: "/task_renew_support_contracts_for_your_systems.html"
-  - title: Mettez à niveau pour optimiser votre base installée
-    entries:
-    - title: Mettre à niveau l'offre de support
-      url: "/task_upgrade_support_offering.html"
-    - title: Mettez à jour votre firmware AFF et FAS à l'aide du PlayBook Ansible
+    - title: Liste de surveillance des provisions
       entries:
-      - title: Téléchargez le pack Ansible Automation du firmware AFF et FAS
-        url: "/task_update_AFF_FAS_firmware.html"
-      - title: Installer et exécuter le pack Ansible Automation du firmware AFF et
-          FAS (utilisateurs expérimentés)
-        url: "/task_install_execute_firmware_update_exp_user.html"
-      - title: Installer et exécuter le pack d'automatisation Ansible du firmware
-          AFF et FAS (débutants)
+      - title: Présentation
+        url: "/concept_overview_dashboard.html"
+      - title: Créer une liste de surveillance
+        url: "/task_add_watchlist.html"
+      - title: Gérer une liste de surveillance
+        url: "/task_manage_watchlists.html"
+    - title: FAQ
+      url: reference_aiq_faq.html
+  - title: Utiliser Digital Advisor
+    entries:
+    - title: Analyser les attributs bien-être
+      entries:
+      - title: Présentation
+        url: "/concept_overview_wellness.html"
+      - title: Affichez les risques et appliquez manuellement des actions correctives
+        url: "/task_view_risk_and_take_action.html"
+      - title: Détection des failles de sécurité
+        url: "/task_increase_protection_against_hackers_and_Ransomware_attacks.html"
+      - title: Protégez les systèmes contre les risques ransomwares
+        url: "/task_protect_systems_against_ransomware_risks.html"
+      - title: Afficher et reconnaître le risque
+        url: "/task_view_and_acknowledge_risks.html"
+      - title: Afficher l'historique de bien-être
+        url: "/task_view_wellness_history.html"
+      - title: Affichez les risques pouvant être atténués automatiquement à l'aide
+          d'Unified Manager ou d'Ansible PlayBook
+        url: "/task_view_risks_remediated_unified_manager.html"
+      - title: Évitez les interruptions et les risques de perte de données
+        url: "/task_avoid_the_downtime_and_possible_data_loss.html"
+      - title: Abonnez-vous à l'e-mail d'évaluation du bien-être
+        url: "/task_subscribe_to_wellness_review_email.html"
+      - title: Renouvelez le logiciel et le matériel de votre système de stockage
+        url: "/task_renew_software_and_hardware.html"
+      - title: Analyse de l'intégrité des clusters et des nœuds
+        url: "/task_analyze_wellness_clusters_and_nodes.html"
+    - title: Analysez la durabilité de votre système de stockage
+      entries:
+      - title: En savoir plus sur le développement durable
+        url: "/learn_BlueXP_sustainability.html"
+      - title: Lancez-vous avec le tableau de bord Sustainability
+        url: "/get_started_sustainability_dashboard.html"
+      - title: Présentation du tableau de bord Sustainability
+        url: "/BlueXP_sustainability_dashboard_overview.html"
+      - title: Améliorer votre score de durabilité
+        url: "/improve_sustainability_score.html"
+    - title: Générer un plan de mise à niveau
+      entries:
+      - title: Présentation
+        url: "/upgrade_advisor_overview.html"
+      - title: Générez un plan de mise à niveau pour un ou plusieurs clusters
+        url: "/generate_upgrade_plan_single_multiple_clusters.html"
+    - title: Afficher les détails du système
+      entries:
+      - title: Afficher les détails de l'inventaire
+        url: "/task_view_inventory_details.html"
+      - title: L'intégration à Cloud Insights pour afficher les détails des machines
+          virtuelles
+        url: "/task-integrating-with-cloud-insights-to-view-vm-details.html"
+      - title: Affichez des informations exploitables
+        url: "/task_view_valuable_insight_widget.html"
+      - title: Consultez l'utilisation de la capacité avec l'abonnement NetApp Keystone
+        url: "/view_keystone_capacity_utilization.html"
+    - title: Identifiez de manière proactive la configuration système requise
+      entries:
+      - title: Présentation
+        url: "/concept_overview_planning.html"
+      - title: Identifier les systèmes qui atteignent les limites de capacité
+        url: "/task_identify_capacity_system.html"
+      - title: Évitez le remplissage d'un volume afin d'éviter toute panne
+        url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
+      - title: Évaluer une mise à jour technologique
+        url: "/evaluate-tech-refresh.html"
+      - title: Renouvelez le logiciel et le matériel de votre système de stockage
+        url: "/task_renew_software_and_hardware.html"
+    - title: Prenez des décisions avisées en fonction des recommandations sur le cloud
+      url: "/task-informed-decisions-based-on-cloud-recommendations.html"
+    - title: Identifiez les écarts de configuration
+      entries:
+      - title: Présentation
+        url: "/concept_overview_config_drift.html"
+      - title: Ajouter un modèle de dérive de configuration
+        url: "/task_add_config_drift_template.html"
+      - title: Comparer un modèle de dérive de configuration
+        url: "/task_compare_config_drift_template.html"
+      - title: Générer un rapport de chronologie de dérive
+        url: "/task_generate_drift_timeline_report.html"
+      - title: Gérer un modèle
+        url: "/task_manage_template.html"
+    - title: Améliorez l'efficacité et les performances de votre système de stockage
+      entries:
+      - title: Analysez les économies de capacité et d'efficacité du stockage
+        url: "/task_analyze_storage_efficiency.html"
+      - title: Analysez les graphiques de performance
+        url: "/task_view_performance_graphs.html"
+    - title: Analyser l'état de santé de votre système de stockage
+      entries:
+      - title: Présentation
+        url: "/concept_understand_health_check_dashboard.html"
+      - title: Lancez-vous avec le tableau de bord Health Check
+        url: "/concept_get_started_with_health_check_dashboard.html"
+      - title: Renouvelez vos contrats de support
+        url: "/task_renew_support_contracts_for_your_systems.html"
+    - title: Mettez à niveau pour optimiser votre base installée
+      entries:
+      - title: Mettre à niveau l'offre de support
+        url: "/task_upgrade_support_offering.html"
+      - title: Mettez à jour votre firmware AFF et FAS à l'aide du PlayBook Ansible
         entries:
-        - title: Héberger les fichiers de micrologiciel à l'aide d'un serveur Web
-          url: "/task_hosting_firmware_files_using_web_server.html"
-        - title: Travailler avec le fichier d'inventaire
-          url: "/concept_working_with_inventory_file.html"
-        - title: Exécutez le PlayBook Ansible à l'aide de l'image NetApp Docker
-          url: "/task_execute_ansible_playbook_using_docker.html"
-        - title: Exécutez le PlayBook Ansible sans Docker
-          url: "/task_execute_ansible_playbook_without_docker.html"
-        - title: Validation de l'installation du firmware
-          url: "/task_validate_firmware_installation.html"
-        - title: Dépannage, commentaires et support
-          url: "/reference_ansible_troubleshoot_feedback_support.html"
-  - title: Intégrez les données à l'aide d'API
+        - title: Téléchargez le pack Ansible Automation du firmware AFF et FAS
+          url: "/task_update_AFF_FAS_firmware.html"
+        - title: Installation et exécution du package d'automatisation Ansible de
+            firmware AFF et FAS (utilisateurs expérimentés)
+          url: "/task_install_execute_firmware_update_exp_user.html"
+        - title: Installation et exécution du firmware AFF et FAS, package d'automatisation
+            Ansible (débutants)
+          entries:
+          - title: Héberger les fichiers de micrologiciel à l'aide d'un serveur Web
+            url: "/task_hosting_firmware_files_using_web_server.html"
+          - title: Travailler avec le fichier d'inventaire
+            url: "/concept_working_with_inventory_file.html"
+          - title: Exécutez le PlayBook Ansible à l'aide de l'image NetApp Docker
+            url: "/task_execute_ansible_playbook_using_docker.html"
+          - title: Exécutez un PlayBook Ansible sans image NetApp Docker
+            url: "/task_execute_ansible_playbook_without_docker.html"
+          - title: Validation de l'installation du firmware
+            url: "/task_validate_firmware_installation.html"
+    - title: Intégrez les données à l'aide d'API
+      entries:
+      - title: Présentation
+        url: "/concept_overview_API_service.html"
+      - title: Générez des jetons pour utiliser des API
+        url: "/task_generate_tokens_API_services.html"
+      - title: Utilisez le catalogue d'API pour exécuter les API
+        url: "/task_view_API_catalog.html"
+    - title: Générer des rapports personnalisés
+      entries:
+      - title: Types de rapports
+        url: "/concept_report_types.html"
+      - title: Générer des rapports
+        url: "/task_generate_reports.html"
+  - title: Connaissances et support
     entries:
-    - title: Présentation
-      url: "/concept_overview_API_service.html"
-    - title: Générez des jetons pour accéder aux API
-      url: "/task_generate_tokens_API_services.html"
-    - title: Utilisez le catalogue d'API pour exécuter les API
-      url: "/task_view_API_catalog.html"
-  - title: Générer des rapports personnalisés
-    entries:
-    - title: Types de rapports
-      url: "/concept_report_types.html"
-    - title: Générer des rapports
-      url: "/task_generate_reports.html"
-  - title: Foire aux questions
-    url: reference_aiq_faq.html
-  - title: En savoir plus
-    url: "/concept_get_more_information.html"
+    - title: S'inscrire pour obtenir de l'aide
+      url: "/reference_ansible_troubleshoot_feedback_support.html"
+    - title: Obtenez de l'aide
+      url: "/concept_get_more_information.html"
   - title: Mentions légales
     url: "/legal-notices.html"
 product-family:

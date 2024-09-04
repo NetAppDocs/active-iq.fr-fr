@@ -4,7 +4,7 @@ permalink: view_keystone_capacity_utilization.html
 keywords: keystone, capacity utilization, service tiers, Keystone subscription, keystone subscription, shares, disks 
 summary: 'Fournit des informations sur l"utilisation de votre capacité avec l"abonnement NetApp Keystone.' 
 ---
-= Consultez l'utilisation de la capacité sur l'abonnement NetApp Keystone
+= Consultez l'utilisation de la capacité avec l'abonnement NetApp Keystone
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

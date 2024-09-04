@@ -4,7 +4,7 @@ permalink: concept_understand_health_check_dashboard.html
 keywords: activeiq, health check, health, HCA, health check dashboard, health check score 
 summary: 'Fournit des informations permettant de se familiariser avec le tableau de bord de vérification de l"état.' 
 ---
-= Description du tableau de bord de vérification de l'état
+= Présentation du tableau de bord Health Check
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,9 +16,9 @@ summary: 'Fournit des informations permettant de se familiariser avec le tableau
 
 
 [role="lead"]
-Le tableau de bord Digital Advisor Health Check fournit une analyse ponctuelle de votre environnement global.
+Le tableau de bord de vérification de l'état de santé de Digital Advisor fournit un aperçu instantané de votre environnement global.
 
 En fonction du score de vérification de l'état de votre système, vous pouvez aligner vos systèmes de stockage sur les meilleures pratiques recommandées par NetApp pour faciliter la planification à long terme. Il vous permet de contrôler tous les systèmes s'exécutant sur les logiciels et le matériel via une interface utilisateur centralisée. Les scores de contrôle de l'état vous permettent d'obtenir rapidement des informations sur les risques système. Les recommandations clés et les bonnes pratiques vous aident à prendre des mesures afin d'améliorer l'état de votre base installée.
 
 
-NOTE: Le tableau de bord de vérification de l'état de santé est uniquement accessible via les offres de services NetApp SupportEdge Advisor et SupportEdge Expert.
+NOTE: Vous pouvez accéder au tableau de bord de vérification de l'état uniquement via les offres de services NetApp SupportEdge Advisor et SupportEdge Expert.

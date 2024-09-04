@@ -4,7 +4,7 @@ permalink: task_view_risk_and_take_action.html
 keywords: wellness, performance, efficiency, availability, capacity, security vulnerabilities, protection, protect, mitigate, rectify 
 summary: Fournit des informations pour afficher et analyser le bien-être de votre système de stockage et réduire les risques. 
 ---
-= Consultez les risques et prenez manuellement les actions correctives
+= Affichez les risques et appliquez manuellement des actions correctives
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

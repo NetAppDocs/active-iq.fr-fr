@@ -25,7 +25,7 @@ Avant d'exécuter le PlayBook Ansible, vérifiez que le fichier *NetApp_Ansible_
 Avant d'exécuter le manuel de vente Ansible à l'aide de NetApp docker, vous devez :
 
 * link:task_update_AFF_FAS_firmware.html["Téléchargez le pack Ansible Automation du firmware AFF et FAS"]
-* link:task_hosting_firmware_files_using_web_server.html["Hébergez les fichiers du micrologiciel à l'aide du serveur Web"]
+* link:task_hosting_firmware_files_using_web_server.html["Héberger les fichiers du micrologiciel à l'aide du serveur Web"]
 * link:concept_working_with_inventory_file.html["Travailler avec le fichier d'inventaire"]
 * S'assurer que NetApp Docker est installé.
 

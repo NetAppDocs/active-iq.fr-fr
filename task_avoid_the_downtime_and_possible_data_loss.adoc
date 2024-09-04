@@ -4,7 +4,7 @@ permalink: task_avoid_the_downtime_and_possible_data_loss.html
 keywords: downtime, data loss, avoid downtime, avoid data loss 
 summary: 'Fournit des informations sur la manière d"éviter les temps d"indisponibilité et les pertes de données possibles.' 
 ---
-= Évitez les temps d'indisponibilité et les pertes de données
+= Évitez les interruptions et les risques de perte de données
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

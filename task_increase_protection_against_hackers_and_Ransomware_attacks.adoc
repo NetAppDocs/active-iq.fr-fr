@@ -4,7 +4,7 @@ permalink: task_increase_protection_against_hackers_and_Ransomware_attacks.html
 keywords: protection, hackers, ransomware, ransomware attacks, attack 
 summary: 'Fournit des informations sur la façon d"améliorer la protection contre les pirates informatiques et les attaques par ransomware.' 
 ---
-= Détecter la vulnérabilité de sécurité
+= Détection des failles de sécurité
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

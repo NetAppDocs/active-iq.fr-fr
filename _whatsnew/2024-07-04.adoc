@@ -1,0 +1,9 @@
+= Tableau de bord durabilité
+:allow-uri-read: 
+
+
+
+
+=== Tableau de bord durabilité
+
+Des indicateurs environnementaux fournissant des informations sur l'état de santé de vos systèmes de stockage fournissent désormais des valeurs plus précises pour la consommation d'énergie projetée, la consommation directe de carbone et les émissions de chaleur, basées sur un modèle prédictif avancé. Pour en savoir plus, reportez-vous link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["Présentation du tableau de bord Sustainability"]à la section .

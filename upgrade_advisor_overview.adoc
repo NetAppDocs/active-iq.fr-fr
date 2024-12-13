@@ -22,8 +22,7 @@ Vous pouvez générer des plans de mise à niveau automatisée sans interruption
 
 [NOTE]
 ====
-* Pour chaque cluster d'une configuration MetroCluster, générez un plan de mise à niveau individuel pour obtenir des instructions complètes de mise à niveau.
-
+Pour chaque cluster d'une configuration MetroCluster, générez un plan de mise à niveau individuel pour obtenir des instructions complètes de mise à niveau.
 
 ====
 Avant de générer un plan de mise à niveau, vous devez préparer une mise à niveau ONTAP. Une bonne préparation permet d'identifier et de limiter les risques ou blocages de mise à niveau avant de commencer le processus. Pour en savoir plus, voir link:https://docs.netapp.com/us-en/ontap/upgrade/prepare.html["Préparez la mise à niveau de ONTAP"^].

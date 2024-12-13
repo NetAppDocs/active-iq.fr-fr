@@ -23,7 +23,6 @@ Vous pouvez générer des plans de mise à niveau automatisée sans interruption
 [NOTE]
 ====
 * Pour chaque cluster d'une configuration MetroCluster, générez un plan de mise à niveau individuel pour obtenir des instructions complètes de mise à niveau.
-* Pour les clusters exécutant ONTAP 9.6 ou des versions antérieures, vous pouvez afficher les informations sur les nouvelles fonctionnalités et les améliorations dans les recommandations de mise à niveau. Le rapport de vérification de pré-mise à niveau et le résumé des risques ne sont pas disponibles et vous pouvez générer un plan de mise à niveau dans l'ancien format.
 
 
 ====

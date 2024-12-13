@@ -1,0 +1,9 @@
+= Upgrade Advisor
+:allow-uri-read: 
+
+
+
+
+=== Upgrade Advisor
+
+Vous pouvez désormais afficher le firmware de stockage, le firmware SP/BMC et le paquet anti-ransomware autonome (ARP) recommandés pour une mise à jour. link:https://docs.netapp.com/us-en/active-iq/view-firmware-update-recommendations.html["Découvrez comment consulter les recommandations de mise à jour du firmware"].

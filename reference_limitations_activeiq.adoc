@@ -46,3 +46,21 @@ Les rapports programmés sont disponibles uniquement avec un contrat de support 
 == Le conseiller numérique peut prendre 60 minutes pour réfléchir aux risques reconnus et non reconnus
 
 L'état des risques qui sont reconnus et non reconnus ne reflète pas immédiatement dans Digital Advisor. Il peut s'avérer nécessaire de prendre jusqu'à 60 minutes pour que les changements soient pris en compte dans Digital Advisor et dans le rapport de bien-être.
+
+
+
+== Widget AutoSupport non disponible pour le cluster et les numéros de série
+
+Le widget AutoSupport ne fournit pas d'alertes pour la recherche de clusters et de numéros de série.
+
+
+
+== Le widget AutoSupport ne peut pas accéder aux détails AutoSupport du niveau série
+
+Sur la page Rapports AutoSupport, cliquez sur l'un des États, les systèmes qui ont récemment cessé d'envoyer ou les systèmes sur lesquels AutoSupport est désactivé pour accéder à l'écran Vérification de l'état.
+
+
+
+== Le filtrage et le tri ne sont pas disponibles dans le widget Inventaire
+
+Vous ne pouvez pas filtrer et trier les données dans le widget d'inventaire. Aucune donnée n'est affichée si vous sélectionnez ONTAP AFF, ONTAP ASA, ONTAP Edge ou ONTAP Select dans la liste déroulante « Filtrer par ».

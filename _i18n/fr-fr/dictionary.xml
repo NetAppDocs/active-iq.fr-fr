@@ -1538,4 +1538,13 @@ La disponibilité des fonctions sous *STORAGE HEALTH* dépend du type et du nive
   <block id="d7e31a0bb5b5ba6257ea5fda3503a013" category="list-text">Cliquez sur *Voir recommandations* pour afficher la liste des recommandations.</block>
   <block id="11672318e1b710ceb9ea65a5a12aa393" category="list-text">Dans la colonne *mettre à jour l'état*, cliquez sur *Voir la progression* pour afficher les clusters qui sont admissibles à une mise à jour.</block>
   <block id="ea9fb85557d50ae07af62f60044c60d5" category="list-text">En cas de problème, cliquez sur les liens correspondants pour afficher les étapes permettant de réduire les problèmes.</block>
+  <block id="998e01ff2383d2b9e06b55738a27346b" category="doc">Widget AutoSupport</block>
+  <block id="526c3ba007bad7c7b6408ba4672f5f6e" category="paragraph">Le widget AutoSupport a été ajouté à l'écran principal du tableau de bord pour alerter les clients des problèmes liés à l'état de AutoSupport.</block>
+  <block id="92806a8b46867129d50cde3d86748bb6" category="section-title">Widget AutoSupport non disponible pour le cluster et les numéros de série</block>
+  <block id="03d676ea619bd44dde41c38b2851a15d" category="paragraph">Le widget AutoSupport ne fournit pas d'alertes pour la recherche de clusters et de numéros de série.</block>
+  <block id="c0ac6b1bce52487f5b5af28ecef07c1f" category="section-title">Le widget AutoSupport ne peut pas accéder aux détails AutoSupport du niveau série</block>
+  <block id="84262a27dab2047f1176d0c336762208" category="paragraph">Sur la page Rapports AutoSupport, cliquez sur l'un des États, les systèmes qui ont récemment cessé d'envoyer ou les systèmes sur lesquels AutoSupport est désactivé pour accéder à l'écran Vérification de l'état.</block>
+  <block id="82a9da1ab6bff23f72740b42a10ddeb9" category="section-title">Le filtrage et le tri ne sont pas disponibles dans le widget Inventaire</block>
+  <block id="eeb5db985fd60cfebc33e606802e2112" category="paragraph">Vous ne pouvez pas filtrer et trier les données dans le widget d'inventaire. Aucune donnée n'est affichée si vous sélectionnez ONTAP AFF, ONTAP ASA, ONTAP Edge ou ONTAP Select dans la liste déroulante « Filtrer par ».</block>
+  <block id="4b546cad2ee01a6cbf9ccc96b97242b6" category="section-title">04 décembre 2024</block>
 </blocks>

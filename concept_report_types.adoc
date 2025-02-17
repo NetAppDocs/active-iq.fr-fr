@@ -20,49 +20,61 @@ Digital Advisor offre de nombreuses options de reporting qui permettent de surve
 
 Les types de rapports disponibles dans Digital Advisor sont les suivants :
 
-[cols="30,70"]
+[cols="20,50,10,10,10"]
 |===
-| Nom du rapport | Description 
+| Nom du rapport | Description | Disponible en ONTAP | Disponible avec les baies E-Series | Disponible en StorageGRID 
 
 
-| Inventaire Ansible | Fournit un fichier d'inventaire Ansible qui répertorie toutes les informations d'inventaire système par région ou site. Ce fichier peut être utilisé pour l'automatisation. 
+| Inventaire Ansible | Fournit un fichier d'inventaire Ansible qui répertorie toutes les informations d'inventaire système par région ou site. Ce fichier peut être utilisé pour l'automatisation. | Oui | Non | Non 
 
 
-| Capacité et efficacité | Fournit des informations sur la capacité et l'efficacité au niveau du cluster, du client, du site, du groupe, de la liste de surveillance et du nœud. 
+| Capacité et efficacité | Fournit des informations sur la capacité et l'efficacité au niveau du cluster, du client, du site, du groupe, de la liste de surveillance et du nœud. | Oui | Oui | Oui 
 
 
-| Rapport ClusterViewer | Fournit des informations sur un ou plusieurs clusters au niveau du client et de la liste de surveillance. Vous ne pouvez générer ce rapport que pour la liste de surveillance comportant jusqu'à 100 nœuds. 
+| Recommandations sur le cloud | Informations exploitables et recommandations pour optimiser les ressources cloud Elle contient des informations détaillées sur la reprise d'activité, la sauvegarde, le Tiering et la migration. | Oui | Non | Non 
 
 
-| FabricPool | Fournit des informations concernant les données inactives, inactives, actives, hiérarchisées et données non surveillées. Ce rapport comprend également un PlayBook Ansible pour l'activation du reporting des données inactives sur les agrégats désactivés. 
+| ClusterViewer | Fournit des informations sur un ou plusieurs clusters au niveau du client et de la liste de surveillance. Vous ne pouvez générer ce rapport que pour la liste de surveillance comportant jusqu'à 100 nœuds. | Oui | Non | Non 
 
 
-| Inventaire | Fournit des informations sur la base d'installation pour une liste de surveillance, un client, un site, des niveaux de groupe sélectionnés. Ce rapport peut être généré sous forme de téléchargement direct à partir de la page Détails de l'inventaire ou à partir de la page Rapports. 
+| Dérive de la configuration | Permet aux utilisateurs d'établir une « base de référence » pour les configurations système et les alerte en cas d'écarts par rapport à cette configuration de base. Il permet d'identifier et de gérer les modifications de configuration qui peuvent avoir une incidence sur les performances du système ou sur la sécurité. | Oui | Non | Non 
 
 
-| Densité des E/S. | Le rapport sur la densité des E/S fournit des informations concernant les pics d'opérations d'entrée/sortie pour les clients en termes de consommation et de densité des données et des métadonnées. 
+| Logistique de la livraison | Fournit des informations sur la logistique de livraison des produits et services. | Oui | Oui | Non 
 
 
-| Rapport sur les performances | Fournit des informations, au niveau de la liste de surveillance, sur les performances d'un cluster, d'un nœud, d'un niveau local (agrégat) et d'un volume. Vous ne pouvez générer ce rapport que pour la liste de surveillance comportant jusqu'à 100 nœuds. 
+| Résumé analytique de l'évaluation de l'état de santé | Fournit des informations sur les différents indicateurs clés de performance Active IQ au format PowerPoint (PPT), avec différents indicateurs de performance clés décrits sur différentes diapositives. | Oui | Oui | Non 
 
 
-| Configuration recommandée | Fournit des informations sur les différents écarts de configuration recommandés pour la configuration de la gestion à distance, les disques de secours et de disques, la paire haute disponibilité et l'état de santé des SVM. 
+| Inventaire | Fournit des informations sur la base d'installation pour une liste de surveillance, un client, un site, des niveaux de groupe sélectionnés. Ce rapport peut être généré sous forme de téléchargement direct à partir de la page Détails de l'inventaire ou à partir de la page Rapports. | Oui | Oui | Oui 
 
 
-| Contrats de support/support matériel EOS | Fournit des informations sur la liste des contrôleurs, tiroirs et disques qui ont atteint la fin de prise en charge (EOS). 
+| Densité des E/S. | Le rapport sur la densité des E/S fournit des informations concernant les pics d'opérations d'entrée/sortie pour les clients en termes de consommation et de densité des données et des métadonnées. | Oui | Non | Non 
 
 
-| Détails techniques du dossier | Fournit un rapport annuel sur tous les dossiers techniques et leur état. 
+| Performance | Fournit des informations, au niveau de la liste de surveillance, sur les performances d'un cluster, d'un nœud, d'un niveau local (agrégat) et d'un volume. Vous ne pouvez générer ce rapport que pour la liste de surveillance comportant jusqu'à 100 nœuds. | Oui | Oui | Non 
 
 
-| Recommandations de mise à niveau (logiciels et firmware) | Rapport à onglets multiples sur la devise du logiciel et du micrologiciel et les versions recommandées pour chaque contrôleur ou série dans les critères de recherche. 
+| Résumé périodique | Récapitule périodiquement les mesures et les informations clés. Il inclut les données relatives aux performances, à la capacité et à l'efficacité du système. | Oui | Non | Non 
 
 
-| Rapport sur les performances du volume | Fournit des informations sur les performances détaillées des volumes au niveau du cluster. 
+| Configuration recommandée | Fournit des informations sur les différents écarts de configuration recommandés pour la configuration de la gestion à distance, les pièces de rechange et les disques, la paire haute disponibilité, l'état de la SVM, l'état de la batterie et les conseils de gourou de restauration. | Oui | Oui | Non 
 
 
-| Bien-être | Fournit des informations sur les risques en suspens et reconnus, les détails des risques, les actions correctives et les systèmes concernés. 
+| Contrats de support/support matériel EOS | Fournit des informations sur les détails du contrat et la liste des contrôleurs, tiroirs et disques dont le support est en fin de support (EOS). | Oui | Oui | Non 
 
 
-| Bien-être – agrégé | Fournit un résumé des risques exceptionnels et du nombre de systèmes affectés. 
+| Détails techniques du dossier | Fournit un rapport annuel sur tous les dossiers techniques et leur état. | Oui | Oui | Oui 
+
+
+| Plan de mise à niveau | Recommandations de mises à niveau des logiciels et du firmware. Il contient des détails sur les dernières versions recommandées, les problèmes potentiels et les étapes à suivre pour effectuer les mises à niveau. | Oui | Non | Non 
+
+
+| Recommandations de mise à niveau (logiciels et firmware) | Rapport à onglets multiples sur la devise du logiciel et du micrologiciel et les versions recommandées pour chaque contrôleur ou série dans les critères de recherche. | Oui | Oui | Non 
+
+
+| Performances des volumes | Fournit des informations sur les performances détaillées des volumes au niveau du cluster. | Oui | Non | Non 
+
+
+| Bien-être | Fournit des informations sur les risques en suspens et reconnus, les détails des risques, les actions correctives et les systèmes concernés. | Oui | Oui | Oui 
 |===

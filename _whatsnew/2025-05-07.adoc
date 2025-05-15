@@ -1,0 +1,21 @@
+= Widget AutoSupport
+:allow-uri-read: 
+
+
+
+
+=== Widget AutoSupport
+
+Le widget AutoSupport a été amélioré pour inclure une fenêtre contextuelle qui fournit des détails sur les systèmes qui ont cessé d'envoyer des données AutoSupport. L'activation de AutoSupport réduit les risques de temps d'indisponibilité et favorise la gestion proactive de l'état du système.
+
+
+
+=== Rapport sur les contrats de support
+
+Le rapport sur les contrats de support a été amélioré pour inclure le nouveau champ d'indicateur ASP/LSG. Ce champ vous permet de filtrer et d'identifier les systèmes couverts par un partenaire de support agréé, également appelé Lifecycle Services Certified.
+
+
+
+=== Tableau de bord durabilité
+
+Vous pouvez maintenant lancer le tableau de bord Sustainability à l'aide du lien inclus dans la présentation Sustainability.

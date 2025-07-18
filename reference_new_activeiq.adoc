@@ -20,6 +20,24 @@ Les fonctionnalités et améliorations suivantes ont été introduites dans Digi
 
 
 
+== 09 juillet 2025
+
+
+
+=== Upgrade Advisor
+
+* Une option de téléchargement multiformat a été ajoutée pour les plans Upgrade Advisor afin de simplifier la planification des mises à niveau ONTAP et de résoudre les problèmes potentiels de blocage ou d'avertissement. Vous pouvez désormais télécharger les plans Upgrade Advisor aux formats Excel, PDF et JSON.
+* Dans le format Excel du plan Upgrade Advisor, les améliorations suivantes ont été apportées :
++
+** Vous pouvez consulter les pré-vérifications effectuées sur le cluster et signaler les résultats avec des indicateurs tels que « Réussi », « Échec » ou « Ignoré ». Cela garantit que le cluster est dans des conditions optimales pour terminer la mise à niveau ONTAP .
+** Vous pouvez afficher les dernières mises à jour du micrologiciel recommandées applicables au cluster, ainsi que la version fournie avec la version cible ONTAP .
+** Un nouvel onglet a été ajouté pour vérifier l'interopérabilité des clusters SAN. Il affiche les versions du système d'exploitation hôte prises en charge pour la version ONTAP cible sélectionnée.
+
+
+
+
+
+
 == 08 mai 2025
 
 

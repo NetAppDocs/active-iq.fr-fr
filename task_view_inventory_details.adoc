@@ -16,11 +16,15 @@ summary: 'Fournit des informations sur l"inventaire global que vous possédez.'
 
 
 [role="lead"]
-Le widget *Inventory* vous fournit une synthèse de l'ensemble des systèmes que vous possédez. Cela inclut les produits compatibles Digital Advisor et non activés.
+Le widget *Inventaire* vous fournit un aperçu de l'ensemble des systèmes et des commutateurs bénéficiant d'un support que vous possédez.  Cela inclut les produits compatibles et non compatibles avec Digital Advisor .
 
 Vous pouvez également générer le rapport de la liste de surveillance sélectionnée et envoyer le rapport par e-mail à un maximum de 5 destinataires.
 
 video::ttbpbT5uTBI[youtube,width=848,height=480]
+
+
+== Afficher les détails du système
+
 .Étapes
 . Dans le widget *Inventory*, cliquez sur *Systems* pour afficher les informations système de toutes les plates-formes ou cliquez sur le type de plate-forme, puis sur *Systems* pour afficher les systèmes spécifiques à cette plate-forme.
 . Cliquez sur le nœud ou sur le cluster pour afficher des informations détaillées sur le système.
@@ -29,4 +33,12 @@ video::ttbpbT5uTBI[youtube,width=848,height=480]
 +
 Les fichiers Ansible Inventory peuvent être utilisés avec les fichiers Ansible PlayBook personnalisés pour modifier la configuration de l'infrastructure.
 
+
+
+
+
+== Afficher les détails du commutateur d'assistance
+
+.Étapes
+. Dans le widget *Inventaire*, cliquez sur *Commutateurs bénéficiant d'une assistance* pour afficher des informations sur tous les commutateurs bénéficiant d'une assistance.
 

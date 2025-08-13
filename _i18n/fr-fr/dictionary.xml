@@ -1569,8 +1569,6 @@ La disponibilité des fonctions sous *STORAGE HEALTH* dépend du type et du nive
   <block id="6276222a738837860023343f423eb60c" category="list-text">Un nouvel onglet a été ajouté pour vérifier l'interopérabilité des clusters SAN. Il affiche les versions du système d'exploitation hôte prises en charge pour la version ONTAP cible sélectionnée.</block>
   <block id="be5dc5f5e2d7e93e1002f9bc9daa9179" category="section-title">09 juillet 2025</block>
   <block id="a30ce25654f610d7e9e47c6277028c38" category="doc">Prise en charge des commutateurs autorisés</block>
-  <block id="d98c483ab007e03305ae5655fe6cbaf8" category="inline-link-macro">Apprenez à afficher les commutateurs autorisés du support</block>
-  <block id="e71b090a525e98d8d6e64f80e67acf6f" category="paragraph">Vous pouvez désormais afficher des informations sur les commutateurs SAN Brocade Fibre Channel éligibles au support.  Cela inclut des détails sur le modèle de commutateur, le numéro de série et l'état de l'assistance. <block ref="0ccb1381392c0ca51f280aad697adc46" category="inline-link-macro-rx"></block> .</block>
   <block id="adc76ac62c705df3456206213de66002" category="section-title">Seuil pour les données RSS AutoSupport</block>
   <block id="3cdd6b50a4e4c3395ca5fea20c94ee5b" category="paragraph">La limite d'envoi récemment arrêté (RSS), dans le widget AutoSupport , a été étendue de 48 heures (2 jours) à 216 heures (9 jours) avant qu'un système ne soit signalé comme RSS.  Ceci est fait pour s'adapter aux plateformes comme StorageGRID qui n'envoient que des données AutoSupport hebdomadaires.</block>
   <block id="bbe4dac655b49c7a3978eb5864452f05" category="section-title">Section API obsolète dans le catalogue API de Digital Advisor</block>
@@ -1593,4 +1591,6 @@ La disponibilité des fonctions sous *STORAGE HEALTH* dépend du type et du nive
   <block id="b564cac98074bd875d810d6572dc9927" category="paragraph">Le widget *Inventaire* vous fournit un aperçu de l'ensemble des systèmes et des commutateurs bénéficiant d'un support que vous possédez.  Cela inclut les produits compatibles et non compatibles avec Digital Advisor .</block>
   <block id="9714b9edaef026c9c44f49389eb60d44" category="section-title">Afficher les détails du commutateur d'assistance</block>
   <block id="e5449af777fdc7f9d2eec34f87da1138" category="list-text">Dans le widget *Inventaire*, cliquez sur *Commutateurs bénéficiant d'une assistance* pour afficher des informations sur tous les commutateurs bénéficiant d'une assistance.</block>
+  <block id="617f2d0adf2001440f244bf5c45be277" category="inline-link-macro">Apprenez à afficher les commutateurs de support autorisés</block>
+  <block id="ef3139c75debdd9ee259a4ea386083d3" category="paragraph">Vous pouvez désormais afficher des informations sur les commutateurs SAN Brocade Fibre Channel éligibles au support. Cela inclut des détails sur le modèle de commutateur, le numéro de série et l'état de l'assistance. <block ref="de42528af60c9393a2c8b32539c694f1" category="inline-link-macro-rx"></block> .</block>
 </blocks>

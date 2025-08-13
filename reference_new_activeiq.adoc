@@ -26,7 +26,7 @@ Les fonctionnalités et améliorations suivantes ont été introduites dans Digi
 
 === Prise en charge des commutateurs autorisés
 
-Vous pouvez désormais afficher des informations sur les commutateurs SAN Brocade Fibre Channel éligibles au support.  Cela inclut des détails sur le modèle de commutateur, le numéro de série et l'état de l'assistance. link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["Apprenez à afficher les commutateurs autorisés du support"] .
+Vous pouvez désormais afficher des informations sur les commutateurs SAN Brocade Fibre Channel éligibles au support. Cela inclut des détails sur le modèle de commutateur, le numéro de série et l'état de l'assistance. link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["Apprenez à afficher les commutateurs de support autorisés"] .
 
 
 

@@ -134,7 +134,6 @@
   <block id="40626d7035cc7f4a6caa9d104fd7d387" category="paragraph">Le catalogue d'API vous permet de parcourir les catégories et les API disponibles dans chacune de ces catégories.</block>
   <block id="2b033bd9dec6fb568acb85aff511102a" category="paragraph">À l'aide d'un jeton d'accès valide et des entrées correctes pour les champs requis, vous pouvez effectuer un appel de test pour une API.</block>
   <block id="1b041cdfdc19a7bdb36e4bb710521c3b" category="list-text">Dans le menu *Quick Links*, cliquez sur *API Services*.</block>
-  <block id="1dce9bd049d6c9e9c500be142e33de38" category="inline-link-macro">*Parcourir*</block>
   <block id="54e7835f3f1f70bc142c9b5e847e6ec9" category="paragraph">Le catalogue API s'affiche.</block>
   <block id="04c8967b6880007c6fea1e2c0e66614d" category="list-text">En haut de la page, faites glisser le commutateur sur « expérience ».</block>
   <block id="835a43b0478137c574edbef583d126a1" category="list-text">Dans le menu de navigation de gauche, développez les catégories et sélectionnez n'importe quelle API pour afficher des informations détaillées.</block>
@@ -1112,7 +1111,6 @@ Il se peut que vous ne puissiez pas rechercher certains systèmes ou les affiche
   <block id="ae60d74a912ddc26168a3645463cc941" category="list-text"><block ref="ae60d74a912ddc26168a3645463cc941" category="inline-link-macro-rx"></block></block>
   <block id="801b554762e480a183c2424cbe8c2fb6" category="list-text"><block ref="801b554762e480a183c2424cbe8c2fb6" category="inline-link-macro-rx"></block></block>
   <block id="373fd27c1797dca500c6c9dbce1225f7" category="paragraph">Le serveur Web peut être configuré de plusieurs façons. Pour obtenir des instructions sur la configuration d'un serveur Web simple à l'aide de Python, reportez-vous à la section <block ref="303512ecf00930b786dea080d96799d8" category="inline-link-macro-rx"></block>.</block>
-  <block id="713451159dacf58d1a99e356169dfb3f" category="list-text">Cliquez sur <block ref="9b2adf8ad12dd16d4d2b3750ca65e5de" category="inline-link-macro-rx"></block> Sous l'icône *API Catalog*.</block>
   <block id="d3b731ac977fc38e625943ab24125e73" category="list-text">Accédez au <block ref="6ea90873ff127896ae7a3eaf21cda455" category="inline-link-macro-rx"></block> page de connexion.</block>
   <block id="2cf504c669255f96f48e417bf3c86399" category="paragraph">Pour les systèmes ONTAP, AutoSupport est activé par défaut lorsque vous configurez votre système de stockage pour la première fois. Vous devriez <block ref="03ce3f8b24f3ba6194d1a4f01375a3eb" category="inline-link-macro-rx"></block> Sur les systèmes ONTAP, vous contrôlez l'envoi des informations relatives aux AutoSupport au support technique et à votre service de support interne.</block>
   <block id="836b35da2a4494ce20730d485e090b9b" category="list-text"><block ref="836b35da2a4494ce20730d485e090b9b" category="inline-link-macro-rx"></block></block>
@@ -1579,8 +1577,6 @@ La disponibilité des fonctions sous *STORAGE HEALTH* dépend du type et du nive
   <block id="e8b6643d4bda95ae4c2dacb6a8e40cac" category="section-title">06 août 2025</block>
   <block id="51aa04f109d45d42868cc0b36f25fd52" category="section-title">Accéder aux API GraphQL</block>
   <block id="6bdcd3c5aba802a9e7d2f1d96dd5aff5" category="list-text">Cliquez sur *GraphQL* et consultez la documentation.</block>
-  <block id="9d4615fe1d2320cc19b894b5d333d7c1" category="inline-link-macro">Point de terminaison de l'API GraphQL et schéma de révision</block>
-  <block id="b546d5412fcbcd954e28c950fb2a6ca4" category="list-text">Accéder<block ref="89a08dcaa38ea8d40daf6964132bb7ee" category="inline-link-macro-rx"></block></block>
   <block id="e306bcdfb9b3334cf7659705e8358e27" category="inline-link-macro">Digital Advisor GraphQL Studio</block>
   <block id="b1e54092f36831f6a814e51a7c93bdd8" category="list-text">Essayez les API GraphQL en utilisant les exemples de requêtes prêts à l'emploi sur<block ref="ae67cca60092e176d8c2dddd34356b5e" category="inline-link-macro-rx"></block> .</block>
   <block id="637bbe10a2e1fa5eea6be6cb23319cca" category="list-text">Fournissez un jeton utilisateur en sélectionnant le champ d'autorisation dans l'en-tête de la demande d'API</block>
@@ -1593,4 +1589,6 @@ La disponibilité des fonctions sous *STORAGE HEALTH* dépend du type et du nive
   <block id="e5449af777fdc7f9d2eec34f87da1138" category="list-text">Dans le widget *Inventaire*, cliquez sur *Commutateurs bénéficiant d'une assistance* pour afficher des informations sur tous les commutateurs bénéficiant d'une assistance.</block>
   <block id="617f2d0adf2001440f244bf5c45be277" category="inline-link-macro">Apprenez à afficher les commutateurs de support autorisés</block>
   <block id="ef3139c75debdd9ee259a4ea386083d3" category="paragraph">Vous pouvez désormais afficher des informations sur les commutateurs SAN Brocade Fibre Channel éligibles au support. Cela inclut des détails sur le modèle de commutateur, le numéro de série et l'état de l'assistance. <block ref="de42528af60c9393a2c8b32539c694f1" category="inline-link-macro-rx"></block> .</block>
+  <block id="1b9abf135ccb7ed2f2cd9c155137c351" category="inline-link-macro">Parcourir</block>
+  <block id="2981195e7f0b7a603227ab0ab32a8349" category="list-text">Cliquez<block ref="3dddd0be9b2e921fda9092125563366a" category="inline-link-macro-rx"></block> sous l'icône *Catalogue API*.</block>
 </blocks>

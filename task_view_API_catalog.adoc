@@ -26,12 +26,11 @@ Le catalogue d'API vous permet de parcourir les catégories et les API disponibl
 
 .Étapes
 . Dans le menu *Quick Links*, cliquez sur *API Services*.
-. Cliquez sur link:https://activeiq.netapp.com/catalog/internal/api-reference/introduction["*Parcourir*"^] Sous l'icône *API Catalog*.
+. Cliquezlink:https://activeiq.netapp.com/catalog/internal/api-reference/introduction["Parcourir"] sous l'icône *Catalogue API*.
 +
 Le catalogue API s'affiche.
 
 . Cliquez sur *GraphQL* et consultez la documentation.
-. Accéderlink:https://gql.aiq.netapp.com/["Point de terminaison de l'API GraphQL et schéma de révision"^]
 . Essayez les API GraphQL en utilisant les exemples de requêtes prêts à l'emploi surlink:https://studio.apollographql.com/public/ActiveIQ-Graph-Prd-API/variant/current/explorer?collectionId=251c50ce-797e-4549-bb9c-f6557ef5a176OPERATION_COLLECTIONfocusCollectionId=251c50ce-797e-4549-bb9c-f6557ef5a176["Digital Advisor GraphQL Studio"^] .
 . Fournissez un jeton utilisateur en sélectionnant le champ d'autorisation dans l'en-tête de la demande d'API
 . Fournir les variables requises
@@ -44,7 +43,7 @@ Le catalogue API s'affiche.
 
 .Étapes
 . Dans le menu *Quick Links*, cliquez sur *API Services*.
-. Cliquez sur link:https://activeiq.netapp.com/catalog/internal/api-reference/introduction["*Parcourir*"^] Sous l'icône *API Catalog*.
+. Cliquezlink:https://activeiq.netapp.com/catalog/internal/api-reference/introduction["Parcourir"] sous l'icône *Catalogue API*.
 +
 Le catalogue API s'affiche.
 

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: improve_sustainability_score.html 
-keywords: activeiq, sustainability dashboard, recommended actions, digital advisor, bluexp, sustainability core, cluster level 
+keywords: activeiq, sustainability dashboard, recommended actions, digital advisor, bluexp, sustainability core, cluster level, NetApp Console 
 summary: Fournit des étapes pour améliorer le score de durabilité par le biais des actions recommandées. 
 ---
 = Améliorer votre score de durabilité
@@ -19,7 +19,7 @@ summary: Fournit des étapes pour améliorer le score de durabilité par le biai
 Le tableau de bord durabilité indique les actions recommandées que vous pouvez mettre en œuvre pour améliorer le score de durabilité global et le score de durabilité au niveau du cluster.
 
 
-NOTE: Pour obtenir les meilleurs résultats depuis le tableau de bord, vous devez activer AutoSupport. Si AutoSupport n'est pas activé, les données seront basées sur les spécifications du produit. Pour obtenir des détails sur l'alimentation en temps réel, vous devez activer Cloud Insights. Pour plus d'informations sur l'activation de Cloud Insights, reportez-vous à la section link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^].
+NOTE: Pour obtenir les meilleurs résultats du tableau de bord, vous devez activer AutoSupport.  Si AutoSupport n'est pas activé, les données seront basées sur les spécifications du produit.  Pour obtenir des détails sur l'alimentation en temps réel, vous devez activer Data Infrastructure Insights.  Pour plus d'informations sur la façon d'activer Data Infrastructure Insights, consultezlink:https://docs.netapp.com/us-en/data-infrastructure-insights/task_getting_started_with_cloud_insights.html["Data Infrastructure Insights"^] .
 
 
 
@@ -40,9 +40,9 @@ Vous pouvez suivre ces étapes pour améliorer le score global de développement
 
 [role="tabbed-block"]
 ====
-.BlueXP
+.Console NetApp
 --
-. Accédez à *Sustainability* dans la catégorie *gouvernance* disponible dans la navigation de gauche de BlueXP.
+. Accédez à *Durabilité* depuis la catégorie *Santé* disponible dans la navigation de gauche de la console.
 . Accédez à l'onglet *actions recommandées*.
 +
 ** Vous pouvez sélectionner *Fix* pour effectuer ces actions immédiatement, ou sélectionner *plus tard* pour les corriger ultérieurement.
@@ -101,10 +101,10 @@ Pour améliorer votre score de durabilité au niveau du cluster et favoriser l'a
 
 [role="tabbed-block"]
 ====
-.BlueXP
+.Console NetApp
 --
-. Accédez à *Sustainability* dans la catégorie *gouvernance* disponible dans la navigation de gauche de BlueXP.
-. Aller au tableau *environnements de travail*.
+. Accédez à *Durabilité* depuis la catégorie *Santé* disponible dans la navigation de gauche de la console.
+. Accédez à la table *Systèmes*.
 . Cliquez sur le nombre d'actions dans la colonne *actions recommandées* pour le cluster cible.
 +
 image:recommended_actions_cluster.png["Capture d'écran affichant le nombre d'actions."]
@@ -121,14 +121,14 @@ image:recommended_actions_list.png["Capture d'écran qui fournit les détails de
 
 
 
-TIP: Vous pouvez ajouter ou supprimer les paramètres d'environnement dans la table *Working Environments* à l'aide du image:add_icon.png["Une icône plus pour ajouter ou supprimer les paramètres"] et peut exporter ce tableau au format .csv (valeurs séparées par des virgules) à l'aide du image:download_icon.png["Symbole de téléchargement pour l'exportation du paramètre"] icône.
+TIP: Vous pouvez ajouter ou supprimer les paramètres environnementaux dans la table *Systèmes* à l'aide de laimage:add_icon.png["Une icône plus pour ajouter ou supprimer les paramètres"] icône, et peut exporter ce tableau au format de valeurs séparées par des virgules (.csv) en utilisant leimage:download_icon.png["Symbole de téléchargement pour l'exportation du paramètre"] icône.
 
 --
 .Conseiller digital
 --
-. Accédez à *Sustainability* dans la catégorie *STORAGE HEALTH* disponible dans la navigation de gauche du tableau de bord Digital Advisor.
+. Accédez à *Durabilité* disponible dans la navigation de gauche du tableau de bord de Digital Advisor .
 . Accédez à l'onglet *actions recommandées*.
-. Aller au tableau *environnements de travail*.
+. Accédez à la table *Systèmes*.
 . Cliquez sur le nombre d'actions dans la colonne *actions recommandées* pour le cluster cible.
 +
 image:recommended_actions_cluster.png["Capture d'écran affichant le nombre d'actions."]
@@ -145,7 +145,7 @@ image:recommended_actions_list.png["Capture d'écran qui fournit les détails de
 
 
 
-TIP: Vous pouvez ajouter ou supprimer les paramètres d'environnement dans la table *Working Environments* à l'aide du image:add_icon.png["Une icône plus pour ajouter ou supprimer les paramètres"] et peut exporter ce tableau au format .csv (valeurs séparées par des virgules) à l'aide du image:download_icon.png["Symbole de téléchargement pour l'exportation du paramètre"] icône.
+TIP: Vous pouvez ajouter ou supprimer les paramètres environnementaux dans la table *Systèmes* à l'aide de laimage:add_icon.png["Une icône plus pour ajouter ou supprimer les paramètres"] icône, et peut exporter ce tableau au format de valeurs séparées par des virgules (.csv) en utilisant leimage:download_icon.png["Symbole de téléchargement pour l'exportation du paramètre"] icône.
 
 --
 ====

@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: task-integrating-with-cloud-insights-to-view-vm-details.html 
-keywords: Cloud Insights, VMs, virtual machines 
-summary: La section fournit des informations sur les machines virtuelles dans Cloud Insights 
+keywords: Cloud Insights, VMs, virtual machines, Data Infrastructure Insights 
+summary: Fournit des informations sur les machines virtuelles dans Data Infrastructure Insights 
 ---
-= L'intégration à Cloud Insights pour afficher les détails des machines virtuelles
+= Intégration avec Data Infrastructure Insights pour afficher les détails des machines virtuelles
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,7 +16,7 @@ summary: La section fournit des informations sur les machines virtuelles dans Cl
 
 
 [role="lead"]
-Digital Advisor est désormais intégré à la version Cloud Insights Basic afin de garantir aux clients un inventaire complet des piles et des vérifications d'interopérabilité.
+Digital Advisor est désormais intégré à la version Data Infrastructure Insights Basic pour fournir un inventaire complet de la pile et des contrôles d'interopérabilité aux clients.
 
 Les avantages de cette intégration sont les suivants :
 
@@ -29,8 +29,8 @@ Les avantages de cette intégration sont les suivants :
 NOTE: Cette fonctionnalité est disponible uniquement pour les contrats de mise à niveau SupportEdge Advisor, SupportEdge Expert et Digital Advisor.
 
 .Étapes
-. Dans le widget *Inventory*, cliquez sur *Virtual machines* pour afficher les données disponibles dans Cloud Insights.
+. Dans le widget *Inventaire*, cliquez sur *Machines virtuelles* pour afficher les données disponibles dans Data Infrastructure Insights.
 . Cliquez sur l'onglet *vue d'ensemble de la machine virtuelle*.
 . Cliquez sur *nombre d'hôtes ESX* pour afficher des informations sur l'hôte.
-. Cliquez sur *Nom ESX* pour accéder à Cloud Insights et afficher plus d'informations.
+. Cliquez sur le *Nom ESX* pour accéder à Data Infrastructure Insights et afficher plus d’informations.
 

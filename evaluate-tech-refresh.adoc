@@ -19,6 +19,6 @@ summary: Fournit des informations pour évaluer la mise à jour technologique de
 Si vous souhaitez savoir si une mise à jour technologique est recommandée pour votre contrat de support technique ou votre matériel, vous pouvez utiliser l'option de mise à jour technologique.
 
 
-NOTE: Vous pouvez accéder à cette fonctionnalité soit via BlueXP Economic Efficiency (*gouvernance > Economic Efficiency > Tech Refresh*), soit via NetApp Digital Advisor (*Tableau de bord > widget planification > Tech Refresh*).
+NOTE: Vous pouvez accéder à cette fonctionnalité soit via la planification du cycle de vie (*Stockage* > *Planification du cycle de vie*) soit via Digital Advisor (*Tableau de bord > Widget de planification > Actualisation technique*).
 
-Pour plus d'informations sur cette fonction, voir link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["Évaluer une mise à jour technologique"] Dans la documentation BlueXP.
+Pour plus d'informations sur cette fonctionnalité, voirlink:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["Évaluer une mise à jour technologique"] dans la documentation de la console.

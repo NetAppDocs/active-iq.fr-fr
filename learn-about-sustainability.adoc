@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
-permalink: learn_BlueXP_sustainability.html 
-keywords: activeiq, sustainability, sustainability score, sustainability dashboard, bluexp, benefits, ONTAP 
+permalink: learn-about-sustainability.html 
+keywords: activeiq, sustainability, sustainability score, sustainability dashboard, bluexp, benefits, ONTAP, NetApp Console 
 summary: 'Fournit des informations sur le développement durable qui vous permettent de réduire la consommation d"énergie et de travailler à la réalisation de vos objectifs environnementaux.' 
 ---
 = En savoir plus sur le développement durable
@@ -16,9 +16,9 @@ summary: 'Fournit des informations sur le développement durable qui vous permet
 
 
 [role="lead"]
-Le développement durable, en tant que service, vous permet de réduire votre consommation d'énergie et de travailler à la réalisation de vos objectifs environnementaux. Vous pouvez ainsi aligner vos systèmes de stockage avec des pratiques écologiques et atteindre vos objectifs de durabilité.
+La durabilité vous permet de réduire la consommation d’énergie et vous permet de travailler vers vos objectifs environnementaux.  Cela vous permet d’aligner vos systèmes de stockage sur des pratiques respectueuses de l’environnement et d’atteindre les objectifs de durabilité.
 
-Le tableau de bord Sustainability vous permet d'afficher le score de durabilité et les projections d'utilisation de l'énergie, du carbone direct et de la chaleur. Vous pouvez ajuster le pourcentage d'atténuation du carbone pour des sites spécifiques. Vous pouvez également afficher le score de durabilité au niveau du cluster. En fonction de ce score, vous pouvez évaluer la stratégie de durabilité et mettre en œuvre les actions recommandées par NetApp pour améliorer ce score. Pour en savoir plus sur le tableau de bord Sustainability, rendez-vous sur link:BlueXP_sustainability_dashboard_overview.html["Présentation du tableau de bord Sustainability"].
+Vous pouvez consulter le score de durabilité et l'utilisation prévue de l'énergie, du carbone direct et de la chaleur à partir du tableau de bord de durabilité.  Vous pouvez ajuster le pourcentage d’atténuation du carbone pour des sites spécifiques.  Vous pouvez également consulter le score de durabilité au niveau du cluster.  En fonction du score de durabilité, vous pouvez évaluer la posture de durabilité et mettre en œuvre les actions recommandées par NetApp pour améliorer le score.  Pour en savoir plus sur le tableau de bord de durabilité, rendez-vous surlink:sustainability-dashboard-overview.html["Présentation du tableau de bord Sustainability"] .
 
 
 NOTE: Le développement durable est pris en charge par les systèmes Cloud Volumes ONTAP, AFF (A-Series et C-Series), E-Series, FAS et StorageGRID.

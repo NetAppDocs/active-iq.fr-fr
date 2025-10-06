@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: get_started_sustainability_dashboard.html 
-keywords: activeiq, sustainability dashboard, bluexp login, sustainability dashboard login, bluexp 
-summary: Commencez à utiliser le tableau de bord de durabilité BlueXP en accédant à BlueXP ou à Digital Advisor. 
+keywords: activeiq, sustainability dashboard, sustainability dashboard login, bluexp, NetApp Console 
+summary: Commencez à utiliser le tableau de bord de durabilité en y accédant via NetApp Console ou Digital Advisor. 
 ---
 = Lancez-vous avec le tableau de bord Sustainability
 :hardbreaks:
@@ -16,22 +16,18 @@ summary: Commencez à utiliser le tableau de bord de durabilité BlueXP en accé
 
 
 [role="lead"]
-Le tableau de bord de durabilité inclut des fonctionnalités basées sur l'IA qui offrent des fonctionnalités de reporting et de notation avec des informations exploitables pour améliorer votre stratégie de durabilité. Vous pouvez accéder au tableau de bord Sustainability via NetApp BlueXP ou Digital Advisor.
+Le tableau de bord de durabilité fournit des rapports et des scores compatibles AIOps avec des informations exploitables pour améliorer votre posture de durabilité.  Vous pouvez accéder au tableau de bord de durabilité via NetApp Console ou Digital Advisor.
 
 [role="tabbed-block"]
 ====
-.BlueXP
+.Console NetApp
 --
-Pour vous connecter à BlueXP, vous pouvez utiliser vos identifiants du site de support NetApp ou vous inscrire à une connexion au cloud NetApp à l'aide de votre e-mail et de votre mot de passe. En savoir plus sur link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Connexion à BlueXP"^].
+Pour vous connecter à la console, vous pouvez utiliser vos informations d'identification du site de support NetApp ou vous inscrire pour une connexion à la console NetApp à l'aide de votre e-mail et d'un mot de passe. En savoir plus sur link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["connexion à la console"^] .
 
 .Étapes
-. Ouvrez un navigateur Web et accédez à link:https://console.bluexp.netapp.com/["Console BlueXP"^].
-La page de connexion NetApp BlueXP s'affiche.
-. Connectez-vous à BlueXP.
-. Dans le menu de navigation de gauche de BlueXP, sélectionnez *gouvernance* > *Sustainability*.
-  Le tableau de bord Sustainability s'affiche.
-  +
-image:sustainability_dashboard_bluexp.png["Copie d'écran de l'interface utilisateur qui donne la vue d'ensemble du tableau de bord de durabilité dans BlueXP."]
+. Ouvrez un navigateur Web et accédez à lalink:https://console.netapp.com/["Console"^] .  La page de connexion à la console apparaît.
+. Connectez-vous à la console.
+. Dans la navigation de gauche de la console, sélectionnez *Santé* > *Durabilité*.  Le tableau de bord de durabilité apparaît. +image:sustainability_dashboard_console.png["Une capture d'écran de l'interface utilisateur qui donne un aperçu du tableau de bord de durabilité dans la console."]
 
 
 
@@ -45,7 +41,7 @@ Pour vous connecter à Digital Advisor, vous pouvez utiliser vos informations d'
 .Étapes
 . Ouvrez un navigateur Web et accédez à link:https://activeiq.netapp.com/?source=onlinedocs["Conseiller digital"^] page de connexion.
 . Indiquez votre nom d'utilisateur et votre mot de passe, puis cliquez sur *connexion*.
-. Dans le menu de navigation de gauche, sélectionnez *STORAGE HEALTH* > *Sustainability*.
+. Dans la navigation de gauche, sélectionnez *Durabilité*.
 +
 image:sustainability_dashboard.png["Capture d'écran de l'interface utilisateur donnant une vue d'ensemble du tableau de bord Sustainability."]
 

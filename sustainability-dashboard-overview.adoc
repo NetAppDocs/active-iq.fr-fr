@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
-permalink: BlueXP_sustainability_dashboard_overview.html 
-keywords: activeiq, sustainability dashboard, sustainability score, sustainability, environmental indicators, carbon mitigation, recommended actions, working environments, best practices, support, recommendations,  digital advisor, bluexp, cluster, sustainability initatives 
-summary: Fournit des informations sur le tableau de bord, le score de durabilité, les environnements de travail et les actions recommandées. 
+permalink: sustainability-dashboard-overview.html 
+keywords: activeiq, sustainability dashboard, sustainability score, sustainability, environmental indicators, carbon mitigation, recommended actions, systems, best practices, support, recommendations,  digital advisor, bluexp, cluster, sustainability initatives, NetApp Console 
+summary: Fournit des informations sur le tableau de bord, le score de durabilité, les systèmes et les actions recommandées. 
 ---
 = Présentation du tableau de bord Sustainability
 :hardbreaks:
@@ -18,7 +18,7 @@ summary: Fournit des informations sur le tableau de bord, le score de durabilit�
 [role="lead"]
 Le tableau de bord de durabilité fournit une évaluation environnementale de vos systèmes de stockage et des informations exploitables permettant d'apporter des améliorations sous la forme des actions recommandées par NetApp.
 
-image:get_started_sustainability_dashboard.png["Capture d'écran de l'interface utilisateur affichant le tableau de bord Sustainability."]
+image:sustainability_dashboard_console.png["Une capture d'écran de l'interface utilisateur qui donne un aperçu du tableau de bord de durabilité dans la console."]
 
 
 NOTE: AutoSupport doit être activé pour un calcul précis du score de durabilité.
@@ -43,11 +43,11 @@ image:carbon_mitigation_percentage.png["Une capture d'écran qui montre le pourc
 
 *Actions recommandées* : affiche la liste des actions recommandées pour améliorer le score de durabilité de vos systèmes de stockage. Ces actions peuvent être prises immédiatement, ou plus tard. Pour plus d'informations sur la manière d'améliorer le score de durabilité, voir link:improve_sustainability_score.html["Améliorer votre score de durabilité"].
 
-*Environnements de travail* : affiche les paramètres environnementaux dans le tableau qui peuvent aider à identifier les clusters pour passer à un stockage plus efficace. À partir de ce tableau, vous pouvez :
+*Systèmes* : affiche les paramètres environnementaux dans le tableau qui peuvent aider à identifier les clusters à déplacer vers un stockage plus efficace.  À partir de ce tableau, vous pouvez :
 
 * Afficher le score de durabilité au niveau du cluster, sélectionner le nom du cluster pour accéder à *ClusterViewer*, prendre des mesures spécifiques recommandées pour améliorer la durabilité. Pour plus d'informations, voir link:improve_sustainability_score.html["Améliorer le score de durabilité au niveau du cluster"].
 +
-image:working_environments.png["Capture d'écran de l'interface utilisateur affichant divers paramètres environnementaux"]
+image:systems.png["Capture d'écran de l'interface utilisateur affichant divers paramètres environnementaux"]
 
-* Activez la surveillance à partir de la colonne *Real-Time POWER* pour afficher les détails de l'alimentation en temps réel au niveau du cluster. Pour plus d'informations, voir link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^].
+* Activez la surveillance à partir de la colonne *Alimentation en temps réel* pour afficher les détails de l'alimentation en temps réel au niveau du cluster. Pour plus d'informations, consultez la section link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_getting_started_with_cloud_insights.html["Data Infrastructure Insights"^] .
 

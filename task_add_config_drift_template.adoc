@@ -4,7 +4,7 @@ permalink: task_add_config_drift_template.html
 keywords: config deviation, drift, configuration, add template 
 summary: Fournit des informations pour ajouter un modèle de dérive de configuration. 
 ---
-= Ajouter un modèle de dérive de configuration
+= Ajoutez un modèle de dérive de configuration pour votre système de stockage dans Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

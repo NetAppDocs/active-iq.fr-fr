@@ -4,7 +4,7 @@ permalink: evaluate-tech-refresh.html
 keywords: tech refresh, tech support contract, hardware 
 summary: Fournit des informations pour évaluer la mise à jour technologique de votre contrat ou matériel de support technique 
 ---
-= Évaluer une mise à jour technologique
+= Déterminez si une mise à niveau technologique est recommandée pour votre système de stockage dans Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -18,7 +18,6 @@ summary: Fournit des informations pour évaluer la mise à jour technologique de
 [role="lead"]
 Si vous souhaitez savoir si une mise à jour technologique est recommandée pour votre contrat de support technique ou votre matériel, vous pouvez utiliser l'option de mise à jour technologique.
 
-
-NOTE: Vous pouvez accéder à cette fonctionnalité soit via la planification du cycle de vie (*Stockage* > *Planification du cycle de vie*) soit via Digital Advisor (*Tableau de bord > Widget de planification > Actualisation technique*).
+Vous pouvez accéder à cette fonctionnalité soit via la planification du cycle de vie (*Stockage* > *Planification du cycle de vie*) soit via Digital Advisor (*Tableau de bord > Widget de planification > Actualisation technique*).
 
 Pour plus d'informations sur cette fonctionnalité, voirlink:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["Évaluer une mise à jour technologique"] dans la documentation de la console.

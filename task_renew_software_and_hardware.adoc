@@ -4,7 +4,7 @@ permalink: task_renew_software_and_hardware.html
 keywords: renew, hardware, software 
 summary: Fournit des informations pour renouveler le logiciel et le matériel de votre système de stockage. 
 ---
-= Renouvelez le logiciel et le matériel de votre système de stockage
+= Identifiez les mises à jour logicielles et matérielles pour votre système de stockage auprès de Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,11 +16,11 @@ summary: Fournit des informations pour renouveler le logiciel et le matériel de
 
 
 [role="lead"]
-Vous pouvez identifier de manière proactive les logiciels et le matériel qui ont expiré ou sont à court d'expiration au cours des 6 prochains mois, et envoyer une demande de renouvellement du matériel et du logiciel.
+Vous pouvez identifier de manière proactive les logiciels et le matériel de votre système de stockage qui ont expiré ou qui arrivent à expiration dans les 6 prochains mois, et envoyer une demande de renouvellement du matériel et des logiciels.
 
 .Étapes
 . Cliquez sur *renouvellements* dans le widget *planification*.
-. Sélectionnez les systèmes que vous souhaitez renouveler et cliquez sur *renouveler*.
+. Sélectionnez les systèmes de stockage que vous souhaitez renouveler et cliquez sur *Renouveler*.
 . Vous pouvez également ajouter des commentaires supplémentaires.
 . Cliquez sur *Envoyer*.
 

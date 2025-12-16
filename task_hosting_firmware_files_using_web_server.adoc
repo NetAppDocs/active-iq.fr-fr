@@ -4,7 +4,7 @@ permalink: task_hosting_firmware_files_using_web_server.html
 keywords: firmware, web server, hosting 
 summary: 'La section fournit des informations sur l"hébergement des fichiers du micrologiciel à l"aide d"un serveur Web.' 
 ---
-= Héberger les fichiers de micrologiciel à l'aide d'un serveur Web
+= Hébergez les fichiers de firmware AFF et FAS sur un serveur web
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

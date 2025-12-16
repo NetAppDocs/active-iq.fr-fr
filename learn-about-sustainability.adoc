@@ -4,7 +4,7 @@ permalink: learn-about-sustainability.html
 keywords: activeiq, sustainability, sustainability score, sustainability dashboard, bluexp, benefits, ONTAP, NetApp Console 
 summary: 'Fournit des informations sur le développement durable qui vous permettent de réduire la consommation d"énergie et de travailler à la réalisation de vos objectifs environnementaux.' 
 ---
-= En savoir plus sur le développement durable
+= Apprenez-en davantage sur le développement durable avec Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

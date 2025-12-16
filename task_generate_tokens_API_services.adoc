@@ -4,7 +4,7 @@ permalink: task_generate_tokens_API_services.html
 keywords: generate token, access token, refresh token, API services 
 summary: Fournit des informations sur la génération du jeton pour accéder aux API. 
 ---
-= Générez des jetons pour utiliser des API
+= Générez des jetons pour utiliser les services de l'API Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

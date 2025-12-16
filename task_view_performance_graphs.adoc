@@ -4,7 +4,7 @@ permalink: task_view_performance_graphs.html
 keywords: performance, performance graph, graphs, digital advisor, performance charts, day, week, 1 month, 2 months, calendar, chart data, performance on node level, graph, node level 
 summary: Fournit des informations sur les performances. 
 ---
-= Analysez les graphiques de performance
+= Consultez les graphiques de performance du système de stockage dans Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

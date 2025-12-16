@@ -4,7 +4,7 @@ permalink: task_analyze_wellness_clusters_and_nodes.html
 keywords: cluster, node, clusterviewer, configuration 
 summary: Fournit des informations sur ClusterViewer. 
 ---
-= Analyse de l'intégrité des clusters et des nœuds
+= Consultez l'état des clusters et des nœuds à l'aide du widget ClusterViewer dans Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

@@ -4,7 +4,7 @@ permalink: concept_overview_planning.html
 keywords: overview, planning, increate capacity, renew, software, hardware, expiry, expired 
 summary: 'Fournit des informations permettant d"identifier la capacité du système et les logiciels et le matériel qui arrivent à expiration.' 
 ---
-= Compréhension de la planification
+= Gérez les besoins en capacité de votre système de stockage grâce au widget de planification de Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

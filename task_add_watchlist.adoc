@@ -4,7 +4,7 @@ permalink: task_add_watchlist.html
 keywords: dashboard, watchlist, add watchlist 
 summary: 'Fournit des informations permettant d"ajouter une liste de surveillance au tableau de bord.' 
 ---
-= Créer une liste de surveillance
+= Créez une liste de surveillance dans Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,10 +16,10 @@ summary: 'Fournit des informations permettant d"ajouter une liste de surveillanc
 
 
 [role="lead"]
-Vous pouvez créer une liste de surveillance pour accéder rapidement et facilement à un ensemble de systèmes. Vous pouvez ajouter les systèmes en fonction de la catégorie ou du numéro de série.
+Vous pouvez créer une liste de surveillance pour accéder rapidement et facilement à un ensemble de systèmes de stockage. Vous pouvez ajouter les systèmes de stockage en fonction de leur catégorie ou de leur numéro de série.
 
 
-NOTE: Vous pouvez ajouter un maximum de 15,000 systèmes sous une catégorie et 500 systèmes sous un numéro de série.
+NOTE: Vous pouvez ajouter un maximum de 15 000 systèmes de stockage par catégorie et 500 systèmes de stockage par numéro de série.
 
 .Étapes
 . Dans le volet de gauche, cliquez sur *listes de surveillance*
@@ -28,7 +28,7 @@ L'écran *gérer la liste de surveillance* s'affiche.
 
 . Cliquez sur *Créer une liste de surveillance*.
 . Indiquez un nom pour la liste de surveillance.
-. Sélectionnez l'une des options suivantes pour ajouter des systèmes à la liste de surveillance :
+. Sélectionnez l'une des options suivantes pour ajouter des systèmes de stockage à la liste de surveillance :
 +
 ** *Catégorie* : cette option vous permet d'ajouter l'ensemble de l'inventaire associé à une catégorie spécifique, comme les abonnements client, site, groupe ou Keystone, à votre liste de surveillance.
 +

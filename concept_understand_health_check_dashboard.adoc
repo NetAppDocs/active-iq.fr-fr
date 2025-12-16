@@ -4,7 +4,7 @@ permalink: concept_understand_health_check_dashboard.html
 keywords: activeiq, health check, health, HCA, health check dashboard, health check score 
 summary: 'Fournit des informations permettant de se familiariser avec le tableau de bord de vérification de l"état.' 
 ---
-= Présentation du tableau de bord Health Check
+= Découvrez le tableau de bord « Bilan de santé » dans Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

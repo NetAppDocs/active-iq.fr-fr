@@ -4,7 +4,7 @@ permalink: task_view_wellness_history.html
 keywords: wellness history, risks, wellness, view all actions, risk history, 
 summary: 'Fournit des informations sur les risques système et la façon d"afficher l"historique de bien-être.' 
 ---
-= Afficher l'historique de bien-être
+= Consultez l'historique des risques de votre système de stockage dans Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,7 +16,7 @@ summary: 'Fournit des informations sur les risques système et la façon d"affic
 
 
 [role="lead"]
-Vous pouvez visualiser les risques système qui se produisent au cours des trois derniers mois, de sorte que vous puissiez apprendre comment ils font des heures supplémentaires.
+Vous pouvez consulter les risques liés aux systèmes de stockage survenus au cours des trois derniers mois, afin de voir comment ils évoluent dans le temps.
 
 Ces risques sont classés selon quatre types de risques — *non résolus*, *Nouveau*, *résolu* et *reconnus*. Ils sont représentés par des couleurs différentes. Le résumé de ces risques est représenté par un graphique *Historique des risques*.
 

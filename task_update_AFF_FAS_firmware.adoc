@@ -4,7 +4,7 @@ permalink: task_update_AFF_FAS_firmware.html
 keywords: update, AFF, FAS firmware, firmware 
 summary: La section fournit des informations sur la mise à jour du micrologiciel AFF et FAS. 
 ---
-= Téléchargez le pack Ansible Automation du firmware AFF et FAS
+= Téléchargez le package Ansible du firmware AFF et FAS depuis Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

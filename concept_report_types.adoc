@@ -61,6 +61,9 @@ Les types de rapports disponibles dans Digital Advisor sont les suivants :
 | Configuration recommandée | Fournit des informations sur les différents écarts de configuration recommandés pour la configuration de la gestion à distance, les pièces de rechange et les disques, la paire haute disponibilité, l'état de la SVM, l'état de la batterie et les conseils de gourou de restauration. | Oui | Oui | Non 
 
 
+| Sécurité | Fournit une vue d'ensemble complète et exportable des risques de sécurité du stockage ONTAP et des lacunes de conformité à travers les clusters, les SVM et les volumes. | Oui | Non | Non 
+
+
 | Contrats de support/support matériel EOS | Fournit des informations sur les détails du contrat et la liste des contrôleurs, tiroirs et disques dont le support est en fin de support (EOS). | Oui | Oui | Non 
 
 

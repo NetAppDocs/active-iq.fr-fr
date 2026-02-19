@@ -432,7 +432,6 @@
   <block id="cf2b00ffa5bd73f45aa8d81c2b6127eb" category="list-text">Cliquez sur *Créer un rapport* pour générer un nouveau rapport.</block>
   <block id="bb8c427c31e76f816f767bd2cad87cfc" category="list-text">Sélectionnez le type de rapport et fournissez les valeurs requises pour le rapport.</block>
   <block id="43c47648912b14ae2e4dae66c4c94e6f" category="list-text">Sélectionnez le format du rapport.</block>
-  <block id="b38cbc17f5d9a4695d51db9473e7dffd" category="admonition">Le rapport est enregistré dans Digital Advisor pendant 3 jours.</block>
   <block id="fbdbbae9b17b34243807f99738e169e7" category="admonition">Les rapports planifiés existants seront remplacés lors de la génération des nouveaux rapports.</block>
   <block id="35e66ec67a2e099ca561a914e3070a54" category="summary">Fournit des informations pour gérer les modèles.</block>
   <block id="111b7a31750f76bdbff754725d0a891f" category="paragraph">Vous pouvez cloner un modèle, partager un modèle, modifier les détails d'un modèle existant et supprimer un modèle.</block>
@@ -1623,4 +1622,5 @@ La disponibilité des fonctions sous *STORAGE HEALTH* dépend du type et du nive
   <block id="362a5eae56271693fedd19383a4aad7b" category="paragraph">Upgrade Advisor prend désormais en charge la génération de plans de mise à niveau pour les versions ONTAP ayant atteint la fin du support limité, avec un délai de grâce de 9 mois. Cette fonctionnalité aide les clients à agir rapidement et à éviter les interruptions de mise à niveau en leur fournissant des instructions claires pendant la période de transition.</block>
   <block id="b16c048e2cbb1f91610daa0a614ff050" category="cell">Fournit une vue d'ensemble complète et exportable des risques de sécurité du stockage ONTAP et des lacunes de conformité à travers les clusters, les SVM et les volumes.</block>
   <block id="3cdc57c34ce94785332eb57eb2d8d56d" category="section-title">04 février 2026</block>
+  <block id="3741bac3a7c9d89c366100cd1cba5405" category="admonition">Le rapport est enregistré dans Digital Advisor pendant 3 mois.</block>
 </blocks>

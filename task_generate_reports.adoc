@@ -43,7 +43,7 @@ Vous pouvez générer un rapport immédiatement ou planifier la génération du 
 
 
 
-NOTE: Le rapport est enregistré dans Digital Advisor pendant 3 jours.
+NOTE: Le rapport est enregistré dans Digital Advisor pendant 3 mois.
  a| 
 . Cliquez sur l'onglet *Rapport de planification*.
 . Sélectionnez le type de rapport et fournissez les valeurs requises pour le rapport.

@@ -38,3 +38,5 @@ L'une ou l'autre des vues permet à l'utilisateur de parcourir les éléments di
 == À l'aide des API
 
 Une fois que vous êtes autorisé et que vous pouvez générer des jetons, vous pouvez utiliser les jetons pour effectuer des requêtes programmatiques et récupérer des données. Vous pouvez également tester une API à partir du catalogue d'API pour voir en premier lieu le fonctionnement de la requête et le type de données renvoyées. Il s'agit d'une excellente façon de vous assurer que vous comprenez comment une API fonctionnera avant de construire le cadre de code dans votre système.
+
+Pour savoir comment accéder et utiliser les API de Digital Advisor, consultez link:https://docs.netapp.com/us-en/digital-advisor-automation/["NetApp Digital Advisor documentation de l'API"].

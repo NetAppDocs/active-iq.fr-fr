@@ -1471,7 +1471,6 @@ La disponibilité des fonctions sous *STORAGE HEALTH* dépend du type et du nive
   <block id="45c1e1a0501d6b75b99c21659e420c55" category="paragraph">Les volumes répondant aux critères suivants sont recommandés pour la migration vers Cloud Volumes ONTAP (CVO) :</block>
   <block id="f53ebb0d19beec32f25d5bd12221adf7" category="paragraph">Avant de générer un plan de mise à niveau, vous devez :</block>
   <block id="9c8a06503c0fcff82a72b9a47d15fdd8" category="inline-link-macro">Guide de résolution ONTAP AutoSupport</block>
-  <block id="c04b16bfcb0ae04e942f5b8f40f89958" category="list-text">Assurez-vous que AutoSupport (ASUP) est activé et correctement configuré, et que toutes les sections requises sont incluses. Pour plus d'informations, voir <block ref="d9fca8defeb9ffc51d54bc8014960f3d" category="inline-link-macro-rx"></block>.</block>
   <block id="5c2f83424a92d9f87bfe784acf51ef8f" category="inline-link-macro">ouvrir un dossier non technique</block>
   <block id="ece2db758a882f00813e14d082e4552c" category="list-text">Vérifiez que les membres du cluster AutoSupport correspondent à la configuration du cluster SAP.  Pour plus d'informations,<block ref="eb6134c35f89e9a6ed78736959d7ff7d" category="inline-link-macro-rx"></block> .</block>
   <block id="b0898535e25a9a49559570e490a63c7d" category="doc">Découvrez AutoSupport dans Digital Advisor</block>
@@ -1591,4 +1590,5 @@ La disponibilité des fonctions sous *STORAGE HEALTH* dépend du type et du nive
   <block id="3741bac3a7c9d89c366100cd1cba5405" category="admonition">Le rapport est enregistré dans Digital Advisor pendant 3 mois.</block>
   <block id="acdb887b3053b4cb61257e8d616a27a9" category="inline-link-macro">NetApp Digital Advisor documentation de l'API</block>
   <block id="ba16647c06b4add5fc0093f31f94dd0d" category="paragraph">Pour savoir comment accéder et utiliser les API de Digital Advisor, consultez <block ref="268007c749dcd53dd83a4024c6f56680" category="inline-link-macro-rx"></block>.</block>
+  <block id="ed124d5bdf3fe0a1c3c145d0a44b1707" category="list-text">Assurez-vous que AutoSupport (ASUP) est activé et correctement configuré, et que toutes les sections requises sont incluses. Pour plus d'informations, consultez <block ref="40cef9e2460f87a6d015a209e1716d2b" category="inline-link-macro-rx"></block>.</block>
 </blocks>

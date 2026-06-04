@@ -67,10 +67,10 @@ Lorsque vous commencez à utiliser Digital Advisor, il est important que vous co
 ** *Générer un rapport:* génère le rapport de la liste de surveillance sélectionnée et envoie le rapport à un maximum de 5 destinataires.
 
 
-* *Widget planification :* affiche des informations sur l'ajout de capacité, les logiciels et le matériel qui doivent être renouvelés.
+* *Widget de planification :* Affiche des informations sur l’extension de stockage, les logiciels et le matériel qui doivent être renouvelés.
 +
-** *Ajouts de capacité :* identifie les systèmes qui ont dépassé ou approchent 90 % de la capacité et les sites DE RÉSEAU qui ont dépassé ou approchent 70 % de la capacité. Vous pouvez demander à augmenter la capacité de votre système de stockage.
-** *Renouvellements :* fournit des informations sur le logiciel et le matériel qui a expiré ou qui sont à court d'expiration dans les 6 prochains mois.
+** *Extension du stockage :* Identifie les systèmes ayant dépassé ou approchant 90 % de leur capacité et les sites GRID ayant dépassé ou approchant 70 % de leur capacité. Vous pouvez soumettre une demande d’augmentation de la capacité de votre système de stockage.
+** *Renouvellements de support :* Fournit des informations sur les logiciels et le matériel dont le support a expiré ou arrive à expiration dans les 6 prochains mois.
 
 
 * *Widget mises à niveau :* fournit le nombre de mises à niveau disponibles pour les systèmes ONTAP et E-Series :

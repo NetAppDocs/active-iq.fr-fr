@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept_overview_wellness.html 
-keywords: overview, wellness, risk types, risk definition, mitigate risks, performance, configuration, renewal, risk, remediation 
+keywords: overview, wellness, risk types, risk definition, mitigate risks, performance, configuration, support renewal, risk, remediation 
 summary: Fournit des informations sur le bien-être et les types de risques, qui vous aident à améliorer votre système de stockage. 
 ---
 = Découvrez le widget bien-être dans Digital Advisor
@@ -16,7 +16,7 @@ summary: Fournit des informations sur le bien-être et les types de risques, qui
 
 
 [role="lead"]
-Le widget bien-être fournit des informations détaillées sur votre système de stockage. Il fournit des informations sur les différents attributs de votre système de stockage, tels que les performances et l'efficacité, la capacité, les paramètres de configuration, les vulnérabilités de sécurité, les renouvellements et autres.
+Le widget Bien-être fournit des informations détaillées sur votre système de stockage. Il fournit des informations sur différents attributs de votre système de stockage, tels que les performances et l'efficacité, la capacité, les paramètres de configuration, les vulnérabilités de sécurité, les renouvellements de support, et d'autres.
 
 image:wellness_workflow.png["flux de travail bien-être"]
 

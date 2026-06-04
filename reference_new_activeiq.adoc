@@ -20,6 +20,21 @@ Les fonctionnalités et améliorations suivantes ont été introduites dans Digi
 
 
 
+== 3 juin 2026
+
+
+
+=== Mises à jour du nom du widget Digital Advisor
+
+Les fonctionnalités suivantes de Digital Advisor ont changé de nom :
+
+* La fonction « Actualisation technique » s’appelle désormais « Actualisation du système ». Découvrez comment link:https://docs.netapp.com/us-en/active-iq/evaluate-tech-refresh.html["évaluer une mise à jour du système"].
+* La fonctionnalité « Ajout de capacité » s’appelle désormais « Extension de stockage ». En savoir plus link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Widgets Digital Advisor"].
+* La fonctionnalité Renouvellements s'appelle désormais Renouvellements d'assistance. En savoir plus link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Widgets Digital Advisor"].
+
+
+
+
 == 18 mai 2026
 
 
@@ -939,7 +954,7 @@ Cette version offre les fonctionnalités suivantes :
 * *Widget mieux-être :* Afficher tous les risques et actions, y compris ceux liés à StorageGRID s'ils sont applicables en fonction des règles ARS existantes pour les systèmes disponibles.
 * *Widget planification:*
 +
-** *Ajout de capacité :* pour tous les sites DE RÉSEAU qui dépassent le seuil de 70 % de la capacité existante, vous serez informé. Vous avez la possibilité d'ajouter de la capacité pour les ID de l'unité de production dans le site, pour les 1, 3 et 6 prochains mois si le seuil de capacité est susceptible de dépasser 70 %.
+** *Augmentation de capacité :* Pour tout site GRID dont le seuil de 70 % de la capacité existante est dépassé, vous serez averti(e). Vous avez la possibilité d’ajouter de la capacité pour les StorageGRIDs du site, pour les 1, 3 et 6 prochains mois si le seuil de capacité risque de dépasser 70 %.
 ** *Renouvellements :* pour tous les systèmes StorageGRID dont le contrat de licence a expiré ou dont l’expiration est proche dans les 6 prochains mois, vous serez avisé. Vous pouvez sélectionner un ou plusieurs systèmes pour demander à l'équipe de support NetApp de renouveler son contrat.
 
 

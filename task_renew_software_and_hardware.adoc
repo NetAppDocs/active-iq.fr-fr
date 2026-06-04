@@ -19,7 +19,7 @@ summary: Fournit des informations pour renouveler le logiciel et le matériel de
 Vous pouvez identifier de manière proactive les logiciels et le matériel de votre système de stockage qui ont expiré ou qui arrivent à expiration dans les 6 prochains mois, et envoyer une demande de renouvellement du matériel et des logiciels.
 
 .Étapes
-. Cliquez sur *renouvellements* dans le widget *planification*.
+. Cliquez sur *Support Renewals* dans le widget *Planning*.
 . Sélectionnez les systèmes de stockage que vous souhaitez renouveler et cliquez sur *Renouveler*.
 . Vous pouvez également ajouter des commentaires supplémentaires.
 . Cliquez sur *Envoyer*.

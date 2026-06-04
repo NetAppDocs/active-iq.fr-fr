@@ -37,10 +37,10 @@ Lisez les informations suivantes pour connaître les widgets pris en charge sur 
 | Bien-être | Prise en charge sur toutes les plateformes | Prise en charge sur toutes les plateformes | Prise en charge sur toutes les plateformes 
 
 
-| Renouvellements | Prise en charge sur toutes les plateformes | Prise en charge sur toutes les plateformes | Prise en charge sur toutes les plateformes 
+| Renouvellements de support | Prise en charge sur toutes les plateformes | Prise en charge sur toutes les plateformes | Prise en charge sur toutes les plateformes 
 
 
-| Ajouts de capacité | Pris en charge uniquement sur clustered Data ONTAP | Pris en charge uniquement sur clustered Data ONTAP | Pris en charge uniquement sur clustered Data ONTAP 
+| Extension de stockage | Pris en charge uniquement sur clustered Data ONTAP | Pris en charge uniquement sur clustered Data ONTAP | Pris en charge uniquement sur clustered Data ONTAP 
 
 
 | Inventaire | Prise en charge sur toutes les plateformes | Pris en charge uniquement sur clustered Data ONTAP | Pris en charge uniquement sur clustered Data ONTAP 

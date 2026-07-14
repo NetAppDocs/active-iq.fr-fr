@@ -20,6 +20,7 @@ Vous pouvez utiliser Upgrade Advisor pour afficher la liste des clusters éligib
 
 
 
+[[before-you-begin]]
 == Avant de commencer
 
 Avant de générer un plan de mise à niveau, vous devez :

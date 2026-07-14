@@ -20,6 +20,7 @@ Les questions suivantes donnent des réponses à vos questions fréquentes sur D
 
 
 
+[[technical-case]]
 == Étude de cas technique
 
 *Quand dois-je créer un dossier technique?*
@@ -45,6 +46,7 @@ Des dossiers techniques sont créés pour demander de l'aide sur l'un des produi
 
 
 
+[[non-technical-case]]
 == Cas non technique
 
 *Qu'est-ce qu'un cas non technique?*
@@ -78,6 +80,7 @@ Pour faire part de vos commentaires ou poser des questions, envoyez un e-mail à
 
 
 
+[[storage-efficiency]]
 == Efficacité du stockage
 
 *Comment accéder à l'efficacité du stockage dans Digital Advisor ?*
@@ -221,6 +224,7 @@ Elle est plus élevée lorsque des volumes de protection des données sont prés
 
 
 
+[[inventory]]
 == Inventaire
 
 *Pourquoi ne puis-je pas trouver certains systèmes dans Digital Advisor?*
@@ -236,6 +240,7 @@ Si vous ne parvenez pas à afficher les systèmes pour d'autres raisons, si vous
 
 
 
+[[capacity]]
 == Puissance
 
 *Comment les capacités sont-elles calculées dans Digital Advisor ?* les capacités dans Digital Advisor sont-elles calculées pour le cluster et le nœud, à l'exception des copies root et des copies Snapshot comprises
@@ -344,6 +349,7 @@ Pour StorageGRID, les capacités sont affichées dans la base 10 et l'unité de 
 
 
 
+[[miscellaneous]]
 == Divers
 
 *Pourquoi les fonctions en ÉTAT DE STOCKAGE dans le volet de navigation de gauche sont-elles désactivées ?*

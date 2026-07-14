@@ -28,6 +28,7 @@ Vous pouvez visionner la vidéo suivante pour comprendre le tableau de bord Sust
 video::yNRHeOvbGX8[youtube,width=848,height=480]
 
 
+[[benefits-of-sustainability]]
 == Avantages de la durabilité
 
 Le développement durable offre les avantages suivants :

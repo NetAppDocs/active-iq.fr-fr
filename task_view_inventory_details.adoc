@@ -23,6 +23,7 @@ Vous pouvez également générer le rapport de la liste de surveillance sélecti
 video::ttbpbT5uTBI[youtube,width=848,height=480]
 
 
+[[view-system-details]]
 == Afficher les détails du système
 
 .Étapes
@@ -37,6 +38,7 @@ Les fichiers Ansible Inventory peuvent être utilisés avec les fichiers Ansible
 
 
 
+[[view-support-entitled-switch-details]]
 == Afficher les détails du commutateur d'assistance
 
 .Étapes

@@ -23,6 +23,7 @@ NOTE: Pour obtenir les meilleurs résultats du tableau de bord, vous devez activ
 
 
 
+[[sustainability-score-computation]]
 == Calcul du score de durabilité
 
 Le score de durabilité est calculé sur la base d'un ensemble de règles liées aux systèmes de stockage. Chaque règle aborde des risques spécifiques et recommande des mesures d'atténuation. Chaque règle reçoit une note qui reflète son importance. Par exemple, s'il existe trois règles associées aux systèmes de stockage : maintenir la température ambiante, garantir une utilisation optimale de la capacité et utiliser une alimentation en titane, avec des scores de 30, 40 et 30 points, respectivement. L'ajout de ces scores donne un total de 100 points, qui sert de dénominateur.
@@ -34,6 +35,7 @@ NOTE: Le score de durabilité est initialement calculé au niveau du cluster, pu
 
 
 
+[[improve-overall-sustainability-score]]
 == Améliorer le score global de durabilité
 
 Vous pouvez suivre ces étapes pour améliorer le score global de développement durable et mettre l'accent sur les efforts de développement durable au niveau de l'entreprise :
@@ -95,6 +97,7 @@ image:actions_for_later.png["Capture d'écran affichant les actions recommandée
 ====
 
 
+[[improve-sustainability-score-at-cluster-level]]
 == Améliorer le score de durabilité au niveau du cluster
 
 Pour améliorer votre score de durabilité au niveau du cluster et favoriser l'amélioration de la durabilité pour un cluster spécifique, procédez comme suit :

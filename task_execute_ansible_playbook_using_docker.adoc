@@ -20,6 +20,7 @@ Avant d'exécuter le PlayBook Ansible, vérifiez que le fichier *NetApp_Ansible_
 
 
 
+[[before-you-begin]]
 == Avant de commencer
 
 Avant d'exécuter le manuel de vente Ansible à l'aide de NetApp docker, vous devez :

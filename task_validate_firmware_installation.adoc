@@ -20,6 +20,7 @@ Après l'exécution du PlayBook, connectez-vous au cluster en tant qu'administra
 
 
 
+[[validate-disk-firmware-installation]]
 == Validation de l'installation du firmware du disque
 
 .Étapes
@@ -52,6 +53,7 @@ Pour plus d'informations sur la commande, reportez-vous à {link-with-souligns}[
 
 
 
+[[validate-shelf-firmware-installation]]
 == Validez l'installation du firmware du tiroir
 
 .Étapes
@@ -103,6 +105,7 @@ Pour plus d'informations sur la commande, reportez-vous à {link-with-souligneme
 
 
 
+[[validating-spbmc-firmware-installation]]
 == Validation de l'installation du micrologiciel SP/BMC
 
 Les mises à jour du firmware Ansible PlayBook pour le processeur de service/BMC sont activées avec une option permettant de vérifier l'installation du dernier firmware SP/BMC sur le contrôleur. Une fois la vérification terminée (les mises à jour peuvent prendre une durée maximale de deux heures), Ansible PlayBook applique les mises à jour internes du firmware des commutateurs en se connectant à la console SP/BMC.

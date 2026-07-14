@@ -27,6 +27,7 @@ L'automatisation avec des API est un excellent moyen d'accroître l'efficacité 
 
 
 
+[[api-catalog]]
 == Catalogue d'API
 
 Le basculement en haut de la page permet à l'utilisateur de basculer entre les deux modes pour afficher le catalogue. La vue Code se concentre sur les paramètres d'entrée requis, le contenu et le format des données de retour, ainsi que sur les échantillons de code pour que l'utilisateur commence à mettre le code en place. La vue expérience offre à l'utilisateur la possibilité de "tester" l'API dans le navigateur à l'aide d'un jeton généré obtenu à partir de la page principale des services API.
@@ -35,6 +36,7 @@ L'une ou l'autre des vues permet à l'utilisateur de parcourir les éléments di
 
 
 
+[[using-the-apis]]
 == À l'aide des API
 
 Une fois que vous êtes autorisé et que vous pouvez générer des jetons, vous pouvez utiliser les jetons pour effectuer des requêtes programmatiques et récupérer des données. Vous pouvez également tester une API à partir du catalogue d'API pour voir en premier lieu le fonctionnement de la requête et le type de données renvoyées. Il s'agit d'une excellente façon de vous assurer que vous comprenez comment une API fonctionnera avant de construire le cadre de code dans votre système.

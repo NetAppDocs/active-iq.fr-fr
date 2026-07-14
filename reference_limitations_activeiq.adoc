@@ -31,36 +31,42 @@ Les limites suivantes existent :
 
 
 
+[[editing-a-watchlist-may-take-60-minutes-to-reflect-in-digital-advisor]]
 == La modification d'une liste de surveillance peut prendre 60 minutes pour réfléchir dans Digital Advisor
 
 La modification d'une liste de surveillance ne met pas immédiatement à jour les informations dans Digital Advisor. La réflexion des modifications dans Digital Advisor peut prendre jusqu'à 60 minutes.
 
 
 
+[[a-blank-report-is-displayed-while-scheduling-reports]]
 == Un rapport vierge s'affiche pendant la planification des rapports
 
 Les rapports programmés sont disponibles uniquement avec un contrat de support SupportEdge Advisor ou SupportEdge Expert. Si vos systèmes ne sont pas soumis à SupportEdge Advisor ou à un contrat de support SupportEdge Expert, vous risquez d'obtenir un rapport vierge lors de la planification des rapports.
 
 
 
+[[acknowledged-and-unacknowledged-risks-may-take-60-minutes-to-reflect-in-digital-advisor]]
 == Le conseiller numérique peut prendre 60 minutes pour réfléchir aux risques reconnus et non reconnus
 
 L'état des risques qui sont reconnus et non reconnus ne reflète pas immédiatement dans Digital Advisor. Il peut s'avérer nécessaire de prendre jusqu'à 60 minutes pour que les changements soient pris en compte dans Digital Advisor et dans le rapport de bien-être.
 
 
 
+[[autosupport-widget-not-available-for-cluster-and-serial-numbers]]
 == Widget AutoSupport non disponible pour le cluster et les numéros de série
 
 Le widget AutoSupport ne fournit pas d'alertes pour la recherche de clusters et de numéros de série.
 
 
 
+[[autosupport-widget-not-able-to-drill-down-to-serial-level-autosupport-details]]
 == Le widget AutoSupport ne peut pas accéder aux détails AutoSupport du niveau série
 
 Sur la page Rapports AutoSupport, cliquez sur l'un des États, les systèmes qui ont récemment cessé d'envoyer ou les systèmes sur lesquels AutoSupport est désactivé pour accéder à l'écran Vérification de l'état.
 
 
 
+[[filtering-and-sorting-are-not-available-in-the-inventory-widget]]
 == Le filtrage et le tri ne sont pas disponibles dans le widget Inventaire
 
 Vous ne pouvez pas filtrer et trier les données dans le widget d'inventaire. Aucune donnée n'est affichée si vous sélectionnez ONTAP AFF, ONTAP ASA, ONTAP Edge ou ONTAP Select dans la liste déroulante « Filtrer par ».

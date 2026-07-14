@@ -4,6 +4,7 @@
 
 
 
+[[upgrade-advisor]]
 === Upgrade Advisor
 
 * Le DQP (Disk qualification Package) permet désormais de mettre à jour automatiquement les contrôleurs de disque et le firmware du périphérique de stockage en fonction de critères prédéfinis d'intégrité et de performance. Cela réduit les défaillances potentielles et améliore la fiabilité globale du système.

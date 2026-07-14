@@ -22,6 +22,7 @@ Grâce à la console, les experts informatiques et les architectes cloud peuvent
 
 
 
+[[netapp-console]]
 == Console NetApp
 
 Digital Advisor est accessible via la console NetApp .

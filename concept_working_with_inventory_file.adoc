@@ -22,6 +22,7 @@ Pour la mise à jour du micrologiciel du processeur de service, les noms d'hôte
 
 
 
+[[inventory-file-format]]
 == Format du fichier d'inventaire
 
 Voici un exemple de format de fichier d'inventaire avec des mises à jour du firmware des disques et des tiroirs :
@@ -51,6 +52,7 @@ Dans cet exemple, les mises à jour du firmware des tiroirs et des disques s'app
 
 
 
+[[delete-a-cluster-from-the-inventory-file]]
 == Supprimer un cluster du fichier d'inventaire
 
 Si vous ne souhaitez pas appliquer de mises à jour de micrologiciel sur un cluster particulier, vous pouvez supprimer le cluster du fichier d'inventaire.

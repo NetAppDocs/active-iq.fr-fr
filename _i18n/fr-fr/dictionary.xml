@@ -438,7 +438,6 @@
   <block id="bf07f432276ee2fe7e55f9ea12c2ba5a" category="doc">En savoir plus</block>
   <block id="3334f093f94c914eeabb709448d36d67" category="paragraph">Vous pouvez obtenir de l'aide et trouver plus d'informations grâce à diverses ressources.</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="inline-link-macro">Communauté NetApp</block>
-  <block id="2250dada69ecec08ffc29ac659683495" category="inline-link-macro">Ressources de documentation</block>
   <block id="2fc27556f44d8a6724ac003effded441" category="inline-link-macro">Sécurité et confidentialité des données de télémétrie NetApp</block>
   <block id="338fec277abf8dd8a9f3f83288b2911d" category="inline-link-macro">ONTAP AutoSupport et AutoSupport on Demand</block>
   <block id="144deae4a5b0b4c9284528157c461f6c" category="summary">Fournit des informations sur la façon d'améliorer la protection contre les pirates informatiques et les attaques par ransomware.</block>
@@ -1019,7 +1018,6 @@ Il se peut que vous ne puissiez pas rechercher certains systèmes ou les affiche
   <block id="373fd27c1797dca500c6c9dbce1225f7" category="paragraph">Le serveur Web peut être configuré de plusieurs façons. Pour obtenir des instructions sur la configuration d'un serveur Web simple à l'aide de Python, reportez-vous à la section <block ref="303512ecf00930b786dea080d96799d8" category="inline-link-macro-rx"></block>.</block>
   <block id="d3b731ac977fc38e625943ab24125e73" category="list-text">Accédez au <block ref="6ea90873ff127896ae7a3eaf21cda455" category="inline-link-macro-rx"></block> page de connexion.</block>
   <block id="2cf504c669255f96f48e417bf3c86399" category="paragraph">Pour les systèmes ONTAP, AutoSupport est activé par défaut lorsque vous configurez votre système de stockage pour la première fois. Vous devriez <block ref="03ce3f8b24f3ba6194d1a4f01375a3eb" category="inline-link-macro-rx"></block> Sur les systèmes ONTAP, vous contrôlez l'envoi des informations relatives aux AutoSupport au support technique et à votre service de support interne.</block>
-  <block id="836b35da2a4494ce20730d485e090b9b" category="list-text"><block ref="836b35da2a4494ce20730d485e090b9b" category="inline-link-macro-rx"></block></block>
   <block id="58789b5243f3cbb2a8a30f59de135896" category="list-text"><block ref="58789b5243f3cbb2a8a30f59de135896" category="inline-link-macro-rx"></block></block>
   <block id="155b92b0d3df6f08f7a22ee41987478d" category="paragraph">Pour en savoir plus sur FabricPool, consultez <block ref="95721715db0d24514cff915b8dac95f3" category="inline-link-macro-rx"></block>.</block>
   <block id="c9a7e25beb9575351b078da21d059517" category="list-text">*Cas techniques* : vous fournit une vue détaillée de l'historique de votre dossier technique, par type de dossier et état ouvert ou fermé, sur des plages de temps sélectionnables.  Vous pouvez explorer les groupes de dossiers et afficher les détails des dossiers à l'aide de <block ref="4052dc01853e78687038691ab3fc5cc0" category="inline-link-macro-rx"></block> ou d'autres portails de cas.</block>
@@ -1029,7 +1027,6 @@ Il se peut que vous ne puissiez pas rechercher certains systèmes ou les affiche
   <block id="78c1cfc20c22b33386b17ebe2a0a7d64" category="list-text"><block ref="78c1cfc20c22b33386b17ebe2a0a7d64" category="inline-link-macro-rx"></block></block>
   <block id="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="list-text"><block ref="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="inline-link-macro-rx"></block></block>
   <block id="2eb6f862ee3ec494c6f43826c23b83da" category="list-text"><block ref="2eb6f862ee3ec494c6f43826c23b83da" category="inline-link-macro-rx"></block></block>
-  <block id="847b7c4d19d7d7ef0daee103975b7b83" category="list-text"><block ref="847b7c4d19d7d7ef0daee103975b7b83" category="inline-link-macro-rx"></block></block>
   <block id="8934fed115a0b826a4b438906a11bfa9" category="doc">Présentation du tableau de bord Sustainability</block>
   <block id="e3667627bec4bfd6e60dea46e855352c" category="inline-image-macro">Une capture d'écran qui montre le pourcentage d'atténuation du carbone des sites et comment modifier ce pourcentage.</block>
   <block id="369583cace99a57a955a633843c9e566" category="paragraph"><block ref="369583cace99a57a955a633843c9e566" category="inline-image-macro-rx" type="image"></block></block>
@@ -1310,7 +1307,6 @@ La disponibilité des fonctions sous *STORAGE HEALTH* dépend du type et du nive
   <block id="8e4743bb176d909e65d015847fc93346" category="admonition">Le score de durabilité est initialement calculé au niveau du cluster, puis il est agrégé à d'autres niveaux, tels que le niveau du client ou de la liste de suivi.</block>
   <block id="a6cba69e97a9115b21cbf35b24b33d83" category="section-title">04 juillet 2024</block>
   <block id="2a4b13cd943c24cfe2735c05922d1427" category="list-text"><block ref="2a4b13cd943c24cfe2735c05922d1427" category="inline-link-macro-rx"></block></block>
-  <block id="7581b2408d4adfb3df4e98d5f1f96473" category="list-text"><block ref="7581b2408d4adfb3df4e98d5f1f96473" category="inline-link-macro-rx"></block></block>
   <block id="788b77f1903c86b79d6ab3fa3aeac01e" category="section-title">21 août 2024</block>
   <block id="fc1d748db1b5b488ce7af7d17ea15d55" category="inline-link-macro">Prise en charge des versions logicielles</block>
   <block id="846815401f996d92d6775164d37e6015" category="inline-link-macro">Mise à niveau des systèmes de stockage Data ONTAP 7-mode</block>
@@ -1618,4 +1614,6 @@ La disponibilité des fonctions sous *STORAGE HEALTH* dépend du type et du nive
   <block id="e20432694f9004583c0756c875ad9910" category="cell">Les systèmes qui n'ont pas envoyé de AutoSupport au cours des 30 derniers jours</block>
   <block id="17666cbe1713f97c57ab98489a603022" category="paragraph">Redéclenchez AutoSupport sur les systèmes concernés listés ci-dessus pour restaurer les données actuelles dans les vues de contrôle d'intégrité.</block>
   <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">29 juin 2026</block>
+  <block id="78c07c506154e08621f506935129d56b" category="list-text"><block ref="78c07c506154e08621f506935129d56b" category="inline-link-macro-rx"></block></block>
+  <block id="47f181ab6ea1bbd9a2696556081c4ba8" category="list-text"><block ref="47f181ab6ea1bbd9a2696556081c4ba8" category="inline-link-macro-rx"></block></block>
 </blocks>

@@ -23,6 +23,7 @@ NOTE: Digital Advisor vous dirige vers la console NetApp pour mettre en œuvre l
 
 
 
+[[migration]]
 == Migration
 
 Fournit des informations sur les différents types de charges de travail disponibles dans votre système de stockage et identifie les charges de travail prêtes pour le cloud. La migration des workloads vers le cloud permet de réaliser des économies et assure la reprise d'activité dans le cloud.
@@ -44,6 +45,7 @@ Les volumes répondant aux critères suivants sont recommandés pour la migratio
 
 
 
+[[tiering]]
 == Tiering
 
 Fournit des informations sur les données de Tier local (agrégat) inactives, de volume inactif, des données hiérarchisées et des données non surveillées. Vous pouvez réduire l'empreinte du stockage et les coûts associés en surveillant et en transférant vos données inactives vers des tiers de stockage objet à faible coût.
@@ -69,6 +71,7 @@ Pour en savoir plus sur FabricPool, consultez link:https://www.netapp.com/pdf.ht
 
 
 
+[[backup-archive]]
 == Sauvegarde et archivage
 
 Fournit des informations sur les systèmes qui doivent être sauvegardés dans le cloud. Vous pouvez utiliser NetApp Cloud Backup pour sécuriser vos systèmes et les restaurer à nouveau lorsque cela est nécessaire.
@@ -87,6 +90,7 @@ Les volumes qui répondent à ces critères sont recommandés pour la sauvegarde
 
 
 
+[[replication]]
 == La réplication
 
 Fournit des informations sur les données à répliquer dans le cloud pour faciliter en cas d'incident.

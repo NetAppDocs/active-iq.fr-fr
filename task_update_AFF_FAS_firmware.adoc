@@ -20,6 +20,7 @@ Pour limiter les risques identifiés et maintenir à jour votre système de stoc
 
 
 
+[[before-you-begin]]
 == Avant de commencer
 
 Avant de mettre à jour le firmware AFF et FAS à l'aide d'Ansible, vous devez :

@@ -20,6 +20,20 @@ Les fonctionnalités et améliorations suivantes ont été introduites dans Digi
 
 
 
+[[15-july-2026]]
+== 15 juillet 2026
+
+
+
+[[deprecation-notice-for-wellness-review]]
+=== Avis de dépréciation pour Wellness Review
+
+La fonctionnalité « Bilan bien-être » a été supprimée et n'est plus disponible dans Digital Advisor depuis juillet 2026.
+
+Pour toute question ou pour partager des commentaires, mailto:ng-activeiq-feedback@netapp.com[contactez l'équipe Active IQ].
+
+
+
 [[29-june-2026]]
 == 29 juin 2026
 

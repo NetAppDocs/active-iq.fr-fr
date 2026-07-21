@@ -15,8 +15,12 @@ summary:
 :imagesdir: ./media/
 
 
-[role="lead"]
-Vous pouvez vous abonner à la newsletter de bilan de santé pour recevoir un e-mail mensuel récapitulant l'état de santé des systèmes de stockage, les systèmes de stockage dont la date de renouvellement approche et les systèmes de stockage nécessitant une mise à niveau pour les produits NetApp de votre parc installé. Vous recevrez un courriel de bilan de santé vous permettant de consulter un résumé mensuel et de prendre les mesures nécessaires pour vos systèmes de stockage. Vous avez également la possibilité de consulter, modifier, partager et supprimer vos abonnements. À tout moment, si vous décidez de ne plus recevoir ces courriels, vous pouvez vous désabonner.
+
+NOTE: La fonctionnalité « Bilan bien-être » a été supprimée et n'est plus disponible dans Digital Advisor depuis juillet 2026.
+
+Vous pouvez vous abonner à l’e-mail de bilan santé pour recevoir chaque mois un e-mail qui résume l’état de santé, les systèmes de stockage approchant de leur date de renouvellement, ainsi que les systèmes de stockage nécessitant une mise à niveau pour les produits NetApp de votre base installée. Vous recevrez un e-mail de bilan santé afin de pouvoir consulter un résumé mensuel et prendre des mesures pour vos systèmes de stockage.
+
+Vous pouvez également consulter, modifier, partager et supprimer vos abonnements. À tout moment, si vous décidez de ne plus recevoir les e-mails, vous pouvez également vous désabonner de la réception des e-mails.
 
 Une fois l'abonnement activé, vous devez sélectionner une date de début lors de l'ajout d'un abonnement. Chaque mois, le résumé de l'e-mail vous offre une vue d'ensemble des actions de bien-être, de renouvellement, de mise à niveau et de vérification de l'état de santé exceptionnelles. Vous pouvez confirmer l'adresse e-mail et l'adresse e-mail est envoyée à l'adresse e-mail spécifiée. Vous avez également la possibilité de supprimer des abonnements.
 

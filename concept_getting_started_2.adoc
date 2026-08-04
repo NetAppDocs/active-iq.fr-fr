@@ -40,11 +40,13 @@ Lisez les informations suivantes pour connaître les widgets pris en charge sur 
 | Renouvellements de support | Prise en charge sur toutes les plateformes | Prise en charge sur toutes les plateformes | Prise en charge sur toutes les plateformes 
 
 
-| Extension de stockage | Pris en charge uniquement sur clustered Data ONTAP | Pris en charge uniquement sur clustered Data ONTAP | Pris en charge uniquement sur clustered Data ONTAP 
+| Extension de stockage | Pris en charge uniquement sur ONTAP | Pris en charge uniquement sur ONTAP | Pris en charge uniquement sur ONTAP 
 
 
-| Inventaire | Prise en charge sur toutes les plateformes | Pris en charge uniquement sur clustered Data ONTAP | Pris en charge uniquement sur clustered Data ONTAP 
+| Inventaire | Prise en charge sur toutes les plateformes | Pris en charge uniquement sur ONTAP | Pris en charge uniquement sur ONTAP 
 
 
-| Mises à niveau | Pris en charge uniquement sur clustered Data ONTAP | Pris en charge uniquement sur clustered Data ONTAP | Pris en charge uniquement sur clustered Data ONTAP 
+| Mises à niveau | Pris en charge uniquement sur ONTAP | Pris en charge uniquement sur ONTAP | Pris en charge uniquement sur ONTAP 
 |===
+
+NOTE: Toutes les plateformes désignent ONTAP, E-Series, StorageGRID, ONTAP Select et Cloud Volumes ONTAP.

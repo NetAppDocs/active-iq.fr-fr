@@ -134,12 +134,12 @@ Upgrade Advisor prend désormais en charge la génération de plans de mise à n
 
 
 
-[[bluexp-is-now-netapp-console]]
-=== BlueXP est désormais NetApp Console
+[[netapp-console-previously-known-as-bluexp]]
+=== NetApp Console (anciennement connu sous le nom de BlueXP)
 
-La console NetApp , construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des services de données NetApp dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
+La NetApp Console, construite sur la base améliorée et restructurée de la NetApp Console, assure une gestion centralisée du stockage NetApp et des NetApp Data Services dans les environnements sur site et cloud au niveau entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
 
-Pour plus de détails sur ce qui a changé, consultez le https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la console NetApp"] .
+Pour plus de détails sur les changements, consultez le https://docs.netapp.com/us-en/console-relnotes/index.html["Notes de version de la console NetApp"].
 
 
 
@@ -441,7 +441,7 @@ Le nombre de recommandations pour les mises à jour technologiques est inclus da
 
 * Le libellé *efficacité du stockage*, qui affiche le ratio d'efficacité, est renommé *réduction des données*.
 * Le libellé *données sauvegardées par efficacité du stockage* est renommé *économies de réduction des données*.
-* La bascule *Savings without Snapshot backups* est renommée *with Snapshot copies* avec une modification de sa fonctionnalité. link:https://docs.netapp.com/us-en/active-iq/reference_aiq_faq.html#storage-efficiency["En savoir plus >>"].
+* L'option *Sauvegarde sans instantanés* est renommée *Avec copies d'instantanés* avec une modification de sa fonctionnalité. link:https://docs.netapp.com/us-en/active-iq/reference_aiq_faq.html#storage-efficiency["En savoir plus >>"].
 
 
 
@@ -473,7 +473,7 @@ Vous pouvez afficher la moyenne des opérations de lecture, d'écriture et autre
 [[storage-efficiency]]
 === Efficacité du stockage
 
-L'efficacité du stockage SAN et NAS est disponible au niveau des nœuds pour les systèmes ONTAP, notamment AFF A-Series, AFF C190, All SAN Array et FAS500 exécutant ONTAP 9.10 et versions ultérieures.
+L'efficacité du stockage SAN et NAS est disponible, au niveau du nœud, pour les systèmes ONTAP, y compris AFF A-Series, AFF C190, All SAN Array et FAS500.
 
 
 
@@ -494,10 +494,10 @@ Vous pouvez afficher la moyenne des opérations de lecture, d'écriture et autre
 
 
 
-[[digital-advisor-integrating-with-bluexp]]
-=== Digital Advisor intégré à BlueXP
+[[digital-advisor-integrating-with-netapp-console]]
+=== Digital Advisor s'intègre à la NetApp Console
 
-Active IQ Digital Advisor est en cours de changement vers Digital Advisor et est désormais intégré à BlueXP, la console de gestion unifiée de NetApp pour les environnements multicloud hybrides. link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-console.html["En savoir plus >>"] .
+Active IQ Digital Advisor est renommé Digital Advisor et est désormais intégré à NetApp Console, la console de gestion unifiée de NetApp pour les environnements multicloud hybrides. link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-console.html["En savoir plus >>"].
 
 
 
@@ -681,10 +681,10 @@ Vous pouvez afficher les détails de la configuration de la grille dans LA visio
 
 
 
-[[bluexp]]
-=== BlueXP
+[[netapp-console]]
+=== Console NetApp
 
-Les utilisateurs de BlueXP peuvent désormais ouvrir des liens Digital Advisor dans de nouveaux onglets, le cas échéant, similaires à la fonctionnalité existante de Digital Advisor.
+Les utilisateurs de la NetApp Console peuvent désormais ouvrir les liens Digital Advisor dans de nouveaux onglets, le cas échéant, de la même manière que la fonctionnalité existante dans Digital Advisor.
 
 
 
@@ -880,7 +880,7 @@ Le tableau de bord de vérification de l'état de santé a été amélioré avec
 === Bien-être
 
 * Le widget protection contre les attaques par ransomware fait désormais partie du workflow Wellness au lieu d'un widget autonome.
-* Dans l'e-mail d'évaluation du mieux-être, vous trouverez des informations sur la défense contre les attaques par ransomware au lieu de renouvellements.
+* Dans l'e-mail de bilan bien-être, vous trouverez des informations sur la protection contre les ransomwares au lieu des renouvellements.
 
 
 
@@ -973,7 +973,7 @@ Dans le cas de modèles à matériel mixte, la version de système d'exploitatio
 [[recommended-configuration-storage-virtual-machine-svm-health-volume-level-summary]]
 === État recommandé pour la configuration / Storage Virtual machine (SVM) : récapitulatif au niveau des volumes
 
-Lorsque vous cliquez sur la case bleue ‘Résumé du volume’ du tableau SVM, une fenêtre contextuelle affiche des informations détaillées sur les volumes hébergés ou rattachés au numéro de série ou au nœud physique spécifique.
+En cliquant sur la case bleue « Résumé des volumes » dans le tableau SVM, une fenêtre contextuelle affiche des informations détaillées sur les volumes qui sont hébergés ou associés au numéro de série ou au nœud physique spécifique.
 
 
 
@@ -1167,8 +1167,8 @@ Cette version offre les fonctionnalités suivantes :
 * *Widget mieux-être :* Afficher tous les risques et actions, y compris ceux liés à StorageGRID s'ils sont applicables en fonction des règles ARS existantes pour les systèmes disponibles.
 * *Widget planification:*
 +
-** *Augmentation de capacité :* Pour tout site GRID dont le seuil de 70 % de la capacité existante est dépassé, vous serez averti(e). Vous avez la possibilité d’ajouter de la capacité pour les StorageGRIDs du site, pour les 1, 3 et 6 prochains mois si le seuil de capacité risque de dépasser 70 %.
-** *Renouvellements :* pour tous les systèmes StorageGRID dont le contrat de licence a expiré ou dont l’expiration est proche dans les 6 prochains mois, vous serez avisé. Vous pouvez sélectionner un ou plusieurs systèmes pour demander à l'équipe de support NetApp de renouveler son contrat.
+** *Augmentation de capacité :* Vous serez averti si l’un des sites GRID dépasse le seuil de 70 % de la capacité existante. Vous avez la possibilité d’ajouter de la capacité pour les StorageGRIDs du site pour les 1, 3 et 6 prochains mois si le seuil de capacité risque de dépasser 70 %.
+** *Renouvellements :* Pour tout système StorageGRID dont le contrat de licence a expiré ou arrive à expiration dans les 6 prochains mois, vous serez averti. Vous pouvez sélectionner un ou plusieurs systèmes pour soumettre une demande à l’équipe d’assistance NetApp pour le renouvellement.
 
 
 * *Grid Dashboard:* le tableau de bord DE GRILLE fournit des détails sur le bien-être, la planification et la configuration de la GRILLE sélectionnée.
@@ -1184,7 +1184,7 @@ Cette version offre les fonctionnalités suivantes :
 [[fabricpool-advisor]]
 === Conseiller FabricPool
 
-Le bouton Tier de données est ajouté au tableau de bord FabricPool et vous permet de transférer les données vers des tiers de stockage objet à faible coût avec NetApp BlueXP.
+Le bouton Tier Data a été ajouté au tableau de bord FabricPool, et il vous permet de classer les données vers des niveaux de stockage d’objets à faible coût à l’aide de NetApp Console.
 
 
 
@@ -1219,7 +1219,7 @@ Les widgets suivants ont été ajoutés au tableau de bord :
 [[integrating-data-using-apis]]
 === Intégration des données à l'aide d'API
 
-Vous pouvez utiliser les API Digital Advisor pour extraire des données d'intérêt et les intégrer directement dans le flux de travail de votre entreprise. link:https://docs.netapp.com/us-en/active-iq/concept_overview_API_service.html["En savoir plus >>"].
+Vous pouvez utiliser les API de Digital Advisor pour extraire les données qui vous intéressent et les intégrer directement dans le flux de travail de votre entreprise. link:https://docs.netapp.com/us-en/active-iq/concept_overview_API_service.html["En savoir plus >>"].
 
 
 
@@ -1419,7 +1419,7 @@ Vous pouvez maintenant définir l'écran de la page d'accueil par défaut pour D
 [[storage-efficiency]]
 === Efficacité du stockage
 
-Vous pouvez afficher le taux d'efficacité du stockage et les économies réalisées grâce à votre système de stockage, avec ou sans copies Snapshot pour les systèmes AFF, les systèmes non AFF ou les les deux. Vous pouvez consulter les informations sur l'efficacité du stockage au niveau des nœuds. link:https://docs.netapp.com/us-en/active-iq/task_analyze_storage_efficiency.html["Découvrez comment"].
+Vous pouvez consulter le taux d'efficacité du stockage et les économies réalisées par votre système de stockage avec et sans copies de snapshot pour les systèmes AFF, les systèmes non-AFF ou les deux. Vous pouvez consulter les informations sur l'efficacité du stockage au niveau d'un nœud. link:https://docs.netapp.com/us-en/active-iq/task_analyze_storage_efficiency.html["Découvrez comment"].
 
 
 

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_generate_drift_timeline_report.html 
-keywords: reports, generate reports, drift timeline, drift timeline report, AutoSupport data 
+keywords: reports, generate reports, drift timeline, drift timeline report, autosupport data 
 summary: Fournit des informations permettant de générer des rapports de chronologie de dérive. 
 ---
 = Générez un rapport chronologique de dérive de configuration dans Digital Advisor

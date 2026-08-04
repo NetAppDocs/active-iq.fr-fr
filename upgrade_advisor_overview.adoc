@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: upgrade_advisor_overview.html 
-keywords: Upgrade Advisor, upgrade plan, ONTAP, upgrade recommendation, clusters, storage systems 
+keywords: upgrade advisor, upgrade plan, ontap, upgrade recommendation, clusters, storage systems 
 summary: 'Présentation de l"outil Upgrade Advisor qui simplifie la planification d"une mise à niveau ONTAP.' 
 ---
 = Découvrez comment générer un plan de mise à niveau ONTAP dans Digital Advisor

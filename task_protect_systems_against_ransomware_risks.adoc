@@ -18,7 +18,7 @@ summary:
 [role="lead"]
 Lorsque vous vous connectez à Digital Advisor, vous pouvez afficher les *actions* mises en surbrillance dans le widget *sécurité et défense anti-ransomware*, qui affiche le nombre de risques.
 
-Vous pouvez afficher la création de copies Snapshot, la conservation et les risques liés à ONTAP FPolicy, puis prendre des mesures pour les corriger.
+Vous pouvez consulter les risques liés à la création, à la conservation et à la stratégie ONTAP FPolicy des instantanés, puis prendre des mesures pour les corriger.
 
 .Étapes
 . Connectez-vous à Digital Advisor.

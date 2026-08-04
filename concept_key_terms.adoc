@@ -59,7 +59,7 @@ Lorsque vous commencez à utiliser Digital Advisor, il est important que vous co
 ** *Wellness History:* affiche des informations sur les risques système survenant au cours des trois derniers mois, de sorte que vous puissiez apprendre comment ils font des heures supplémentaires.
 ** *Prendre en compte les risques (Ack):* vous permet de reconnaître les risques et les systèmes qui ont été touchés. Vous pouvez prendre en compte ces risques et vous familiariser avec les actions que vous pouvez effectuer pour réduire ces risques.
 ** *Risques non reconnus (unack):* vous permet de reconnaître les risques et les systèmes qui ont été reconnus.
-** *Fix it:* fixe les risques pour le système à l'aide de Active IQ United Manager (UM) 9.7 ou supérieur. Cliquez sur ce bouton pour lancer UM et exécuter les étapes pour réduire les risques.
+** *Correction* : Corrige les risques liés au système à l’aide d’Active IQ Unified Manager. Cliquez sur ce bouton pour lancer Unified Manager et effectuer les étapes permettant d’atténuer les risques.
 
 
 * *Widget Inventaire:* affiche un ensemble de systèmes que vous possédez. Cela inclut les produits compatibles Digital Advisor et non activés.
@@ -81,7 +81,7 @@ Lorsque vous commencez à utiliser Digital Advisor, il est important que vous co
 
 
 
-* *Efficacité du stockage :* identifie le ratio d'efficacité du stockage et les économies de votre système de stockage avec et sans copies Snapshot pour les systèmes AFF, non-AFF, ou les deux.
+* *Efficacité du stockage :* Identifie le taux d’efficacité du stockage et les économies réalisées par votre système de stockage avec et sans copies instantanées pour les systèmes AFF, les systèmes non-AFF ou les deux.
 * *Graphique de performances :* permet d'analyser les performances de vos périphériques de stockage en affichant le format graphique des données de performances. Vous pouvez afficher des graphiques de performances détaillés du cluster ONTAP pour le nœud sélectionné.
 * *Le widget informations précieuses :* fournit des informations sur le nombre de dossiers de support, les mises à niveau logicielles en attente, les économies d'efficacité du stockage, les risques atténués, etc. Il répertorie également de manière proactive les notifications de risque de l'attribut mieux-être.
 * *AutoSupport:* vous permet d'afficher les instances AutoSupport de haut niveau ou de détail. Les détails comprennent les détails du système, les raisons possibles du problème et les mesures proposées.
@@ -98,14 +98,14 @@ La fonctionnalité ClusterViewer n'est pas prise en charge sur les systèmes E-S
 
 
 
-* *API Services:* vous permet de tirer des données d'intérêt et de les intégrer directement dans le flux de travail de votre entreprise.
+* *Services API :* Permet d’extraire des données pertinentes et de les intégrer directement dans le flux de travail de votre entreprise.
 * *Téléchargement AutoSupport :* vous permet d'analyser les défauts ou problèmes sur les systèmes ONTAP et E-Series. Les défauts ou problèmes sont examinés et résolus manuellement par le personnel du site de support.
 * *Micrologiciel système :* vous permet d'afficher des informations sur le micrologiciel système fourni avec chaque version principale et correctif de ONTAP.
 +
 ** *Rechercher:* vous permet de rechercher des systèmes en fonction de différentes catégories, comme le nom du client, le numéro de série, le cluster, le nom du site, le nom du groupe, nom d'hôte, et autres.
 
 
-* *Client:* vous permet d'afficher et de gérer la base installée d'un client. Le tableau de bord client est le portail central de Digital Advisor.
+* *Client :* Permet de consulter et de gérer la base client installée d’un client. Le tableau de bord client est le portail central de Digital Advisor.
 * *Cluster:* fournit des informations sur les clusters ONTAP. Le tableau de bord consolide également l'état, la capacité, l'efficacité du stockage et l'analyse des performances.
 * *Numéro de série :* fournit des informations sur le numéro de série attribué au client.
 

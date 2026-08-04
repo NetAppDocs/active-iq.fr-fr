@@ -18,17 +18,6 @@ summary: Fournit des informations sur les limites dans la version.
 [role="lead"]
 Les limitations connues identifient les plateformes, les périphériques ou les fonctions qui ne sont pas pris en charge par cette version du produit, ou qui ne fonctionnent pas correctement avec elle. Examinez attentivement ces limites.
 
-Les limites suivantes existent :
-
-* Pour les systèmes de stockage Data ONTAP 7-mode uniquement (les systèmes de stockage Data ONTAP 7-mode approchent de la fin de leur support)
-+
-** Graphiques de performances
-** Efficacité du stockage
-
-
-* Upgrade Advisor ne prendra pas en charge les plans de mise à niveau pour clustered ONTAP avant la version 9.0.
-
-
 
 
 [[editing-a-watchlist-may-take-60-minutes-to-reflect-in-digital-advisor]]

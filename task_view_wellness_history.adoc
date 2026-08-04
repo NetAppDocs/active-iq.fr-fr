@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_view_wellness_history.html 
-keywords: wellness history, risks, wellness, view all actions, risk history, 
+keywords: wellness history, risks, wellness, view all actions, risk history 
 summary: 'Fournit des informations sur les risques système et la façon d"afficher l"historique de bien-être.' 
 ---
 = Consultez l'historique des risques de votre système de stockage dans Digital Advisor.

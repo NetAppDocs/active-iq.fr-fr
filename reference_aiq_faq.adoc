@@ -95,11 +95,11 @@ NOTE: Les tableaux de bord créés à l'aide d'une liste de surveillance ne sero
 
 *Digital Advisor affiche-t-il les rapports pour tous les systèmes ONTAP?*
 
-Digital Advisor affiche les rapports des systèmes exécutant ONTAP 9.1 et versions ultérieures.
+Oui, Digital Advisor affiche les ratios pour tous les systèmes ONTAP.
 
-*Qu'est-ce que la bascule « avec copies snapshots » sur le tableau de bord d'efficacité ?*
+*Que signifie l'option « With snapshots copies » sur le tableau de bord d'efficacité ?*
 
-Le tableau de bord d'efficacité de Digital Advisor calcule le taux de réduction des données à plusieurs niveaux, y compris le client, le site, le groupe, le cluster, et le nœud. Si vous activez l'option *avec snapshots copies*, le calcul du taux de réduction des données inclut les technologies d'efficacité du stockage suivantes :
+Le tableau de bord d'efficacité de Digital Advisor calcule le taux de réduction des données à plusieurs niveaux, notamment client, site, groupe, cluster et nœud. Si vous activez l’option *Avec copies instantanées*, le calcul du taux de réduction des données inclut les technologies d’efficacité du stockage suivantes :
 
 * Déduplication
 * Compression
@@ -108,21 +108,21 @@ Le tableau de bord d'efficacité de Digital Advisor calcule le taux de réductio
 * Snapshots
 
 
-Par défaut, le calcul du taux de réduction des données n'inclut pas la technologie d'efficacité du stockage Snapshot.
+Par défaut, le calcul du taux de réduction des données n'inclut pas la technologie d'efficacité du stockage des instantanés.
 
 *Que sont les données physiques utilisées et les données logiques utilisées?*
 
 * Blocs physiques utilisés/données physiques utilisées
 +
 ** Quantité d'espace utilisée pour les données actuellement (au lieu d'être exclusivement réservée à une utilisation ultérieure)
-** Inclut l'espace utilisé par les copies Snapshot de l'agrégat
+** Inclut l'espace utilisé par les copies d'instantanés d'agrégat
 ** Espace réellement consommé/écrit par le client
 
 
 * Total des données logiques utilisées
 +
 ** Affiche la taille logique utilisée dans l'agrégat.
-** Cela inclut les volumes, les clones et les copies Snapshot de l'agrégat.
+** Cela inclut les volumes, les clones et les instantanés dans l'agrégat.
 ** La taille logique est calculée en fonction de l'utilisation physique (écritures réelles) et des économies obtenues dans l'agrégat.
 ** N'inclut pas l'espace réservé pour une utilisation ultérieure
 
@@ -149,35 +149,35 @@ Actuellement, le taux de réduction des données est calculé sur la base de la 
 
 *Comment sont calculés les ratios au niveau du client et les économies de réduction des données ?*
 
-Le tableau de bord efficacité du stockage au niveau client fournit le taux de réduction des données avec et sans copies Snapshot pour les systèmes AFF et non AFF, et est combiné sur l'ensemble de la base installée du client pour les systèmes exécutant ONTAP 9.1 et versions ultérieures. Les paramètres requis pour les calculs suivants sont issus de ONTAP AutoSupport :
+Le tableau de bord d'efficacité du stockage au niveau client fournit le taux de réduction des données avec et sans copies de snapshots pour les systèmes AFF et non-AFF, et ces données sont combinées pour l'ensemble de la base client installée. Les paramètres nécessaires pour les calculs suivants sont extraits d'ONTAP AutoSupport :
 
-Sans copies Snapshot (calculées pour chaque agrégat en premier) :
-
-|===
-| *Opération* | *Formule* 
-
-
-| Agrégat logique utilisé sans copies Snapshot | Taille logique utilisée par les volumes, les clones et les copies Snapshot de l'agrégat : taille logique utilisée par les copies Snapshot 
-
-
-| Agrégat physique utilisé sans copies Snapshot | Total Physical Used : (taille physique utilisée par les copies Snapshot / ratio de réduction des données des agrégats) 
-
-
-| Ratio d'efficacité client sans copies Snapshot | Somme [aggr Logical utilisé sans copies Snapshot pour tous les agrégats et pour tous les nœuds d'un client] / sum [aggr Physical utilisé sans copies Snapshot pour tous les agrégats et pour tous les nœuds d'un client] : 1 
-|===
-Avec les copies Snapshot :
+Sans copies instantanées (calculées pour chaque Aggr en premier) :
 
 |===
 | *Opération* | *Formule* 
 
 
-| Taille logique du client avec les copies Snapshot | Somme [taille logique utilisée par les volumes, les clones et les copies Snapshot pour tous les agrégats et pour tous les nœuds d'un client] 
+| Aggr Logical utilisé sans copies d'instantané | Taille logique utilisée par les volumes, les clones et les copies d'instantané dans l'agrégat – Taille logique utilisée par les copies d'instantané 
 
 
-| Taille physique du client utilisée avec les copies Snapshot | Somme [taille physique totale utilisée pour tous les agrégats et pour tous les nœuds d'un client] 
+| Aggr physique utilisé sans copies instantanées | Espace physique total utilisé – (Taille physique utilisée par les copies de snapshot / Réduction des données agrégées) 
 
 
-| Ratio d'efficacité client grâce aux copies Snapshot | Taille logique du client avec copies Snapshot et clones / taille physique du client utilisée avec les copies Snapshot et les clones : 1 
+| Ratio d'efficacité client sans copies instantanées | Somme [Aggr Logical Used sans copies instantanées pour tous les agrégats et pour tous les nœuds d'un client] / Somme [Aggr Physical Used sans copies instantanées pour tous les agrégats et pour tous les nœuds d'un client] : 1 
+|===
+Avec des copies instantanées :
+
+|===
+| *Opération* | *Formule* 
+
+
+| Taille logique du client avec copies instantanées | Somme [Taille logique utilisée par les volumes, les clones, les copies instantanées pour tous les agrégats et pour tous les nœuds d'un client] 
+
+
+| Taille physique du client utilisée avec les copies instantanées | Somme [taille physique totale utilisée pour tous les agrégats et pour tous les nœuds d'un client] 
+
+
+| Taux d'efficacité client avec copies instantanées | Taille logique du client avec copies instantanées et clones / Taille physique du client utilisée avec copies instantanées et clones : 1 
 |===
 Calculs des tableaux des fonctionnalités d'efficacité :
 
@@ -188,10 +188,10 @@ Calculs des tableaux des fonctionnalités d'efficacité :
 | Espace physique du client utilisé | Somme de l'espace physique utilisé par l'agrégat pour tous les agrégats et de tous les nœuds d'un client 
 
 
-| Taille logique du client utilisée sans copies Snapshot | Somme de la taille logique utilisée par les volumes, les clones, les copies Snapshot : taille logique utilisée par les copies Snapshot pour tous les agrégats de tous les nœuds d'un client 
+| Taille logique du client utilisée sans copies d'instantané | Somme de la taille logique utilisée par les volumes, les clones et les copies d'instantané - Taille logique utilisée par les copies d'instantané pour tous les agrégats de tous les nœuds d'un client 
 
 
-| Taille logique du client utilisée avec les copies Snapshot | Somme de la taille logique utilisée par les volumes, les clones, les copies Snapshot de l'agrégat pour tous les agrégats de tous les nœuds d'un client 
+| Taille logique du client utilisée avec les copies instantanées | Somme de la taille logique utilisée par les volumes, les clones et les copies instantanées dans l’agrégat pour tous les agrégats de tous les nœuds d’un client 
 
 
 | Espace total économisé | Espace logique total utilisé – espace physique total utilisé 
@@ -212,7 +212,7 @@ Calculs des tableaux des fonctionnalités d'efficacité :
 | Économies FlexClone | Somme de (taille logique utilisée par les volumes FlexClone : taille physique utilisée par les volumes FlexClone) de chaque agrégat de tous les nœuds d'un client 
 
 
-| Copies Snapshot copies de sauvegarde économies | Somme de (taille logique utilisée par les copies Snapshot - taille physique utilisée par les copies Snapshot) de tous les agrégats de tous les nœuds d'un client 
+| Copies Snapshot copies de sauvegarde économies | Somme de (Taille logique utilisée par les copies d'instantané - Taille physique utilisée par les copies d'instantané) de tous les agrégats de tous les nœuds d'un client 
 |===
 *Pourquoi l'ajout de toutes les économies individuelles de réduction des données ne s'ajoute-t-il pas aux économies de réduction des données?*
 
@@ -243,7 +243,7 @@ Si vous ne parvenez pas à afficher les systèmes pour d'autres raisons, si vous
 [[capacity]]
 == Puissance
 
-*Comment les capacités sont-elles calculées dans Digital Advisor ?* les capacités dans Digital Advisor sont-elles calculées pour le cluster et le nœud, à l'exception des copies root et des copies Snapshot comprises
+*Comment les capacités sont-elles calculées dans Digital Advisor ?* Les capacités dans Digital Advisor sont calculées pour le cluster et le nœud — à l’exclusion de la racine et en incluant les copies de snapshot
 
 |===
 | *Capacité* | *Calculé en ajoutant chaque agrégat…* 
@@ -264,9 +264,9 @@ Si vous ne parvenez pas à afficher les systèmes pour d'autres raisons, si vous
 | Capacité physique (réelle) | Physique totale utilisé par “AGGR-EFFICIENCY.XML” 
 
 
-| Capacité logique (efficace) | Taille logique utilisée par les volumes, les clones et les copies Snapshot dans l'agrégat AGGR-EFFICIENCY.XML 
+| Capacité logique (efficace) | Taille logique utilisée par les volumes, les clones et les copies instantanées dans l’agrégat de « AGGR-EFFICIENCY.XML » 
 |===
-*Pour le niveau local (agrégat avec copies Snapshot)*
+*Pour le niveau local (agrégat avec copies instantanées)*
 
 |===
 | *Capacité* | *Calculé en utilisant…* 
@@ -284,9 +284,9 @@ Si vous ne parvenez pas à afficher les systèmes pour d'autres raisons, si vous
 | Capacité physique (réelle) | Physique totale utilisé par “AGGR-EFFICIENCY.XML” 
 
 
-| Capacité logique (efficace) | Taille logique utilisée par les volumes, les clones et les copies Snapshot dans l'agrégat AGGR-EFFICIENCY.XML 
+| Capacité logique (efficace) | Taille logique utilisée par les volumes, les clones et les copies instantanées dans l’agrégat de « AGGR-EFFICIENCY.XML » 
 |===
-*Pour le volume (Volume avec copies Snapshot)*
+*Pour le volume (volume avec copies instantanées)*
 
 |===
 
@@ -313,14 +313,14 @@ Si vous ne parvenez pas à afficher les systèmes pour d'autres raisons, si vous
 * Blocs physiques consommés/capacité physique utilisée (réels)
 +
 ** Quantité d'espace utilisée pour les données actuellement (au lieu d'être exclusivement réservée à une utilisation ultérieure)
-** Inclut l'espace utilisé par les copies Snapshot de l'agrégat
+** Inclut l'espace utilisé par les copies d'instantanés d'agrégat
 ** Espace réellement utilisé ou écrit par le client
 
 
 * Capacité logique (effective) données logiques utilisées
 +
 ** Affiche la taille logique utilisée dans l'agrégat
-** Cet agrégat sauvegarde des volumes, des clones et des copies Snapshot.
+** L'ensemble comprend les volumes, les clones et les copies instantanées.
 ** La taille logique est calculée en fonction de l'utilisation physique (écritures réelles) et des économies obtenues dans l'agrégat.
 
 
@@ -331,7 +331,7 @@ NOTE: Elle n'inclut pas l'espace réservé pour une utilisation ultérieure.
 
 * Capacité totale des données utilisées/utilisées (avec réserve)
 +
-** Somme de l'espace utilisé ou réservé dans l'agrégat par volumes, métadonnées ou copies Snapshot
+** La somme de tout l'espace utilisé ou réservé dans l'agrégat par les volumes, les métadonnées ou les copies de snapshots
 
 
 
@@ -341,7 +341,7 @@ NOTE: Elle inclut l'espace réservé pour les volumes qui sont de type de garant
 
 *Comment la prévision de capacité est-elle calculée?* la prévision de capacité utilise-t-elle les données de capacité utilisées au cours de la dernière année pour calculer le taux de croissance hebdomadaire moyen d'un système. Ce taux de variation de l'utilisation du système est ensuite extrapolé à partir de la capacité utilisée actuelle pour démontrer l'évolution prévue de l'utilisation du système au cours des 6 prochains mois (en supposant que la capacité utilisable totale reste la même).
 
-*Pourquoi l'ajout de capacité utilisée de chaque volume ne correspond pas à la capacité utilisée agrégée au niveau du nœud ?* capacité utilisée au niveau du nœud inclut l'espace réservé par les volumes, les métadonnées et les copies Snapshot. Elle inclut également l'espace réservé pour les volumes (type de garantie de fichier ou de volume). Par conséquent, les deux pourraient ne pas correspondre.
+*Pourquoi la capacité utilisée ajoutée de chaque volume ne correspond-elle pas à la capacité utilisée agrégée au niveau du nœud ?* La capacité utilisée au niveau du nœud inclut l’espace réservé par les volumes, les métadonnées et les copies d’instantanés. Elle inclut également l’espace réservé pour les volumes — garantie de type fichier ou volume. Par conséquent, les deux peuvent ne pas correspondre.
 
 *Les capacités sont-elles indiquées dans la base 2 ou la base 10?* de Digital Advisor toutes les capacités affichées sont la base 2 (division par 1024) et représentent les capacités en Gio/Tio. Le stockage ONTAP et les autres produits NetApp indiquent également l'utilisation de la capacité dans le modèle de base 2.
 

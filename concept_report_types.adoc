@@ -43,7 +43,7 @@ Les types de rapports disponibles dans Digital Advisor sont les suivants :
 | Logistique de la livraison | Fournit des informations sur la logistique de livraison des produits et services. | Oui | Oui | Non 
 
 
-| Résumé analytique de l'évaluation de l'état de santé | Fournit des informations sur les différents indicateurs clés de performance Active IQ au format PowerPoint (PPT), avec différents indicateurs de performance clés décrits sur différentes diapositives. | Oui | Oui | Non 
+| Résumé analytique de l'évaluation de l'état de santé | Fournit des informations sur divers indicateurs clés de performance (KPI) de Digital Advisor au format PowerPoint (PPT), chaque KPI étant décrit sur une diapositive différente. | Oui | Oui | Non 
 
 
 | Inventaire | Fournit des informations sur la base d'installation pour une liste de surveillance, un client, un site, des niveaux de groupe sélectionnés. Ce rapport peut être généré sous forme de téléchargement direct à partir de la page Détails de l'inventaire ou à partir de la page Rapports. | Oui | Oui | Oui 

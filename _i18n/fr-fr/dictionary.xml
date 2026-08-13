@@ -457,7 +457,6 @@
   <block id="f4211b7ee285529c0082b53f3b17de86" category="list-text">Si le rapport sur l'efficacité du stockage de votre système est supérieur au rapport moyen d'efficacité du stockage, cliquez sur *partager votre témoignage de réussite* pour connaître les meilleures pratiques suivies.</block>
   <block id="7e4e265e9120fa2dfd6ce41588f5706a" category="list-text">Si le rapport d'efficacité du stockage de votre système de stockage est inférieur au rapport moyen d'efficacité du stockage, cliquez sur *Contactez-nous* pour nous faire connaître les configurations de votre système de stockage.</block>
   <block id="ec51503b0f35cbc8702985e4aa3ca3c5" category="paragraph">Pour plus d'informations sur la capacité et l'efficacité du stockage, reportez-vous à <block ref="de007cfc8081d514ce95fa7f06caeee8" category="inline-link-macro-rx"></block>.</block>
-  <block id="9ca3a412ada6ce6666248783cc1577f6" category="summary">La section fournit des informations sur les nouvelles fonctionnalités de la version.</block>
   <block id="ddd5bde8e3e027f9a9efab7fcfa90542" category="doc">Nouveautés du conseiller numérique</block>
   <block id="67b15699a3be9f040c8687b7005f0de8" category="paragraph">Les fonctionnalités et améliorations suivantes ont été introduites dans Digital Advisor :</block>
   <block id="ae90f5ddd6bedf0784aa3f4496ea1cad" category="section-title">01 novembre 2022</block>
@@ -979,7 +978,6 @@ Il se peut que vous ne puissiez pas rechercher certains systèmes ou les affiche
   <block id="85da219929dec7990a12ce28aff47903" category="paragraph">Pour plus d'informations sur la commande *ansible-PlayBook*, reportez-vous au <block ref="8c04b73445737bcfc4025ef8f1a9a540" category="inline-link-macro-rx"></block> Et pour exécuter le Ansible PlayBook en mode vérification (exécution à sec), reportez-vous à la <block ref="81862bc1dc3b588f731b84b986e9994e" category="inline-link-macro-rx"></block>.</block>
   <block id="78c1cfc20c22b33386b17ebe2a0a7d64" category="list-text"><block ref="78c1cfc20c22b33386b17ebe2a0a7d64" category="inline-link-macro-rx"></block></block>
   <block id="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="list-text"><block ref="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="inline-link-macro-rx"></block></block>
-  <block id="2eb6f862ee3ec494c6f43826c23b83da" category="list-text"><block ref="2eb6f862ee3ec494c6f43826c23b83da" category="inline-link-macro-rx"></block></block>
   <block id="8934fed115a0b826a4b438906a11bfa9" category="doc">Présentation du tableau de bord Sustainability</block>
   <block id="e3667627bec4bfd6e60dea46e855352c" category="inline-image-macro">Une capture d'écran qui montre le pourcentage d'atténuation du carbone des sites et comment modifier ce pourcentage.</block>
   <block id="369583cace99a57a955a633843c9e566" category="paragraph"><block ref="369583cace99a57a955a633843c9e566" category="inline-image-macro-rx" type="image"></block></block>
@@ -1617,4 +1615,9 @@ La disponibilité des fonctions sous *STORAGE HEALTH* dépend du type et du nive
   <block id="7c1309f4b0731ed18fb594c6d632c067" category="paragraph">Le tableau de bord d'efficacité du stockage affiche le taux de réduction des données, l'espace logique utilisé, l'espace physique utilisé, ainsi que le volume total de données économisées. Le taux de réduction des données et les économies peuvent être consultés avec et sans copies de snapshots pour les systèmes AFF, les systèmes non-AFF, ou les deux. Les économies totales de données sur l'ensemble de la base client installée peuvent être consultées par fonctionnalité d'efficacité, telles que la déduplication de volume, la compression de volume, la compaction, les volumes FlexClone, et les copies de snapshots. Vous pouvez consulter les 5 principaux systèmes de stockage présentant le meilleur taux d'efficacité. Vous pouvez également consulter l'efficacité SAN et NAS sans copies de snapshots au niveau du nœud pour les systèmes ONTAP, y compris AFF A-Series, AFF C190, All SAN Array et FAS500.</block>
   <block id="6bb86861540256654ad78af590cbca2e" category="paragraph">Vous pouvez consulter les risques liés à la création, à la conservation et à la stratégie ONTAP FPolicy des instantanés, puis prendre des mesures pour les corriger.</block>
   <block id="85384a7ec038b3ed06c50841a285d5fc" category="summary">Consultez les recommandations de mise à jour du micrologiciel de stockage, du micrologiciel SP/BMC, des fichiers système et des fichiers de sécurité.</block>
+  <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Avis de dépréciation pour Config Drift</block>
+  <block id="8f757d9b6264af1a2e6069cf7b5b18f9" category="paragraph">La fonctionnalité Config Drift sera dépréciée dans Digital Advisor en septembre 2026.</block>
+  <block id="1cf5700bf190dbae716a593be587283a" category="list-text"><block ref="1cf5700bf190dbae716a593be587283a" category="inline-link-macro-rx"></block></block>
+  <block id="d71ef8f8c3bc3420442db2005d522d56" category="summary">Découvrez les nouvelles fonctionnalités et améliorations de Digital Advisor.</block>
+  <block id="b79452fa5a06b7ff4261516434074a36" category="section-title">12 août 2026</block>
 </blocks>

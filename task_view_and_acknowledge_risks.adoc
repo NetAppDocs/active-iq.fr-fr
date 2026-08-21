@@ -19,19 +19,19 @@ summary: Fournit des informations pour afficher et analyser le bien-être de vot
 Vous pouvez analyser les attributs d'intégrité de votre système de stockage en visualisant les actions et les risques associés. Vous devez afficher les actions correctives et réduire manuellement le risque.
 
 .Étapes
-. Cliquez sur le widget d'attribut bien-être du tableau de bord ou cliquez sur *Afficher toutes les actions* pour afficher la liste de toutes les actions et de tous les risques.
+. Sélectionnez le widget d'attribut de bien-être sur le tableau de bord ou sélectionnez *Afficher toutes les actions* pour consulter la liste de toutes les actions et des risques.
 . Afficher les *actions* et *risques* associés à l'attribut bien-être.
-. Cliquez sur *actions* pour afficher les risques associés aux actions, cliquez sur *risques* pour afficher tous les risques, ou cliquez sur *systèmes affectés* pour afficher les systèmes qui nécessitent une attention particulière.
-. Cliquez sur le risque pour afficher le récapitulatif des risques.
-. Cliquez sur *Ack* pour reconnaître le risque.
+. Sélectionnez *Actions* pour afficher les risques associés aux actions, sélectionnez *Risques* pour afficher tous les risques, ou sélectionnez *Systèmes affectés* pour afficher les systèmes qui nécessitent une attention.
+. Sélectionnez le risque pour afficher le résumé du risque.
+. Sélectionnez *Ack* pour reconnaître le risque.
 +
 Les informations récapitulatives détaillées des risques ainsi que les actions correctives à mettre en œuvre manuellement afin de limiter les risques sont disponibles.
 
-. Si vous ne voulez pas ou ne pouvez pas atténuer le risque pour le moment, indiquez les valeurs des champs et cliquez sur *Acknowledge*.
+. Si vous ne souhaitez pas ou n'êtes pas en mesure d'atténuer le risque pour le moment, fournissez les valeurs des champs et sélectionnez *Accuser réception*.
 +
 Le risque sera ajouté aux risques reconnus.
 
 
 
 
-NOTE: Si vous ne voulez plus reconnaître un risque, vous pouvez ignorer le risque en cliquant sur *un-Ack* et en suivant les mêmes étapes.
+NOTE: Si vous ne souhaitez plus qu'un risque soit reconnu, vous pouvez ignorer le risque en sélectionnant *Annuler la prise en compte* et en suivant les mêmes étapes.

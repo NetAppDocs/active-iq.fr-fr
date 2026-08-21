@@ -38,6 +38,7 @@ Voici quelques-unes des fonctionnalités de Digital Advisor :
 * Fournissez des informations et des informations exploitables sur les différentes piles et utiles pour la résolution de problèmes, l'évaluation des mises à niveau, la validation de la solution et la migration.
 * Vérifiez la compatibilité des hôtes et fournissez des recommandations de mise à niveau pour les systèmes d'exploitation hôtes, les pilotes et .
 * Obtenez exactement ce que vous voulez trouver de manière plus intelligente et plus rapide.
+* link:concept_value_insights.html["Découvrez des informations précieuses"], qui fournit des informations générales sur la santé, les économies, la stabilité et la sécurité de votre système ONTAP.
 
 
 

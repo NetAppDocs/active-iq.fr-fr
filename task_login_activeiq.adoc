@@ -27,5 +27,5 @@ link:https://kb.netapp.com/Support/General_Support/How_to_register_for_a_NetApp_
 +
 Digital Advisor affiche les systèmes disposant d'un contrat de support valide. Si le contrat expire, une période de grâce de 90 jours est accordée pour que les systèmes restent visibles. Par la suite, les systèmes ne sont ni consultables ni visibles au sein de Digital Advisor.
 
-. Indiquez votre nom d'utilisateur et votre mot de passe, puis cliquez sur *connexion*.
+. Saisissez votre nom d'utilisateur et votre mot de passe, puis sélectionnez *Se connecter*.
 

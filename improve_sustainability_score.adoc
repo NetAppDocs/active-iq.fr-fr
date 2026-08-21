@@ -58,9 +58,7 @@ image:recommended_actions.png["Capture d'écran affichant la liste des actions d
 ** Si vous prévoyez de traiter les actions ultérieurement, sélectionnez *plus tard*.
 +
 *** Si vous sélectionnez *plus tard*, l'action recommandée sélectionnée est déplacée vers l'onglet *actions pour plus tard*. L'action sélectionnée sera reportée de 30 jours. Après 30 jours, cette action passera à l'onglet *actions recommandées*.
-*** Vous pouvez également revoir les actions reportées à tout moment et cliquer sur *prendre en compte* pour les déplacer vers l'onglet *actions recommandées*.
- +
-image:actions_for_later.png["Capture d'écran affichant les actions recommandées avec l'option considérer."]
+*** Vous pouvez également consulter les actions reportées à tout moment et sélectionner *Considérer* pour les déplacer vers l'onglet *Actions recommandées*. + image:actions_for_later.png["Capture d'écran affichant les actions recommandées avec l'option considérer."]
 
 
 
@@ -84,9 +82,7 @@ image:recommended_actions.png["Capture d'écran affichant la liste des actions d
 ** Si vous prévoyez de traiter les actions ultérieurement, sélectionnez *plus tard*.
 +
 *** Si vous sélectionnez *plus tard*, l'action recommandée sélectionnée est déplacée vers l'onglet *actions pour plus tard*. L'action sélectionnée sera reportée de 30 jours. Après 30 jours, cette action passera à l'onglet *actions recommandées*.
-*** Vous pouvez également revoir les actions reportées à tout moment et cliquer sur *prendre en compte* pour les déplacer vers l'onglet *actions recommandées*.
- +
-image:actions_for_later.png["Capture d'écran affichant les actions recommandées avec l'option considérer."]
+*** Vous pouvez également consulter les actions reportées à tout moment et sélectionner *Considérer* pour les déplacer vers l'onglet *Actions recommandées*. + image:actions_for_later.png["Capture d'écran affichant les actions recommandées avec l'option considérer."]
 
 
 
@@ -108,7 +104,7 @@ Pour améliorer votre score de durabilité au niveau du cluster et favoriser l'a
 --
 . Accédez à *Durabilité* depuis la catégorie *Santé* disponible dans la navigation de gauche de la console.
 . Accédez à la table *Systèmes*.
-. Cliquez sur le nombre d'actions dans la colonne *actions recommandées* pour le cluster cible.
+. Sélectionnez le nombre d'actions dans la colonne *Actions recommandées* pour le cluster cible.
 +
 image:recommended_actions_cluster.png["Capture d'écran affichant le nombre d'actions."]
 
@@ -118,7 +114,7 @@ image:recommended_actions_cluster.png["Capture d'écran affichant le nombre d'ac
 image:recommended_actions_list.png["Capture d'écran qui fournit les détails des actions recommandées avec l'option de réparation et ultérieure."]
 
 ** Si vous sélectionnez *plus tard*, l'action recommandée sélectionnée est déplacée vers l'onglet *actions pour plus tard*. L'action sélectionnée sera reportée de 30 jours. Après 30 jours, cette action passera à l'onglet *actions recommandées*.
-** Vous pouvez également revoir les actions reportées à tout moment et cliquer sur *prendre en compte* pour les déplacer vers l'onglet *actions recommandées*.
+** Vous pouvez également consulter à tout moment les actions reportées et sélectionner *Considérer* pour les déplacer vers l'onglet *Actions recommandées*.
 
 
 
@@ -132,7 +128,7 @@ TIP: Vous pouvez ajouter ou supprimer les paramètres environnementaux dans la t
 . Accédez à *Durabilité* disponible dans la navigation de gauche du tableau de bord de Digital Advisor .
 . Accédez à l'onglet *actions recommandées*.
 . Accédez à la table *Systèmes*.
-. Cliquez sur le nombre d'actions dans la colonne *actions recommandées* pour le cluster cible.
+. Sélectionnez le nombre d'actions dans la colonne *Actions recommandées* pour le cluster cible.
 +
 image:recommended_actions_cluster.png["Capture d'écran affichant le nombre d'actions."]
 
@@ -142,7 +138,7 @@ image:recommended_actions_cluster.png["Capture d'écran affichant le nombre d'ac
 image:recommended_actions_list.png["Capture d'écran qui fournit les détails des actions recommandées avec l'option de réparation et ultérieure."]
 
 ** Si vous sélectionnez *plus tard*, l'action recommandée sélectionnée est déplacée vers l'onglet *actions pour plus tard*. L'action sélectionnée sera reportée de 30 jours. Après 30 jours, cette action passera à l'onglet *actions recommandées*.
-** Vous pouvez également revoir les actions reportées à tout moment et cliquer sur *prendre en compte* pour les déplacer vers l'onglet *actions recommandées*.
+** Vous pouvez également consulter à tout moment les actions reportées et sélectionner *Considérer* pour les déplacer vers l'onglet *Actions recommandées*.
 
 
 

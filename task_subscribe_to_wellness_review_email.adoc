@@ -28,10 +28,10 @@ Une fois l'abonnement activé, vous devez sélectionner une date de début lors 
 NOTE: Cette fonctionnalité n'est disponible que dans les offres de services NetApp SupportEdge Advisor et SupportEdge Expert.
 
 .Étapes
-. Dans le volet de gauche, cliquez sur *Wellness Review*.
-. Cliquez sur *Ajouter un abonnement*.
+. Dans le volet de gauche, sélectionnez *Bilan de bien-être*.
+. Sélectionnez *Ajouter un abonnement*.
 . Indiquez les informations requises dans les champs *Nom de l'abonnement*, *choisir Catégorie*, *Rechercher client* et *Email* de la boîte de dialogue *Ajouter un nouvel abonnement*.
-. Cliquez sur *Subscribe*.
+. Sélectionnez *S'abonner*.
 +
 Une fois l'abonnement réussi, vous recevrez un message *l'abonnement a été ajouté*.
 

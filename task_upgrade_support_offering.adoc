@@ -24,18 +24,22 @@ Vous pouvez mettre à niveau votre offre de support afin d'optimiser votre base 
 NOTE: Vous pouvez choisir la mise à niveau vers AIQ uniquement si vous utilisez actuellement les offres de support SupportEdge Premium ou SupportEdge Secure.
 
 .Étapes
-. Cliquez sur *Afficher tous les systèmes* en regard du widget *Inventory*.
+. Sélectionnez *Afficher tous les systèmes* à côté du widget *Inventaire*.
 . Dans le tableau de bord d'inventaire, sélectionnez le nœud (hôte) à mettre à niveau. Vous êtes redirigé vers le tableau de bord système ou nœud.
-. Cliquez sur *Upgrade* dans le widget *Configuration*.
+. Sélectionnez *Mise à niveau* dans le widget *Configuration*.
 +
 image:Configuration widget_Support offering upgrade.PNG["Widget de configuration"]
 
-. Si vous le souhaitez, cliquez sur *Comparer les offres de support* pour consulter le tableau de comparaison et sélectionner l'offre de support qui répond à vos besoins. Vous pouvez également cliquer sur *support Offuoffres* dans le menu de navigation de gauche pour afficher le tableau de comparaison.
+. Vous pouvez également sélectionner *Comparer les offres d'assistance* pour consulter le tableau comparatif et choisir l'offre d'assistance qui correspond à vos besoins.
+. Vous pouvez également sélectionner *Offres de support* dans le menu de navigation de gauche pour afficher le tableau comparatif.
 . Sélectionnez le type de mise à niveau souhaité.
 +
 .. Ajoutez AIQ Upgrade à vos offres de support SupportEdge Premium ou SupportEdge Secure
 .. Toute autre demande de mise à niveau
++
+... Ajoutez vos commentaires et sélectionnez *Envoyer*. Une demande d'achat de la mise à niveau de l'offre de support est envoyée à l'équipe des renouvellements NetApp.
 
 
-. Ajoutez les commentaires que vous avez et cliquez sur *Envoyer*. Une demande d'achat de la mise à niveau de l'offre de support est envoyée à l'équipe NetApp Renewals.
+
+
 

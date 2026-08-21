@@ -16,10 +16,10 @@ summary: 'Fournit des informations sur la façon d"éviter un remplissage de vol
 
 
 [role="lead"]
-Lorsque vous vous connectez à Digital Advisor et remarquez le badge rouge sur le widget *Configuration*. Lorsque vous cliquez sur le widget, vous voyez que le volume est plein à 98 % et que cela peut entraîner une interruption de service. La résolution de ce problème évite un remplissage de volume, ce qui la ferait en lecture seule, entraînant l'accès aux applications défaillants et défaillant.
+Lorsque vous vous connectez à Digital Advisor et que vous remarquez le badge rouge sur le widget *Configuration*. En sélectionnant le widget, vous constatez que le volume est plein à 98 %, ce qui pourrait entraîner une interruption. Résoudre ce problème permettrait d'éviter qu'un volume ne se remplisse, ce qui le rendrait accessible en lecture seule et entraînerait l'échec et le plantage des applications qui y accèdent.
 
 .Étapes
 . Connectez-vous à Digital Advisor.
-. Cliquez sur *actions* dans le widget *Configuration*.image:Configuration_image 1 prevent an outage.png["Widget de configuration"]
-. Cliquez sur l'onglet *risques uniques*. Lorsque vous cliquez sur le lien *action corrective*, vous pouvez modifier les seuils d'avertissement ou allouer plus d'espace au volume.image:Risk summary_image 2 prevent an outage.png["Résumé des risques"]
+. Sélectionnez *Actions* dans le widget *Configuration*. image:Configuration_image 1 prevent an outage.png["Widget de configuration"]
+. Sélectionnez l'onglet *Risques uniques*. En sélectionnant le lien *Mesures correctives*, vous pouvez soit modifier les seuils d'alerte, soit allouer plus d'espace au volume. image:Risk summary_image 2 prevent an outage.png["Résumé des risques"]
 

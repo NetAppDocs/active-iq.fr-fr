@@ -40,7 +40,7 @@ Pour vous connecter à Digital Advisor, vous pouvez utiliser vos informations d'
 
 .Étapes
 . Ouvrez un navigateur Web et accédez à link:https://activeiq.netapp.com/?source=onlinedocs["Conseiller digital"^] page de connexion.
-. Indiquez votre nom d'utilisateur et votre mot de passe, puis cliquez sur *connexion*.
+. Saisissez votre nom d'utilisateur et votre mot de passe, puis sélectionnez *Se connecter*.
 . Dans la navigation de gauche, sélectionnez *Durabilité*.
 +
 image:sustainability_dashboard.png["Capture d'écran de l'interface utilisateur donnant une vue d'ensemble du tableau de bord Sustainability."]

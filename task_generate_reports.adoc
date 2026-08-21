@@ -24,8 +24,8 @@ Vous pouvez générer des rapports immédiatement ou planifier la génération d
 
 
 .Étapes
-. Dans le volet de gauche, cliquez sur *Rapports*.
-. Cliquez sur *Créer un rapport* pour générer un nouveau rapport.
+. Dans le volet de gauche, sélectionnez *Rapports*.
+. Sélectionnez *Créer un rapport* pour générer un nouveau rapport.
 +
 Vous pouvez générer un rapport immédiatement ou planifier la génération du rapport sur une base hebdomadaire ou mensuelle.
 
@@ -39,18 +39,18 @@ Vous pouvez générer un rapport immédiatement ou planifier la génération du 
  a| 
 . Sélectionnez le type de rapport et fournissez les valeurs requises pour le rapport.
 . Sélectionnez le format du rapport.
-. Cliquez sur *soumettre*.
+. Sélectionnez *Soumettre*.
 
 
 
 NOTE: Le rapport est enregistré dans Digital Advisor pendant 3 mois.
  a| 
-. Cliquez sur l'onglet *Rapport de planification*.
+. Sélectionnez l'onglet *Schedule Report*.
 . Sélectionnez le type de rapport et fournissez les valeurs requises pour le rapport.
 . Sélectionnez le format du rapport.
 . Sélectionnez la fréquence du rapport.
 . Sélectionnez la date de début et la date de fin du rapport.
-. Cliquez sur *soumettre*.
+. Sélectionnez *Soumettre*.
 
 
 

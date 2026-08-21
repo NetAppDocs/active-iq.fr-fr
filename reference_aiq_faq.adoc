@@ -29,19 +29,19 @@ Des dossiers techniques sont créés pour demander de l'aide sur l'un des produi
 
 *Comment créer un dossier technique?*
 
-. Cliquez sur link:https://mysupport.netapp.com/site/global/dashboard["ici"^] Pour ouvrir le site de support NetApp.
-. Dans le menu supérieur, cliquez sur *Mes cas*.
-. Cliquez sur *Créer un cas*.
-. Sélectionnez une catégorie, fournissez les détails requis et cliquez sur *Nouvelle recherche* pour rechercher un système dans votre inventaire.
+. Sélectionnez link:https://mysupport.netapp.com/site/global/dashboard["ici"^] pour ouvrir le site d'assistance NetApp.
+. Dans le menu du haut, sélectionnez *My Cases*.
+. Sélectionnez *Créer un dossier*.
+. Sélectionnez une catégorie, fournissez les détails requis et sélectionnez *Nouvelle recherche* pour rechercher un système dans votre inventaire.
 . Dans la liste des systèmes affichés, sélectionnez le système pour créer le dossier.
 . Sélectionnez la priorité du nouveau dossier.
 . Sélectionnez la catégorie appropriée dans la liste déroulante *Catégorie de problème*.
-. Entrez la description du problème dans le champ Description du problème et cliquez sur *Continuer*.
+. Saisissez la description du problème dans le champ Description du problème et sélectionnez *Procéder*.
 . Fournir des détails supplémentaires sur le problème.
-. Cliquez sur *Sélectionner des fichiers* pour télécharger des fichiers ou des images qui peuvent aider à diagnostiquer le problème.
-. Cliquez sur *Continuer*.
+. Sélectionnez *Select Files* pour télécharger des fichiers ou des images susceptibles d'aider à diagnostiquer le problème.
+. Sélectionnez *Procéder*.
 . Indiquez vos coordonnées.
-. Cliquez sur *Créer un cas*.
+. Sélectionnez *Créer un dossier*.
 
 
 
@@ -66,10 +66,10 @@ Un dossier non technique doit être créé pour les cas suivants :
 
 *Comment puis-je créer un cas non technique?*
 
-. Cliquez sur link:https://mysupport.netapp.com/site/help["ici"^] Pour ouvrir l'outil « Commentaires non techniques » sur le site de support NetApp.
+. Sélectionnez link:https://mysupport.netapp.com/site/help["ici"^] pour ouvrir l’« Outil de commentaires non techniques » sur le site de support NetApp.
 . Sélectionnez la catégorie appropriée dans la liste déroulante *Catégorie de commentaire*.
 . Entrez les détails requis et fournissez des informations supplémentaires dans la zone Commentaires.
-. Cliquez sur *soumettre*.
+. Sélectionnez *Soumettre*.
 
 
 Un dossier est créé et un numéro de dossier est fourni à titre de référence.
@@ -87,7 +87,7 @@ Pour faire part de vos commentaires ou poser des questions, envoyez un e-mail à
 
 . Ouvrez la page d'accueil de link:https://activeiq.netapp.com/?source=onlinedocs["Conseiller digital"^].
 . Recherchez un client, un site, un groupe, un cluster ou un nœud dans la zone de recherche située en haut à droite pour accéder au tableau de bord correspondant.
-. Cliquez sur *efficacité du stockage* dans le menu de navigation de gauche.
+. Sélectionnez *Storage Efficiency* dans le menu de navigation de gauche.
 
 
 
@@ -236,7 +236,7 @@ Il se peut que vous ne puissiez pas rechercher certains systèmes ou les affiche
 * Les systèmes sont inactifs, archivés ou désaffectés dans SAP.
 
 
-Si vous ne parvenez pas à afficher les systèmes pour d'autres raisons, si vous avez des requêtes ou si vous souhaitez demander l'accès, link:https://mysupport.netapp.com/site/help["créer un dossier non technique"^]. Pour en savoir plus sur un dossier non technique, cliquez sur <<Cas non technique,ici.>>
+Si vous ne pouvez pas consulter les systèmes pour d'autres raisons, si vous avez des questions ou si vous souhaitez demander un accès, link:https://mysupport.netapp.com/site/help["créer un dossier non technique"^]. Pour en savoir plus sur les cas non techniques, sélectionnez <<Cas non technique,ici.>>
 
 
 

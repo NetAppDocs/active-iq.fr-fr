@@ -38,9 +38,9 @@ Les volumes répondant aux critères suivants sont recommandés pour la migratio
 
 
 .Étapes
-. Dans le volet de gauche, cliquez sur *Cloud Recommendations*.
-. Cliquez sur un lien quelconque du volet *migration*.
-. Cliquez sur *Migrer vers le Cloud* pour lancer la *Console*.
+. Dans le volet de gauche, sélectionnez *Cloud Recommendations*.
+. Sélectionnez un lien quelconque dans le volet *Migration*.
+. Sélectionnez *Migrer vers le cloud* pour lancer la *Console*.
 
 
 
@@ -62,9 +62,9 @@ Pour le Tiering, les volumes qui répondent aux critères suivants sont recomman
 
 
 .Étapes
-. Dans le volet de gauche, cliquez sur *Cloud Recommendations*.
-. Cliquez sur un lien quelconque du volet *Tiering*.
-. Cliquez sur *Tier Data* pour lancer la *Console*.
+. Dans le volet de gauche, sélectionnez *Cloud Recommendations*.
+. Sélectionnez un lien quelconque dans le volet *Tiering*.
+. Sélectionnez *Tier Data* pour lancer la *Console*.
 
 
 Pour en savoir plus sur FabricPool, consultez link:https://www.netapp.com/pdf.html?item=/media/17239-tr4598pdf.pdf["Meilleures pratiques pour FabricPool"^].
@@ -83,9 +83,9 @@ Les volumes qui répondent à ces critères sont recommandés pour la sauvegarde
 
 
 .Étapes
-. Dans le volet de gauche, cliquez sur *Cloud Recommendations*.
-. Cliquez sur un lien quelconque du volet *Backup & Archive*.
-. Cliquez sur *Sauvegarder dans le Cloud* pour lancer la *Console*.
+. Dans le volet de gauche, sélectionnez *Cloud Recommendations*.
+. Sélectionnez un lien quelconque dans le volet *Sauvegarde & Archivage*.
+. Sélectionnez *Sauvegarde dans le cloud* pour lancer la *Console*.
 
 
 
@@ -103,7 +103,7 @@ Les volumes qui répondent aux critères suivants sont recommandés pour la rép
 
 
 .Étapes
-. Dans le volet de gauche, cliquez sur *Cloud Recommendations*.
-. Cliquez sur un lien quelconque du volet *Disaster Recovery*.
-. Cliquez sur *Répliquer vers le Cloud* pour lancer la *Console*.
+. Dans le volet de gauche, sélectionnez *Cloud Recommendations*.
+. Sélectionnez un lien quelconque dans le volet *Reprise après sinistre*.
+. Sélectionnez *Répliquer sur le cloud* pour lancer la *Console*.
 

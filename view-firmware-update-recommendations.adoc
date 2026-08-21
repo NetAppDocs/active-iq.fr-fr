@@ -21,8 +21,8 @@ Les clients peuvent désormais gagner du temps et économiser des efforts en per
 Les clients recevront en temps opportun des notifications et des alertes concernant l'état des mises à jour de firmware, ainsi que des options d'activation des paramètres AutoSupport et de mise à jour automatique.
 
 .Étapes
-. Sur la page du tableau de bord, cliquez sur *autres recommandations* dans le widget *Upgrade Advisor*.
-. Cliquez sur *Voir recommandations* pour afficher la liste des recommandations.
-. Dans la colonne *mettre à jour l'état*, cliquez sur *Voir la progression* pour afficher les clusters qui sont admissibles à une mise à jour.
-. En cas de problème, cliquez sur les liens correspondants pour afficher les étapes permettant de réduire les problèmes.
+. Sur la page du tableau de bord, sélectionnez *Autres recommandations* dans le widget *Upgrade Advisor*.
+. Sélectionnez *Afficher les recommandations* pour consulter la liste des recommandations.
+. Dans la colonne *État de la mise à jour*, sélectionnez *Voir la progression* pour afficher les clusters qui sont éligibles à une mise à jour.
+. En cas de problème, sélectionnez les liens correspondants pour consulter les étapes permettant de résoudre les problèmes.
 

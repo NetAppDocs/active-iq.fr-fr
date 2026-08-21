@@ -20,15 +20,15 @@ Les graphiques de performance vous permettent d'analyser les performances de vos
 
 Vous pouvez définir les préférences, par exemple afficher un graphique pour trois nœuds ou deux graphiques pour trois nœuds.
 
-Lorsque le graphique est affiché pour la première fois, un onglet d'une semaine est présélectionné et présente les données pendant une semaine sous forme graphique afin de faciliter la compréhension de grandes quantités de données et de leur relation entre différentes séries de données. Si vous souhaitez réinitialiser la plage de dates, par exemple, vous pouvez cliquer sur l'onglet 1 mois et sélectionner dates dans le calendrier.
+Lors du premier affichage du graphique, l'onglet « 1 semaine » est présélectionné et présente les données d'une semaine sous forme graphique, ce qui facilite la compréhension de grandes quantités de données et de leur relation entre différentes séries de données. Si vous souhaitez réinitialiser la plage de dates, par exemple, vous pouvez sélectionner l'onglet « 1 mois » et choisir les dates dans le calendrier.
 
 Vous pouvez également effectuer un zoom avant sur le graphique de performances ; les points de données individuels sont affichés.
 
 video::fWrHYX17xT8[youtube,width=848,height=480]
 .Étapes
-. Dans le tableau de bord, cliquez sur *Performance*.
+. Sur le tableau de bord, sélectionnez *Performance*.
 +
-Pour les systèmes ONTAP, vous pouvez cliquer sur l'onglet *nœud* pour afficher les performances d'un seul nœud d'un cluster ONTAP, cliquer sur l'onglet *niveau local* pour afficher les performances du niveau local, ou cliquer sur l'onglet *Volume* pour afficher les performances du volume. Par défaut, les performances du cluster sont affichées.
+Pour les systèmes ONTAP, vous pouvez sélectionner l’onglet *Nœud* pour afficher les performances d’un nœud unique d’un cluster ONTAP, sélectionner l’onglet *Couche locale* pour afficher les performances de la couche locale, ou sélectionner l’onglet *Volume* pour afficher les performances du volume. Par défaut, les performances du cluster sont affichées.
 
 +
 Pour les systèmes E-Series, vous ne pouvez afficher les graphiques qu'au niveau du contrôleur.

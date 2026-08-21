@@ -19,11 +19,11 @@ summary: Fournit des informations pour gérer les listes de surveillance.
 Vous pouvez afficher le tableau de bord pour différentes listes de surveillance, modifier les détails d'une liste de surveillance existante et supprimer une liste de surveillance.
 
 .Étapes
-. Dans le volet de gauche, cliquez sur *listes de surveillance*.
+. Dans le volet de gauche, sélectionnez *Listes de surveillance*.
 +
 L'écran *gérer la liste de surveillance* s'affiche.
 
-. Cliquez sur le nom de la liste de surveillance pour afficher les détails du tableau de bord de la liste de surveillance.
-. Cliquez sur *Modifier* pour mettre à jour les détails de la liste de surveillance.
-. Cliquez sur *Supprimer* pour supprimer la liste de surveillance.
+. Sélectionnez le nom de la liste de surveillance pour afficher les détails du tableau de bord de la liste de surveillance.
+. Sélectionnez *Modifier* pour mettre à jour les détails de la liste de surveillance.
+. Sélectionnez *Supprimer* pour supprimer la liste de surveillance.
 

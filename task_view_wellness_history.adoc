@@ -21,11 +21,11 @@ Vous pouvez consulter les risques liés aux systèmes de stockage survenus au co
 Ces risques sont classés selon quatre types de risques — *non résolus*, *Nouveau*, *résolu* et *reconnus*. Ils sont représentés par des couleurs différentes. Le résumé de ces risques est représenté par un graphique *Historique des risques*.
 
 .Étapes
-. Dans le tableau de bord, dans le volet *Wellness*, cliquez sur *Afficher toutes les actions*.
-. Cliquez sur *Historique de bien-être*.
-. Dans le graphique *Historique des risques*, cliquez sur la catégorie pour laquelle vous souhaitez afficher l'historique des risques.
+. Sur le tableau de bord, dans le volet *Wellness*, sélectionnez *View All Actions*.
+. Sélectionnez *Historique de bien-être*.
+. Dans le graphique *Historique des risques*, sélectionnez la catégorie pour laquelle vous souhaitez consulter l'historique des risques.
 +
-Lorsque vous passez le curseur sur les barres de couleur, elles affichent des informations sur le nombre de risques dans chaque catégorie. Lorsque vous cliquez sur la catégorie de risque correspondante, les informations s'affichent dans le tableau *information risque*.
+Lorsque vous survolez les barres colorées, elles affichent des informations sur le nombre de risques dans chaque catégorie. En sélectionnant la catégorie de risque correspondante, les informations sont affichées dans le tableau *Risk Information*.
 
 +
 Vous pouvez également télécharger le résumé des risques dans une feuille Excel.

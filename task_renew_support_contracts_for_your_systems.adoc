@@ -19,7 +19,7 @@ summary: Fournit des informations sur le renouvellement des contrats de support 
 Vous pouvez consulter le score et le récapitulatif de tous les contrats de support actifs sur le tableau de bord. Vous pouvez prendre des mesures en fonction des recommandations clés fournies par ordre de priorité.
 
 .Étapes
-. Dans le tableau de bord Health Check, cliquez sur le widget *support & Entitlements*.
-. Si l'un de vos contrats de support système a expiré ou est sur le point d'expirer, cliquez sur le widget *contrats de support actifs*.
-. Cochez les cases et cliquez sur *Renew* pour lancer le processus de renouvellement des systèmes sélectionnés.
+. Sur le tableau de bord Health Check, sélectionnez le widget *Support & Entitlements*.
+. Si l'un de vos contrats de support système a expiré ou est sur le point d'expirer, sélectionnez le widget *Active Support Contracts*.
+. Cochez les cases et sélectionnez *Renouveler* pour lancer le processus de renouvellement des systèmes sélectionnés.
 

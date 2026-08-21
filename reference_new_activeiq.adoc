@@ -20,6 +20,23 @@ Les fonctionnalités et améliorations suivantes ont été introduites dans Digi
 
 
 
+[[20-august-2026]]
+== 20 août 2026
+
+
+
+[[introducing-value-insights]]
+=== Présentation de Value Insights
+
+La fonctionnalité Value Insights centralise les informations relatives à l'état général, aux économies, à la stabilité et à la sécurité des systèmes ONTAP. Vous pouvez utiliser ces informations pour améliorer l'état et les performances de votre environnement ONTAP grâce à une vue continue et basée sur les données.
+
+
+NOTE: Value Insights est uniquement disponible pour les systèmes ONTAP.
+
+En savoir plus sur link:https://docs.netapp.com/us-en/active-iq/concept_value_insights.html["Perspectives sur la valeur"].
+
+
+
 [[12-august-2026]]
 == 12 août 2026
 
@@ -342,7 +359,7 @@ L'ancienne version de Upgrade Advisor est maintenant obsolète. Vous pouvez util
 [[wellness]]
 === Bien-être
 
-* Le flux de travail Bien-être inclut désormais le widget Durabilité, qui fournit le nombre d'actions recommandées aux niveaux du client, de la liste de surveillance, du site et du groupe.  Vous pouvez cliquer sur le nombre d’actions pour obtenir une vue détaillée de ces actions recommandées sur le tableau de bord Durabilité. Pour en savoir plus, consultezlink:https://docs.netapp.com/us-en/active-iq/learn-about-sustainability.html["Analysez la durabilité de vos systèmes de stockage"] .
+* Le flux de travail Bien-être inclut désormais le widget Durabilité, qui affiche le nombre d'actions recommandées au niveau du client, de la liste de surveillance, du site et du groupe. Vous pouvez sélectionner le nombre d'actions pour obtenir une vue détaillée de ces actions recommandées sur le tableau de bord Durabilité. Pour en savoir plus, consultez link:https://docs.netapp.com/us-en/active-iq/learn-about-sustainability.html["Analysez la durabilité de vos systèmes de stockage"].
 * Les widgets Security Vulnerabilities and ransomware Defense du workflow Wellness sont combinés dans un widget unique, désormais appelé Security & ransomware Defense.
 
 
@@ -987,7 +1004,7 @@ Dans le cas de modèles à matériel mixte, la version de système d'exploitatio
 [[recommended-configuration-storage-virtual-machine-svm-health-volume-level-summary]]
 === État recommandé pour la configuration / Storage Virtual machine (SVM) : récapitulatif au niveau des volumes
 
-En cliquant sur la case bleue « Résumé des volumes » dans le tableau SVM, une fenêtre contextuelle affiche des informations détaillées sur les volumes qui sont hébergés ou associés au numéro de série ou au nœud physique spécifique.
+En sélectionnant la case bleue « Résumé des volumes » dans le tableau SVM, une fenêtre contextuelle affiche des informations détaillées sur les volumes hébergés ou associés au numéro de série ou au nœud physique spécifique.
 
 
 
@@ -1187,9 +1204,9 @@ Cette version offre les fonctionnalités suivantes :
 
 * *Grid Dashboard:* le tableau de bord DE GRILLE fournit des détails sur le bien-être, la planification et la configuration de la GRILLE sélectionnée.
 * *Widget de configuration :* fournit des informations de base sur le StorageGRID sélectionné dans le widget, telles QUE le nom DE LA GRILLE, le nom de l'hôte, le numéro de série, le modèle, la version du système d'exploitation, Nom du client, lieu d'expédition et coordonnées.
-* *GRID Viewer:* dans le widget *Configuration*, vous pouvez afficher la configuration DE LA GRILLE en détail en cliquant sur le lien *GRID Viewer*. Dans le widget *Configuration*, vous pouvez télécharger les détails du site et les détails de capacité pour le StorageGRID sélectionné en cliquant sur le bouton *Télécharger* dans l'écran *Grid Viewer*.
+* *GRID Viewer* : Depuis le widget *Configuration*, vous pouvez consulter la configuration détaillée de la GRID en sélectionnant le lien *GRID Viewer*. Depuis le widget *Configuration*, vous pouvez télécharger les Site Details et Capacity Details pour la StorageGRID sélectionnée en sélectionnant le bouton *Download* dans l’écran *GRID Viewer*.
 * *Détails du site :* cet onglet fournit le récapitulatif de la grille et les nœuds de stockage disponibles pour chaque site.
-* *Grid Summary:* contient des informations de base, telles que le type de licence, la capacité de licence, le nombre de nœuds installés, la durée de support (Date de fin de contrat de licence), le nœud d'administration principal et le site principal du nœud d'administration principal. Cet onglet indique également le nom du site et le nombre de nœuds de stockage marqués sous le site correspondant. Dans cette version, vous pouvez afficher la liste des noms de nœud en cliquant sur le lien hypertexte disponible pour afficher les nœuds de stockage du site correspondant.
+* *Résumé GRID :* Contient des informations de base, telles que le type de licence, la capacité de la licence, le nombre de nœuds installés, la durée du support (date de fin du contrat de licence), le nœud d'administration principal et le site principal du nœud d'administration principal. Cet onglet fournit également le nom du site et le nombre de nœuds de stockage associés au site correspondant. Dans cette version, vous pouvez consulter la liste des noms de nœuds en sélectionnant le lien hypertexte disponible pour afficher les nœuds de stockage du site correspondant.
 * *Onglet Détails de la capacité :* fournit les détails relatifs au niveau de la grille et à la capacité du site configurés pour la GRILLE. Les informations relatives à la capacité, telles que la capacité de stockage installée, la capacité de stockage disponible, la capacité de stockage totale utilisée et la capacité utilisée pour les données et les métadonnées. Ces détails sont disponibles aux niveaux grille et site.
 
 

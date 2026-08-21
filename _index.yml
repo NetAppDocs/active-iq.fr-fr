@@ -39,6 +39,8 @@ indexpage:
       url: task_view_performance_graphs.html
     - title: Générer des rapports
       url: task_generate_reports.html
+    - title: Découvrez des informations précieuses
+      url: concept_value_insights.html
   - title: Analyser à l'aide de Digital Advisor
     links:
     - title: Consultez les recommandations sur les mises à niveau d'ONTAP
@@ -56,7 +58,7 @@ indexpage:
     - title: Vidéos Digital Advisor
       url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7kWBxqwLYBchpMW4k9Z6Vum
     - title: 'Communauté NetApp : conseiller digital'
-      url: https://community.netapp.com/t5/Active-IQ-and-AutoSupport/ct-p/autosupport-and-my-autosupport
+      url: https://community.netapp.com/community/
     - title: Application mobile Digital Advisor (Android)
       url: https://play.google.com/store/apps/details?id=com.netapp.myautosupport
     - title: Application mobile Digital Advisor (iOS)

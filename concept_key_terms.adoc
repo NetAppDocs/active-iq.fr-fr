@@ -59,7 +59,7 @@ Lorsque vous commencez à utiliser Digital Advisor, il est important que vous co
 ** *Wellness History:* affiche des informations sur les risques système survenant au cours des trois derniers mois, de sorte que vous puissiez apprendre comment ils font des heures supplémentaires.
 ** *Prendre en compte les risques (Ack):* vous permet de reconnaître les risques et les systèmes qui ont été touchés. Vous pouvez prendre en compte ces risques et vous familiariser avec les actions que vous pouvez effectuer pour réduire ces risques.
 ** *Risques non reconnus (unack):* vous permet de reconnaître les risques et les systèmes qui ont été reconnus.
-** *Correction* : Corrige les risques liés au système à l’aide d’Active IQ Unified Manager. Cliquez sur ce bouton pour lancer Unified Manager et effectuer les étapes permettant d’atténuer les risques.
+** *Correction* : Corrige les risques liés au système à l’aide d’Active IQ Unified Manager. Sélectionnez ce bouton pour lancer Unified Manager et effectuer les étapes permettant de corriger les risques.
 
 
 * *Widget Inventaire:* affiche un ensemble de systèmes que vous possédez. Cela inclut les produits compatibles Digital Advisor et non activés.

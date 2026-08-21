@@ -20,8 +20,8 @@ Le widget * précieuses Insights* fournit des informations sur le nombre de cas 
 
 video::QPJY2TWnRxQ[youtube,width=848,height=480]
 .Étapes
-. Dans le widget *Inventory*, cliquez sur *Systems* pour afficher les informations système de toutes les plates-formes ou cliquez sur le type de plate-forme, puis sur *Systems* pour afficher les systèmes spécifiques à cette plate-forme.
-. Cliquez sur le nœud ou sur le cluster pour afficher des informations détaillées sur le système.
+. Dans le widget *Inventaire*, sélectionnez *Systèmes* pour afficher les informations système de toutes les plateformes ou sélectionnez le type de plateforme, puis sélectionnez *Systèmes* pour afficher les systèmes spécifiques à cette plateforme.
+. Sélectionnez le nœud ou le cluster pour afficher des informations détaillées sur le système.
 +
 Le widget *précieux Insights* est disponible sur le tableau de bord.
 

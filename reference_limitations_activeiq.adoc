@@ -51,7 +51,7 @@ Le widget AutoSupport ne fournit pas d'alertes pour la recherche de clusters et 
 [[autosupport-widget-not-able-to-drill-down-to-serial-level-autosupport-details]]
 == Le widget AutoSupport ne peut pas accéder aux détails AutoSupport du niveau série
 
-Sur la page Rapports AutoSupport, cliquez sur l'un des États, les systèmes qui ont récemment cessé d'envoyer ou les systèmes sur lesquels AutoSupport est désactivé pour accéder à l'écran Vérification de l'état.
+Sur la page de rapports AutoSupport, la sélection de l’un des statuts, des systèmes qui ont récemment cessé d’envoyer des données ou des systèmes pour lesquels AutoSupport est désactivé ne permet pas d’accéder à l’écran de vérification de l’état.
 
 
 

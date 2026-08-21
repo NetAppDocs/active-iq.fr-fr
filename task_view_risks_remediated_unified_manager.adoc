@@ -20,8 +20,8 @@ Vous pouvez analyser votre système de stockage en visualisant les actions et le
 
 video::XusFvXM7h-E[youtube,width=848,height=480]
 .Étapes
-. Cliquez sur *Afficher toutes les actions* dans le tableau de bord.
-. Cliquez sur *actions* pour afficher les risques associés aux actions, cliquez sur *risques* pour afficher tous les risques, ou cliquez sur *systèmes affectés* pour afficher les systèmes qui nécessitent une attention particulière.
+. Sélectionnez *Afficher toutes les actions* sur le tableau de bord.
+. Sélectionnez *Actions* pour afficher les risques associés aux actions, sélectionnez *Risques* pour afficher tous les risques, ou sélectionnez *Systèmes affectés* pour afficher les systèmes qui nécessitent une attention.
 +
 Si le risque peut être réduit à l'aide de Active IQ Unified Manager, le image:spanner.png["Clé"] L'icône est mise en surbrillance et si le risque peut être réduit à l'aide d'Ansible PlayBook, le image:update_ansible.png["Mettez à jour Ansible"] l'icône est mise en surbrillance.
 
@@ -33,14 +33,14 @@ Si le risque peut être réduit à l'aide de Active IQ Unified Manager, le image
 
 
  a| 
-. Cliquez sur le bouton image:spanner.png["Clé"] icône.
-. Cliquez sur *Fix it* pour lancer Active IQ Unified Manager.
-. Cliquez sur *installer* pour installer Active IQ Unified Manager 9.7 ou une version ultérieure pour utiliser l'option *réparer IT*.
-. Cliquez sur *Upgrade* pour effectuer une mise à niveau vers Active IQ Unified Manager 9.7 ou une version ultérieure afin d'utiliser l'option *Fix it*.
+. Sélectionnez l’icône image:spanner.png["Clé"].
+. Sélectionnez *Corriger* pour lancer Active IQ Unified Manager.
+. Sélectionnez *Installer* pour installer Active IQ Unified Manager 9.7 ou une version ultérieure afin d'utiliser l'option *Fix It*.
+. Sélectionnez *Mise à niveau* pour passer à Active IQ Unified Manager 9.7 ou version ultérieure afin d'utiliser l'option *Fix It*.
 
  a| 
-. Cliquez sur le bouton image:update_ansible.png["Mettez à jour Ansible"] icône.
-. Cliquez sur *Télécharger* pour télécharger le package Ansible Automation du micrologiciel AFF et FAS.
+. Sélectionnez l’image:update_ansible.png["Mettez à jour Ansible"]icône.
+. Sélectionnez *Télécharger* pour télécharger le package d'automatisation Ansible du firmware AFF et FAS.
 
 
 |===

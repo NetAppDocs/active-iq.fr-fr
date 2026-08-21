@@ -50,9 +50,9 @@ Les attributs d'un modèle de dérive de configuration sont modifiables et les g
 À l'aide d'une expression régulière, un utilisateur peut créer un rapport de dérive de configuration qui inclut des dérives résultant de l'attribution d'un nom à des incohérences de volumes, d'agrégats, de clusters, etc. Par exemple, si une expression régulière *nom_aggr** est mentionnée pour l'attribut *Nom* pour la section *AGGR-INFO.XML* du groupe *AGRÉGAT*, alors les valeurs de l'attribut sans le préfixe *nom-aggr* sont marquées comme un poinçon lorsque le rapport de dérive de configuration est généré.
 
 .Étapes
-. Dans le volet de gauche, cliquez sur *Config dérive*.
-. Cliquez sur *Ajouter un modèle*.
+. Dans le volet de gauche, sélectionnez *Config Drift*.
+. Sélectionnez *Ajouter un modèle*.
 . Indiquez les valeurs demandées.
 . Facultatif : vous pouvez personnaliser le modèle en modifiant les groupes ou en supprimant les groupes non requis pour un modèle.
-. Cliquez sur *Ajouter un modèle*.
+. Sélectionnez *Ajouter un modèle*.
 

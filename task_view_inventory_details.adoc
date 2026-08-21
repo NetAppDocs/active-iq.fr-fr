@@ -27,10 +27,10 @@ video::ttbpbT5uTBI[youtube,width=848,height=480]
 == Afficher les détails du système
 
 .Étapes
-. Dans le widget *Inventory*, cliquez sur *Systems* pour afficher les informations système de toutes les plates-formes ou cliquez sur le type de plate-forme, puis sur *Systems* pour afficher les systèmes spécifiques à cette plate-forme.
-. Cliquez sur le nœud ou sur le cluster pour afficher des informations détaillées sur le système.
-. Téléchargez le rapport *Inventory* pour afficher les détails du système au format .xls.
-. Téléchargez le rapport *Ansible Inventory* pour afficher les détails du système aux formats .yml et .ini au niveau de la région ou du site.
+. Dans le widget *Inventaire*, sélectionnez *Systèmes* pour afficher les informations système de toutes les plateformes ou sélectionnez le type de plateforme, puis sélectionnez *Systèmes* pour afficher les systèmes spécifiques à cette plateforme.
+. Sélectionnez le nœud ou le cluster pour afficher des informations détaillées sur le système.
+. Sélectionnez *Télécharger* pour télécharger le rapport *Inventory* afin de consulter les détails du système au format .xls.
+. Sélectionnez *Télécharger* pour télécharger le rapport *Ansible Inventory* afin de consulter les détails du système aux formats .yml et .ini au niveau de la région ou du site.
 +
 Les fichiers Ansible Inventory peuvent être utilisés avec les fichiers Ansible PlayBook personnalisés pour modifier la configuration de l'infrastructure.
 
@@ -42,5 +42,5 @@ Les fichiers Ansible Inventory peuvent être utilisés avec les fichiers Ansible
 == Afficher les détails du commutateur d'assistance
 
 .Étapes
-. Dans le widget *Inventaire*, cliquez sur *Commutateurs bénéficiant d'une assistance* pour afficher des informations sur tous les commutateurs bénéficiant d'une assistance.
+. Dans le widget *Inventaire*, sélectionnez *Commutateurs bénéficiant d'une assistance* pour afficher les informations relatives à tous les commutateurs bénéficiant d'une assistance.
 

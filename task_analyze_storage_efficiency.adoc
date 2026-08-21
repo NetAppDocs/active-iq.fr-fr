@@ -27,7 +27,7 @@ Le tableau de bord d'efficacité du stockage affiche le taux de réduction des d
 
 video::8Ge3_0qlyxA[youtube,width=848,height=480]
 .Étapes
-. Dans le volet de gauche, cliquez sur *capacité et efficacité*.
+. Dans le volet de gauche, sélectionnez *Capacité et efficacité*.
 +
 Par défaut, l'onglet *capacité* est sélectionné.
 
@@ -37,13 +37,13 @@ Par défaut, l'onglet *capacité* est sélectionné.
 +
 Pour les systèmes ONTAP, des informations sur la capacité brute sont disponibles dans ClusterViewer.
 
-.. Cliquez sur *Ajouter de la capacité* pour envoyer une notification à NetApp ou à votre partenaire pour en ajouter de la capacité.
 
 
+. Sélectionnez *Ajouter de la capacité* pour envoyer une notification à NetApp ou à votre partenaire afin d'ajouter de la capacité.
 . Afficher l'efficacité du stockage et les économies de données de votre système de stockage.
 +
-.. Si le rapport sur l'efficacité du stockage de votre système est supérieur au rapport moyen d'efficacité du stockage, cliquez sur *partager votre témoignage de réussite* pour connaître les meilleures pratiques suivies.
-.. Si le rapport d'efficacité du stockage de votre système de stockage est inférieur au rapport moyen d'efficacité du stockage, cliquez sur *Contactez-nous* pour nous faire connaître les configurations de votre système de stockage.
+.. Si le taux d'efficacité de stockage de votre système de stockage est supérieur au taux d'efficacité de stockage moyen, sélectionnez *Share Your Success Story* pour nous faire part des meilleures pratiques suivies.
+.. Si le taux d'efficacité de votre système de stockage est inférieur au taux d'efficacité moyen, sélectionnez *Nous contacter* pour nous communiquer la configuration de votre système de stockage.
 
 
 

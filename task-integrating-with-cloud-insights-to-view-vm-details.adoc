@@ -29,8 +29,8 @@ Les avantages de cette intégration sont les suivants :
 NOTE: Cette fonctionnalité est disponible uniquement pour les contrats de mise à niveau SupportEdge Advisor, SupportEdge Expert et Digital Advisor.
 
 .Étapes
-. Dans le widget *Inventaire*, cliquez sur *Machines virtuelles* pour afficher les données disponibles dans Data Infrastructure Insights.
-. Cliquez sur l'onglet *vue d'ensemble de la machine virtuelle*.
-. Cliquez sur *nombre d'hôtes ESX* pour afficher des informations sur l'hôte.
-. Cliquez sur le *Nom ESX* pour accéder à Data Infrastructure Insights et afficher plus d’informations.
+. Dans le widget *Inventaire*, sélectionnez *Machines virtuelles* pour afficher les données disponibles dans Data Infrastructure Insights.
+. Sélectionnez l'onglet *Aperçu de la machine virtuelle*.
+. Sélectionnez le *Nombre d'hôtes ESX* pour afficher les informations relatives à l'hôte.
+. Sélectionnez le *nom ESX* pour accéder à Data Infrastructure Insights afin d'afficher plus d'informations.
 

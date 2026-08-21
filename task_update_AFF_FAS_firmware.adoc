@@ -31,10 +31,10 @@ Avant de mettre à jour le firmware AFF et FAS à l'aide d'Ansible, vous devez :
 
 
 .Étapes
-. Cliquez sur n'importe quel widget d'intégrité du tableau de bord ou cliquez sur *Afficher toutes les actions* pour afficher la liste de toutes les actions et de tous les risques.
-. Cliquez sur *Firmware Upgrade* pour afficher tous les risques de mise à niveau du micrologiciel.
-. Cliquez sur *mettre à jour le micrologiciel AFF et FAS* pour afficher tous les progiciels de mise à jour disponibles ou cliquez sur image:update_ansible.png["Mettez à jour Ansible"] à côté de chaque risque pour mettre à jour le package spécifique à ce risque.
-. Cliquez sur *Télécharger* pour télécharger les fichiers zip et mettre à jour votre système de stockage.
+. Sélectionnez un widget de bien-être sur le tableau de bord ou sélectionnez *Afficher toutes les actions* pour consulter la liste de toutes les actions et risques.
+. Sélectionnez *Mise à jour du micrologiciel* pour afficher tous les risques liés à la mise à jour du micrologiciel.
+. Sélectionnez *Update AFF and FAS Firmware* pour afficher tous les packages de mise à jour disponibles ou sélectionnez image:update_ansible.png["Mettez à jour Ansible"] à côté de chaque risque pour mettre à jour le package spécifique à ce risque.
+. Sélectionnez *Télécharger* pour télécharger les fichiers zip et mettre à jour votre système de stockage.
 +
 Le fichier zip contient les éléments suivants :
 

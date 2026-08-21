@@ -22,11 +22,11 @@ Vous pouvez créer une liste de surveillance pour accéder rapidement et facilem
 NOTE: Vous pouvez ajouter un maximum de 15 000 systèmes de stockage par catégorie et 500 systèmes de stockage par numéro de série.
 
 .Étapes
-. Dans le volet de gauche, cliquez sur *listes de surveillance*
+. Dans le volet de gauche, sélectionnez *Listes de surveillance*
 +
 L'écran *gérer la liste de surveillance* s'affiche.
 
-. Cliquez sur *Créer une liste de surveillance*.
+. Sélectionnez *Créer une liste de surveillance*.
 . Indiquez un nom pour la liste de surveillance.
 . Sélectionnez l'une des options suivantes pour ajouter des systèmes de stockage à la liste de surveillance :
 +
@@ -38,7 +38,7 @@ NOTE: L'option *abonnements Keystone* vous permet d'inclure tous les numéros d'
 ** *Numéro de série* : cette option vous permet d'inclure l'inventaire dans votre liste de contrôle en fonction des numéros de série spécifiés. Vous pouvez saisir le numéro de série directement ou sélectionner des numéros de série dans des catégories telles que client, site ou groupe.
 
 
-. Cliquez sur *Créer une liste de surveillance*.
+. Sélectionnez *Créer une liste de surveillance*.
 +
 Le tableau de bord de la liste de surveillance s'affiche.
 

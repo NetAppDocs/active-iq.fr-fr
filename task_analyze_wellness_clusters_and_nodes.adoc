@@ -25,6 +25,6 @@ Vous pouvez afficher des visualisations ou des représentations graphiques de la
 video::FVbb2bbIY9E[youtube,width=848,height=480]
 .Étapes
 . Dans le widget *Inventory*, sélectionnez le cluster ou le nœud (hôte) que vous souhaitez.
-. Au niveau du cluster ou du nœud, cliquez sur *ClusterViewer* en regard du widget *Configuration*.
-. Cliquez sur l'onglet *Visualisation* pour afficher une représentation graphique du cluster.
+. Au niveau du cluster ou du nœud, sélectionnez *ClusterViewer* à côté du widget *Configuration*.
+. Sélectionnez l'onglet *Visualisation* pour afficher une représentation graphique du cluster.
 

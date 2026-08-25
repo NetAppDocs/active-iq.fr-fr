@@ -361,7 +361,6 @@
   <block id="de95b43bceeb4b998aed4aed5cef1ae7" category="inline-image-macro">modifier</block>
   <block id="099af53f601532dbd31e0ea99ffdeb64" category="inline-image-macro">supprimer</block>
   <block id="ba5f7135032775c8c999ecabfd7ec65b" category="summary">Fournit plus d'informations sur Digital Advisor.</block>
-  <block id="bf07f432276ee2fe7e55f9ea12c2ba5a" category="doc">En savoir plus</block>
   <block id="3334f093f94c914eeabb709448d36d67" category="paragraph">Vous pouvez obtenir de l'aide et trouver plus d'informations grâce à diverses ressources.</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="inline-link-macro">Communauté NetApp</block>
   <block id="2fc27556f44d8a6724ac003effded441" category="inline-link-macro">Sécurité et confidentialité des données de télémétrie NetApp</block>
@@ -1255,14 +1254,12 @@ La disponibilité des fonctions sous *STORAGE HEALTH* dépend du type et du nive
   <block id="2b1a2e89f1b2f5c6d6515a6dc429c7fd" category="doc">Limitations connues de Digital Advisor</block>
   <block id="f2a73885c1e995cc3311a29291a28fde" category="doc">Découvrez les fonctionnalités du tableau de bord de développement durable dans Digital Advisor</block>
   <block id="e44ce4d3422f101f306224bb091ea2db" category="doc">Analysez l'état de votre système de stockage grâce aux recommandations cloud de Digital Advisor.</block>
-  <block id="b9456a2df38d30018b5aa1d2c39d55ba" category="doc">Utilisez Digital Advisor pour consulter les données des machines virtuelles disponibles dans Data Infrastructure Insights.</block>
   <block id="6b067412319dd9485298444d9a34fc87" category="doc">Ajoutez un modèle de dérive de configuration pour votre système de stockage dans Digital Advisor.</block>
   <block id="e67ed4f24a1e1077c5eb307d08729f7c" category="doc">Créez une liste de surveillance dans Digital Advisor</block>
   <block id="a526a7fadbc4d3ff6b76aeace82c0a35" category="paragraph">Vous pouvez créer une liste de surveillance pour accéder rapidement et facilement à un ensemble de systèmes de stockage. Vous pouvez ajouter les systèmes de stockage en fonction de leur catégorie ou de leur numéro de série.</block>
   <block id="186b444c7e1538546cd3797bc4e13f6b" category="admonition">Vous pouvez ajouter un maximum de 15 000 systèmes de stockage par catégorie et 500 systèmes de stockage par numéro de série.</block>
   <block id="ade07d6bbbe7ba4dca1efb40aa7352bd" category="list-text">Sélectionnez l'une des options suivantes pour ajouter des systèmes de stockage à la liste de surveillance :</block>
   <block id="9e626aab5b921b3ca1f8a803c59e26c3" category="doc">Consultez les économies réalisées en termes de capacité et d'efficacité de stockage dans Digital Advisor</block>
-  <block id="f20d4ff4105f49a3027ff751b2efde6c" category="doc">Consultez l'état des clusters et des nœuds à l'aide du widget ClusterViewer dans Digital Advisor.</block>
   <block id="9ac4aca4ac0756136b6042d0474cfcf3" category="doc">Gérez les seuils de capacité de stockage de volume dans Digital Advisor</block>
   <block id="8aed0befb763089b90784f7bb6c222cd" category="doc">Utilisez Digital Advisor pour corriger les risques critiques identifiés dans le widget Disponibilité et Protection</block>
   <block id="65185bbce1d7f537b3c14697168318fc" category="doc">Comparez les modèles de dérive de configuration dans Digital Advisor</block>
@@ -1273,7 +1270,6 @@ La disponibilité des fonctions sous *STORAGE HEALTH* dépend du type et du nive
   <block id="8bb48da551b9f18b9a7bb8a26c2143b5" category="doc">Hébergez les fichiers de firmware AFF et FAS sur un serveur web</block>
   <block id="dbf951fc2e241b15feb7e005fe4a45bf" category="doc">Identifiez les systèmes de stockage proches de leurs limites de capacité dans Digital Advisor</block>
   <block id="10dbc72fe842008d2175d0d6c8409b92" category="doc">Détectez les risques de sécurité avec Digital Advisor et prenez des mesures correctives.</block>
-  <block id="a7780228d5aa137f7cb990b61a022315" category="doc">Mise à jour du firmware AFF et FAS à l'aide d'un package Ansible (utilisateurs expérimentés)</block>
   <block id="8a88e2413d4f95f64b219b6c28f57a07" category="doc">Gérer les modèles de dérive de configuration dans Digital Advisor</block>
   <block id="8b7cb0834e8dc268b50c925ad45b6ddd" category="doc">Gérer une liste de surveillance dans Digital Advisor</block>
   <block id="6b8c1d667d3b152f62b23882186f49ef" category="doc">Protégez les systèmes de stockage gérés par Digital Advisor contre les risques de ransomware.</block>
@@ -1315,7 +1311,6 @@ La disponibilité des fonctions sous *STORAGE HEALTH* dépend du type et du nive
   <block id="bac3163878d2374ee594903ac6c1802c" category="sidebar">Découvrez comment générer un plan de mise à niveau ONTAP</block>
   <block id="114d8ec8c75a41f7a77d940bbedc89ba" category="sidebar">Générer un plan de mise à niveau ONTAP pour un ou plusieurs clusters</block>
   <block id="ebc19daf25c395407a52101068117655" category="sidebar">Consulter les détails de l'inventaire du système de stockage</block>
-  <block id="8c3ce1cbbe048dec5ffdc13f56c2ccf4" category="sidebar">Consultez les données des machines virtuelles disponibles dans Data Infrastructure Insights.</block>
   <block id="aa80415eea92e632f36c8f4c62c4b138" category="sidebar">Consultez les demandes d'assistance et les détails du système de stockage grâce au widget « Informations précieuses ».</block>
   <block id="d89f3b8963bef2ec6e2b190588136909" category="sidebar">Gérez les besoins en capacité du système de stockage avec le widget de planification</block>
   <block id="670c1f5b09d4ee058170a248707f6cf0" category="sidebar">Identifier les systèmes de stockage qui approchent de leurs limites de capacité</block>
@@ -1687,4 +1682,12 @@ La disponibilité des fonctions sous *STORAGE HEALTH* dépend du type et du nive
   <block id="681c88be2de4220c0cbacb47fed97b82" category="list-text">En cas de problème, sélectionnez les liens correspondants pour consulter les étapes permettant de résoudre les problèmes.</block>
   <block id="e7a471dd8d8c761a219d09c2091e92a1" category="sidebar">Découvrez Value Insights</block>
   <block id="729a2290f604400a065ab66e68e8365c" category="sidebar">Afficher le tableau de bord « Value Insights »</block>
+  <block id="e3bf61ee8c8fee9ffb69993bd28d87a8" category="doc">Ressources supplémentaires pour Digital Advisor</block>
+  <block id="1b7791b3614101fe0419ae77deeacf88" category="doc">Termes et définitions clés dans Digital Advisor</block>
+  <block id="182708895bd34a37bc21f98f7d14d0a2" category="doc">Ressources de dépannage et de support pour Digital Advisor</block>
+  <block id="e124694694f1a62071bd7725254b9327" category="doc">Utilisez Digital Advisor pour consulter les données des machines virtuelles disponibles dans Data Infrastructure Insights</block>
+  <block id="155f865ff2277e5b3d0c9cabfd7007d7" category="doc">Consultez l'état des clusters et des nœuds à l'aide du widget ClusterViewer dans Digital Advisor</block>
+  <block id="e5054a84cf54978ce838e701041a4239" category="doc">Mettez à jour le firmware AFF et FAS à l'aide d'un package Ansible</block>
+  <block id="9331d73e3c99004c7679e085ea303447" category="sidebar">Consultez les données des machines virtuelles disponibles dans Data Infrastructure Insights</block>
+  <block id="608a46677d36b132542feed4a0445c56" category="sidebar">Mettez à jour le firmware AFF et FAS à l'aide d'un package Ansible pour les utilisateurs expérimentés</block>
 </blocks>

@@ -4,7 +4,7 @@ permalink: concept_key_terms.html
 keywords: overview, inventory, wellness, widgets, actions 
 summary: Fournit des informations sur les termes clés utilisés dans Digital Advisor. 
 ---
-= En savoir plus sur Digital Advisor
+= Termes et définitions clés dans Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

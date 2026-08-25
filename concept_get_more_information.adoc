@@ -4,7 +4,7 @@ permalink: concept_get_more_information.html
 keywords: overview, information, more details 
 summary: 'Fournit plus d"informations sur Digital Advisor.' 
 ---
-= En savoir plus
+= Ressources supplémentaires pour Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

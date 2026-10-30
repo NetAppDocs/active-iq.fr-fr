@@ -60,6 +60,6 @@ NOTE: Si un ensemble de clusters avec différents identifiants de connexion est 
 
 
 
-Pour plus d'informations sur la commande *ansible-PlayBook*, reportez-vous au link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Documentation relative au manuel de vente Ansible"^] Et pour exécuter le Ansible PlayBook en mode vérification (exécution à sec), reportez-vous à la link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible : mode de vérification"^].
+Pour plus d'informations sur la commande *ansible-playbook*, consultez link:https://docs.ansible.com/projects/ansible/latest/cli/ansible-playbook.html["Documentation relative au manuel de vente Ansible"^] et, pour exécuter le playbook Ansible en mode vérification (exécution à blanc), consultez link:https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_checkmode.html["Ansible : mode de vérification"^].
 
 Après avoir exécuté le manuel de vente, reportez-vous au link:task_validate_firmware_installation.html["Validations de l'installation du micrologiciel"] pour les instructions post-exécution.
